@@ -1,5 +1,5 @@
 {
-  "战士": "战士",
+  "战士": "warrior",
   "warrior": {
     "passive": [
       {
@@ -721,7 +721,7 @@
       }
     ]
   },
-  "侠客": "侠客",
+  "侠客": "swordsman",
   "swordsman": {
     "passive": [
       {
@@ -1580,7 +1580,7 @@
       }
     ]
   },
-  "修真": "修真",
+  "修真": "xiuZhen",
   "xiuZhen": {
     "passive": [
       {
@@ -2311,7 +2311,7 @@
       }
     ]
   },
-  "法师": "法师",
+  "法师": "master",
   "master": {
     "passive": [
       {
@@ -3125,7 +3125,7 @@
       }
     ]
   },
-  "贤者": "贤者",
+  "贤者": "sages",
   "sages": {
     "passive": [
       {
@@ -3649,7 +3649,7 @@
       }
     ]
   },
-  "武圣": "武圣",
+  "武圣": "Woosung",
   "Woosung": {
     "passive": [
       {
@@ -4016,7 +4016,7 @@
       }
     ]
   },
-  "枪王": "枪王",
+  "枪王": "gunKing",
   "gunKing": {
     "passive": [
       {
@@ -4490,7 +4490,7 @@
       }
     ]
   },
-  "锤师": "锤师",
+  "锤师": "hammerMaster",
   "hammerMaster": {
     "passive": [
       {
@@ -5004,7 +5004,7 @@
       }
     ]
   },
-  "岚舞": "岚舞",
+  "岚舞": "hazeDance",
   "hazeDance": {
     "passive": [
       {
