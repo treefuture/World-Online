@@ -6,7 +6,8 @@
         "name": "武器大师",
         "swordWeaponDamage": 1,
         "sabreWeaponDamage": 1,
-        "heavyWeaponDamage": 1
+        "heavyWeaponDamage": 1,
+        "checked": false
       },
       {
         "name": "军事专家",
@@ -14,7 +15,8 @@
         "long-rangeWeaponDamage": 1.04,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "武器娴熟",
@@ -22,7 +24,8 @@
         "attackTimes": 3,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "精确打击",
@@ -30,7 +33,8 @@
         "forcedHit": 6,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "防守反击",
@@ -38,13 +42,15 @@
         "counterattack": 145,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "攻守兼备",
         "basicChopAttack": 600,
         "basicPuncture": 600,
-        "dodge": 31
+        "dodge": 31,
+        "checked": false
       },
       {
         "name": "条件反射",
@@ -52,7 +58,8 @@
         "dodge": 85,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "闪避",
@@ -60,13 +67,15 @@
         "dodgePercentage": 0.2,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "统御之力",
         "powerPercentage": 0.2,
         "power": 40,
-        "basicHP": 810
+        "basicHP": 810,
+        "checked": false
       },
       {
         "name": "精通重击",
@@ -74,7 +83,8 @@
         "deadlyPercentage": 0.18,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "精通反击",
@@ -82,7 +92,8 @@
         "counterattackPercentage": 0.16,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "钢铁意志",
@@ -90,19 +101,22 @@
         "magicDefense": 450,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "健壮身躯",
         "constitution": 65,
         "bloodVolumePercentage": 0.38,
-        "damageReduction": 55
+        "damageReduction": 55,
+        "checked": false
       },
       {
         "name": "体能训练",
         "constitution": 65,
         "power": 50,
-        "bloodVolumePercentage": 0.27
+        "bloodVolumePercentage": 0.27,
+        "checked": false
       },
       {
         "name": "战争艺术",
@@ -110,13 +124,15 @@
         "basicPuncturePercentage": 0.56,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "远程武器专精",
         "long-rangeWeaponDamage": 1,
         "long-rangeAttackTimes": 3,
-        "hit": 30
+        "hit": 30,
+        "checked": false
       },
       {
         "name": "重型武器专精",
@@ -124,7 +140,8 @@
         "deadly": 56,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "长柄武器专精",
@@ -132,14 +149,16 @@
         "armourBreaking": 600,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "擅长军事防具",
         "chopDefense": 4000,
         "punctureDefense": 4000,
         "magicDefense": 4000,
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "精通破甲",
@@ -148,7 +167,8 @@
         "skillAttribute": [
           "无"
         ],
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "防御战术(穿刺-最高20)",
@@ -157,7 +177,8 @@
         ],
         "punctureDefensePercentage": 0.4,
         "punctureDefense": 450,
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "防御战术(劈砍-最高20)",
@@ -166,14 +187,16 @@
         ],
         "chopDefensePercentage": 0.4,
         "chopDefense": 450,
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "重战士训练",
         "chopDefense": 4000,
         "punctureDefense": 4000,
         "magicDefense": 4000,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "武器对抗技巧",
@@ -182,7 +205,8 @@
         "skillAttribute": [
           "无"
         ],
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "强化训练",
@@ -191,20 +215,23 @@
         "skillAttribute": [
           "无"
         ],
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "第六感(装备技能)",
         "power": 90,
         "deadlyPercentage": 0.33,
-        "hitPercentage": 0.33
+        "hitPercentage": 0.33,
+        "checked": false
       },
       {
         "name": "要害攻击技巧",
         "ignorecounterattack": 137,
         "longHandleWeaponDamage": 0.22,
         "long-rangeWeaponDamage": 0.22,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       }
     ],
     "active": [
@@ -728,19 +755,22 @@
         "name": "逍遥剑法",
         "swordWeaponDamage": 0.65,
         "swordAttackTimes": 3,
-        "dodge": 50
+        "dodge": 50,
+        "checked": false
       },
       {
         "name": "紫电神功",
         "agile": 70,
         "agilePercentage": 0.26,
-        "movePercentage": 0.4
+        "movePercentage": 0.4,
+        "checked": false
       },
       {
         "name": "鬼影身法",
         "agilePercentage": 0.35,
         "hitPercentage": 0.3,
-        "dodge": 50
+        "dodge": 50,
+        "checked": false
       },
       {
         "name": "熊象巨力功",
@@ -748,13 +778,15 @@
         "powerPercentage": 0.4,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "易筋经",
         "constitution": 75,
         "bloodVolumePercentage": 0.4,
-        "basicHP": 700
+        "basicHP": 700,
+        "checked": false
       },
       {
         "name": "九霄真经",
@@ -762,7 +794,8 @@
         "manaPercentage": 0.45,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "般若心经",
@@ -770,13 +803,15 @@
         "statePercentage": 0.6,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "先天罡气",
         "basicHP": 890,
         "bloodVolumePercentage": 0.45,
-        "damageReduction": 65
+        "damageReduction": 65,
+        "checked": false
       },
       {
         "name": "先天无相神功",
@@ -784,25 +819,29 @@
         "mana": 700,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "天蚕功",
         "HPRecovery": 500,
         "state": 160,
-        "magicDefense": 400
+        "magicDefense": 400,
+        "checked": false
       },
       {
         "name": "九阳神功",
         "manaRegeneration": 500,
         "damageReduction": 65,
-        "basicHP": 700
+        "basicHP": 700,
+        "checked": false
       },
       {
         "name": "龙象般若功",
         "mana": 400,
         "manaPercentage": 0.5,
-        "magicDefense": 560
+        "magicDefense": 560,
+        "checked": false
       },
       {
         "name": "北冥神功",
@@ -810,25 +849,29 @@
           "法力吸收+196",
           "生命吸收+196"
         ],
-        "basicHP": 700
+        "basicHP": 700,
+        "checked": false
       },
       {
         "name": "金刚不坏神功",
         "damageReduction": 85,
         "counterattack": 125,
-        "basicHP": 700
+        "basicHP": 700,
+        "checked": false
       },
       {
         "name": "基础掌法",
         "empty-handedWeaponDamage": 1.51,
         "hit": 151,
-        "power": 0.19
+        "power": 0.19,
+        "checked": false
       },
       {
         "name": "两仪八卦掌",
         "empty-handedWeaponDamage": 1.51,
         "empty-handedAttackTimes": 3,
-        "hit": 151
+        "hit": 151,
+        "checked": false
       },
       {
         "name": "基础刀法",
@@ -836,13 +879,15 @@
         "deadly": 60,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "飞天御剑流",
         "sabreWeaponDamage": 0.65,
         "sabreWeaponDamageAttackTimes": 3,
-        "deadly": 70
+        "deadly": 70,
+        "checked": false
       },
       {
         "name": "基础剑法",
@@ -850,7 +895,8 @@
         "hit": 80,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "驯兽战斗",
@@ -859,28 +905,32 @@
           "宠物体质+30%",
           "宠物生命上限+30%"
         ],
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "烈阳决",
         "ignoreDamageReduction": 125,
         "ignoreBlock": 125,
         "deadly": 72,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "浩然正气",
         "basicHP": 890,
         "bloodVolumePercentage": 0.22,
         "constitution": 65,
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "轩辕惊天诀",
         "deadly": 72,
         "damageReduction": 72,
         "armourBreakingPercentage": 0.24,
-        "special": "country"
+        "special": "country",
+        "checked": false
       }
     ],
     "active": [
@@ -1587,25 +1637,29 @@
         "name": "养生之道",
         "mana": 900,
         "basicHP": 900,
-        "constitution": 80
+        "constitution": 80,
+        "checked": false
       },
       {
         "name": "灵性根基",
         "mana": 900,
         "intelligence": 80,
-        "basicHP": 900
+        "basicHP": 900,
+        "checked": false
       },
       {
         "name": "道法自然",
         "mana": 900,
         "perception": 80,
-        "manaRegeneration": 370
+        "manaRegeneration": 370,
+        "checked": false
       },
       {
         "name": "炼气之术",
         "mana": 900,
         "manaPercentage": 0.23,
-        "manaRegeneration": 370
+        "manaRegeneration": 370,
+        "checked": false
       },
       {
         "name": "五行学术",
@@ -1613,31 +1667,36 @@
         "magic": 400,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "五行真气",
         "manaPercentage": 0.37,
         "magicDefense": 700,
-        "manaRegeneration": 370
+        "manaRegeneration": 370,
+        "checked": false
       },
       {
         "name": "真元归一",
         "manaShield": 1500,
         "manaShieldPercentage": 0.28,
-        "basicHP": 505
+        "basicHP": 505,
+        "checked": false
       },
       {
         "name": "真元护体",
         "manaShield": 800,
         "manaShieldPercentage": 0.66,
-        "basicHP": 505
+        "basicHP": 505,
+        "checked": false
       },
       {
         "name": "凝神归元",
         "manaRegeneration": 370,
         "magicHit": 66,
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "五气朝元",
@@ -1645,13 +1704,15 @@
         "skillAttribute": [
           "基础法力吸收+370"
         ],
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "长生术",
         "manaRegeneration": 370,
         "basicHP": 900,
-        "constitution": 80
+        "constitution": 80,
+        "checked": false
       },
       {
         "name": "阴阳调合",
@@ -1659,7 +1720,8 @@
         "intelligence": 80,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "五行之力",
@@ -1667,7 +1729,8 @@
         "power": 80,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "游龙身法",
@@ -1675,13 +1738,15 @@
         "agilePercentage": 0.34,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "仙风体术",
         "move": 700,
         "dodge": 65,
-        "agile": 55
+        "agile": 55,
+        "checked": false
       },
       {
         "name": "火灵气修炼",
@@ -1689,13 +1754,15 @@
         "magicHit": 66,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "水灵气修炼",
         "magicDefense": 600,
         "insight": 70,
-        "magicFeedback": 70
+        "magicFeedback": 70,
+        "checked": false
       },
       {
         "name": "风灵气修炼",
@@ -1703,7 +1770,8 @@
         "dodge": 55,
         "skillAttribute": [
           "基础生命吸收+400"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "土灵气修炼",
@@ -1711,7 +1779,8 @@
         "damageReduction": 80,
         "skillAttribute": [
           "基础法力吸收+400"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "雷灵气修炼",
@@ -1719,7 +1788,8 @@
         "magicPenetration": 500,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "灵兽战斗训练",
@@ -1727,7 +1797,8 @@
           "宠物力量+60%",
           "宠物敏捷+60%",
           "宠物伤害+60%"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "灵兽生存训练",
@@ -1735,14 +1806,16 @@
           "宠物体质+60%",
           "宠物感知+60%",
           "宠物生命上限+60%"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "道法天然",
         "perceptionPercentage": 0.28,
         "perception": 76,
         "manaRegeneration": 390,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "进阶灵兽守护(最高21)",
@@ -1751,7 +1824,8 @@
           "宠物智力+23%",
           "宠物感知+23%"
         ],
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       }
     ],
     "active": [
@@ -2318,13 +2392,15 @@
         "name": "神秘学",
         "intelligence": 99,
         "manaPercentage": 1.15,
-        "mana": 500
+        "mana": 500,
+        "checked": false
       },
       {
         "name": "专注",
         "perception": 99,
         "insight": 79,
-        "mana": 500
+        "mana": 500,
+        "checked": false
       },
       {
         "name": "法力提升",
@@ -2332,7 +2408,8 @@
         "manaPercentage": 0.46,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔法防护",
@@ -2340,13 +2417,15 @@
         "manaShield": 1100,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔法学识",
         "magicPercentage": 0.46,
         "magicDefensePercentage": 0.46,
-        "mana": 500
+        "mana": 500,
+        "checked": false
       },
       {
         "name": "魔法熟练",
@@ -2354,13 +2433,15 @@
         "magic": 420,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "法杖使用",
         "staffWeaponDamage": 1.6,
         "magic": 420,
-        "mana": 500
+        "mana": 500,
+        "checked": false
       },
       {
         "name": "战斗法师",
@@ -2368,13 +2449,15 @@
         "state": 1,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "快速施法",
         "move": 470,
         "movePercentage": 0.2,
-        "magic": 400
+        "magic": 400,
+        "checked": false
       },
       {
         "name": "魔法回路",
@@ -2382,7 +2465,8 @@
         "skillAttribute": [
           "法力吸收+140",
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "洞察魔法",
@@ -2390,7 +2474,8 @@
         "insightPercentage": 0.27,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "法术辨识",
@@ -2398,7 +2483,8 @@
         "mana": 500,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔法反馈",
@@ -2406,7 +2492,8 @@
         "ignoreMagicFeedback": 180,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "法术专攻",
@@ -2414,13 +2501,15 @@
         "magic": 500,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "法术穿透",
         "magicPenetration": 700,
         "magicPenetrationPercentage": 0.42,
-        "magic": 300
+        "magic": 300,
+        "checked": false
       },
       {
         "name": "法术强效",
@@ -2428,7 +2517,8 @@
         "magicPercentage": 0.48,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔法天赋",
@@ -2436,7 +2526,8 @@
         "perception": 89,
         "skillAttribute": [
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔宠契约",
@@ -2444,7 +2535,8 @@
         "skillAttribute": [
           "宠物生命上限+115%",
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔宠协防(诅咒)",
@@ -2452,7 +2544,8 @@
           "受到诅咒攻击时,所携带宠物50%几率为其承受攻击效果",
           "宠物生命上限+50%",
           "无"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔宠强化",
@@ -2461,7 +2554,8 @@
           "宠物感知+60%",
           "无"
         ],
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "魔宠协防(劈砍-最高20)",
@@ -2470,7 +2564,8 @@
           "宠物生命上限+50%",
           "无"
         ],
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "魔宠协防(穿刺-最高20)",
@@ -2479,7 +2574,8 @@
           "宠物生命上限+50%",
           "无"
         ],
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "魔宠协防(魔攻)",
@@ -2488,14 +2584,16 @@
           "宠物生命上限+50%",
           "无"
         ],
-        "special": "country"
+        "special": "country",
+        "checked": false
       },
       {
         "name": "进阶法术修炼",
         "ignoreInsight": 160,
         "ignoreMagicFeedback": 160,
         "disregardState": 160,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       }
     ],
     "active": [
@@ -3132,7 +3230,8 @@
         "name": "神学",
         "perception": 76,
         "mana": 740,
-        "perceptionPercentage": 0.22
+        "perceptionPercentage": 0.22,
+        "checked": false
       },
       {
         "name": "冥思",
@@ -3140,85 +3239,99 @@
         "mana": 740,
         "skillAttribute": [
           "基础法力吸收+133"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "自由咏唱",
         "move": 740,
         "ignoreMagicFeedback": 150,
-        "mana": 740
+        "mana": 740,
+        "checked": false
       },
       {
         "name": "思维敏捷",
         "move": 740,
         "movePercentage": 0.28,
-        "manaRegeneration": 363
+        "manaRegeneration": 363,
+        "checked": false
       },
       {
         "name": "权杖使用",
         "magicInstrumentAttackTimes": 4,
         "magic": 430,
-        "mana": 740
+        "mana": 740,
+        "checked": false
       },
       {
         "name": "法器使用",
         "magicInstrumentWeaponDamage": 1.5,
         "magic": 430,
-        "mana": 740
+        "mana": 740,
+        "checked": false
       },
       {
         "name": "神器专精",
         "magicHit": 85,
         "magicInstrumentAttackTimes": 4,
-        "magicInstrumentWeaponDamage": 1.5
+        "magicInstrumentWeaponDamage": 1.5,
+        "checked": false
       },
       {
         "name": "心之护盾",
         "state": 76,
         "damageReduction": 73,
-        "perception": 76
+        "perception": 76,
+        "checked": false
       },
       {
         "name": "圣灵体魄",
         "basicHP": 810,
         "constitution": 73,
-        "damageReduction": 70
+        "damageReduction": 70,
+        "checked": false
       },
       {
         "name": "圣灵力魄",
         "basicHP": 810,
         "power": 73,
-        "deadly": 70
+        "deadly": 70,
+        "checked": false
       },
       {
         "name": "元素精通",
         "magicHit": 82,
         "magicHitPercentage": 0.26,
-        "magicPenetration": 740
+        "magicPenetration": 740,
+        "checked": false
       },
       {
         "name": "精神爆破",
         "mana": 740,
         "disregardState": 133,
-        "magicPenetration": 740
+        "magicPenetration": 740,
+        "checked": false
       },
       {
         "name": "魔法增效",
         "mana": 740,
         "ignoreInsight": 133,
-        "magicPenetration": 740
+        "magicPenetration": 740,
+        "checked": false
       },
       {
         "name": "魔力护盾",
         "manaShield": 740,
         "manaShieldPercentage": 0.28,
-        "mana": 740
+        "mana": 740,
+        "checked": false
       },
       {
         "name": "风之迅捷",
         "move": 363,
         "agile": 73,
-        "dodge": 45
+        "dodge": 45,
+        "checked": false
       },
       {
         "name": "魔力仆从",
@@ -3226,54 +3339,62 @@
           "宠物智力+55%",
           "宠物感知+55%",
           "宠物法力上限+55%"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "符文加身",
         "insight": 180,
         "deadly": 125,
-        "magicHit": 84
+        "magicHit": 84,
+        "checked": false
       },
       {
         "name": "圣贤附体",
         "state": 135,
         "damageReduction": 250,
-        "immuneShield": 2
+        "immuneShield": 2,
+        "checked": false
       },
       {
         "name": "书本知识",
         "ignoreMagicFeedback": 133,
         "disregardState": 133,
         "ignoreInsight": 133,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "法器强化",
         "magicInstrumentWeaponDamage": 1.5,
         "perception": 55,
         "ignoreMagicFeedback": 220,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "神器重铸",
         "magicInstrumentWeaponDamage": 1.1,
         "ignoreInsight": 150,
         "deadly": 120,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "风语祝福",
         "move": 900,
         "magicInstrumentAttackTimes": 4,
         "ignoreMagicFeedback": 180,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       },
       {
         "name": "神秘咒文",
         "intelligence": 75,
         "perception": 76,
         "mana": 750,
-        "special": "exclusive"
+        "special": "exclusive",
+        "checked": false
       }
     ],
     "active": [
@@ -3656,79 +3777,92 @@
         "name": "霸气诀",
         "powerPercentage": 0.3,
         "damageReduction": 218,
-        "constitution": 65
+        "constitution": 65,
+        "checked": false
       },
       {
         "name": "霸体神功",
         "agile": 70,
         "counterattack": 218,
-        "deadly": 80
+        "deadly": 80,
+        "checked": false
       },
       {
         "name": "霸王心经",
         "armourBreaking": 600,
         "armourBreakingPercentage": 0.3,
-        "ignoreBlock": 218
+        "ignoreBlock": 218,
+        "checked": false
       },
       {
         "name": "百毒不侵",
         "magicDefense": 3000,
         "state": 105,
-        "immuneShield": 1
+        "immuneShield": 1,
+        "checked": false
       },
       {
         "name": "百发百中",
         "hit": 80,
         "forcedHit": 15,
-        "deadly": 80
+        "deadly": 80,
+        "checked": false
       },
       {
         "name": "集气爆发",
         "deadly": 105,
         "basicHP": 900,
-        "deadlyPercentage": 0.2
+        "deadlyPercentage": 0.2,
+        "checked": false
       },
       {
         "name": "千叶刀法",
         "sabreWeaponDamage": 0.65,
         "deadly": 80,
-        "sabreWeaponDamageAttackTimes": 2
+        "sabreWeaponDamageAttackTimes": 2,
+        "checked": false
       },
       {
         "name": "铜皮铁骨",
         "chopDefense": 3000,
         "punctureDefense": 3000,
-        "damageReduction": 155
+        "damageReduction": 155,
+        "checked": false
       },
       {
         "name": "无相枪法",
         "longHandleWeaponDamage": 0.65,
         "hit": 80,
-        "ignoreDamageReduction": 155
+        "ignoreDamageReduction": 155,
+        "checked": false
       },
       {
         "name": "武魂",
         "manaRegeneration": 800,
         "HPRecovery": 800,
-        "immuneShield": 1
+        "immuneShield": 1,
+        "checked": false
       },
       {
         "name": "御风术",
         "move": 900,
         "attackTimes": 2,
-        "agile": 80
+        "agile": 80,
+        "checked": false
       },
       {
         "name": "长枪依在",
         "ignoreBlock": 280,
         "ignorecounterattack": 280,
-        "longHandleAttackTimes": 2
+        "longHandleAttackTimes": 2,
+        "checked": false
       },
       {
         "name": "基础弩法",
         "long-rangeWeaponDamage": 0.44,
         "long-rangeAttackTimes": 1,
-        "forcedHit": 12
+        "forcedHit": 12,
+        "checked": false
       }
     ],
     "active": [
@@ -4023,37 +4157,43 @@
         "name": "大地之息",
         "mana": 770,
         "ignoreInsight": 112,
-        "perception": 65
+        "perception": 65,
+        "checked": false
       },
       {
         "name": "致命蝎刺",
         "basicHP": 840,
         "deadly": 105,
-        "attackTimes": 2
+        "attackTimes": 2,
+        "checked": false
       },
       {
         "name": "狂怒骑士",
         "basicHP": 833,
         "disregardState": 133,
-        "deadly": 60
+        "deadly": 60,
+        "checked": false
       },
       {
         "name": "神工鬼力",
         "artilleryWeaponDamage": 0.85,
         "ignorecounterattack": 213,
-        "ignoreBlock": 213
+        "ignoreBlock": 213,
+        "checked": false
       },
       {
         "name": "勇者力量",
         "artilleryWeaponDamage": 0.65,
         "artillery": 3,
-        "hit": 45
+        "hit": 45,
+        "checked": false
       },
       {
         "name": "力量颂歌",
         "powerPercentage": 0.24,
         "ignorecounterattack": 185,
-        "forcedHit": 5
+        "forcedHit": 5,
+        "checked": false
       },
       {
         "name": "精华吸取",
@@ -4061,85 +4201,99 @@
         "skillAttribute": [
           "基础法力吸收+145"
         ],
-        "constitution": 65
+        "constitution": 65,
+        "checked": false
       },
       {
         "name": "疾风如飞",
         "basicHP": 850,
         "agile": 65,
-        "agilePercentage": 0.2
+        "agilePercentage": 0.2,
+        "checked": false
       },
       {
         "name": "雷霆震怒",
         "artilleryWeaponDamage": 0.65,
         "ignoreDamageReduction": 195,
-        "hit": 73
+        "hit": 73,
+        "checked": false
       },
       {
         "name": "将神之躯",
         "immuneShield": 1,
         "agile": 76,
-        "dodge": 59
+        "dodge": 59,
+        "checked": false
       },
       {
         "name": "百万重力",
         "basicHP": 670,
         "power": 55,
-        "powerPercentage": 0.2
+        "powerPercentage": 0.2,
+        "checked": false
       },
       {
         "name": "巨人之力",
         "armourBreakingPercentage": 0.26,
         "dodge": 65,
-        "magicDefense": 5400
+        "magicDefense": 5400,
+        "checked": false
       },
       {
         "name": "闪烁之光",
         "mana": 620,
         "insight": 125,
-        "intelligence": 55
+        "intelligence": 55,
+        "checked": false
       },
       {
         "name": "闪耀加护",
         "basicHP": 845,
         "damageReduction": 76,
-        "immuneShield": 2
+        "immuneShield": 2,
+        "checked": false
       },
       {
         "name": "伤害反弹",
         "counterattack": 245,
         "magicFeedback": 245,
-        "damageReduction": 245
+        "damageReduction": 245,
+        "checked": false
       },
       {
         "name": "武器重铸",
         "heavyWeaponDamage": 0.8,
         "swordWeaponDamage": 0.8,
-        "artilleryWeaponDamage": 0.8
+        "artilleryWeaponDamage": 0.8,
+        "checked": false
       },
       {
         "name": "屠狮之力",
         "heavyWeaponDamage": 0.65,
         "heavyAttackTimes": 2,
-        "dodge": 55
+        "dodge": 55,
+        "checked": false
       },
       {
         "name": "火枪加持",
         "artilleryWeaponDamage": 1.1,
         "artillery": 3,
-        "ignorecounterattack": 220
+        "ignorecounterattack": 220,
+        "checked": false
       },
       {
         "name": "宝剑重铸",
         "swordWeaponDamage": 0.8,
         "ignoreDamageReduction": 220,
-        "swordAttackTimes": 2
+        "swordAttackTimes": 2,
+        "checked": false
       },
       {
         "name": "迅猛射程",
         "long-rangeWeaponDamage": 0.8,
         "ignorecounterattack": 220,
-        "deadly": 105
+        "deadly": 105,
+        "checked": false
       }
     ],
     "active": [
@@ -4497,55 +4651,64 @@
         "name": "御雷加身",
         "hammerWeaponDamage": 1.5,
         "magic": 430,
-        "mana": 740
+        "mana": 740,
+        "checked": false
       },
       {
         "name": "风雷火炮",
         "hammerAttackTimes": 3,
         "magic": 430,
-        "mana": 740
+        "mana": 740,
+        "checked": false
       },
       {
         "name": "气息一击",
         "forcedHit": 20,
         "magicHit": 85,
-        "magicPenetration": 740
+        "magicPenetration": 740,
+        "checked": false
       },
       {
         "name": "卸甲神力",
         "hammerWeaponDamage": 1.3,
         "ignoreInsight": 133,
-        "ignoreDamageReduction": 250
+        "ignoreDamageReduction": 250,
+        "checked": false
       },
       {
         "name": "无畏之心",
         "move": 740,
         "perception": 80,
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "瓦釜雷鸣",
         "hammerAttackTimes": 3,
         "magicPercentage": 0.26,
-        "magicHit": 82
+        "magicHit": 82,
+        "checked": false
       },
       {
         "name": "命运时机",
         "deadly": 130,
         "ignoreInsight": 150,
-        "ignoreMagicFeedback": 220
+        "ignoreMagicFeedback": 220,
+        "checked": false
       },
       {
         "name": "鬼工雷斧",
         "ignoreInsight": 150,
         "ignoreMagicFeedback": 220,
-        "ignoreDamageReduction": 220
+        "ignoreDamageReduction": 220,
+        "checked": false
       },
       {
         "name": "风驰电掣",
         "move": 900,
         "movePercentage": 0.28,
-        "perception": 80
+        "perception": 80,
+        "checked": false
       },
       {
         "name": "神力锻造",
@@ -4553,7 +4716,8 @@
         "magicPenetration": [
           740,
           740
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "魔法纹路",
@@ -4561,55 +4725,64 @@
         "skillAttribute": [
           "法力吸收+130"
         ],
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "千锤百炼",
         "hammerWeaponDamage": 1.5,
         "hammerAttackTimes": 2,
-        "deadly": 130
+        "deadly": 130,
+        "checked": false
       },
       {
         "name": "凡人意志",
         "chopDefense": 3600,
         "punctureDefense": 3600,
-        "block": 175
+        "block": 175,
+        "checked": false
       },
       {
         "name": "诸神加护",
         "dodge": 65,
         "magicDefense": 900,
-        "insight": 180
+        "insight": 180,
+        "checked": false
       },
       {
         "name": "眷护",
         "manaShield": 1700,
         "damageReduction": 95,
-        "block": 165
+        "block": 165,
+        "checked": false
       },
       {
         "name": "疾风劲草",
         "damageReduction": 95,
         "block": 165,
-        "constitution": 80
+        "constitution": 80,
+        "checked": false
       },
       {
         "name": "月神祝福",
         "manaShieldPercentage": 0.28,
         "state": 76,
-        "basicHP": 900
+        "basicHP": 900,
+        "checked": false
       },
       {
         "name": "百折不挠",
         "chopDefense": 3600,
         "damageReduction": 95,
-        "state": 76
+        "state": 76,
+        "checked": false
       },
       {
         "name": "百炼成钢",
         "punctureDefense": 3600,
         "damageReduction": 95,
-        "state": 76
+        "state": 76,
+        "checked": false
       },
       {
         "name": "永不灭绝",
@@ -4619,13 +4792,15 @@
         ],
         "skillAttribute": [
           "生命吸收+400"
-        ]
+        ],
+        "checked": false
       },
       {
         "name": "心坚石穿",
         "dodge": 65,
         "HPRecovery": 370,
-        "constitution": 80
+        "constitution": 80,
+        "checked": false
       }
     ],
     "active": [
@@ -5011,13 +5186,15 @@
         "name": "飓风侵蚀",
         "magicPenetration": 720,
         "magicPenetrationPercentage": 0.42,
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "狂风加护",
         "magicHit": 85,
         "ignoreDamageReduction": 125,
-        "ignoreMagicFeedback": 170
+        "ignoreMagicFeedback": 170,
+        "checked": false
       },
       {
         "name": "岚风炫舞",
@@ -5025,25 +5202,29 @@
           85,
           82
         ],
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "轻风细雨",
         "manaShield": 900,
         "mana": 900,
-        "manaPercentage": 0.23
+        "manaPercentage": 0.23,
+        "checked": false
       },
       {
         "name": "精舞成风",
         "fanWeaponDamage": 1.5,
         "magicPercentage": 0.28,
-        "magicPenetration": 720
+        "magicPenetration": 720,
+        "checked": false
       },
       {
         "name": "龙卷之翼",
         "fanWeaponDamage": 1.5,
         "fanAttackTimes": 3,
-        "magic": 430
+        "magic": 430,
+        "checked": false
       },
       {
         "name": "最后之语",
@@ -5051,31 +5232,36 @@
           1.5,
           1.3
         ],
-        "fanAttackTimes": 2
+        "fanAttackTimes": 2,
+        "checked": false
       },
       {
         "name": "残风捕影",
         "ignoreMagicFeedback": 170,
         "disregardState": 150,
-        "ignoreInsight": 160
+        "ignoreInsight": 160,
+        "checked": false
       },
       {
         "name": "宝扇修复",
         "fanAttackTimes": 3,
         "magic": 450,
-        "mana": 900
+        "mana": 900,
+        "checked": false
       },
       {
         "name": "风神铠甲",
         "manaShield": 1400,
         "manaShieldPercentage": 0.6,
-        "manaRegeneration": 1300
+        "manaRegeneration": 1300,
+        "checked": false
       },
       {
         "name": "意志心决",
         "ignoreInsight": 150,
         "ignoreMagicFeedback": 220,
-        "intelligence": 90
+        "intelligence": 90,
+        "checked": false
       }
     ],
     "active": [
