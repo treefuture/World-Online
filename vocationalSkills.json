@@ -7,6 +7,11 @@
         "swordWeaponDamage": 1,
         "sabreWeaponDamage": 1,
         "heavyWeaponDamage": 1,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+100%",
+          "刀类伤害、耐久+100%",
+          "重型武器伤害、耐久+100%"
+        ],
         "checked": false
       },
       {
@@ -14,6 +19,8 @@
         "longHandleWeaponDamage": 1.04,
         "long-rangeWeaponDamage": 1.04,
         "skillAttribute": [
+          "长柄武器伤害、耐久+104%",
+          "远程武器伤害、耐久+104%",
           "无"
         ],
         "checked": false
@@ -23,6 +30,8 @@
         "hit": 91,
         "attackTimes": 3,
         "skillAttribute": [
+          "命中+91",
+          "攻击次数+3",
           "无"
         ],
         "checked": false
@@ -32,6 +41,8 @@
         "hit": 91,
         "forcedHit": 6,
         "skillAttribute": [
+          "命中+91",
+          "基础强制命中率+6",
           "无"
         ],
         "checked": false
@@ -41,6 +52,8 @@
         "block": 145,
         "counterattack": 145,
         "skillAttribute": [
+          "格挡+145",
+          "反击+145",
           "无"
         ],
         "checked": false
@@ -50,6 +63,11 @@
         "basicChopAttack": 600,
         "basicPuncture": 600,
         "dodge": 31,
+        "skillAttribute": [
+          "劈砍攻击力+600",
+          "穿刺攻击力+600",
+          "躲闪+31"
+        ],
         "checked": false
       },
       {
@@ -57,6 +75,8 @@
         "move": 300,
         "dodge": 85,
         "skillAttribute": [
+          "出手速度+300",
+          "躲闪+85",
           "无"
         ],
         "checked": false
@@ -66,6 +86,8 @@
         "dodge": 85,
         "dodgePercentage": 0.2,
         "skillAttribute": [
+          "躲闪+85",
+          "躲闪+20%",
           "无"
         ],
         "checked": false
@@ -75,6 +97,11 @@
         "powerPercentage": 0.2,
         "power": 40,
         "basicHP": 810,
+        "skillAttribute": [
+          "力量+20%",
+          "力量+40",
+          "生命上限+810"
+        ],
         "checked": false
       },
       {
@@ -82,6 +109,8 @@
         "deadly": 95,
         "deadlyPercentage": 0.18,
         "skillAttribute": [
+          "致命点+95",
+          "致命率+18%",
           "无"
         ],
         "checked": false
@@ -91,6 +120,8 @@
         "counterattack": 90,
         "counterattackPercentage": 0.16,
         "skillAttribute": [
+          "反击+90",
+          "反击+16%",
           "无"
         ],
         "checked": false
@@ -100,6 +131,8 @@
         "state": 105,
         "magicDefense": 450,
         "skillAttribute": [
+          "状态抵抗+105",
+          "魔法防御力+450",
           "无"
         ],
         "checked": false
@@ -109,6 +142,11 @@
         "constitution": 65,
         "bloodVolumePercentage": 0.38,
         "damageReduction": 55,
+        "skillAttribute": [
+          "体质+65",
+          "生命上限+38%",
+          "伤害减免+55"
+        ],
         "checked": false
       },
       {
@@ -116,6 +154,11 @@
         "constitution": 65,
         "power": 50,
         "bloodVolumePercentage": 0.27,
+        "skillAttribute": [
+          "体质+65",
+          "力量+50",
+          "生命上限+27%"
+        ],
         "checked": false
       },
       {
@@ -123,6 +166,8 @@
         "basicChopAttackPercentage": 0.56,
         "basicPuncturePercentage": 0.56,
         "skillAttribute": [
+          "劈砍攻击力+56%",
+          "穿刺攻击力+56%",
           "无"
         ],
         "checked": false
@@ -132,6 +177,11 @@
         "long-rangeWeaponDamage": 1,
         "long-rangeAttackTimes": 3,
         "hit": 30,
+        "skillAttribute": [
+          "远程武器伤害、耐久+100%",
+          "用远程武器时攻击次数+3",
+          "命中+30"
+        ],
         "checked": false
       },
       {
@@ -139,6 +189,8 @@
         "heavyWeaponDamage": 1.04,
         "deadly": 56,
         "skillAttribute": [
+          "重型武器伤害、耐久+104%",
+          "致命点+56",
           "无"
         ],
         "checked": false
@@ -148,6 +200,8 @@
         "longHandleWeaponDamage": 1.04,
         "armourBreaking": 600,
         "skillAttribute": [
+          "长柄武器伤害、耐久+104%",
+          "破甲+600",
           "无"
         ],
         "checked": false
@@ -157,7 +211,12 @@
         "chopDefense": 4000,
         "punctureDefense": 4000,
         "magicDefense": 4000,
-        "special": "country",
+        "skillAttribute": [
+          "劈砍防御力+4000",
+          "穿刺防御力+4000",
+          "魔法防御力+4000"
+        ],
+        "special": "国家战士技能所专属",
         "checked": false
       },
       {
@@ -165,29 +224,35 @@
         "armourBreaking": 700,
         "armourBreakingPercentage": 0.36,
         "skillAttribute": [
+          "破甲+700",
+          "破甲+36%",
           "无"
         ],
-        "special": "country",
+        "special": "国家战士技能所专属",
         "checked": false
       },
       {
         "name": "防御战术(穿刺-最高20)",
-        "skillAttribute": [
-          "受到穿刺攻击时,所携带宠物50%几率为其承受伤害"
-        ],
         "punctureDefensePercentage": 0.4,
         "punctureDefense": 450,
-        "special": "country",
+        "skillAttribute": [
+          "受到穿刺攻击时,所携带宠物50%几率为其承受伤害",
+          "穿刺防御力+40%",
+          "穿刺防御力+450"
+        ],
+        "special": "国家战士技能所专属",
         "checked": false
       },
       {
         "name": "防御战术(劈砍-最高20)",
-        "skillAttribute": [
-          "受到劈砍攻击时,所携带宠物50%几率为其承受伤害"
-        ],
         "chopDefensePercentage": 0.4,
         "chopDefense": 450,
-        "special": "country",
+        "skillAttribute": [
+          "受到劈砍攻击时,所携带宠物50%几率为其承受伤害",
+          "劈砍防御力+40%",
+          "劈砍防御力+450"
+        ],
+        "special": "国家战士技能所专属",
         "checked": false
       },
       {
@@ -195,7 +260,12 @@
         "chopDefense": 4000,
         "punctureDefense": 4000,
         "magicDefense": 4000,
-        "special": "exclusive",
+        "skillAttribute": [
+          "劈砍防御力+4000",
+          "穿刺防御力+4000",
+          "魔法防御力+4000"
+        ],
+        "special": "战士职业认证专属",
         "checked": false
       },
       {
@@ -203,9 +273,11 @@
         "ignoreDamageReduction": 125,
         "ignorecounterattack": 125,
         "skillAttribute": [
+          "无视伤害减免+125",
+          "无视反击+125",
           "无"
         ],
-        "special": "exclusive",
+        "special": "战士职业认证专属",
         "checked": false
       },
       {
@@ -213,9 +285,11 @@
         "power": 50,
         "agile": 50,
         "skillAttribute": [
+          "力量+50",
+          "敏捷+50",
           "无"
         ],
-        "special": "exclusive",
+        "special": "战士职业认证专属",
         "checked": false
       },
       {
@@ -223,6 +297,11 @@
         "power": 90,
         "deadlyPercentage": 0.33,
         "hitPercentage": 0.33,
+        "skillAttribute": [
+          "力量+90",
+          "致命率+33%",
+          "命中率+33%"
+        ],
         "checked": false
       },
       {
@@ -230,7 +309,12 @@
         "ignorecounterattack": 137,
         "longHandleWeaponDamage": 0.22,
         "long-rangeWeaponDamage": 0.22,
-        "special": "exclusive",
+        "skillAttribute": [
+          "无视反击+137",
+          "长柄武器伤害、耐久+22%",
+          "远程武器伤害、耐久+22%"
+        ],
+        "special": "战士职业认证专属",
         "checked": false
       }
     ],
@@ -556,7 +640,7 @@
         "attackMode": "远程穿刺攻击",
         "range": "敌单体",
         "armsLimitation": "弓",
-        "special": "country"
+        "special": "国家战士技能所专属"
       },
       {
         "name": "烈炎箭",
@@ -571,7 +655,7 @@
         "attackMode": "远程穿刺攻击",
         "range": "敌十字",
         "armsLimitation": "弓",
-        "special": "country"
+        "special": "国家战士技能所专属"
       },
       {
         "name": "大地一击",
@@ -586,7 +670,7 @@
         "attackMode": "近身劈砍攻击",
         "range": "敌六人长方",
         "armsLimitation": "重型武器",
-        "special": "country"
+        "special": "国家战士技能所专属"
       },
       {
         "name": "破甲射击",
@@ -601,7 +685,7 @@
         "attackMode": "远程穿刺攻击",
         "range": "敌前后两人",
         "armsLimitation": "轻弩,重弩,弓",
-        "special": "country"
+        "special": "国家战士技能所专属"
       }
     ],
     "automatic": [
@@ -744,7 +828,7 @@
         "attackMode": "祝福",
         "range": "自身",
         "armsLimitation": "轻弩双持限制",
-        "special": "country"
+        "special": "国家战士技能所专属"
       }
     ]
   },
@@ -756,6 +840,11 @@
         "swordWeaponDamage": 0.65,
         "swordAttackTimes": 3,
         "dodge": 50,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+65%",
+          "用剑时攻击次数+3",
+          "躲闪+50"
+        ],
         "checked": false
       },
       {
@@ -763,6 +852,11 @@
         "agile": 70,
         "agilePercentage": 0.26,
         "movePercentage": 0.4,
+        "skillAttribute": [
+          "敏捷+70",
+          "出手速度+40%",
+          "敏捷+26%"
+        ],
         "checked": false
       },
       {
@@ -770,6 +864,11 @@
         "agilePercentage": 0.35,
         "hitPercentage": 0.3,
         "dodge": 50,
+        "skillAttribute": [
+          "敏捷+35%",
+          "命中率+30%",
+          "躲闪+50"
+        ],
         "checked": false
       },
       {
@@ -777,6 +876,8 @@
         "power": 75,
         "powerPercentage": 0.4,
         "skillAttribute": [
+          "力量+75",
+          "力量+40%",
           "无"
         ],
         "checked": false
@@ -786,6 +887,11 @@
         "constitution": 75,
         "bloodVolumePercentage": 0.4,
         "basicHP": 700,
+        "skillAttribute": [
+          "体质+75",
+          "生命上限+40%",
+          "生命上限+700"
+        ],
         "checked": false
       },
       {
@@ -793,6 +899,8 @@
         "intelligence": 75,
         "manaPercentage": 0.45,
         "skillAttribute": [
+          "智力+75",
+          "法力上限+45%",
           "无"
         ],
         "checked": false
@@ -802,6 +910,8 @@
         "perception": 80,
         "statePercentage": 0.6,
         "skillAttribute": [
+          "感知+80",
+          "基础状态抵抗+60%",
           "无"
         ],
         "checked": false
@@ -811,6 +921,11 @@
         "basicHP": 890,
         "bloodVolumePercentage": 0.45,
         "damageReduction": 65,
+        "skillAttribute": [
+          "生命上限+890",
+          "生命上限+45%",
+          "伤害减免+65"
+        ],
         "checked": false
       },
       {
@@ -818,6 +933,8 @@
         "deadly": 80,
         "mana": 700,
         "skillAttribute": [
+          "致命值+80",
+          "法力上限+700",
           "无"
         ],
         "checked": false
@@ -827,6 +944,11 @@
         "HPRecovery": 500,
         "state": 160,
         "magicDefense": 400,
+        "skillAttribute": [
+          "每回合自动恢复生命+500",
+          "状态抵抗值+160",
+          "魔法防御力+400"
+        ],
         "checked": false
       },
       {
@@ -834,6 +956,11 @@
         "manaRegeneration": 500,
         "damageReduction": 65,
         "basicHP": 700,
+        "skillAttribute": [
+          "每回合自动恢复法力+500",
+          "伤害减免+65",
+          "生命上限+700"
+        ],
         "checked": false
       },
       {
@@ -841,15 +968,21 @@
         "mana": 400,
         "manaPercentage": 0.5,
         "magicDefense": 560,
+        "skillAttribute": [
+          "法力上限+400",
+          "法力上限+50%",
+          "魔法防御力+560"
+        ],
         "checked": false
       },
       {
         "name": "北冥神功",
+        "basicHP": 700,
         "skillAttribute": [
           "法力吸收+196",
-          "生命吸收+196"
+          "生命吸收+196",
+          "生命上限+700"
         ],
-        "basicHP": 700,
         "checked": false
       },
       {
@@ -857,6 +990,11 @@
         "damageReduction": 85,
         "counterattack": 125,
         "basicHP": 700,
+        "skillAttribute": [
+          "伤害减免+85",
+          "反击+125",
+          "生命上限+700"
+        ],
         "checked": false
       },
       {
@@ -864,6 +1002,11 @@
         "empty-handedWeaponDamage": 1.51,
         "hit": 151,
         "power": 0.19,
+        "skillAttribute": [
+          "空手伤害+151%",
+          "命中+151",
+          "力量+19%"
+        ],
         "checked": false
       },
       {
@@ -871,6 +1014,11 @@
         "empty-handedWeaponDamage": 1.51,
         "empty-handedAttackTimes": 3,
         "hit": 151,
+        "skillAttribute": [
+          "空手伤害+151%",
+          "空手时攻击次数+3",
+          "命中+151"
+        ],
         "checked": false
       },
       {
@@ -878,6 +1026,8 @@
         "sabreWeaponDamage": 1.1,
         "deadly": 60,
         "skillAttribute": [
+          "刀类伤害、耐久+110%",
+          "命中+60",
           "无"
         ],
         "checked": false
@@ -887,6 +1037,11 @@
         "sabreWeaponDamage": 0.65,
         "sabreWeaponDamageAttackTimes": 3,
         "deadly": 70,
+        "skillAttribute": [
+          "刀类伤害、耐久+65%",
+          "用刀时攻击次数+3",
+          "致命点+70"
+        ],
         "checked": false
       },
       {
@@ -894,6 +1049,8 @@
         "swordWeaponDamage": 0.65,
         "hit": 80,
         "skillAttribute": [
+          "剑类武器伤害、耐久+65%",
+          "命中+80",
           "无"
         ],
         "checked": false
@@ -905,7 +1062,7 @@
           "宠物体质+30%",
           "宠物生命上限+30%"
         ],
-        "special": "country",
+        "special": "国家侠客技能所专属",
         "checked": false
       },
       {
@@ -913,7 +1070,12 @@
         "ignoreDamageReduction": 125,
         "ignoreBlock": 125,
         "deadly": 72,
-        "special": "exclusive",
+        "skillAttribute": [
+          "无视伤害减免+125",
+          "无视格挡+125",
+          "致命+72"
+        ],
+        "special": "侠客职业认证专属",
         "checked": false
       },
       {
@@ -921,7 +1083,12 @@
         "basicHP": 890,
         "bloodVolumePercentage": 0.22,
         "constitution": 65,
-        "special": "country",
+        "skillAttribute": [
+          "生命上限+890",
+          "生命上限+22%",
+          "体质+65"
+        ],
+        "special": "国家侠客技能所专属",
         "checked": false
       },
       {
@@ -929,7 +1096,12 @@
         "deadly": 72,
         "damageReduction": 72,
         "armourBreakingPercentage": 0.24,
-        "special": "country",
+        "skillAttribute": [
+          "致命点+72",
+          "伤害减免+72",
+          "破甲+24%"
+        ],
+        "special": "国家侠客技能所专属",
         "checked": false
       }
     ],
@@ -1353,7 +1525,7 @@
         "attackMode": "近身穿刺攻击",
         "range": "敌前后两人",
         "armsLimitation": "单手剑双持限制",
-        "special": "country"
+        "special": "国家侠客技能所专属"
       },
       {
         "name": "灵犀一指",
@@ -1368,7 +1540,7 @@
         "attackMode": "诅咒",
         "range": "敌前后两人",
         "armsLimitation": "空手",
-        "special": "exclusive"
+        "special": "侠客职业认证专属"
       }
     ],
     "automatic": [
@@ -1581,7 +1753,7 @@
         "attackMode": "远程穿刺攻击",
         "range": "敌当前生命最大者",
         "armsLimitation": "轻剑,轻刀",
-        "special": "exclusive"
+        "special": "侠客职业认证专属"
       },
       {
         "name": "万毒心经",
@@ -1596,7 +1768,7 @@
         "attackMode": "诅咒",
         "range": "敌全体",
         "armsLimitation": "空手",
-        "special": "country"
+        "special": "国家侠客技能所专属"
       },
       {
         "name": "乾坤剑诀",
@@ -1611,7 +1783,7 @@
         "attackMode": "祝福",
         "range": "自身",
         "armsLimitation": "剑类武器限制",
-        "special": "exclusive"
+        "special": "侠客职业认证专属"
       },
       {
         "name": "天霜拳",
@@ -1626,7 +1798,7 @@
         "attackMode": "近身劈砍攻击",
         "range": "敌当前生命最大者",
         "armsLimitation": "空手",
-        "special": "exclusive"
+        "special": "侠客职业认证专属"
       }
     ]
   },
@@ -1638,6 +1810,11 @@
         "mana": 900,
         "basicHP": 900,
         "constitution": 80,
+        "skillAttribute": [
+          "法力上限+900",
+          "生命上限+900",
+          "体质+80"
+        ],
         "checked": false
       },
       {
@@ -1645,6 +1822,11 @@
         "mana": 900,
         "intelligence": 80,
         "basicHP": 900,
+        "skillAttribute": [
+          "法力上限+900",
+          "智力+80",
+          "生命上限+900"
+        ],
         "checked": false
       },
       {
@@ -1652,6 +1834,11 @@
         "mana": 900,
         "perception": 80,
         "manaRegeneration": 370,
+        "skillAttribute": [
+          "法力上限+900",
+          "感知+80",
+          "每回合自动恢复法力+370"
+        ],
         "checked": false
       },
       {
@@ -1659,6 +1846,11 @@
         "mana": 900,
         "manaPercentage": 0.23,
         "manaRegeneration": 370,
+        "skillAttribute": [
+          "法力上限+900",
+          "法力上限+23%",
+          "每回合自动恢复法力+370"
+        ],
         "checked": false
       },
       {
@@ -1666,6 +1858,8 @@
         "magicHit": 70,
         "magic": 400,
         "skillAttribute": [
+          "魔法命中+70",
+          "魔法攻击力+400",
           "无"
         ],
         "checked": false
@@ -1675,6 +1869,11 @@
         "manaPercentage": 0.37,
         "magicDefense": 700,
         "manaRegeneration": 370,
+        "skillAttribute": [
+          "法力上限+37%",
+          "魔法防御力+700",
+          "每回合自动恢复法力+370"
+        ],
         "checked": false
       },
       {
@@ -1682,6 +1881,11 @@
         "manaShield": 1500,
         "manaShieldPercentage": 0.28,
         "basicHP": 505,
+        "skillAttribute": [
+          "法力护盾+1500",
+          "法力护盾+28%",
+          "生命上限+505"
+        ],
         "checked": false
       },
       {
@@ -1689,6 +1893,11 @@
         "manaShield": 800,
         "manaShieldPercentage": 0.66,
         "basicHP": 505,
+        "skillAttribute": [
+          "法力护盾+800",
+          "法力护盾+66%",
+          "生命上限+505"
+        ],
         "checked": false
       },
       {
@@ -1696,15 +1905,22 @@
         "manaRegeneration": 370,
         "magicHit": 66,
         "mana": 900,
+        "skillAttribute": [
+          "每回合自动恢复法力+370",
+          "魔法命中+66",
+          "法力上限+900"
+        ],
         "checked": false
       },
       {
         "name": "五气朝元",
         "manaRegeneration": 370,
-        "skillAttribute": [
-          "基础法力吸收+370"
-        ],
         "mana": 900,
+        "skillAttribute": [
+          "每回合自动恢复法力+370",
+          "基础法力吸收+370",
+          "法力上限+900"
+        ],
         "checked": false
       },
       {
@@ -1712,6 +1928,11 @@
         "manaRegeneration": 370,
         "basicHP": 900,
         "constitution": 80,
+        "skillAttribute": [
+          "每回合自动恢复生命+370",
+          "生命上限+900",
+          "体质+80"
+        ],
         "checked": false
       },
       {
@@ -1719,6 +1940,8 @@
         "constitution": 80,
         "intelligence": 80,
         "skillAttribute": [
+          "体质+80",
+          "智力+80",
           "无"
         ],
         "checked": false
@@ -1728,6 +1951,8 @@
         "constitution": 80,
         "power": 80,
         "skillAttribute": [
+          "体质+80",
+          "力量+80",
           "无"
         ],
         "checked": false
@@ -1737,6 +1962,8 @@
         "agile": 80,
         "agilePercentage": 0.34,
         "skillAttribute": [
+          "敏捷+80",
+          "敏捷+34%",
           "无"
         ],
         "checked": false
@@ -1746,6 +1973,11 @@
         "move": 700,
         "dodge": 65,
         "agile": 55,
+        "skillAttribute": [
+          "出手速度+700",
+          "躲闪+65",
+          "敏捷+55"
+        ],
         "checked": false
       },
       {
@@ -1753,6 +1985,8 @@
         "magic": 900,
         "magicHit": 66,
         "skillAttribute": [
+          "魔法攻击力+900",
+          "魔法命中+66",
           "无"
         ],
         "checked": false
@@ -1762,6 +1996,11 @@
         "magicDefense": 600,
         "insight": 70,
         "magicFeedback": 70,
+        "skillAttribute": [
+          "魔法防御力+600",
+          "洞察+70",
+          "魔法反馈+70"
+        ],
         "checked": false
       },
       {
@@ -1769,6 +2008,8 @@
         "move": 500,
         "dodge": 55,
         "skillAttribute": [
+          "出手速度+500",
+          "躲闪+50",
           "基础生命吸收+400"
         ],
         "checked": false
@@ -1778,6 +2019,8 @@
         "state": 80,
         "damageReduction": 80,
         "skillAttribute": [
+          "状态抵抗+80",
+          "伤害减免+80",
           "基础法力吸收+400"
         ],
         "checked": false
@@ -1787,6 +2030,8 @@
         "magicPercentage": 0.4,
         "magicPenetration": 500,
         "skillAttribute": [
+          "魔法攻击力+40%",
+          "魔法穿透+500",
           "无"
         ],
         "checked": false
@@ -1814,7 +2059,12 @@
         "perceptionPercentage": 0.28,
         "perception": 76,
         "manaRegeneration": 390,
-        "special": "exclusive",
+        "skillAttribute": [
+          "感知+28%",
+          "感知+76",
+          "每回合自动恢复法力+390"
+        ],
+        "special": "修真职业认证专属",
         "checked": false
       },
       {
@@ -1824,7 +2074,7 @@
           "宠物智力+23%",
           "宠物感知+23%"
         ],
-        "special": "exclusive",
+        "special": "修真职业认证专属",
         "checked": false
       }
     ],
@@ -2150,7 +2400,7 @@
         "attackMode": "诅咒",
         "range": "敌单体",
         "armsLimitation": "无",
-        "special": "country"
+        "special": "国家修真技能所专属"
       },
       {
         "name": "金刚法咒",
@@ -2165,7 +2415,7 @@
         "attackMode": "祝福",
         "range": "我单体",
         "armsLimitation": "无",
-        "special": "country"
+        "special": "国家修真技能所专属"
       },
       {
         "name": "秘传-封魔诀",
@@ -2180,7 +2430,7 @@
         "attackMode": "诅咒",
         "range": "敌上下三人",
         "armsLimitation": "无",
-        "special": "country"
+        "special": "国家修真技能所专属"
       },
       {
         "name": "三味真火",
@@ -2195,7 +2445,7 @@
         "attackMode": "魔法攻击",
         "range": "敌六人长方",
         "armsLimitation": "无",
-        "special": "exclusive"
+        "special": "修真职业认证专属"
       }
     ],
     "automatic": [
@@ -2366,7 +2616,7 @@
         "attackMode": "诅咒",
         "range": "敌全体",
         "armsLimitation": "无",
-        "special": "country"
+        "special": "国家修真技能所专属"
       },
       {
         "name": "天神附体",
@@ -2381,7 +2631,7 @@
         "attackMode": "祝福",
         "range": "自身",
         "armsLimitation": "无",
-        "special": "exclusive"
+        "special": "修真职业认证专属"
       }
     ]
   },
@@ -2393,6 +2643,11 @@
         "intelligence": 99,
         "manaPercentage": 1.15,
         "mana": 500,
+        "skillAttribute": [
+          "智力+99",
+          "法力上限+115%",
+          "法力上限+500"
+        ],
         "checked": false
       },
       {
@@ -2400,6 +2655,11 @@
         "perception": 99,
         "insight": 79,
         "mana": 500,
+        "skillAttribute": [
+          "感知+99",
+          "洞察+79",
+          "法力上限+500"
+        ],
         "checked": false
       },
       {
@@ -2407,6 +2667,8 @@
         "mana": 1150,
         "manaPercentage": 0.46,
         "skillAttribute": [
+          "法力上限+1150",
+          "法力上限+46%",
           "无"
         ],
         "checked": false
@@ -2416,6 +2678,8 @@
         "magicDefensePercentage": 0.46,
         "manaShield": 1100,
         "skillAttribute": [
+          "魔法防御力+46%",
+          "法力护盾+1100",
           "无"
         ],
         "checked": false
@@ -2425,6 +2689,11 @@
         "magicPercentage": 0.46,
         "magicDefensePercentage": 0.46,
         "mana": 500,
+        "skillAttribute": [
+          "魔法攻击力+46%",
+          "魔法防御力+46%",
+          "法力上限+500"
+        ],
         "checked": false
       },
       {
@@ -2432,6 +2701,8 @@
         "magicHit": 104,
         "magic": 420,
         "skillAttribute": [
+          "魔法命中+104",
+          "魔法攻击力+420",
           "无"
         ],
         "checked": false
@@ -2441,6 +2712,11 @@
         "staffWeaponDamage": 1.6,
         "magic": 420,
         "mana": 500,
+        "skillAttribute": [
+          "法杖武器伤害、耐久+160%",
+          "魔法攻击力+420",
+          "法力上限+500"
+        ],
         "checked": false
       },
       {
@@ -2448,6 +2724,8 @@
         "basicHP": 750,
         "state": 1,
         "skillAttribute": [
+          "生命上限+750",
+          "基础状态抵抗+100%",
           "无"
         ],
         "checked": false
@@ -2457,12 +2735,18 @@
         "move": 470,
         "movePercentage": 0.2,
         "magic": 400,
+        "skillAttribute": [
+          "出手速度+470",
+          "出手速度+20%",
+          "魔法攻击力+400"
+        ],
         "checked": false
       },
       {
         "name": "魔法回路",
         "manaRegeneration": 470,
         "skillAttribute": [
+          "每回合自动恢复法力+470",
           "法力吸收+140",
           "无"
         ],
@@ -2473,6 +2757,8 @@
         "insight": 90,
         "insightPercentage": 0.27,
         "skillAttribute": [
+          "洞察+90",
+          "洞察+27%",
           "无"
         ],
         "checked": false
@@ -2482,6 +2768,8 @@
         "insight": 90,
         "mana": 500,
         "skillAttribute": [
+          "洞察+90",
+          "法力上限+500",
           "无"
         ],
         "checked": false
@@ -2491,6 +2779,8 @@
         "magicFeedback": 180,
         "ignoreMagicFeedback": 180,
         "skillAttribute": [
+          "魔法反馈+180",
+          "无视魔法反馈+180",
           "无"
         ],
         "checked": false
@@ -2500,6 +2790,8 @@
         "magicHit": 59,
         "magic": 500,
         "skillAttribute": [
+          "魔法命中+59",
+          "魔法攻击力+500",
           "无"
         ],
         "checked": false
@@ -2509,6 +2801,11 @@
         "magicPenetration": 700,
         "magicPenetrationPercentage": 0.42,
         "magic": 300,
+        "skillAttribute": [
+          "魔法穿透+700",
+          "魔法穿透+42%",
+          "魔法攻击力+300"
+        ],
         "checked": false
       },
       {
@@ -2516,6 +2813,8 @@
         "magicHit": 90,
         "magicPercentage": 0.48,
         "skillAttribute": [
+          "魔法命中+90",
+          "魔法攻击力+48%",
           "无"
         ],
         "checked": false
@@ -2524,8 +2823,11 @@
         "name": "魔法天赋",
         "intelligence": 89,
         "perception": 89,
+        "mana": 470,
         "skillAttribute": [
-          "无"
+          "智力+89",
+          "感知+89",
+          "法力上限+470"
         ],
         "checked": false
       },
@@ -2534,6 +2836,7 @@
         "basicHP": 470,
         "skillAttribute": [
           "宠物生命上限+115%",
+          "生命上限+470",
           "无"
         ],
         "checked": false
@@ -2554,7 +2857,7 @@
           "宠物感知+60%",
           "无"
         ],
-        "special": "country",
+        "special": "国家法师技能所专属",
         "checked": false
       },
       {
@@ -2564,7 +2867,7 @@
           "宠物生命上限+50%",
           "无"
         ],
-        "special": "country",
+        "special": "国家法师技能所专属",
         "checked": false
       },
       {
@@ -2574,7 +2877,7 @@
           "宠物生命上限+50%",
           "无"
         ],
-        "special": "country",
+        "special": "国家法师技能所专属",
         "checked": false
       },
       {
@@ -2584,7 +2887,7 @@
           "宠物生命上限+50%",
           "无"
         ],
-        "special": "country",
+        "special": "国家法师技能所专属",
         "checked": false
       },
       {
@@ -2592,7 +2895,12 @@
         "ignoreInsight": 160,
         "ignoreMagicFeedback": 160,
         "disregardState": 160,
-        "special": "exclusive",
+        "skillAttribute": [
+          "无视洞察+160",
+          "无视魔法反馈+160",
+          "无视状态抵抗+160"
+        ],
+        "special": "法师职业认证专属",
         "checked": false
       }
     ],
@@ -2974,7 +3282,7 @@
         "attackMode": "诅咒",
         "range": "敌前后两人",
         "armsLimitation": "无",
-        "special": "country"
+        "special": "国家法师技能所专属"
       },
       {
         "name": "魔邓肯飞弹",
@@ -2989,7 +3297,7 @@
         "attackMode": "魔法攻击",
         "range": "敌正方",
         "armsLimitation": "无",
-        "special": "country"
+        "special": "国家法师技能所专属"
       },
       {
         "name": "律令意志消沉",
@@ -3004,7 +3312,7 @@
         "attackMode": "诅咒",
         "range": "敌六人长方",
         "armsLimitation": "法杖",
-        "special": "exclusive"
+        "special": "法师职业认证专属"
       },
       {
         "name": "律令震慑",
@@ -3019,7 +3327,7 @@
         "attackMode": "诅咒",
         "range": "敌六人长方",
         "armsLimitation": "法杖",
-        "special": "exclusive"
+        "special": "法师职业认证专属"
       },
       {
         "name": "流星炎爆",
@@ -3034,7 +3342,7 @@
         "attackMode": "魔法攻击",
         "range": "敌全体",
         "armsLimitation": "法杖",
-        "special": "exclusive"
+        "special": "法师职业认证专属"
       },
       {
         "name": "神灭斩",
@@ -3049,7 +3357,7 @@
         "attackMode": "魔法攻击",
         "range": "敌单体",
         "armsLimitation": "法杖",
-        "special": "exclusive"
+        "special": "法师职业认证专属"
       }
     ],
     "automatic": [
@@ -3231,6 +3539,11 @@
         "perception": 76,
         "mana": 740,
         "perceptionPercentage": 0.22,
+        "skillAttribute": [
+          "感知+76",
+          "法力上限+740",
+          "感知+22%"
+        ],
         "checked": false
       },
       {
@@ -3238,6 +3551,8 @@
         "manaRegeneration": 600,
         "mana": 740,
         "skillAttribute": [
+          "每回合自动恢复法力+600",
+          "法力上限+740",
           "基础法力吸收+133"
         ],
         "checked": false
@@ -3247,6 +3562,11 @@
         "move": 740,
         "ignoreMagicFeedback": 150,
         "mana": 740,
+        "skillAttribute": [
+          "出手速度+740",
+          "无视魔法反馈+150",
+          "法力上限+740"
+        ],
         "checked": false
       },
       {
@@ -3254,6 +3574,11 @@
         "move": 740,
         "movePercentage": 0.28,
         "manaRegeneration": 363,
+        "skillAttribute": [
+          "出手速度+740",
+          "出手速度+28%",
+          "每回合自动恢复法力+363"
+        ],
         "checked": false
       },
       {
@@ -3261,6 +3586,11 @@
         "magicInstrumentAttackTimes": 4,
         "magic": 430,
         "mana": 740,
+        "skillAttribute": [
+          "用法杖时攻击次数+4",
+          "魔法攻击力+430",
+          "法力上限+740"
+        ],
         "checked": false
       },
       {
@@ -3268,6 +3598,11 @@
         "magicInstrumentWeaponDamage": 1.5,
         "magic": 430,
         "mana": 740,
+        "skillAttribute": [
+          "法器武器伤害、耐久+150%",
+          "魔法攻击力+430",
+          "法力上限+740"
+        ],
         "checked": false
       },
       {
@@ -3275,6 +3610,11 @@
         "magicHit": 85,
         "magicInstrumentAttackTimes": 4,
         "magicInstrumentWeaponDamage": 1.5,
+        "skillAttribute": [
+          "魔法命中+85",
+          "用法器时攻击次数+4",
+          "法器武器伤害、耐久+150%"
+        ],
         "checked": false
       },
       {
@@ -3282,6 +3622,11 @@
         "state": 76,
         "damageReduction": 73,
         "perception": 76,
+        "skillAttribute": [
+          "状态抵抗值+76",
+          "伤害减免+73",
+          "感知+76"
+        ],
         "checked": false
       },
       {
@@ -3289,6 +3634,11 @@
         "basicHP": 810,
         "constitution": 73,
         "damageReduction": 70,
+        "skillAttribute": [
+          "生命上限+810",
+          "体质+73",
+          "伤害减免+70"
+        ],
         "checked": false
       },
       {
@@ -3296,6 +3646,11 @@
         "basicHP": 810,
         "power": 73,
         "deadly": 70,
+        "skillAttribute": [
+          "生命上限+810",
+          "力量+73",
+          "致命点+70"
+        ],
         "checked": false
       },
       {
@@ -3303,6 +3658,11 @@
         "magicHit": 82,
         "magicHitPercentage": 0.26,
         "magicPenetration": 740,
+        "skillAttribute": [
+          "魔法命中+82",
+          "魔法攻击力+26%",
+          "魔法穿透+740"
+        ],
         "checked": false
       },
       {
@@ -3310,6 +3670,11 @@
         "mana": 740,
         "disregardState": 133,
         "magicPenetration": 740,
+        "skillAttribute": [
+          "法力上限+740",
+          "无视状态抵抗+133",
+          "魔法穿透+740"
+        ],
         "checked": false
       },
       {
@@ -3317,6 +3682,11 @@
         "mana": 740,
         "ignoreInsight": 133,
         "magicPenetration": 740,
+        "skillAttribute": [
+          "法力上限+740",
+          "无视洞察+133",
+          "魔法穿透+740"
+        ],
         "checked": false
       },
       {
@@ -3324,6 +3694,11 @@
         "manaShield": 740,
         "manaShieldPercentage": 0.28,
         "mana": 740,
+        "skillAttribute": [
+          "法力护盾+740",
+          "法力护盾+28%",
+          "法力上限+740"
+        ],
         "checked": false
       },
       {
@@ -3331,6 +3706,11 @@
         "move": 363,
         "agile": 73,
         "dodge": 45,
+        "skillAttribute": [
+          "出手速度+363",
+          "敏捷+73",
+          "躲闪+45"
+        ],
         "checked": false
       },
       {
@@ -3347,6 +3727,11 @@
         "insight": 180,
         "deadly": 125,
         "magicHit": 84,
+        "skillAttribute": [
+          "洞察+180",
+          "致命点+125",
+          "魔法命中+84"
+        ],
         "checked": false
       },
       {
@@ -3354,6 +3739,11 @@
         "state": 135,
         "damageReduction": 250,
         "immuneShield": 2,
+        "skillAttribute": [
+          "状态抵抗值+135",
+          "伤害减免+250",
+          "免伤护盾+2"
+        ],
         "checked": false
       },
       {
@@ -3361,7 +3751,12 @@
         "ignoreMagicFeedback": 133,
         "disregardState": 133,
         "ignoreInsight": 133,
-        "special": "exclusive",
+        "skillAttribute": [
+          "无视魔法反馈+133",
+          "无视状态抵抗+133",
+          "无视洞察+133"
+        ],
+        "special": "贤者职业认证专属",
         "checked": false
       },
       {
@@ -3369,7 +3764,12 @@
         "magicInstrumentWeaponDamage": 1.5,
         "perception": 55,
         "ignoreMagicFeedback": 220,
-        "special": "exclusive",
+        "skillAttribute": [
+          "法器武器伤害、耐久+150%",
+          "感知+55",
+          "无视魔法反馈+220"
+        ],
+        "special": "贤者职业认证专属",
         "checked": false
       },
       {
@@ -3377,7 +3777,12 @@
         "magicInstrumentWeaponDamage": 1.1,
         "ignoreInsight": 150,
         "deadly": 120,
-        "special": "exclusive",
+        "skillAttribute": [
+          "法器武器伤害、耐久+110%",
+          "无视洞察+150",
+          "致命点+120"
+        ],
+        "special": "贤者职业认证专属",
         "checked": false
       },
       {
@@ -3385,7 +3790,12 @@
         "move": 900,
         "magicInstrumentAttackTimes": 4,
         "ignoreMagicFeedback": 180,
-        "special": "exclusive",
+        "skillAttribute": [
+          "出手速度+900",
+          "用法器时攻击次数+4",
+          "无视魔法反馈+180"
+        ],
+        "special": "贤者职业认证专属",
         "checked": false
       },
       {
@@ -3393,7 +3803,12 @@
         "intelligence": 75,
         "perception": 76,
         "mana": 750,
-        "special": "exclusive",
+        "skillAttribute": [
+          "智力+75",
+          "感知+76",
+          "法力上限+750"
+        ],
+        "special": "贤者职业认证专属",
         "checked": false
       }
     ],
@@ -3593,7 +4008,7 @@
         "attackMode": "魔法攻击",
         "range": "敌六人长方",
         "armsLimitation": "法器限制",
-        "special": "exclusive"
+        "special": "贤者职业认证专属"
       }
     ],
     "automatic": [
@@ -3722,7 +4137,7 @@
         "attackMode": "魔法攻击",
         "range": "敌六人长方",
         "armsLimitation": "法器限制",
-        "special": "exclusive"
+        "special": "贤者职业认证专属"
       },
       {
         "name": "精神鞭挞",
@@ -3751,7 +4166,7 @@
         "attackMode": "诅咒",
         "range": "敌正方",
         "armsLimitation": "法器限制",
-        "special": "exclusive"
+        "special": "贤者职业认证专属"
       },
       {
         "name": "沉静力场",
@@ -3766,7 +4181,7 @@
         "attackMode": "诅咒",
         "range": "敌正方",
         "armsLimitation": "法器限制",
-        "special": "exclusive"
+        "special": "贤者职业认证专属"
       }
     ]
   },
@@ -3778,6 +4193,11 @@
         "powerPercentage": 0.3,
         "damageReduction": 218,
         "constitution": 65,
+        "skillAttribute": [
+          "力量+30%",
+          "无视伤害减免+218",
+          "体质+65"
+        ],
         "checked": false
       },
       {
@@ -3785,6 +4205,11 @@
         "agile": 70,
         "counterattack": 218,
         "deadly": 80,
+        "skillAttribute": [
+          "敏捷+70",
+          "无视反击+218",
+          "致命点+80"
+        ],
         "checked": false
       },
       {
@@ -3792,6 +4217,11 @@
         "armourBreaking": 600,
         "armourBreakingPercentage": 0.3,
         "ignoreBlock": 218,
+        "skillAttribute": [
+          "破甲+600",
+          "破甲+30%",
+          "无视格挡+218"
+        ],
         "checked": false
       },
       {
@@ -3799,6 +4229,11 @@
         "magicDefense": 3000,
         "state": 105,
         "immuneShield": 1,
+        "skillAttribute": [
+          "魔法防御力+3000",
+          "状态抵抗值+105",
+          "免伤护盾+1"
+        ],
         "checked": false
       },
       {
@@ -3806,6 +4241,11 @@
         "hit": 80,
         "forcedHit": 15,
         "deadly": 80,
+        "skillAttribute": [
+          "命中+80",
+          "基础强制命中率+15",
+          "致命点+80"
+        ],
         "checked": false
       },
       {
@@ -3813,6 +4253,11 @@
         "deadly": 105,
         "basicHP": 900,
         "deadlyPercentage": 0.2,
+        "skillAttribute": [
+          "致命点+105",
+          "生命上限+900",
+          "致命率+20%"
+        ],
         "checked": false
       },
       {
@@ -3820,6 +4265,11 @@
         "sabreWeaponDamage": 0.65,
         "deadly": 80,
         "sabreWeaponDamageAttackTimes": 2,
+        "skillAttribute": [
+          "刀类伤害、耐久+65%",
+          "致命点+80",
+          "用刀时攻击次数+2"
+        ],
         "checked": false
       },
       {
@@ -3827,6 +4277,11 @@
         "chopDefense": 3000,
         "punctureDefense": 3000,
         "damageReduction": 155,
+        "skillAttribute": [
+          "劈砍防御力+3000",
+          "穿刺防御力+3000",
+          "伤害减免+155"
+        ],
         "checked": false
       },
       {
@@ -3834,6 +4289,11 @@
         "longHandleWeaponDamage": 0.65,
         "hit": 80,
         "ignoreDamageReduction": 155,
+        "skillAttribute": [
+          "长柄武器伤害、耐久+65%",
+          "命中+80",
+          "无视伤害减免+155"
+        ],
         "checked": false
       },
       {
@@ -3841,6 +4301,11 @@
         "manaRegeneration": 800,
         "HPRecovery": 800,
         "immuneShield": 1,
+        "skillAttribute": [
+          "每回合自动恢复法力+800",
+          "每回合自动恢复生命+800",
+          "免伤护盾+1"
+        ],
         "checked": false
       },
       {
@@ -3848,6 +4313,11 @@
         "move": 900,
         "attackTimes": 2,
         "agile": 80,
+        "skillAttribute": [
+          "出手速度+900",
+          "攻击次数+2",
+          "敏捷+80"
+        ],
         "checked": false
       },
       {
@@ -3855,6 +4325,11 @@
         "ignoreBlock": 280,
         "ignorecounterattack": 280,
         "longHandleAttackTimes": 2,
+        "skillAttribute": [
+          "无视格挡+280",
+          "无视反击+280",
+          "用长柄时攻击次数+2"
+        ],
         "checked": false
       },
       {
@@ -3862,6 +4337,11 @@
         "long-rangeWeaponDamage": 0.44,
         "long-rangeAttackTimes": 1,
         "forcedHit": 12,
+        "skillAttribute": [
+          "远程武器伤害、耐久+44%",
+          "用远程武器时攻击次数+1",
+          "基础强制命中率+12"
+        ],
         "checked": false
       }
     ],
@@ -4158,6 +4638,11 @@
         "mana": 770,
         "ignoreInsight": 112,
         "perception": 65,
+        "skillAttribute": [
+          "法力上限+770",
+          "无视洞察+112",
+          "感知+65"
+        ],
         "checked": false
       },
       {
@@ -4165,6 +4650,11 @@
         "basicHP": 840,
         "deadly": 105,
         "attackTimes": 2,
+        "skillAttribute": [
+          "生命上限+840",
+          "致命点+105",
+          "攻击次数+2"
+        ],
         "checked": false
       },
       {
@@ -4172,6 +4662,11 @@
         "basicHP": 833,
         "disregardState": 133,
         "deadly": 60,
+        "skillAttribute": [
+          "生命上限+833",
+          "无视状态抵抗+133",
+          "致命点+60"
+        ],
         "checked": false
       },
       {
@@ -4179,6 +4674,11 @@
         "artilleryWeaponDamage": 0.85,
         "ignorecounterattack": 213,
         "ignoreBlock": 213,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+85%",
+          "无视反击+213",
+          "无视格挡+213"
+        ],
         "checked": false
       },
       {
@@ -4186,6 +4686,11 @@
         "artilleryWeaponDamage": 0.65,
         "artillery": 3,
         "hit": 45,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+65%",
+          "用火枪时攻击次数+3",
+          "命中+45"
+        ],
         "checked": false
       },
       {
@@ -4193,15 +4698,22 @@
         "powerPercentage": 0.24,
         "ignorecounterattack": 185,
         "forcedHit": 5,
+        "skillAttribute": [
+          "力量+24%",
+          "无视反击+185",
+          "基础强制命中率+5"
+        ],
         "checked": false
       },
       {
         "name": "精华吸取",
         "state": 135,
-        "skillAttribute": [
-          "基础法力吸收+145"
-        ],
         "constitution": 65,
+        "skillAttribute": [
+          "状态抵抗值+135",
+          "基础法力吸收+145",
+          "体质+65"
+        ],
         "checked": false
       },
       {
@@ -4209,6 +4721,11 @@
         "basicHP": 850,
         "agile": 65,
         "agilePercentage": 0.2,
+        "skillAttribute": [
+          "生命上限+850",
+          "敏捷+65",
+          "敏捷+20%"
+        ],
         "checked": false
       },
       {
@@ -4216,6 +4733,11 @@
         "artilleryWeaponDamage": 0.65,
         "ignoreDamageReduction": 195,
         "hit": 73,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+65%",
+          "无视伤害减免+195",
+          "命中+73"
+        ],
         "checked": false
       },
       {
@@ -4223,6 +4745,11 @@
         "immuneShield": 1,
         "agile": 76,
         "dodge": 59,
+        "skillAttribute": [
+          "免伤护盾+1",
+          "敏捷+76",
+          "躲闪+59"
+        ],
         "checked": false
       },
       {
@@ -4230,6 +4757,11 @@
         "basicHP": 670,
         "power": 55,
         "powerPercentage": 0.2,
+        "skillAttribute": [
+          "生命上限+670",
+          "力量+55",
+          "力量+20%"
+        ],
         "checked": false
       },
       {
@@ -4237,6 +4769,11 @@
         "armourBreakingPercentage": 0.26,
         "dodge": 65,
         "magicDefense": 5400,
+        "skillAttribute": [
+          "破甲+26%",
+          "躲闪+65",
+          "魔法防御力+5400"
+        ],
         "checked": false
       },
       {
@@ -4244,6 +4781,11 @@
         "mana": 620,
         "insight": 125,
         "intelligence": 55,
+        "skillAttribute": [
+          "法力上限+620",
+          "洞察+125",
+          "智力+55"
+        ],
         "checked": false
       },
       {
@@ -4251,6 +4793,11 @@
         "basicHP": 845,
         "damageReduction": 76,
         "immuneShield": 2,
+        "skillAttribute": [
+          "生命上限+845",
+          "伤害减免+76",
+          "免伤护盾+2"
+        ],
         "checked": false
       },
       {
@@ -4258,6 +4805,11 @@
         "counterattack": 245,
         "magicFeedback": 245,
         "damageReduction": 245,
+        "skillAttribute": [
+          "反击+245",
+          "魔法反馈+245",
+          "伤害减免+245"
+        ],
         "checked": false
       },
       {
@@ -4265,6 +4817,11 @@
         "heavyWeaponDamage": 0.8,
         "swordWeaponDamage": 0.8,
         "artilleryWeaponDamage": 0.8,
+        "skillAttribute": [
+          "重型武器伤害、耐久+80%",
+          "剑类武器伤害、耐久+80%",
+          "火枪类武器伤害、耐久+80%"
+        ],
         "checked": false
       },
       {
@@ -4272,6 +4829,11 @@
         "heavyWeaponDamage": 0.65,
         "heavyAttackTimes": 2,
         "dodge": 55,
+        "skillAttribute": [
+          "重型武器伤害、耐久+65%",
+          "用重型时攻击次数+2",
+          "躲闪+55"
+        ],
         "checked": false
       },
       {
@@ -4279,6 +4841,11 @@
         "artilleryWeaponDamage": 1.1,
         "artillery": 3,
         "ignorecounterattack": 220,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+110%",
+          "用火枪时攻击次数+3",
+          "无视反击+220"
+        ],
         "checked": false
       },
       {
@@ -4286,6 +4853,11 @@
         "swordWeaponDamage": 0.8,
         "ignoreDamageReduction": 220,
         "swordAttackTimes": 2,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+80%",
+          "无视伤害减免+220",
+          "用剑时攻击次数+2"
+        ],
         "checked": false
       },
       {
@@ -4293,6 +4865,11 @@
         "long-rangeWeaponDamage": 0.8,
         "ignorecounterattack": 220,
         "deadly": 105,
+        "skillAttribute": [
+          "远程武器伤害、耐久+80%",
+          "无视反击+220",
+          "致命点+105"
+        ],
         "checked": false
       }
     ],
@@ -4450,7 +5027,7 @@
         "attackMode": "祝福",
         "range": "我十字",
         "armsLimitation": "无",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       },
       {
         "name": "灵魂收割",
@@ -4465,7 +5042,7 @@
         "attackMode": "远程穿刺",
         "range": "敌单体",
         "armsLimitation": "轻型火枪",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       },
       {
         "name": "终极爆炸",
@@ -4480,7 +5057,7 @@
         "attackMode": "远程穿刺",
         "range": "敌单体",
         "armsLimitation": "重型火枪",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       },
       {
         "name": "惩戒之箭",
@@ -4495,7 +5072,7 @@
         "attackMode": "远程穿刺",
         "range": "敌六人长方",
         "armsLimitation": "弓",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       }
     ],
     "automatic": [
@@ -4610,7 +5187,7 @@
         "attackMode": "远程穿刺",
         "range": "敌六人长方",
         "armsLimitation": "轻型火枪",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       },
       {
         "name": "杀戮盛宴",
@@ -4625,7 +5202,7 @@
         "attackMode": "诅咒",
         "range": "敌全体",
         "armsLimitation": "无",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       },
       {
         "name": "陨石重击",
@@ -4640,7 +5217,7 @@
         "attackMode": "远程穿刺",
         "range": "敌单体",
         "armsLimitation": "重型火枪",
-        "special": "exclusive"
+        "special": "枪王职业认证专属"
       }
     ]
   },
@@ -4652,6 +5229,11 @@
         "hammerWeaponDamage": 1.5,
         "magic": 430,
         "mana": 740,
+        "skillAttribute": [
+          "锤子武器伤害+150%",
+          "魔法攻击+430",
+          "法力+740"
+        ],
         "checked": false
       },
       {
@@ -4659,6 +5241,11 @@
         "hammerAttackTimes": 3,
         "magic": 430,
         "mana": 740,
+        "skillAttribute": [
+          "锤子攻击次数+3",
+          "魔法攻击+430",
+          "法力+740"
+        ],
         "checked": false
       },
       {
@@ -4666,6 +5253,11 @@
         "forcedHit": 20,
         "magicHit": 85,
         "magicPenetration": 740,
+        "skillAttribute": [
+          "强制命中率+20",
+          "魔法命中+85",
+          "法术穿透+740"
+        ],
         "checked": false
       },
       {
@@ -4673,6 +5265,11 @@
         "hammerWeaponDamage": 1.3,
         "ignoreInsight": 133,
         "ignoreDamageReduction": 250,
+        "skillAttribute": [
+          "锤子武器伤害+130%",
+          "无视洞察+133",
+          "无视伤害减免+250"
+        ],
         "checked": false
       },
       {
@@ -4680,6 +5277,11 @@
         "move": 740,
         "perception": 80,
         "mana": 900,
+        "skillAttribute": [
+          "出手速度+740",
+          "感知+80",
+          "法力+900"
+        ],
         "checked": false
       },
       {
@@ -4687,6 +5289,11 @@
         "hammerAttackTimes": 3,
         "magicPercentage": 0.26,
         "magicHit": 82,
+        "skillAttribute": [
+          "锤子攻击次数+3",
+          "魔法攻击力+26%",
+          "魔法命中+82"
+        ],
         "checked": false
       },
       {
@@ -4694,6 +5301,11 @@
         "deadly": 130,
         "ignoreInsight": 150,
         "ignoreMagicFeedback": 220,
+        "skillAttribute": [
+          "致命点+130",
+          "无视洞察+150",
+          "无视魔法反馈+220"
+        ],
         "checked": false
       },
       {
@@ -4701,6 +5313,11 @@
         "ignoreInsight": 150,
         "ignoreMagicFeedback": 220,
         "ignoreDamageReduction": 220,
+        "skillAttribute": [
+          "无视洞察+150",
+          "无视魔法反馈+220",
+          "无视伤害减免+220"
+        ],
         "checked": false
       },
       {
@@ -4708,6 +5325,11 @@
         "move": 900,
         "movePercentage": 0.28,
         "perception": 80,
+        "skillAttribute": [
+          "出手速度+900",
+          "出手速度+28%",
+          "感知+80"
+        ],
         "checked": false
       },
       {
@@ -4717,15 +5339,22 @@
           740,
           740
         ],
+        "skillAttribute": [
+          "锤子武器伤害+150%",
+          "魔法穿透+740",
+          "魔法穿透+740"
+        ],
         "checked": false
       },
       {
         "name": "魔法纹路",
         "intelligence": 90,
-        "skillAttribute": [
-          "法力吸收+130"
-        ],
         "mana": 900,
+        "skillAttribute": [
+          "智力+90",
+          "法力吸收+130",
+          "法力上限+900"
+        ],
         "checked": false
       },
       {
@@ -4733,6 +5362,11 @@
         "hammerWeaponDamage": 1.5,
         "hammerAttackTimes": 2,
         "deadly": 130,
+        "skillAttribute": [
+          "锤子武器伤害+150%",
+          "锤子攻次+2",
+          "致命点+130"
+        ],
         "checked": false
       },
       {
@@ -4740,6 +5374,11 @@
         "chopDefense": 3600,
         "punctureDefense": 3600,
         "block": 175,
+        "skillAttribute": [
+          "劈砍防御力+3600",
+          "穿刺防御力+3600",
+          "格挡+175"
+        ],
         "checked": false
       },
       {
@@ -4747,6 +5386,11 @@
         "dodge": 65,
         "magicDefense": 900,
         "insight": 180,
+        "skillAttribute": [
+          "躲闪+65",
+          "魔法防御力+900",
+          "洞察+180"
+        ],
         "checked": false
       },
       {
@@ -4754,6 +5398,11 @@
         "manaShield": 1700,
         "damageReduction": 95,
         "block": 165,
+        "skillAttribute": [
+          "法力护盾+1700",
+          "伤害减免+95",
+          "格挡+165"
+        ],
         "checked": false
       },
       {
@@ -4761,6 +5410,11 @@
         "damageReduction": 95,
         "block": 165,
         "constitution": 80,
+        "skillAttribute": [
+          "伤害减免+95",
+          "格挡+165",
+          "体质+80"
+        ],
         "checked": false
       },
       {
@@ -4768,6 +5422,11 @@
         "manaShieldPercentage": 0.28,
         "state": 76,
         "basicHP": 900,
+        "skillAttribute": [
+          "法力护盾+28%",
+          "状态抵抗+76",
+          "生命上限+900"
+        ],
         "checked": false
       },
       {
@@ -4775,6 +5434,11 @@
         "chopDefense": 3600,
         "damageReduction": 95,
         "state": 76,
+        "skillAttribute": [
+          "劈砍防御力+3600",
+          "伤害减免+95",
+          "状态抵抗+76"
+        ],
         "checked": false
       },
       {
@@ -4782,6 +5446,11 @@
         "punctureDefense": 3600,
         "damageReduction": 95,
         "state": 76,
+        "skillAttribute": [
+          "穿刺防御力+3600",
+          "伤害减免+95",
+          "状态抵抗+76"
+        ],
         "checked": false
       },
       {
@@ -4791,6 +5460,8 @@
           900
         ],
         "skillAttribute": [
+          "生命上限+900",
+          "生命上限+900",
           "生命吸收+400"
         ],
         "checked": false
@@ -4800,6 +5471,11 @@
         "dodge": 65,
         "HPRecovery": 370,
         "constitution": 80,
+        "skillAttribute": [
+          "躲闪+65",
+          "每回合自动恢复生命+370",
+          "体质+80"
+        ],
         "checked": false
       }
     ],
@@ -4845,7 +5521,7 @@
         "attackMode": "祝福",
         "range": "自身",
         "armsLimitation": "轻锤、重锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       },
       {
         "name": "恶灵封散诀",
@@ -4902,7 +5578,7 @@
         "attackMode": "诅咒攻击",
         "range": "敌前后两人",
         "armsLimitation": "轻锤、重锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       },
       {
         "name": "绝技-星锤散漫",
@@ -5001,7 +5677,7 @@
         "attackMode": "祝福",
         "range": "我上下两人",
         "armsLimitation": "轻锤、重锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       }
     ],
     "automatic": [
@@ -5116,7 +5792,7 @@
         "attackMode": "魔法攻击",
         "range": "敌上下四人",
         "armsLimitation": "轻型锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       },
       {
         "name": "魔纹充能",
@@ -5145,7 +5821,7 @@
         "attackMode": "魔法攻击",
         "range": "敌十字",
         "armsLimitation": "重型锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       },
       {
         "name": "静电作用",
@@ -5160,7 +5836,7 @@
         "attackMode": "祝福",
         "range": "敌上下五人",
         "armsLimitation": "轻锤,重锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       },
       {
         "name": "统合雷魔咒",
@@ -5175,7 +5851,7 @@
         "attackMode": "魔法攻击",
         "range": "敌六人长方",
         "armsLimitation": "轻锤,重锤",
-        "special": "exclusive"
+        "special": "锤师职业认证专属"
       }
     ]
   },
@@ -5184,9 +5860,14 @@
     "passive": [
       {
         "name": "飓风侵蚀",
-        "magicPenetration": 720,
+        "magicPenetration": 740,
         "magicPenetrationPercentage": 0.42,
         "mana": 900,
+        "skillAttribute": [
+          "魔法穿透+740",
+          "魔法穿透+42%",
+          "法力上限+900"
+        ],
         "checked": false
       },
       {
@@ -5194,6 +5875,11 @@
         "magicHit": 85,
         "ignoreDamageReduction": 125,
         "ignoreMagicFeedback": 170,
+        "skillAttribute": [
+          "魔法命中+85",
+          "无视伤害减免+125",
+          "无视魔法反馈+170"
+        ],
         "checked": false
       },
       {
@@ -5203,6 +5889,11 @@
           82
         ],
         "mana": 900,
+        "skillAttribute": [
+          "魔法命中+85",
+          "法力上限+900",
+          "魔法命中+82"
+        ],
         "checked": false
       },
       {
@@ -5210,6 +5901,11 @@
         "manaShield": 900,
         "mana": 900,
         "manaPercentage": 0.23,
+        "skillAttribute": [
+          "法力护盾+900",
+          "法力上限+900",
+          "法力+23%"
+        ],
         "checked": false
       },
       {
@@ -5217,6 +5913,11 @@
         "fanWeaponDamage": 1.5,
         "magicPercentage": 0.28,
         "magicPenetration": 720,
+        "skillAttribute": [
+          "扇子武器伤害+150%",
+          "魔法攻击+28%",
+          "魔法穿透+720"
+        ],
         "checked": false
       },
       {
@@ -5224,6 +5925,11 @@
         "fanWeaponDamage": 1.5,
         "fanAttackTimes": 3,
         "magic": 430,
+        "skillAttribute": [
+          "扇子武器伤害+150%",
+          "扇子攻击次数+3",
+          "魔法攻击力+430"
+        ],
         "checked": false
       },
       {
@@ -5233,6 +5939,11 @@
           1.3
         ],
         "fanAttackTimes": 2,
+        "skillAttribute": [
+          "扇子武器伤害+150%",
+          "扇子武器伤害+130%",
+          "扇子攻击次数+2"
+        ],
         "checked": false
       },
       {
@@ -5240,6 +5951,11 @@
         "ignoreMagicFeedback": 170,
         "disregardState": 150,
         "ignoreInsight": 160,
+        "skillAttribute": [
+          "无视魔法反馈+170",
+          "无视状态抵抗+150",
+          "无视洞察+160"
+        ],
         "checked": false
       },
       {
@@ -5247,6 +5963,11 @@
         "fanAttackTimes": 3,
         "magic": 450,
         "mana": 900,
+        "skillAttribute": [
+          "扇子攻击次数+3",
+          "魔法攻击+450",
+          "法力上限+900"
+        ],
         "checked": false
       },
       {
@@ -5254,6 +5975,11 @@
         "manaShield": 1400,
         "manaShieldPercentage": 0.6,
         "manaRegeneration": 1300,
+        "skillAttribute": [
+          "法力护盾+1400",
+          "法力护盾+60%",
+          "每回合自动恢复法力+1300"
+        ],
         "checked": false
       },
       {
@@ -5261,6 +5987,11 @@
         "ignoreInsight": 150,
         "ignoreMagicFeedback": 220,
         "intelligence": 90,
+        "skillAttribute": [
+          "无视洞察+150",
+          "无视魔法反馈+220",
+          "智力+90"
+        ],
         "checked": false
       }
     ],
@@ -5292,7 +6023,7 @@
         "attackMode": "诅咒攻击",
         "range": "敌前后两人",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "攻击间隙",
@@ -5405,7 +6136,7 @@
         "attackMode": "诅咒攻击",
         "range": "敌上下五人",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "复苏之风",
@@ -5420,7 +6151,7 @@
         "attackMode": "祝福",
         "range": "我单体",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "黑风斩",
@@ -5435,7 +6166,7 @@
         "attackMode": "魔法攻击",
         "range": "敌前后两人",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "舞之束",
@@ -5464,7 +6195,7 @@
         "attackMode": "诅咒攻击",
         "range": "敌单体",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "倾舞岚成",
@@ -5493,7 +6224,7 @@
         "attackMode": "祝福",
         "range": "自身",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       }
     ],
     "automatic": [
@@ -5524,7 +6255,7 @@
         "attackMode": "祝福",
         "range": "我上下两人",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "幻想灵风",
@@ -5553,7 +6284,7 @@
         "attackMode": "诅咒攻击",
         "range": "敌前后两人",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       },
       {
         "name": "魔力衰弱",
@@ -5624,7 +6355,7 @@
         "attackMode": "祝福",
         "range": "我前后两人",
         "armsLimitation": "扇",
-        "special": "exclusive"
+        "special": "岚舞职业认证专属"
       }
     ]
   }
