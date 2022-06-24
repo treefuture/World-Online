@@ -1,0 +1,6350 @@
+{
+  "战士": "warrior",
+  "warrior": {
+    "passive": [
+      {
+        "name": "武器大师",
+        "swordWeaponDamage": 100,
+        "sabreWeaponDamage": 100,
+        "heavyWeaponDamage": 100,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+100%",
+          "刀类伤害、耐久+100%",
+          "重型武器伤害、耐久+100%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "军事专家",
+        "longHandleWeaponDamage": 104,
+        "long-rangeWeaponDamage": 104,
+        "skillAttribute": [
+          "长柄武器伤害、耐久+104%",
+          "远程武器伤害、耐久+104%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "武器娴熟",
+        "hit": 91,
+        "attackTimes": 3,
+        "skillAttribute": [
+          "命中+91",
+          "攻击次数+3",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "精确打击",
+        "hit": 91,
+        "forcedHit": 6,
+        "skillAttribute": [
+          "命中+91",
+          "基础强制命中率+6",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "防守反击",
+        "block": 145,
+        "counterattack": 145,
+        "skillAttribute": [
+          "格挡+145",
+          "反击+145",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "攻守兼备",
+        "basicChopAttack": 600,
+        "basicPuncture": 600,
+        "dodge": 31,
+        "skillAttribute": [
+          "劈砍攻击力+600",
+          "穿刺攻击力+600",
+          "躲闪+31"
+        ],
+        "checked": false
+      },
+      {
+        "name": "条件反射",
+        "move": 300,
+        "dodge": 85,
+        "skillAttribute": [
+          "出手速度+300",
+          "躲闪+85",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "闪避",
+        "dodge": 85,
+        "dodgePercentage": 20,
+        "skillAttribute": [
+          "躲闪+85",
+          "躲闪+20%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "统御之力",
+        "powerPercentage": 20,
+        "power": 40,
+        "basicHP": 810,
+        "skillAttribute": [
+          "力量+20%",
+          "力量+40",
+          "生命上限+810"
+        ],
+        "checked": false
+      },
+      {
+        "name": "精通重击",
+        "deadly": 95,
+        "deadlyPercentage": 18,
+        "skillAttribute": [
+          "致命点+95",
+          "致命率+18%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "精通反击",
+        "counterattack": 90,
+        "counterattackPercentage": 16,
+        "skillAttribute": [
+          "反击+90",
+          "反击+16%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "钢铁意志",
+        "state": 105,
+        "magicDefense": 450,
+        "skillAttribute": [
+          "状态抵抗+105",
+          "魔法防御力+450",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "健壮身躯",
+        "constitution": 65,
+        "bloodVolumePercentage": 38,
+        "damageReduction": 55,
+        "skillAttribute": [
+          "体质+65",
+          "生命上限+38%",
+          "伤害减免+55"
+        ],
+        "checked": false
+      },
+      {
+        "name": "体能训练",
+        "constitution": 65,
+        "power": 50,
+        "bloodVolumePercentage": 27,
+        "skillAttribute": [
+          "体质+65",
+          "力量+50",
+          "生命上限+27%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "战争艺术",
+        "basicChopAttackPercentage": 56,
+        "basicPuncturePercentage": 56,
+        "skillAttribute": [
+          "劈砍攻击力+56%",
+          "穿刺攻击力+56%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "远程武器专精",
+        "long-rangeWeaponDamage": 1,
+        "long-rangeAttackTimes": 3,
+        "hit": 30,
+        "skillAttribute": [
+          "远程武器伤害、耐久+100%",
+          "用远程武器时攻击次数+3",
+          "命中+30"
+        ],
+        "checked": false
+      },
+      {
+        "name": "重型武器专精",
+        "heavyWeaponDamage": 104,
+        "deadly": 56,
+        "skillAttribute": [
+          "重型武器伤害、耐久+104%",
+          "致命点+56",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "长柄武器专精",
+        "longHandleWeaponDamage": 104,
+        "armourBreaking": 600,
+        "skillAttribute": [
+          "长柄武器伤害、耐久+104%",
+          "破甲+600",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "擅长军事防具",
+        "chopDefense": 4000,
+        "punctureDefense": 4000,
+        "magicDefense": 4000,
+        "skillAttribute": [
+          "劈砍防御力+4000",
+          "穿刺防御力+4000",
+          "魔法防御力+4000"
+        ],
+        "special": "国家战士技能所专属",
+        "checked": false
+      },
+      {
+        "name": "精通破甲",
+        "armourBreaking": 700,
+        "armourBreakingPercentage": 36,
+        "skillAttribute": [
+          "破甲+700",
+          "破甲+36%",
+          "无"
+        ],
+        "special": "国家战士技能所专属",
+        "checked": false
+      },
+      {
+        "name": "防御战术(穿刺-最高20)",
+        "punctureDefensePercentage": 40,
+        "punctureDefense": 450,
+        "skillAttribute": [
+          "受到穿刺攻击时,所携带宠物50%几率为其承受伤害",
+          "穿刺防御力+40%",
+          "穿刺防御力+450"
+        ],
+        "special": "国家战士技能所专属",
+        "checked": false
+      },
+      {
+        "name": "防御战术(劈砍-最高20)",
+        "chopDefensePercentage": 40,
+        "chopDefense": 450,
+        "skillAttribute": [
+          "受到劈砍攻击时,所携带宠物50%几率为其承受伤害",
+          "劈砍防御力+40%",
+          "劈砍防御力+450"
+        ],
+        "special": "国家战士技能所专属",
+        "checked": false
+      },
+      {
+        "name": "重战士训练",
+        "chopDefense": 4000,
+        "punctureDefense": 4000,
+        "magicDefense": 4000,
+        "skillAttribute": [
+          "劈砍防御力+4000",
+          "穿刺防御力+4000",
+          "魔法防御力+4000"
+        ],
+        "special": "战士职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "武器对抗技巧",
+        "ignoreDamageReduction": 125,
+        "ignorecounterattack": 125,
+        "skillAttribute": [
+          "无视伤害减免+125",
+          "无视反击+125",
+          "无"
+        ],
+        "special": "战士职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "强化训练",
+        "power": 50,
+        "agile": 50,
+        "skillAttribute": [
+          "力量+50",
+          "敏捷+50",
+          "无"
+        ],
+        "special": "战士职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "第六感(装备技能)",
+        "power": 90,
+        "deadlyPercentage": 33,
+        "hitPercentage": 33,
+        "skillAttribute": [
+          "力量+90",
+          "致命率+33%",
+          "命中率+33%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "要害攻击技巧",
+        "ignorecounterattack": 137,
+        "longHandleWeaponDamage": 22,
+        "long-rangeWeaponDamage": 22,
+        "skillAttribute": [
+          "无视反击+137",
+          "长柄武器伤害、耐久+22%",
+          "远程武器伤害、耐久+22%"
+        ],
+        "special": "战士职业认证专属",
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "全力防守",
+        "skillAttribute": [
+          "劈砍防御力+10200",
+          "穿刺防御力+10200",
+          "格挡+570,属性增加"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "160法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "以静制动",
+        "skillAttribute": [
+          "状态抵抗+516",
+          "伤害减免+325,免疫封技",
+          "强制命中率+13"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "473法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "战神降临",
+        "skillAttribute": [
+          "破甲+2400",
+          "致命值+516",
+          "状态抵抗+516"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "完全狂暴",
+        "skillAttribute": [
+          "攻击次数+6",
+          "造成最大生命值-7%的伤害,免疫定身",
+          "致命值+175"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "55法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "斩击",
+        "skillAttribute": [
+          "造成最大生命值-12%的伤害,流血",
+          "附带命中-127",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 2,
+        "skillConsumption": "253法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "空手,剑类,刀类,重型武器,长柄武器"
+      },
+      {
+        "name": "舍身一击",
+        "skillAttribute": [
+          "附加强制命中率+83%",
+          "目标格挡值-360",
+          "无视目标+516点物理防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手,剑类,刀类,重型武器,长柄武器"
+      },
+      {
+        "name": "碎骨打击",
+        "skillAttribute": [
+          "躲闪-516",
+          "出手速度-516",
+          "无"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌正方",
+        "armsLimitation": "重剑,重刀,重型武器,长柄武器"
+      },
+      {
+        "name": "英勇打击",
+        "skillAttribute": [
+          "目标反击值-516",
+          "目标格挡值-516",
+          "目标伤害减免值-516"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌正方",
+        "armsLimitation": "重剑,重刀,重型武器,长柄武器"
+      },
+      {
+        "name": "连续打击",
+        "skillAttribute": [
+          "附带伤害+516",
+          "无",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 4,
+        "skillConsumption": "253法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌正方",
+        "armsLimitation": "重剑,重刀,重型武器,长柄武器"
+      },
+      {
+        "name": "破甲攻击",
+        "skillAttribute": [
+          "劈砍防御力-2440",
+          "穿刺防御力-2440",
+          "无视目标2440点物理防御"
+        ],
+        "round": 8,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌正方",
+        "armsLimitation": "重剑,重刀,重型武器,长柄武器"
+      },
+      {
+        "name": "霸王枪法",
+        "skillAttribute": [
+          "附带伤害+770",
+          "技能附带无视目标350伤害减免",
+          "技能附带无视目标350反击"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 3,
+        "skillConsumption": "500法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌六人长方(20级上下五人)",
+        "armsLimitation": "长柄武器"
+      },
+      {
+        "name": "长枪突刺",
+        "skillAttribute": [
+          "附带致命点+338",
+          "技能附带无视目标602格挡",
+          "无视目标5120点物理防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 5,
+        "skillConsumption": "264法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "长柄武器"
+      },
+      {
+        "name": "冲锋",
+        "skillAttribute": [
+          "技能附带无视目标602格挡",
+          "技能附带无视目标602反击",
+          "无视目标5120点物理防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌十字",
+        "armsLimitation": "长柄武器"
+      },
+      {
+        "name": "旋风斩",
+        "skillAttribute": [
+          "技能附带无视目标228格挡",
+          "反击-151,封技",
+          "无"
+        ],
+        "round": 2,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "253法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻剑,轻刀"
+      },
+      {
+        "name": "瞄准射击",
+        "skillAttribute": [
+          "技能附带物理命中+266",
+          "目标反击值-602",
+          "目标格挡值-602"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "160法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "轻弩,重弩,弓"
+      },
+      {
+        "name": "扰乱射击",
+        "skillAttribute": [
+          "命中率-60%",
+          "躲闪-60%,属性减少",
+          "目标反击值-516"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 1,
+        "skillConsumption": "160法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻弩,重弩,弓"
+      },
+      {
+        "name": "反击风暴",
+        "skillAttribute": [
+          "反击+360,免疫定身",
+          "反击+47%,免疫封技",
+          "伤害减免+325"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "160法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "单手剑双持限制"
+      },
+      {
+        "name": "顺势斩",
+        "skillAttribute": [
+          "技能附带伤害+516",
+          "技能附带物理命中+96",
+          "目标反击值-360"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "253法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌上下五人",
+        "armsLimitation": "刀类武器限制"
+      },
+      {
+        "name": "全力招架",
+        "skillAttribute": [
+          "格挡+47%",
+          "格挡+360,全减益免疫",
+          "格挡+360"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "160法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "单手刀双持限制"
+      },
+      {
+        "name": "雷霆一击",
+        "skillAttribute": [
+          "附带伤害+602",
+          "出手速度-70%",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌正方",
+        "armsLimitation": "重型武器"
+      },
+      {
+        "name": "破釜沉舟",
+        "skillAttribute": [
+          "附加强制命中率+97",
+          "技能附带无视目标338反击",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": -1,
+        "skillConsumption": "116法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌单体",
+        "armsLimitation": "重型武器"
+      },
+      {
+        "name": "多重射击",
+        "skillAttribute": [
+          "附带伤害+602",
+          "技能附带无视目标602反击",
+          "技能附带无视目标602伤害减免"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 7,
+        "skillConsumption": "160法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌十字",
+        "armsLimitation": "轻弩双持限制"
+      },
+      {
+        "name": "寒冰箭",
+        "skillAttribute": [
+          "技能附带无视目标348反击",
+          "命中-144,定身",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "800法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "弓",
+        "special": "国家战士技能所专属"
+      },
+      {
+        "name": "烈炎箭",
+        "skillAttribute": [
+          "造成-570伤害",
+          "造成最大生命值-11%的伤害,火烧",
+          "技能附带无视目标348反击"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "800法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌十字",
+        "armsLimitation": "弓",
+        "special": "国家战士技能所专属"
+      },
+      {
+        "name": "大地一击",
+        "skillAttribute": [
+          "目标反击值-530",
+          "目标格挡值-530",
+          "目标伤害减免值-530"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 1,
+        "skillConsumption": "590法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "重型武器",
+        "special": "国家战士技能所专属"
+      },
+      {
+        "name": "破甲射击",
+        "skillAttribute": [
+          "无视目标4500点物理防御",
+          "技能附带无视目标348反击",
+          "技能附带无视目标516格挡"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 2,
+        "skillConsumption": "160法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "轻弩,重弩,弓",
+        "special": "国家战士技能所专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "战斗怒吼",
+        "skillAttribute": [
+          "劈砍攻击力+40%,属性增加",
+          "穿刺攻击力+40%,属性增加",
+          "命中率+26%"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "战术补给",
+        "skillAttribute": [
+          "回复546生命",
+          "回复最大生命值4%生命",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "挫志怒吼",
+        "skillAttribute": [
+          "伤害减免-156",
+          "劈砍防御力-1262",
+          "穿刺防御力-1262"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "破胆怒吼",
+        "skillAttribute": [
+          "状态抵抗值-350",
+          "伤害减免-350",
+          "清除目标属性增加状态"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "狂暴姿态",
+        "skillAttribute": [
+          "造成最大生命值-15%的伤害,全减益免疫",
+          "伤害减免+430",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "战斗姿态",
+        "skillAttribute": [
+          "格挡+26%,免疫封技",
+          "命中率+26%",
+          "致命率+26%"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "反击姿态",
+        "skillAttribute": [
+          "反击+260,免疫定身",
+          "反击+26%,属性增加",
+          "伤害减免+260"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "116法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "射击姿态",
+        "skillAttribute": [
+          "命中+85",
+          "命中率+26%",
+          "远程武器时攻击次数+2"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "319法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "轻弩,重弩"
+      },
+      {
+        "name": "先制攻击",
+        "skillAttribute": [
+          "技能附带无视目标100反击",
+          "附带命中-14",
+          "技能附带无视目标260伤害減免"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "弓"
+      },
+      {
+        "name": "大量装填",
+        "skillAttribute": [
+          "远程武器时攻击次数+8",
+          "致命值+81",
+          "破甲+2200"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "341法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "轻弩双持限制",
+        "special": "国家战士技能所专属"
+      }
+    ]
+  },
+  "侠客": "swordsman",
+  "swordsman": {
+    "passive": [
+      {
+        "name": "逍遥剑法",
+        "swordWeaponDamage": 65,
+        "swordAttackTimes": 3,
+        "dodge": 50,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+65%",
+          "用剑时攻击次数+3",
+          "躲闪+50"
+        ],
+        "checked": false
+      },
+      {
+        "name": "紫电神功",
+        "agile": 70,
+        "agilePercentage": 26,
+        "movePercentage": 40,
+        "skillAttribute": [
+          "敏捷+70",
+          "出手速度+40%",
+          "敏捷+26%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "鬼影身法",
+        "agilePercentage": 35,
+        "hitPercentage": 30,
+        "dodge": 50,
+        "skillAttribute": [
+          "敏捷+35%",
+          "命中率+30%",
+          "躲闪+50"
+        ],
+        "checked": false
+      },
+      {
+        "name": "熊象巨力功",
+        "power": 75,
+        "powerPercentage": 40,
+        "skillAttribute": [
+          "力量+75",
+          "力量+40%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "易筋经",
+        "constitution": 75,
+        "bloodVolumePercentage": 40,
+        "basicHP": 700,
+        "skillAttribute": [
+          "体质+75",
+          "生命上限+40%",
+          "生命上限+700"
+        ],
+        "checked": false
+      },
+      {
+        "name": "九霄真经",
+        "intelligence": 75,
+        "manaPercentage": 45,
+        "skillAttribute": [
+          "智力+75",
+          "法力上限+45%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "般若心经",
+        "perception": 80,
+        "statePercentage": 60,
+        "skillAttribute": [
+          "感知+80",
+          "基础状态抵抗+60%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "先天罡气",
+        "basicHP": 890,
+        "bloodVolumePercentage": 45,
+        "damageReduction": 65,
+        "skillAttribute": [
+          "生命上限+890",
+          "生命上限+45%",
+          "伤害减免+65"
+        ],
+        "checked": false
+      },
+      {
+        "name": "先天无相神功",
+        "deadly": 80,
+        "mana": 700,
+        "skillAttribute": [
+          "致命值+80",
+          "法力上限+700",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "天蚕功",
+        "HPRecovery": 500,
+        "state": 160,
+        "magicDefense": 400,
+        "skillAttribute": [
+          "每回合自动恢复生命+500",
+          "状态抵抗值+160",
+          "魔法防御力+400"
+        ],
+        "checked": false
+      },
+      {
+        "name": "九阳神功",
+        "manaRegeneration": 500,
+        "damageReduction": 65,
+        "basicHP": 700,
+        "skillAttribute": [
+          "每回合自动恢复法力+500",
+          "伤害减免+65",
+          "生命上限+700"
+        ],
+        "checked": false
+      },
+      {
+        "name": "龙象般若功",
+        "mana": 400,
+        "manaPercentage": 50,
+        "magicDefense": 560,
+        "skillAttribute": [
+          "法力上限+400",
+          "法力上限+50%",
+          "魔法防御力+560"
+        ],
+        "checked": false
+      },
+      {
+        "name": "北冥神功",
+        "basicHP": 700,
+        "skillAttribute": [
+          "法力吸收+196",
+          "生命吸收+196",
+          "生命上限+700"
+        ],
+        "checked": false
+      },
+      {
+        "name": "金刚不坏神功",
+        "damageReduction": 85,
+        "counterattack": 125,
+        "basicHP": 700,
+        "skillAttribute": [
+          "伤害减免+85",
+          "反击+125",
+          "生命上限+700"
+        ],
+        "checked": false
+      },
+      {
+        "name": "基础掌法",
+        "empty-handedWeaponDamage": 151,
+        "hit": 151,
+        "power": 0.19,
+        "skillAttribute": [
+          "空手伤害+151%",
+          "命中+151",
+          "力量+19%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "两仪八卦掌",
+        "empty-handedWeaponDamage": 151,
+        "empty-handedAttackTimes": 3,
+        "hit": 151,
+        "skillAttribute": [
+          "空手伤害+151%",
+          "空手时攻击次数+3",
+          "命中+151"
+        ],
+        "checked": false
+      },
+      {
+        "name": "基础刀法",
+        "sabreWeaponDamage": 110,
+        "deadly": 60,
+        "skillAttribute": [
+          "刀类伤害、耐久+110%",
+          "命中+60",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "飞天御剑流",
+        "sabreWeaponDamage": 65,
+        "sabreWeaponDamageAttackTimes": 3,
+        "deadly": 70,
+        "skillAttribute": [
+          "刀类伤害、耐久+65%",
+          "用刀时攻击次数+3",
+          "致命点+70"
+        ],
+        "checked": false
+      },
+      {
+        "name": "基础剑法",
+        "swordWeaponDamage": 65,
+        "hit": 80,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+65%",
+          "命中+80",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "驯兽战斗",
+        "skillAttribute": [
+          "受到攻击时,所携带宠物30%几率为其承受伤害",
+          "宠物体质+30%",
+          "宠物生命上限+30%"
+        ],
+        "special": "国家侠客技能所专属",
+        "checked": false
+      },
+      {
+        "name": "烈阳决",
+        "ignoreDamageReduction": 125,
+        "ignoreBlock": 125,
+        "deadly": 72,
+        "skillAttribute": [
+          "无视伤害减免+125",
+          "无视格挡+125",
+          "致命+72"
+        ],
+        "special": "侠客职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "浩然正气",
+        "basicHP": 890,
+        "bloodVolumePercentage": 22,
+        "constitution": 65,
+        "skillAttribute": [
+          "生命上限+890",
+          "生命上限+22%",
+          "体质+65"
+        ],
+        "special": "国家侠客技能所专属",
+        "checked": false
+      },
+      {
+        "name": "轩辕惊天诀",
+        "deadly": 72,
+        "damageReduction": 72,
+        "armourBreakingPercentage": 24,
+        "skillAttribute": [
+          "致命点+72",
+          "伤害减免+72",
+          "破甲+24%"
+        ],
+        "special": "国家侠客技能所专属",
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "狂风快剑",
+        "skillAttribute": [
+          "技能附带无视目标360反击",
+          "技能附带无视目标360伤害减免",
+          "技能附带无视目标360格挡"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 6,
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "轻剑,轻刀"
+      },
+      {
+        "name": "北冥神功",
+        "skillAttribute": [
+          "燃烧目标-1260的法力",
+          "附带命中+240",
+          "技能附带回复+583法力"
+        ],
+        "round": "5",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "485生命",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "吸星大法",
+        "skillAttribute": [
+          "造成-1260伤害",
+          "附带命中+240",
+          "技能附带回复+583生命"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "化功大法",
+        "skillAttribute": [
+          "扣除最大法力值29%",
+          "技能附带命中+240",
+          "法力-1260"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "534法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "惊神指",
+        "skillAttribute": [
+          "技能附带无视目标660反击",
+          "出手速度-980",
+          "无视目标5300点物理防御"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "534法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手或单手持武器"
+      },
+      {
+        "name": "金刚指",
+        "skillAttribute": [
+          "附带伤害+4500",
+          "技能附带无视目标660伤害减免",
+          "无视目标4700点物理防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "空手或单手持武器"
+      },
+      {
+        "name": "九阳神剑",
+        "skillAttribute": [
+          "附带伤害+2190",
+          "无视目标2800点物理防御",
+          "伤害減免-280"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "534法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌正方",
+        "armsLimitation": "空手或单手持武器"
+      },
+      {
+        "name": "六脉神剑",
+        "skillAttribute": [
+          "附带伤害+2190",
+          "出手速度-980",
+          "攻击次数-7,封技"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "534法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手或单手持武器"
+      },
+      {
+        "name": "一阳指",
+        "skillAttribute": [
+          "附带致命点+359",
+          "附带伤害+4500",
+          "无视目标4500点物理防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手或单手持武器"
+      },
+      {
+        "name": "寒冰绵掌",
+        "skillAttribute": [
+          "命中-546",
+          "躲闪-54",
+          "魔法命中-546"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "赤练神掌",
+        "skillAttribute": [
+          "造成最大生命值12%的伤害",
+          "扣除最大法力值12%",
+          "目标反击值-553"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "55法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "降龙十八掌",
+        "skillAttribute": [
+          "附带命中+500",
+          "技能附带无视目标705反击",
+          "技能附带无视目标500格挡"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "300法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "飘雪穿云掌",
+        "skillAttribute": [
+          "劈砍防御力-6600",
+          "穿刺防御力-6600",
+          "无视目标+5300点物理防御"
+        ],
+        "round": 8,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "100法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "落英神剑掌",
+        "skillAttribute": [
+          "技能附带无视目标660反击",
+          "技能附带无视目标660伤害减免",
+          "附带命中+280"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 7,
+        "skillConsumption": "110法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "火云掌",
+        "skillAttribute": [
+          "造成-1470伤害",
+          "附带致命点+280",
+          "附带命中+280"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 1,
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌正方",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "摧心掌",
+        "skillAttribute": [
+          "造成-910伤害回复",
+          "附带命中+280",
+          "无视目标5300点物理防御"
+        ],
+        "round": 9,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "55法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌十字",
+        "armsLimitation": "空手"
+      },
+      {
+        "name": "挽留神剑",
+        "skillAttribute": [
+          "躲闪-372",
+          "技能附带无视目标415伤害減免",
+          "技能附带无视目标240反击,定身"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "单手剑限制"
+      },
+      {
+        "name": "月冷星寒剑",
+        "skillAttribute": [
+          "命中率-24%",
+          "技能附带无视目标240格挡",
+          "攻击次数-6"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "单手剑双持限制"
+      },
+      {
+        "name": "长空十字剑",
+        "skillAttribute": [
+          "附带伤害+3060",
+          "附带命中+48",
+          "技能附带无视目标240伤害减免"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 3,
+        "skillConsumption": "534法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌十字",
+        "armsLimitation": "单手剑双持限制"
+      },
+      {
+        "name": "破体无形剑气",
+        "skillAttribute": [
+          "无视目标2270点物理防御",
+          "技能附带无视目标360反击",
+          "技能附带无视目标240格挡"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "重剑武器限制"
+      },
+      {
+        "name": "天翔龙闪",
+        "skillAttribute": [
+          "附带致命点+240",
+          "附加强制命中率+36%",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "534法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "刀类武器限制"
+      },
+      {
+        "name": "天魔邪刀追魂五式",
+        "skillAttribute": [
+          "目标反击值-385",
+          "法力-600,封魔(20级状态为流血)",
+          "扣除最大法力值13%"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 5,
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌单体",
+        "armsLimitation": "刀类武器限制"
+      },
+      {
+        "name": "绝情双刀",
+        "skillAttribute": [
+          "目标反击值-240",
+          "无视目标+3000点物理防御",
+          "目标伤害减免值-240"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 3,
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "刀类武器限制"
+      },
+      {
+        "name": "回天剑舞一连",
+        "skillAttribute": [
+          "技能附带伤害+3060",
+          "目标伤害減免值-30",
+          "无视目标3000点物理防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 7,
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌十字",
+        "armsLimitation": "单手刀双持限制"
+      },
+      {
+        "name": "伏魔金刚刀",
+        "skillAttribute": [
+          "无视目标4500点物理防御",
+          "附带致命点+199",
+          "技能附带无视目标430反击"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 3,
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌单体",
+        "armsLimitation": "重刀武器限制"
+      },
+      {
+        "name": "月华乱神剑",
+        "skillAttribute": [
+          "技能附带无视目标240格挡",
+          "燃烧最大法力值-12%的法力,禁言",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 1,
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "剑类武器限制"
+      },
+      {
+        "name": "御剑术",
+        "skillAttribute": [
+          "无视目标2890点物理防御",
+          "附带命中+65",
+          "技能附带无视目标240反击"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "剑类武器限制"
+      },
+      {
+        "name": "万剑诀",
+        "skillAttribute": [
+          "附加强制命中率+24%",
+          "目标反击值-240",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "534法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "剑类武器限制"
+      },
+      {
+        "name": "血光刀气",
+        "skillAttribute": [
+          "技能附带+300生命吸收",
+          "造成-780伤害",
+          "技能附带无视目标360伤害減免"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌十字",
+        "armsLimitation": "单手刀限制"
+      },
+      {
+        "name": "毒龙狂乱剑",
+        "skillAttribute": [
+          "生命-1260,中毒",
+          "附带生命吸收+9.6%",
+          "技能附带无视目标240伤害减免"
+        ],
+        "round": 4,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "330法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "单手剑双持限制",
+        "special": "国家侠客技能所专属"
+      },
+      {
+        "name": "灵犀一指",
+        "skillAttribute": [
+          "攻击次数-8",
+          "附带命中+210",
+          "强制命中率-26,衰弱"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 5,
+        "skillConsumption": "350法力",
+        "attackMode": "诅咒",
+        "range": "敌前后两人",
+        "armsLimitation": "空手",
+        "special": "侠客职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "金刚不坏体",
+        "skillAttribute": [
+          "反击+240",
+          "伤害减免+240",
+          "劈砍防御力+2400"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "330法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "乾坤大挪移",
+        "skillAttribute": [
+          "魔法反馈+365,属性增加",
+          "状态抵抗+365",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "330法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "快满九字诀",
+        "skillAttribute": [
+          "致命值+430",
+          "破甲+2800",
+          "无"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "虎伏绝刀势",
+        "skillAttribute": [
+          "劈砍攻击力+2200",
+          "破甲+3650",
+          "劈砍攻击力+22%"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "天罗地网势",
+        "skillAttribute": [
+          "命中+345",
+          "强制命中率+12",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "降龙伏虎气",
+        "skillAttribute": [
+          "法力护盾+2800",
+          "魔法防御力+4500",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "仙风云体术",
+        "skillAttribute": [
+          "出手速度+1120",
+          "出手速度+63%，免疫定身",
+          "无"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "醉仙望月步",
+        "skillAttribute": [
+          "躲闪+546,免疫混乱",
+          "躲闪+50%",
+          "洞察+220"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "隐秘步法-空蝉",
+        "skillAttribute": [
+          "出手速度+240",
+          "躲闪+215",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "319法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "武当八卦步",
+        "skillAttribute": [
+          "状态抵抗+280",
+          "魔法防御力+2800",
+          "躲闪+325"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "纯阳无极功",
+        "skillAttribute": [
+          "回复1134生命",
+          "回复1134法力",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "891法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "三寸真元劲",
+        "skillAttribute": [
+          "穿刺攻击力+2200",
+          "破甲+3650",
+          "穿刺攻击力+22%，免疫封技"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "九阴碎骨劲",
+        "skillAttribute": [
+          "破甲+4500",
+          "劈砍攻击力+2200",
+          "破甲+22%"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "九阳真气",
+        "skillAttribute": [
+          "回复最大生命值+12%",
+          "回复最大法力值+14%",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "638法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "压制攻击",
+        "skillAttribute": [
+          "攻击次数-6",
+          "命中-260",
+          "魔法命中-260"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "220法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌当前生命最大者",
+        "armsLimitation": "轻剑,轻刀",
+        "special": "侠客职业认证专属"
+      },
+      {
+        "name": "万毒心经",
+        "skillAttribute": [
+          "造成-660伤害",
+          "附带命中+240",
+          "技能附带回复+583生命"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "440法力",
+        "attackMode": "诅咒",
+        "range": "敌全体",
+        "armsLimitation": "空手",
+        "special": "国家侠客技能所专属"
+      },
+      {
+        "name": "乾坤剑诀",
+        "skillAttribute": [
+          "用剑时攻击次数+7",
+          "躲闪+22%",
+          "破甲+22%"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "400法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "剑类武器限制",
+        "special": "侠客职业认证专属"
+      },
+      {
+        "name": "天霜拳",
+        "skillAttribute": [
+          "技能附带无视目标400反击",
+          "附带命中-55",
+          "躲闪-430"
+        ],
+        "round": "2",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "600法力",
+        "attackMode": "近身劈砍攻击",
+        "range": "敌当前生命最大者",
+        "armsLimitation": "空手",
+        "special": "侠客职业认证专属"
+      }
+    ]
+  },
+  "修真": "xiuZhen",
+  "xiuZhen": {
+    "passive": [
+      {
+        "name": "养生之道",
+        "mana": 900,
+        "basicHP": 900,
+        "constitution": 80,
+        "skillAttribute": [
+          "法力上限+900",
+          "生命上限+900",
+          "体质+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "灵性根基",
+        "mana": 900,
+        "intelligence": 80,
+        "basicHP": 900,
+        "skillAttribute": [
+          "法力上限+900",
+          "智力+80",
+          "生命上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "道法自然",
+        "mana": 900,
+        "perception": 80,
+        "manaRegeneration": 370,
+        "skillAttribute": [
+          "法力上限+900",
+          "感知+80",
+          "每回合自动恢复法力+370"
+        ],
+        "checked": false
+      },
+      {
+        "name": "炼气之术",
+        "mana": 900,
+        "manaPercentage": 23,
+        "manaRegeneration": 370,
+        "skillAttribute": [
+          "法力上限+900",
+          "法力上限+23%",
+          "每回合自动恢复法力+370"
+        ],
+        "checked": false
+      },
+      {
+        "name": "五行学术",
+        "magicHit": 70,
+        "magic": 400,
+        "skillAttribute": [
+          "魔法命中+70",
+          "魔法攻击力+400",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "五行真气",
+        "manaPercentage": 37,
+        "magicDefense": 700,
+        "manaRegeneration": 370,
+        "skillAttribute": [
+          "法力上限+37%",
+          "魔法防御力+700",
+          "每回合自动恢复法力+370"
+        ],
+        "checked": false
+      },
+      {
+        "name": "真元归一",
+        "manaShield": 1500,
+        "manaShieldPercentage": 28,
+        "basicHP": 505,
+        "skillAttribute": [
+          "法力护盾+1500",
+          "法力护盾+28%",
+          "生命上限+505"
+        ],
+        "checked": false
+      },
+      {
+        "name": "真元护体",
+        "manaShield": 800,
+        "manaShieldPercentage": 66,
+        "basicHP": 505,
+        "skillAttribute": [
+          "法力护盾+800",
+          "法力护盾+66%",
+          "生命上限+505"
+        ],
+        "checked": false
+      },
+      {
+        "name": "凝神归元",
+        "manaRegeneration": 370,
+        "magicHit": 66,
+        "mana": 900,
+        "skillAttribute": [
+          "每回合自动恢复法力+370",
+          "魔法命中+66",
+          "法力上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "五气朝元",
+        "manaRegeneration": 370,
+        "mana": 900,
+        "skillAttribute": [
+          "每回合自动恢复法力+370",
+          "基础法力吸收+370",
+          "法力上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "长生术",
+        "manaRegeneration": 370,
+        "basicHP": 900,
+        "constitution": 80,
+        "skillAttribute": [
+          "每回合自动恢复生命+370",
+          "生命上限+900",
+          "体质+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "阴阳调合",
+        "constitution": 80,
+        "intelligence": 80,
+        "skillAttribute": [
+          "体质+80",
+          "智力+80",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "五行之力",
+        "constitution": 80,
+        "power": 80,
+        "skillAttribute": [
+          "体质+80",
+          "力量+80",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "游龙身法",
+        "agile": 80,
+        "agilePercentage": 34,
+        "skillAttribute": [
+          "敏捷+80",
+          "敏捷+34%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "仙风体术",
+        "move": 700,
+        "dodge": 65,
+        "agile": 55,
+        "skillAttribute": [
+          "出手速度+700",
+          "躲闪+65",
+          "敏捷+55"
+        ],
+        "checked": false
+      },
+      {
+        "name": "火灵气修炼",
+        "magic": 900,
+        "magicHit": 66,
+        "skillAttribute": [
+          "魔法攻击力+900",
+          "魔法命中+66",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "水灵气修炼",
+        "magicDefense": 600,
+        "insight": 70,
+        "magicFeedback": 70,
+        "skillAttribute": [
+          "魔法防御力+600",
+          "洞察+70",
+          "魔法反馈+70"
+        ],
+        "checked": false
+      },
+      {
+        "name": "风灵气修炼",
+        "move": 500,
+        "dodge": 55,
+        "skillAttribute": [
+          "出手速度+500",
+          "躲闪+50",
+          "基础生命吸收+400"
+        ],
+        "checked": false
+      },
+      {
+        "name": "土灵气修炼",
+        "state": 80,
+        "damageReduction": 80,
+        "skillAttribute": [
+          "状态抵抗+80",
+          "伤害减免+80",
+          "基础法力吸收+400"
+        ],
+        "checked": false
+      },
+      {
+        "name": "雷灵气修炼",
+        "magicPercentage": 40,
+        "magicPenetration": 500,
+        "skillAttribute": [
+          "魔法攻击力+40%",
+          "魔法穿透+500",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "灵兽战斗训练",
+        "skillAttribute": [
+          "宠物力量+60%",
+          "宠物敏捷+60%",
+          "宠物伤害+60%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "灵兽生存训练",
+        "skillAttribute": [
+          "宠物体质+60%",
+          "宠物感知+60%",
+          "宠物生命上限+60%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "道法天然",
+        "perceptionPercentage": 28,
+        "perception": 76,
+        "manaRegeneration": 390,
+        "skillAttribute": [
+          "感知+28%",
+          "感知+76",
+          "每回合自动恢复法力+390"
+        ],
+        "special": "修真职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "进阶灵兽守护(最高21)",
+        "skillAttribute": [
+          "受到攻击时,所携带宠物23%几率为其承受伤害",
+          "宠物智力+23%",
+          "宠物感知+23%"
+        ],
+        "special": "修真职业认证专属",
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "天雷空破",
+        "skillAttribute": [
+          "无视目标2950点魔法防御",
+          "附带魔法命中+360",
+          "技能附带无视目标360洞察"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 3,
+        "skillConsumption": "325法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "水疗术",
+        "skillAttribute": [
+          "生命+3600",
+          "状态抵抗值+240",
+          "回复最大生命值+12%"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "土灵战气",
+        "skillAttribute": [
+          "劈砍攻击力+1800",
+          "劈砍防御力+1800",
+          "伤害减免+60%"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "325法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "仙风云体",
+        "skillAttribute": [
+          "法力护盾+2400",
+          "法力护盾+24,全减益免疫",
+          "出手速度+2400"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "禁言咒",
+        "skillAttribute": [
+          "附带命中+140",
+          "技能附带无视目标21.7%状态抵抗",
+          "状态抵抗-84,禁言"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "禁技咒",
+        "skillAttribute": [
+          "附带命中+140",
+          "技能附带无视目标21.7%状态抵抗",
+          "状态抵抗-84,封技"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "封灵秘咒",
+        "skillAttribute": [
+          "附带命中+140",
+          "技能附带无视目标21.7%状态抵抗",
+          "状态抵抗-84,封魔"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "定身咒",
+        "skillAttribute": [
+          "附带命中+140",
+          "技能附带无视目标21.7%状态抵抗",
+          "状态抵抗-84,定身"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "妙法莲华",
+        "skillAttribute": [
+          "回复600法力,持续回魔",
+          "回复2400生命,全减益免疫",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1500法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "元灵归心术",
+        "skillAttribute": [
+          "回复700法力,幻影",
+          "回复最大法力值7%法力,免疫定身",
+          "每回自动恢复法力+280,免疫禁言"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "水灵寒冰咒",
+        "skillAttribute": [
+          "技能附带无视目标420魔法反馈",
+          "技能附带无视目标560洞察",
+          "出手速度-105%"
+        ],
+        "round": 7,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "473法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "雷灵极电咒",
+        "skillAttribute": [
+          "无视目标+1400点法术防御",
+          "目标洞察值-560",
+          "魔法防御力-82%"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "715法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "土灵流砂咒",
+        "skillAttribute": [
+          "技能附带无视目标420伤害减免",
+          "附带命中+420",
+          "无视目标1470点魔法防御"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 3,
+        "skillConsumption": "473法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "火灵烈炎咒",
+        "skillAttribute": [
+          "造成最大生命值-9%的伤害,火烧",
+          "附带命中+420",
+          "无视目标1470点魔法防御"
+        ],
+        "round": 4,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "473法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "天罡战气",
+        "skillAttribute": [
+          "法力护盾+6300",
+          "伤害减免+420",
+          "致命率+217%"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "天师阵术",
+        "skillAttribute": [
+          "状态抵抗-476",
+          "伤害减免-476,属性减少",
+          "洞察-476"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "诅咒",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "金刚阵术",
+        "skillAttribute": [
+          "劈砍防御力-2800",
+          "穿刺防御力-2800",
+          "魔法防御力-2800"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "诅咒",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "破魔咒",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "清除目标减益状态",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "300法力",
+        "attackMode": "祝福",
+        "range": "上下四人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "无极护盾",
+        "skillAttribute": [
+          "法力护盾+6300",
+          "法力护盾+28%",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "55法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "风灵法咒",
+        "skillAttribute": [
+          "出手速度+67%,免疫定身",
+          "躲闪+67%",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "还魂咒",
+        "skillAttribute": [
+          "复活并回复体力及法力100%",
+          "无",
+          "无"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "上清破云剑",
+        "skillAttribute": [
+          "附带伤害+700",
+          "附加强制命中率+70",
+          "状态抵抗-70,封魔"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "473法力",
+        "attackMode": "近身穿刺攻击",
+        "range": "敌单体",
+        "armsLimitation": "单手剑限制"
+      },
+      {
+        "name": "混乱咒",
+        "skillAttribute": [
+          "附带命中+120",
+          "技能附带无视目标18.7%状态抵抗",
+          "状态抵抗-72,混乱"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "115法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无",
+        "special": "国家修真技能所专属"
+      },
+      {
+        "name": "金刚法咒",
+        "skillAttribute": [
+          "每回合自动恢复生命+480,物攻无效",
+          "无",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2750法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无",
+        "special": "国家修真技能所专属"
+      },
+      {
+        "name": "秘传-封魔诀",
+        "skillAttribute": [
+          "清除目标魔法攻击无效状态",
+          "状态抵抗-240",
+          "清除目标物攻无效状态,封魔"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2310法力",
+        "attackMode": "诅咒",
+        "range": "敌上下三人",
+        "armsLimitation": "无",
+        "special": "国家修真技能所专属"
+      },
+      {
+        "name": "三味真火",
+        "skillAttribute": [
+          "造成最大生命值9%的伤害",
+          "生命-2200",
+          "目标伤害减免值-345"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 5,
+        "skillConsumption": "5000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "无",
+        "special": "修真职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "回光调息",
+        "skillAttribute": [
+          "回复1200生命",
+          "回复1200法力",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "451法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "冰心诀",
+        "skillAttribute": [
+          "状态抵抗+240,免疫定身",
+          "状态抵抗+24%,免疫混乱",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "451法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "凝神聚气",
+        "skillAttribute": [
+          "每回合自动恢复法力+360",
+          "回复600法力,免疫封魔",
+          "每回自动恢复生命+360,免疫禁言"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "三花聚顶",
+        "skillAttribute": [
+          "回复最大生命值+12%",
+          "复最大法力值+12%",
+          "法力+470"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "圣灵附体",
+        "skillAttribute": [
+          "法力护盾+3600",
+          "伤害减免+216",
+          "魔法攻击力+24%,免疫衰弱"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "天魔附体",
+        "skillAttribute": [
+          "法力护盾+3600",
+          "伤害减免+216",
+          "劈砍攻击力+22%,免疫禁言"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "火之阵术",
+        "skillAttribute": [
+          "魔法攻击力+600",
+          "魔法命中+60,免疫禁言",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "雷之阵术",
+        "skillAttribute": [
+          "魔法防御力+1560",
+          "洞察+60",
+          "魔法反馈+60"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "风之阵术",
+        "skillAttribute": [
+          "出手速度+600,属性增加",
+          "躲闪+60,免疫封技",
+          "生命吸收+240"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "水之阵术",
+        "skillAttribute": [
+          "状态抵抗+240,属性增加",
+          "伤害减免+120,免疫混乱",
+          "法力吸收+240"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "土之阵术",
+        "skillAttribute": [
+          "魔法攻击力+48%,属性增加",
+          "魔法穿透+600,属性增加",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "除魔法阵",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "扣除最大法力值14%",
+          "无"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1100法力",
+        "attackMode": "诅咒",
+        "range": "敌全体",
+        "armsLimitation": "无",
+        "special": "国家修真技能所专属"
+      },
+      {
+        "name": "天神附体",
+        "skillAttribute": [
+          "法力护盾+76%",
+          "伤害减免+443",
+          "每回合自动恢复法力+76%"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2500法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无",
+        "special": "修真职业认证专属"
+      }
+    ]
+  },
+  "法师": "master",
+  "master": {
+    "passive": [
+      {
+        "name": "神秘学",
+        "intelligence": 99,
+        "manaPercentage": 115,
+        "mana": 500,
+        "skillAttribute": [
+          "智力+99",
+          "法力上限+115%",
+          "法力上限+500"
+        ],
+        "checked": false
+      },
+      {
+        "name": "专注",
+        "perception": 99,
+        "insight": 79,
+        "mana": 500,
+        "skillAttribute": [
+          "感知+99",
+          "洞察+79",
+          "法力上限+500"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法力提升",
+        "mana": 1150,
+        "manaPercentage": 46,
+        "skillAttribute": [
+          "法力上限+1150",
+          "法力上限+46%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法防护",
+        "magicDefensePercentage": 46,
+        "manaShield": 1100,
+        "skillAttribute": [
+          "魔法防御力+46%",
+          "法力护盾+1100",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法学识",
+        "magicPercentage": 46,
+        "magicDefensePercentage": 46,
+        "mana": 500,
+        "skillAttribute": [
+          "魔法攻击力+46%",
+          "魔法防御力+46%",
+          "法力上限+500"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法熟练",
+        "magicHit": 104,
+        "magic": 420,
+        "skillAttribute": [
+          "魔法命中+104",
+          "魔法攻击力+420",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法杖使用",
+        "staffWeaponDamage": 160,
+        "magic": 420,
+        "mana": 500,
+        "skillAttribute": [
+          "法杖武器伤害、耐久+160%",
+          "魔法攻击力+420",
+          "法力上限+500"
+        ],
+        "checked": false
+      },
+      {
+        "name": "战斗法师",
+        "basicHP": 750,
+        "state": 100,
+        "skillAttribute": [
+          "生命上限+750",
+          "基础状态抵抗+100%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "快速施法",
+        "move": 470,
+        "movePercentage": 20,
+        "magic": 400,
+        "skillAttribute": [
+          "出手速度+470",
+          "出手速度+20%",
+          "魔法攻击力+400"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法回路",
+        "manaRegeneration": 470,
+        "skillAttribute": [
+          "每回合自动恢复法力+470",
+          "法力吸收+140",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "洞察魔法",
+        "insight": 90,
+        "insightPercentage": 27,
+        "skillAttribute": [
+          "洞察+90",
+          "洞察+27%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法术辨识",
+        "insight": 90,
+        "mana": 500,
+        "skillAttribute": [
+          "洞察+90",
+          "法力上限+500",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法反馈",
+        "magicFeedback": 180,
+        "ignoreMagicFeedback": 180,
+        "skillAttribute": [
+          "魔法反馈+180",
+          "无视魔法反馈+180",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法术专攻",
+        "magicHit": 59,
+        "magic": 500,
+        "skillAttribute": [
+          "魔法命中+59",
+          "魔法攻击力+500",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法术穿透",
+        "magicPenetration": 700,
+        "magicPenetrationPercentage": 42,
+        "magic": 300,
+        "skillAttribute": [
+          "魔法穿透+700",
+          "魔法穿透+42%",
+          "魔法攻击力+300"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法术强效",
+        "magicHit": 90,
+        "magicPercentage": 48,
+        "skillAttribute": [
+          "魔法命中+90",
+          "魔法攻击力+48%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法天赋",
+        "intelligence": 89,
+        "perception": 89,
+        "mana": 470,
+        "skillAttribute": [
+          "智力+89",
+          "感知+89",
+          "法力上限+470"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔宠契约",
+        "basicHP": 470,
+        "skillAttribute": [
+          "宠物生命上限+115%",
+          "生命上限+470",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔宠协防(诅咒)",
+        "skillAttribute": [
+          "受到诅咒攻击时,所携带宠物50%几率为其承受攻击效果",
+          "宠物生命上限+50%",
+          "无"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔宠强化",
+        "skillAttribute": [
+          "宠物智力+60%",
+          "宠物感知+60%",
+          "无"
+        ],
+        "special": "国家法师技能所专属",
+        "checked": false
+      },
+      {
+        "name": "魔宠协防(劈砍-最高20)",
+        "skillAttribute": [
+          "受到劈砍攻击时,所携带宠物50%几率为其承受伤害",
+          "宠物生命上限+50%",
+          "无"
+        ],
+        "special": "国家法师技能所专属",
+        "checked": false
+      },
+      {
+        "name": "魔宠协防(穿刺-最高20)",
+        "skillAttribute": [
+          "受到穿刺攻击时,所携带宠物50%几率为其承受伤害",
+          "宠物生命上限+50%",
+          "无"
+        ],
+        "special": "国家法师技能所专属",
+        "checked": false
+      },
+      {
+        "name": "魔宠协防(魔攻)",
+        "skillAttribute": [
+          "受到魔攻攻击时,所携带宠物50%几率为其承受伤害",
+          "宠物生命上限+50%",
+          "无"
+        ],
+        "special": "国家法师技能所专属",
+        "checked": false
+      },
+      {
+        "name": "进阶法术修炼",
+        "ignoreInsight": 160,
+        "ignoreMagicFeedback": 160,
+        "disregardState": 160,
+        "skillAttribute": [
+          "无视洞察+160",
+          "无视魔法反馈+160",
+          "无视状态抵抗+160"
+        ],
+        "special": "法师职业认证专属",
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "狂暴术",
+        "skillAttribute": [
+          "攻击次数+7,混乱",
+          "无",
+          "无"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "死亡一指",
+        "skillAttribute": [
+          "造成-2100伤害,衰弱",
+          "造成最大生命值-5%的伤害,中毒",
+          "技能附带无视目标147洞察"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "女妖之嚎",
+        "skillAttribute": [
+          "魔法防御力-4200,衰弱",
+          "基础状态抵抗-70%",
+          "伤害减免-70%"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "682法力",
+        "attackMode": "诅咒",
+        "range": "敌六人长方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "破龙斩",
+        "skillAttribute": [
+          "无视目标2200点魔法防御",
+          "附带伤害+2200",
+          "技能附带无视目标630洞察"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2100法力",
+        "attackMode": "魔法攻击",
+        "range": "敌单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "时间停止",
+        "skillAttribute": [
+          "出手速度-100%",
+          "技能附带无视目标400洞察",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "诅咒",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "法力燃烧",
+        "skillAttribute": [
+          "法力-1400",
+          "扣除最大法力值15%",
+          "目标洞察值-147"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "682法力",
+        "attackMode": "诅咒",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "石肤术",
+        "skillAttribute": [
+          "劈砍防御力+3990",
+          "穿刺防御力+3990",
+          "反击+350"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "解除魔法",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "清除目标减益状态",
+          "扣除最大法力值8%，封魔"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "300法力",
+        "attackMode": "祝福",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "幻影法球",
+        "skillAttribute": [
+          "每回合自动恢复法力+406,幻影",
+          "每回合自动恢复生命+200",
+          "无"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "473法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "反魔力场",
+        "skillAttribute": [
+          "每回合自动恢复法力+336,魔攻无效",
+          "每回合自动恢复生命+200",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "剑刃障壁",
+        "skillAttribute": [
+          "反击+448",
+          "伤害减免+288,属性增加",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "禁言术",
+        "skillAttribute": [
+          "技能附带无视目标336洞察",
+          "状态抵抗-60,禁言",
+          "附带命中-75"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "混乱术",
+        "skillAttribute": [
+          "技能附带无视目标336洞察",
+          "状态抵抗-60,混乱",
+          "附带命中-75"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "定身术",
+        "skillAttribute": [
+          "技能附带无视目标336洞察",
+          "状态抵抗-60,定身",
+          "附带命中-75"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1155法力",
+        "attackMode": "诅咒",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "魔法飞弹",
+        "skillAttribute": [
+          "附带伤害+1080",
+          "无视目标1260点魔法防御",
+          "技能附带无视目标420洞察"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 6,
+        "skillConsumption": "220法力",
+        "attackMode": "魔法攻击",
+        "range": "敌单体",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "火墙术",
+        "skillAttribute": [
+          "生命-280,火烧",
+          "造成最大生命值5%的伤害,火烧",
+          "目标洞察值-280"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "220法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "火球术",
+        "skillAttribute": [
+          "造成-280伤害,火烧",
+          "造成最大生命值-5%的伤害,火烧",
+          "技能附带无视目标280洞察"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "魔法攻击",
+        "range": "敌正方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "燃烧之手",
+        "skillAttribute": [
+          "造成-280伤害",
+          "附带命中+140",
+          "无视目标1400点魔法防御"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 1,
+        "skillConsumption": "116法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "流星爆",
+        "skillAttribute": [
+          "造成-600伤害",
+          "无视目标1400点魔法防御",
+          "附带致命点+280"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "682法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "闪电术",
+        "skillAttribute": [
+          "魔法防御力-2800",
+          "附带命中+240",
+          "技能附带无视目标280洞察"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "220法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "连环闪电",
+        "skillAttribute": [
+          "魔法防御力-700,属性减少",
+          "附带魔法命中+280",
+          "技能附带无视标280洞察"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 1,
+        "skillConsumption": "220法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "冰雪风暴",
+        "skillAttribute": [
+          "躲闪-70%,属性减少",
+          "出手速度-826",
+          "技能附带无视目标147洞察"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "682法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "冰墙术",
+        "skillAttribute": [
+          "躲闪-70%,属性减少",
+          "出手速度-4060",
+          "技能附带无视目标420洞察"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "死亡法阵",
+        "skillAttribute": [
+          "造成-700伤害,衰弱",
+          "造成最大生命值-5%的伤害,中毒",
+          "技能附带无视目标147洞察"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2310法力",
+        "attackMode": "诅咒",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "毒云术",
+        "skillAttribute": [
+          "造成-420伤害",
+          "躲闪-210",
+          "伤害减免-210"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "242法力",
+        "attackMode": "诅咒",
+        "range": "敌全部",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "吸血鬼之触",
+        "skillAttribute": [
+          "造成最大生命值-22%的伤害",
+          "技能附带回复+12%生命",
+          "无"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "诅咒",
+        "range": "敌单体",
+        "armsLimitation": "法杖"
+      },
+      {
+        "name": "律令死亡",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "生命-4900",
+          "造成最大生命值16%的伤害"
+        ],
+        "round": 1,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "3850法力",
+        "attackMode": "诅咒",
+        "range": "敌前后两人",
+        "armsLimitation": "无",
+        "special": "国家法师技能所专属"
+      },
+      {
+        "name": "魔邓肯飞弹",
+        "skillAttribute": [
+          "附带伤害+1820",
+          "附带魔法命中+140",
+          "技能附带无视目标602洞察"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 7,
+        "skillConsumption": "2640法力",
+        "attackMode": "魔法攻击",
+        "range": "敌正方",
+        "armsLimitation": "无",
+        "special": "国家法师技能所专属"
+      },
+      {
+        "name": "律令意志消沉",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "状态抵抗+43%,属性增加",
+          "燃烧最大法力值-15.5%的法力"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "6000法力",
+        "attackMode": "诅咒",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖",
+        "special": "法师职业认证专属"
+      },
+      {
+        "name": "律令震慑",
+        "skillAttribute": [
+          "状态抵抗-119",
+          "燃烧最大法力值-15%的法力,定身",
+          "技能附带无视目标147洞察"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "6000法力",
+        "attackMode": "诅咒",
+        "range": "敌六人长方",
+        "armsLimitation": "法杖",
+        "special": "法师职业认证专属"
+      },
+      {
+        "name": "流星炎爆",
+        "skillAttribute": [
+          "生命-4400,火烧",
+          "目标魔法反馈值-280",
+          "目标洞察值-280"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "6800法力",
+        "attackMode": "魔法攻击",
+        "range": "敌全体",
+        "armsLimitation": "法杖",
+        "special": "法师职业认证专属"
+      },
+      {
+        "name": "神灭斩",
+        "skillAttribute": [
+          "伤害减免-300",
+          "造成最大生命值5%的伤害",
+          "目标魔法反馈值-600"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 10,
+        "skillConsumption": "2950法力",
+        "attackMode": "魔法攻击",
+        "range": "敌单体",
+        "armsLimitation": "法杖",
+        "special": "法师职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "魔化武器",
+        "skillAttribute": [
+          "攻击次数+6",
+          "劈砍攻击力+24%",
+          "穿刺攻击力+24%"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "800法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "蛛网术",
+        "skillAttribute": [
+          "躲闪-210,属性减少",
+          "躲闪-56%",
+          "出手速度-560"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "加速术",
+        "skillAttribute": [
+          "出手速度+1120",
+          "出手速度+63%,属性增加",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "我全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "缓慢术",
+        "skillAttribute": [
+          "出手速度-994",
+          "出手速度-63%,属性减少",
+          "无"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "闪光术",
+        "skillAttribute": [
+          "格挡-77%,属性减少",
+          "命中率-77%,属性减少",
+          "反击-77%"
+        ],
+        "round": 7,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "魔法检测",
+        "skillAttribute": [
+          "洞察+350",
+          "洞察+28%",
+          "每回合自动恢复法力+280"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "魔力增幅",
+        "skillAttribute": [
+          "魔法攻击力+42%,免疫禁言",
+          "每回合自动恢复法力+280",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "法术无效力场",
+        "skillAttribute": [
+          "回复147法力,魔法攻击无效",
+          "法力吸收+100",
+          "无"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "护盾术",
+        "skillAttribute": [
+          "法力护盾+8400,属性增加",
+          "伤害减免+140",
+          "无"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "215法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "虚弱术",
+        "skillAttribute": [
+          "劈砍攻击力-42%",
+          "穿刺攻击力-42%",
+          "攻击次数-7,衰弱"
+        ],
+        "round": 4,
+        "additionalAttackTimes": 7,
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "幻影术",
+        "skillAttribute": [
+          "躲闪+280,幻影",
+          "无",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "法师护甲",
+        "skillAttribute": [
+          "法力护盾+4200,属性增加",
+          "劈砍防御力+4200",
+          "穿刺防御力+4200"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      }
+    ]
+  },
+  "贤者": "sages",
+  "sages": {
+    "passive": [
+      {
+        "name": "神学",
+        "perception": 76,
+        "mana": 740,
+        "perceptionPercentage": 22,
+        "skillAttribute": [
+          "感知+76",
+          "法力上限+740",
+          "感知+22%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "冥思",
+        "manaRegeneration": 600,
+        "mana": 740,
+        "skillAttribute": [
+          "每回合自动恢复法力+600",
+          "法力上限+740",
+          "基础法力吸收+133"
+        ],
+        "checked": false
+      },
+      {
+        "name": "自由咏唱",
+        "move": 740,
+        "ignoreMagicFeedback": 150,
+        "mana": 740,
+        "skillAttribute": [
+          "出手速度+740",
+          "无视魔法反馈+150",
+          "法力上限+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "思维敏捷",
+        "move": 740,
+        "movePercentage": 28,
+        "manaRegeneration": 363,
+        "skillAttribute": [
+          "出手速度+740",
+          "出手速度+28%",
+          "每回合自动恢复法力+363"
+        ],
+        "checked": false
+      },
+      {
+        "name": "权杖使用",
+        "magicInstrumentAttackTimes": 4,
+        "magic": 430,
+        "mana": 740,
+        "skillAttribute": [
+          "用法杖时攻击次数+4",
+          "魔法攻击力+430",
+          "法力上限+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "法器使用",
+        "magicInstrumentWeaponDamage": 150,
+        "magic": 430,
+        "mana": 740,
+        "skillAttribute": [
+          "法器武器伤害、耐久+150%",
+          "魔法攻击力+430",
+          "法力上限+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "神器专精",
+        "magicHit": 85,
+        "magicInstrumentAttackTimes": 4,
+        "magicInstrumentWeaponDamage": 150,
+        "skillAttribute": [
+          "魔法命中+85",
+          "用法器时攻击次数+4",
+          "法器武器伤害、耐久+150%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "心之护盾",
+        "state": 76,
+        "damageReduction": 73,
+        "perception": 76,
+        "skillAttribute": [
+          "状态抵抗值+76",
+          "伤害减免+73",
+          "感知+76"
+        ],
+        "checked": false
+      },
+      {
+        "name": "圣灵体魄",
+        "basicHP": 810,
+        "constitution": 73,
+        "damageReduction": 70,
+        "skillAttribute": [
+          "生命上限+810",
+          "体质+73",
+          "伤害减免+70"
+        ],
+        "checked": false
+      },
+      {
+        "name": "圣灵力魄",
+        "basicHP": 810,
+        "power": 73,
+        "deadly": 70,
+        "skillAttribute": [
+          "生命上限+810",
+          "力量+73",
+          "致命点+70"
+        ],
+        "checked": false
+      },
+      {
+        "name": "元素精通",
+        "magicHit": 82,
+        "magicHitPercentage": 26,
+        "magicPenetration": 740,
+        "skillAttribute": [
+          "魔法命中+82",
+          "魔法攻击力+26%",
+          "魔法穿透+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "精神爆破",
+        "mana": 740,
+        "disregardState": 133,
+        "magicPenetration": 740,
+        "skillAttribute": [
+          "法力上限+740",
+          "无视状态抵抗+133",
+          "魔法穿透+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法增效",
+        "mana": 740,
+        "ignoreInsight": 133,
+        "magicPenetration": 740,
+        "skillAttribute": [
+          "法力上限+740",
+          "无视洞察+133",
+          "魔法穿透+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔力护盾",
+        "manaShield": 740,
+        "manaShieldPercentage": 28,
+        "mana": 740,
+        "skillAttribute": [
+          "法力护盾+740",
+          "法力护盾+28%",
+          "法力上限+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "风之迅捷",
+        "move": 363,
+        "agile": 73,
+        "dodge": 45,
+        "skillAttribute": [
+          "出手速度+363",
+          "敏捷+73",
+          "躲闪+45"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔力仆从",
+        "skillAttribute": [
+          "宠物智力+55%",
+          "宠物感知+55%",
+          "宠物法力上限+55%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "符文加身",
+        "insight": 180,
+        "deadly": 125,
+        "magicHit": 84,
+        "skillAttribute": [
+          "洞察+180",
+          "致命点+125",
+          "魔法命中+84"
+        ],
+        "checked": false
+      },
+      {
+        "name": "圣贤附体",
+        "state": 135,
+        "damageReduction": 250,
+        "immuneShield": 2,
+        "skillAttribute": [
+          "状态抵抗值+135",
+          "伤害减免+250",
+          "免伤护盾+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "书本知识",
+        "ignoreMagicFeedback": 133,
+        "disregardState": 133,
+        "ignoreInsight": 133,
+        "skillAttribute": [
+          "无视魔法反馈+133",
+          "无视状态抵抗+133",
+          "无视洞察+133"
+        ],
+        "special": "贤者职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "法器强化",
+        "magicInstrumentWeaponDamage": 150,
+        "perception": 55,
+        "ignoreMagicFeedback": 220,
+        "skillAttribute": [
+          "法器武器伤害、耐久+150%",
+          "感知+55",
+          "无视魔法反馈+220"
+        ],
+        "special": "贤者职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "神器重铸",
+        "magicInstrumentWeaponDamage": 110,
+        "ignoreInsight": 150,
+        "deadly": 120,
+        "skillAttribute": [
+          "法器武器伤害、耐久+110%",
+          "无视洞察+150",
+          "致命点+120"
+        ],
+        "special": "贤者职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "风语祝福",
+        "move": 900,
+        "magicInstrumentAttackTimes": 4,
+        "ignoreMagicFeedback": 180,
+        "skillAttribute": [
+          "出手速度+900",
+          "用法器时攻击次数+4",
+          "无视魔法反馈+180"
+        ],
+        "special": "贤者职业认证专属",
+        "checked": false
+      },
+      {
+        "name": "神秘咒文",
+        "intelligence": 75,
+        "perception": 76,
+        "mana": 750,
+        "skillAttribute": [
+          "智力+75",
+          "感知+76",
+          "法力上限+750"
+        ],
+        "special": "贤者职业认证专属",
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "强愈术",
+        "skillAttribute": [
+          "生命+4100",
+          "回复最大生命值+12%",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "3500法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "祝福",
+        "skillAttribute": [
+          "攻击次数+3",
+          "劈砍攻击力+23%,属性增加",
+          "穿刺攻击力+23%,属性增加"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "急救",
+        "skillAttribute": [
+          "生命+8700",
+          "回复最大生命值+7%",
+          "清除目标减益状态"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "4000法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "魔力纹路破坏",
+        "skillAttribute": [
+          "清除目标魔法攻击无效状态",
+          "法力护盾-57%",
+          "每回合自动恢复法力-410,衰弱"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "敌正方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "眩光术",
+        "skillAttribute": [
+          "状态抵抗-210",
+          "洞察-210",
+          "命中-210"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "诅咒",
+        "range": "敌正方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "秘法-不死意志",
+        "skillAttribute": [
+          "每回合自动恢复生命+363",
+          "状态抵抗+133,不死意志",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "秘法-死者苏生",
+        "skillAttribute": [
+          "每回合自动恢复生命+363",
+          "状态抵抗+133,死者苏生",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "秘法-死亡傀儡",
+        "skillAttribute": [
+          "每回合自动恢复生命+363",
+          "状态抵抗+133,死亡傀儡",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "雷电冲击",
+        "skillAttribute": [
+          "技能附带无视目标28%状态抵抗",
+          "状态抵抗-310,混乱",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "炙炎爆裂",
+        "skillAttribute": [
+          "技能附带无视目标28%状态抵抗",
+          "造成-520伤害",
+          "造成最大生命值-4%的伤害,火烧"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "寒冰风暴",
+        "skillAttribute": [
+          "技能附带无视目标28%状态抵抗",
+          "出手速度-520,定身",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "神圣惩戒",
+        "skillAttribute": [
+          "技能附带无视目标28%状态抵抗",
+          "状态抵抗-138,封魔",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "法力冲击",
+        "skillAttribute": [
+          "技能附带无视目标490魔法反馈",
+          "附带魔法命中+365",
+          "技能附带无视目标490洞察"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 6,
+        "skillConsumption": "350法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "法术密语",
+        "skillAttribute": [
+          "造成最大生命值9%的伤害,封技",
+          "伤害减免-360",
+          "免伤护盾-2"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "3500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法器限制",
+        "special": "贤者职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "圣灵加护",
+        "skillAttribute": [
+          "状态抵抗+260,全减益免疫",
+          "每回合自动恢复法力+260",
+          "每回合自动恢复生命+260"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "祝福",
+        "range": "我正方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "生命陷落",
+        "skillAttribute": [
+          "生命-1300",
+          "造成最大生命值6%的伤害",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒",
+        "range": "敌六人长方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "治疗力场",
+        "skillAttribute": [
+          "生命+1300",
+          "回复最大生命值+6%",
+          "无"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "我全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "魔力诅咒",
+        "skillAttribute": [
+          "每回合自动恢复法力-450",
+          "魔法命中-178",
+          "燃烧最大法力值-6%的法力"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒",
+        "range": "敌六人长方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "不死意志",
+        "skillAttribute": [
+          "每回合自动恢复生命+363",
+          "状态抵抗+133,不死意志",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "我当前生命最大者",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "死者苏生",
+        "skillAttribute": [
+          "每回合自动恢复生命+363",
+          "状态抵抗+133,死者苏生",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "我当前生命最大者",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "死亡傀儡",
+        "skillAttribute": [
+          "每回合自动恢复生命+363",
+          "状态抵抗+133,死亡傀儡",
+          "无"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "我当前生命最大者",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "法术火海",
+        "skillAttribute": [
+          "造成最大生命值15%的伤害,禁言",
+          "魔法命中-280,封技",
+          "目标洞察值-280"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "3000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "法术霜冻",
+        "skillAttribute": [
+          "造成最大生命值9%的伤害",
+          "伤害减免-240,定身",
+          "洞察-320"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "3500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "法器限制",
+        "special": "贤者职业认证专属"
+      },
+      {
+        "name": "精神鞭挞",
+        "skillAttribute": [
+          "技能附带无视目标26%状态抵抗",
+          "状态抵抗-210",
+          "技能附带无视目标260洞察,封技"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒",
+        "range": "敌正方",
+        "armsLimitation": "法器限制"
+      },
+      {
+        "name": "精神鞭挞",
+        "skillAttribute": [
+          "技能附带无视目标26%状态抵抗",
+          "状态抵抗-210",
+          "技能附带无视目标260洞察,封技"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒",
+        "range": "敌正方",
+        "armsLimitation": "法器限制",
+        "special": "贤者职业认证专属"
+      },
+      {
+        "name": "沉静力场",
+        "skillAttribute": [
+          "技能附带无视目标26%状态抵抗",
+          "状态抵抗-210",
+          "技能附带无视目标260洞察,禁言"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒",
+        "range": "敌正方",
+        "armsLimitation": "法器限制",
+        "special": "贤者职业认证专属"
+      }
+    ]
+  },
+  "武圣": "Woosung",
+  "Woosung": {
+    "passive": [
+      {
+        "name": "霸气诀",
+        "powerPercentage": 30,
+        "damageReduction": 218,
+        "constitution": 65,
+        "skillAttribute": [
+          "力量+30%",
+          "无视伤害减免+218",
+          "体质+65"
+        ],
+        "checked": false
+      },
+      {
+        "name": "霸体神功",
+        "agile": 70,
+        "counterattack": 218,
+        "deadly": 80,
+        "skillAttribute": [
+          "敏捷+70",
+          "无视反击+218",
+          "致命点+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "霸王心经",
+        "armourBreaking": 600,
+        "armourBreakingPercentage": 30,
+        "ignoreBlock": 218,
+        "skillAttribute": [
+          "破甲+600",
+          "破甲+30%",
+          "无视格挡+218"
+        ],
+        "checked": false
+      },
+      {
+        "name": "百毒不侵",
+        "magicDefense": 3000,
+        "state": 105,
+        "immuneShield": 1,
+        "skillAttribute": [
+          "魔法防御力+3000",
+          "状态抵抗值+105",
+          "免伤护盾+1"
+        ],
+        "checked": false
+      },
+      {
+        "name": "百发百中",
+        "hit": 80,
+        "forcedHit": 15,
+        "deadly": 80,
+        "skillAttribute": [
+          "命中+80",
+          "基础强制命中率+15",
+          "致命点+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "集气爆发",
+        "deadly": 105,
+        "basicHP": 900,
+        "deadlyPercentage": 20,
+        "skillAttribute": [
+          "致命点+105",
+          "生命上限+900",
+          "致命率+20%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "千叶刀法",
+        "sabreWeaponDamage": 65,
+        "deadly": 80,
+        "sabreWeaponDamageAttackTimes": 2,
+        "skillAttribute": [
+          "刀类伤害、耐久+65%",
+          "致命点+80",
+          "用刀时攻击次数+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "铜皮铁骨",
+        "chopDefense": 3000,
+        "punctureDefense": 3000,
+        "damageReduction": 155,
+        "skillAttribute": [
+          "劈砍防御力+3000",
+          "穿刺防御力+3000",
+          "伤害减免+155"
+        ],
+        "checked": false
+      },
+      {
+        "name": "无相枪法",
+        "longHandleWeaponDamage": 65,
+        "hit": 80,
+        "ignoreDamageReduction": 155,
+        "skillAttribute": [
+          "长柄武器伤害、耐久+65%",
+          "命中+80",
+          "无视伤害减免+155"
+        ],
+        "checked": false
+      },
+      {
+        "name": "武魂",
+        "manaRegeneration": 800,
+        "HPRecovery": 800,
+        "immuneShield": 1,
+        "skillAttribute": [
+          "每回合自动恢复法力+800",
+          "每回合自动恢复生命+800",
+          "免伤护盾+1"
+        ],
+        "checked": false
+      },
+      {
+        "name": "御风术",
+        "move": 900,
+        "attackTimes": 2,
+        "agile": 80,
+        "skillAttribute": [
+          "出手速度+900",
+          "攻击次数+2",
+          "敏捷+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "长枪依在",
+        "ignoreBlock": 280,
+        "ignorecounterattack": 280,
+        "longHandleAttackTimes": 2,
+        "skillAttribute": [
+          "无视格挡+280",
+          "无视反击+280",
+          "用长柄时攻击次数+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "基础弩法",
+        "long-rangeWeaponDamage": 44,
+        "long-rangeAttackTimes": 1,
+        "forcedHit": 12,
+        "skillAttribute": [
+          "远程武器伤害、耐久+44%",
+          "用远程武器时攻击次数+1",
+          "基础强制命中率+12"
+        ],
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "催筋裂骨",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "出手速度-50%,衰弱",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "320法力",
+        "attackMode": "祝福",
+        "range": "敌六人长方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "狂战怒吼",
+        "skillAttribute": [
+          "攻击次数+6,全减益免疫",
+          "劈砍攻击力+30%",
+          "穿刺攻击力+30%"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "傲寒六式",
+        "skillAttribute": [
+          "造成最大生命值10%的伤害",
+          "扣除最大法力值10%,中毒",
+          "免伤护盾-1"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "253法力",
+        "attackMode": "近身劈砍",
+        "range": "敌单体",
+        "armsLimitation": "单手刀双持限制"
+      },
+      {
+        "name": "斩阵刀法",
+        "skillAttribute": [
+          "目标格挡值-300",
+          "目标伤害减免值-300",
+          "免伤护盾-1"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "250法力",
+        "attackMode": "近身劈砍",
+        "range": "敌上下五人",
+        "armsLimitation": "单手刀双持限制"
+      },
+      {
+        "name": "呼延枪法",
+        "skillAttribute": [
+          "无视目标+3000点物理防御",
+          "附加强制命中率+20%",
+          "免伤护盾-2,封技"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1200法力",
+        "attackMode": "远程穿刺",
+        "range": "敌十字",
+        "armsLimitation": "长柄武器"
+      },
+      {
+        "name": "无畏冲锋",
+        "skillAttribute": [
+          "无视目标+5300点物理防御",
+          "目标反击值-300",
+          "目标伤害减免值-300"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "319法力",
+        "attackMode": "近身穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "长柄武器限制"
+      },
+      {
+        "name": "杨家枪法",
+        "skillAttribute": [
+          "免伤护盾-2",
+          "伤害减免-430,混乱",
+          "反击-430"
+        ],
+        "round": 2,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "280法力",
+        "attackMode": "近身穿刺",
+        "range": "敌单体",
+        "armsLimitation": "长柄武器"
+      },
+      {
+        "name": "岳家神枪",
+        "skillAttribute": [
+          "扣除最大法力值10%,定身",
+          "造成最大生命值10%的伤害",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "3110法力",
+        "attackMode": "近身穿刺",
+        "range": "敌正方",
+        "armsLimitation": "长柄武器"
+      },
+      {
+        "name": "百万狂风",
+        "skillAttribute": [
+          "目标伤害减免值-680",
+          "无视目标+2890点物理防御",
+          "目标反击值-680"
+        ],
+        "round": 2,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "473法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "轻弩双持限制"
+      },
+      {
+        "name": "天地无情诀",
+        "skillAttribute": [
+          "目标反击值-840",
+          "免伤护盾-2",
+          "目标伤害减免值-840"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "280法力",
+        "attackMode": "近身穿刺",
+        "range": "敌单体",
+        "armsLimitation": "轻弩双持限制"
+      },
+      {
+        "name": "血雨",
+        "skillAttribute": [
+          "目标伤害减免值-600",
+          "免伤护盾-2",
+          "出手速度-50%"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "534法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "轻弩双持限制"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "碧海生潮",
+        "skillAttribute": [
+          "攻击次数+5",
+          "无视伤害减免+400",
+          "命中+180"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "六阳折梅",
+        "skillAttribute": [
+          "劈砍防御力+28%",
+          "穿刺防御力+28%",
+          "魔法防御力+28%"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "264法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "落英缤纷",
+        "skillAttribute": [
+          "状态抵抗值+260,免疫封魔",
+          "伤害减免+260,免疫封技",
+          "无"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "210法力",
+        "attackMode": "祝福",
+        "range": "我正方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "拈花刀",
+        "skillAttribute": [
+          "无视目标+2890点物理防御",
+          "目标伤害减免值-420",
+          "免伤护盾-1"
+        ],
+        "round": 1,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "220法力",
+        "attackMode": "近身劈砍",
+        "range": "敌六人长方",
+        "armsLimitation": "单手刀双持限制"
+      },
+      {
+        "name": "天外飞仙",
+        "skillAttribute": [
+          "劈砍攻击力+22%",
+          "穿刺攻击力+22%",
+          "出手速度+60%"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "350法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "无尽怒火",
+        "skillAttribute": [
+          "免伤护盾-2",
+          "出手速度-30%,混乱",
+          "基础状态抵抗-30%"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1950法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌上下五人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "武圣附体",
+        "skillAttribute": [
+          "免伤护盾+2",
+          "状态抵抗值+300",
+          "伤害减免+300"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "6000法力",
+        "attackMode": "祝福",
+        "range": "我全体",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "无影迷踪",
+        "skillAttribute": [
+          "格挡+300,全减益免疫",
+          "状态抵抗值+150",
+          "伤害减免+150"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "682法力",
+        "attackMode": "祝福",
+        "range": "我上下五人",
+        "armsLimitation": "单手刀双持限制"
+      },
+      {
+        "name": "诸葛连弩",
+        "skillAttribute": [
+          "技能附带命中+500",
+          "无视目标+5300点物理防御",
+          "造成最大生命值15%的伤害,封魔"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "534法力",
+        "attackMode": "远程穿刺",
+        "range": "敌十字",
+        "armsLimitation": "轻弩双持限制"
+      }
+    ]
+  },
+  "枪王": "gunKing",
+  "gunKing": {
+    "passive": [
+      {
+        "name": "大地之息",
+        "mana": 770,
+        "ignoreInsight": 112,
+        "perception": 65,
+        "skillAttribute": [
+          "法力上限+770",
+          "无视洞察+112",
+          "感知+65"
+        ],
+        "checked": false
+      },
+      {
+        "name": "致命蝎刺",
+        "basicHP": 840,
+        "deadly": 105,
+        "attackTimes": 2,
+        "skillAttribute": [
+          "生命上限+840",
+          "致命点+105",
+          "攻击次数+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "狂怒骑士",
+        "basicHP": 833,
+        "disregardState": 133,
+        "deadly": 60,
+        "skillAttribute": [
+          "生命上限+833",
+          "无视状态抵抗+133",
+          "致命点+60"
+        ],
+        "checked": false
+      },
+      {
+        "name": "神工鬼力",
+        "artilleryWeaponDamage": 85,
+        "ignorecounterattack": 213,
+        "ignoreBlock": 213,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+85%",
+          "无视反击+213",
+          "无视格挡+213"
+        ],
+        "checked": false
+      },
+      {
+        "name": "勇者力量",
+        "artilleryWeaponDamage": 65,
+        "artillery": 3,
+        "hit": 45,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+65%",
+          "用火枪时攻击次数+3",
+          "命中+45"
+        ],
+        "checked": false
+      },
+      {
+        "name": "力量颂歌",
+        "powerPercentage": 24,
+        "ignorecounterattack": 185,
+        "forcedHit": 5,
+        "skillAttribute": [
+          "力量+24%",
+          "无视反击+185",
+          "基础强制命中率+5"
+        ],
+        "checked": false
+      },
+      {
+        "name": "精华吸取",
+        "state": 135,
+        "constitution": 65,
+        "skillAttribute": [
+          "状态抵抗值+135",
+          "基础法力吸收+145",
+          "体质+65"
+        ],
+        "checked": false
+      },
+      {
+        "name": "疾风如飞",
+        "basicHP": 850,
+        "agile": 65,
+        "agilePercentage": 20,
+        "skillAttribute": [
+          "生命上限+850",
+          "敏捷+65",
+          "敏捷+20%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "雷霆震怒",
+        "artilleryWeaponDamage": 65,
+        "ignoreDamageReduction": 195,
+        "hit": 73,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+65%",
+          "无视伤害减免+195",
+          "命中+73"
+        ],
+        "checked": false
+      },
+      {
+        "name": "将神之躯",
+        "immuneShield": 1,
+        "agile": 76,
+        "dodge": 59,
+        "skillAttribute": [
+          "免伤护盾+1",
+          "敏捷+76",
+          "躲闪+59"
+        ],
+        "checked": false
+      },
+      {
+        "name": "百万重力",
+        "basicHP": 670,
+        "power": 55,
+        "powerPercentage": 20,
+        "skillAttribute": [
+          "生命上限+670",
+          "力量+55",
+          "力量+20%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "巨人之力",
+        "armourBreakingPercentage": 26,
+        "dodge": 65,
+        "magicDefense": 5400,
+        "skillAttribute": [
+          "破甲+26%",
+          "躲闪+65",
+          "魔法防御力+5400"
+        ],
+        "checked": false
+      },
+      {
+        "name": "闪烁之光",
+        "mana": 620,
+        "insight": 125,
+        "intelligence": 55,
+        "skillAttribute": [
+          "法力上限+620",
+          "洞察+125",
+          "智力+55"
+        ],
+        "checked": false
+      },
+      {
+        "name": "闪耀加护",
+        "basicHP": 845,
+        "damageReduction": 76,
+        "immuneShield": 2,
+        "skillAttribute": [
+          "生命上限+845",
+          "伤害减免+76",
+          "免伤护盾+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "伤害反弹",
+        "counterattack": 245,
+        "magicFeedback": 245,
+        "damageReduction": 245,
+        "skillAttribute": [
+          "反击+245",
+          "魔法反馈+245",
+          "伤害减免+245"
+        ],
+        "checked": false
+      },
+      {
+        "name": "武器重铸",
+        "heavyWeaponDamage": 80,
+        "swordWeaponDamage": 80,
+        "artilleryWeaponDamage": 80,
+        "skillAttribute": [
+          "重型武器伤害、耐久+80%",
+          "剑类武器伤害、耐久+80%",
+          "火枪类武器伤害、耐久+80%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "屠狮之力",
+        "heavyWeaponDamage": 65,
+        "heavyAttackTimes": 2,
+        "dodge": 55,
+        "skillAttribute": [
+          "重型武器伤害、耐久+65%",
+          "用重型时攻击次数+2",
+          "躲闪+55"
+        ],
+        "checked": false
+      },
+      {
+        "name": "火枪加持",
+        "artilleryWeaponDamage": 110,
+        "artillery": 3,
+        "ignorecounterattack": 220,
+        "skillAttribute": [
+          "火枪类武器伤害、耐久+110%",
+          "用火枪时攻击次数+3",
+          "无视反击+220"
+        ],
+        "checked": false
+      },
+      {
+        "name": "宝剑重铸",
+        "swordWeaponDamage": 80,
+        "ignoreDamageReduction": 220,
+        "swordAttackTimes": 2,
+        "skillAttribute": [
+          "剑类武器伤害、耐久+80%",
+          "无视伤害减免+220",
+          "用剑时攻击次数+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "迅猛射程",
+        "long-rangeWeaponDamage": 80,
+        "ignorecounterattack": 220,
+        "deadly": 105,
+        "skillAttribute": [
+          "远程武器伤害、耐久+80%",
+          "无视反击+220",
+          "致命点+105"
+        ],
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "魂之挽歌",
+        "skillAttribute": [
+          "状态抵抗-250,火烧",
+          "目标状态抵抗率-30",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "1850法力",
+        "attackMode": "诅咒",
+        "range": "敌正方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "悲情之箭",
+        "skillAttribute": [
+          "目标伤害减免值-480",
+          "造成最大生命值13%的伤害,封技",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "500法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "弓"
+      },
+      {
+        "name": "爆炎旋风",
+        "skillAttribute": [
+          "无视目标+3800点物理防御",
+          "躲闪-325,封技",
+          "目标伤害减免值-385"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "800法力",
+        "attackMode": "远程穿刺",
+        "range": "敌十字",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "万弹齐发",
+        "skillAttribute": [
+          "目标伤害减免值-450",
+          "目标反击值-450",
+          "目标格挡值-450"
+        ],
+        "round": "无",
+        "additionalAttackTimes": 2,
+        "skillConsumption": "500法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "奇迹之手",
+        "skillAttribute": [
+          "生命-1800,中毒",
+          "目标格挡值-295",
+          "扣除最大法力值10%"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "450法力",
+        "attackMode": "远程穿刺",
+        "range": "敌上下三人",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "精确射击",
+        "skillAttribute": [
+          "目标伤害减免值-420",
+          "劈砍防御力-8000",
+          "穿刺防御力-8000"
+        ],
+        "round": 6,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "500法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "重型火枪"
+      },
+      {
+        "name": "能量偷取",
+        "skillAttribute": [
+          "附带生命吸收+22%",
+          "附带法力吸收+22%",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "900法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "重型火枪"
+      },
+      {
+        "name": "虚晃一枪",
+        "skillAttribute": [
+          "无视目标+1350点物理防御",
+          "强制命中率+60%",
+          "目标伤害减免值-325"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "275法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "重型火枪"
+      },
+      {
+        "name": "死亡之握",
+        "skillAttribute": [
+          "无视目标+2700点物理防御",
+          "目标伤害减免值-350",
+          "目标状态抵抗率-15%"
+        ],
+        "round": "无",
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "远程穿刺",
+        "range": "敌上下五人",
+        "armsLimitation": "重型火枪"
+      },
+      {
+        "name": "无情之弹",
+        "skillAttribute": [
+          "目标伤害减免值-480",
+          "附带致命点+220",
+          "格挡-220"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "500法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "重型火枪"
+      },
+      {
+        "name": "亡者之愿",
+        "skillAttribute": [
+          "复活并回复体力及法力18%",
+          "伤害减免+300",
+          "免伤护盾+1"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "祝福",
+        "range": "我十字",
+        "armsLimitation": "无",
+        "special": "枪王职业认证专属"
+      },
+      {
+        "name": "灵魂收割",
+        "skillAttribute": [
+          "目标伤害减免值-395",
+          "造成最大生命值11%的伤害,混乱",
+          "扣除最大法力值11%"
+        ],
+        "round": 4,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "520法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "轻型火枪",
+        "special": "枪王职业认证专属"
+      },
+      {
+        "name": "终极爆炸",
+        "skillAttribute": [
+          "无视目标+4300点物理防御",
+          "造成最大生命值18%的伤害,衰弱",
+          "免伤护盾-2"
+        ],
+        "round": 2,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "2000法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "重型火枪",
+        "special": "枪王职业认证专属"
+      },
+      {
+        "name": "惩戒之箭",
+        "skillAttribute": [
+          "魔法命中-220",
+          "出手速度-22%,定身",
+          "目标伤害减免-220"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "800法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "弓",
+        "special": "枪王职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "咆哮怒焰",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "造成最大生命值9%的伤害,流血",
+          "目标洞察值-280"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "1500法力",
+        "attackMode": "诅咒",
+        "range": "敌正方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "战场驱逐",
+        "skillAttribute": [
+          "生命-1100",
+          "出手速度-25%,驱逐",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2500法力",
+        "attackMode": "诅咒",
+        "range": "敌十字",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "快速拔枪",
+        "skillAttribute": [
+          "出手速度+35%",
+          "洞察+300,免疫封魔",
+          "状态抵抗+300"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "500法力",
+        "attackMode": "祝福",
+        "range": "我上下四人",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "弹雨流星",
+        "skillAttribute": [
+          "造成最大生命值9%的伤害",
+          "扣除最大法力值9%,流血",
+          "目标伤害减免值-280"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "400法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "命运之枪",
+        "skillAttribute": [
+          "造成最大生命值10%的伤害,魔攻无效",
+          "躲闪+255",
+          "状态抵抗值+225"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "650法力",
+        "attackMode": "祝福",
+        "range": "我前后两人",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "死亡凋零",
+        "skillAttribute": [
+          "清除目标减益状态",
+          "法力-1250,物攻无效",
+          "洞察-200"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "370法力",
+        "attackMode": "祝福",
+        "range": "我上下两人",
+        "armsLimitation": "轻型火枪"
+      },
+      {
+        "name": "裁决之弹",
+        "skillAttribute": [
+          "无视目标+2700点物理防御",
+          "造成最大生命值9%的伤害,衰弱",
+          "攻击次数-5"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "370法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "重型火枪"
+      },
+      {
+        "name": "枪林弹雨",
+        "skillAttribute": [
+          "法力-820,中毒",
+          "造成最大生命值9%的伤害",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "800法力",
+        "attackMode": "远程穿刺",
+        "range": "敌六人长方",
+        "armsLimitation": "轻型火枪",
+        "special": "枪王职业认证专属"
+      },
+      {
+        "name": "杀戮盛宴",
+        "skillAttribute": [
+          "状态抵抗-200",
+          "洞察-20%,禁言",
+          "免伤护盾-2"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "3000法力",
+        "attackMode": "诅咒",
+        "range": "敌全体",
+        "armsLimitation": "无",
+        "special": "枪王职业认证专属"
+      },
+      {
+        "name": "陨石重击",
+        "skillAttribute": [
+          "目标伤害减免值-420",
+          "魔法命中-200,混乱",
+          "免伤护盾-1"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "800法力",
+        "attackMode": "远程穿刺",
+        "range": "敌单体",
+        "armsLimitation": "重型火枪",
+        "special": "枪王职业认证专属"
+      }
+    ]
+  },
+  "锤师": "hammerMaster",
+  "hammerMaster": {
+    "passive": [
+      {
+        "name": "御雷加身",
+        "hammerWeaponDamage": 150,
+        "magic": 430,
+        "mana": 740,
+        "skillAttribute": [
+          "锤子武器伤害+150%",
+          "魔法攻击+430",
+          "法力+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "风雷火炮",
+        "hammerAttackTimes": 3,
+        "magic": 430,
+        "mana": 740,
+        "skillAttribute": [
+          "锤子攻击次数+3",
+          "魔法攻击+430",
+          "法力+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "气息一击",
+        "forcedHit": 20,
+        "magicHit": 85,
+        "magicPenetration": 740,
+        "skillAttribute": [
+          "强制命中率+20",
+          "魔法命中+85",
+          "法术穿透+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "卸甲神力",
+        "hammerWeaponDamage": 130,
+        "ignoreInsight": 133,
+        "ignoreDamageReduction": 250,
+        "skillAttribute": [
+          "锤子武器伤害+130%",
+          "无视洞察+133",
+          "无视伤害减免+250"
+        ],
+        "checked": false
+      },
+      {
+        "name": "无畏之心",
+        "move": 740,
+        "perception": 80,
+        "mana": 900,
+        "skillAttribute": [
+          "出手速度+740",
+          "感知+80",
+          "法力+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "瓦釜雷鸣",
+        "hammerAttackTimes": 3,
+        "magicPercentage": 26,
+        "magicHit": 82,
+        "skillAttribute": [
+          "锤子攻击次数+3",
+          "魔法攻击力+26%",
+          "魔法命中+82"
+        ],
+        "checked": false
+      },
+      {
+        "name": "命运时机",
+        "deadly": 130,
+        "ignoreInsight": 150,
+        "ignoreMagicFeedback": 220,
+        "skillAttribute": [
+          "致命点+130",
+          "无视洞察+150",
+          "无视魔法反馈+220"
+        ],
+        "checked": false
+      },
+      {
+        "name": "鬼工雷斧",
+        "ignoreInsight": 150,
+        "ignoreMagicFeedback": 220,
+        "ignoreDamageReduction": 220,
+        "skillAttribute": [
+          "无视洞察+150",
+          "无视魔法反馈+220",
+          "无视伤害减免+220"
+        ],
+        "checked": false
+      },
+      {
+        "name": "风驰电掣",
+        "move": 900,
+        "movePercentage": 28,
+        "perception": 80,
+        "skillAttribute": [
+          "出手速度+900",
+          "出手速度+28%",
+          "感知+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "神力锻造",
+        "hammerWeaponDamage": 150,
+        "magicPenetration": 1480,
+        "skillAttribute": [
+          "锤子武器伤害+150%",
+          "魔法穿透+740",
+          "魔法穿透+740"
+        ],
+        "checked": false
+      },
+      {
+        "name": "魔法纹路",
+        "intelligence": 90,
+        "mana": 900,
+        "skillAttribute": [
+          "智力+90",
+          "法力吸收+130",
+          "法力上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "千锤百炼",
+        "hammerWeaponDamage": 150,
+        "hammerAttackTimes": 2,
+        "deadly": 130,
+        "skillAttribute": [
+          "锤子武器伤害+150%",
+          "锤子攻次+2",
+          "致命点+130"
+        ],
+        "checked": false
+      },
+      {
+        "name": "凡人意志",
+        "chopDefense": 3600,
+        "punctureDefense": 3600,
+        "block": 175,
+        "skillAttribute": [
+          "劈砍防御力+3600",
+          "穿刺防御力+3600",
+          "格挡+175"
+        ],
+        "checked": false
+      },
+      {
+        "name": "诸神加护",
+        "dodge": 65,
+        "magicDefense": 900,
+        "insight": 180,
+        "skillAttribute": [
+          "躲闪+65",
+          "魔法防御力+900",
+          "洞察+180"
+        ],
+        "checked": false
+      },
+      {
+        "name": "眷护",
+        "manaShield": 1700,
+        "damageReduction": 95,
+        "block": 165,
+        "skillAttribute": [
+          "法力护盾+1700",
+          "伤害减免+95",
+          "格挡+165"
+        ],
+        "checked": false
+      },
+      {
+        "name": "疾风劲草",
+        "damageReduction": 95,
+        "block": 165,
+        "constitution": 80,
+        "skillAttribute": [
+          "伤害减免+95",
+          "格挡+165",
+          "体质+80"
+        ],
+        "checked": false
+      },
+      {
+        "name": "月神祝福",
+        "manaShieldPercentage": 28,
+        "state": 76,
+        "basicHP": 900,
+        "skillAttribute": [
+          "法力护盾+28%",
+          "状态抵抗+76",
+          "生命上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "百折不挠",
+        "chopDefense": 3600,
+        "damageReduction": 95,
+        "state": 76,
+        "skillAttribute": [
+          "劈砍防御力+3600",
+          "伤害减免+95",
+          "状态抵抗+76"
+        ],
+        "checked": false
+      },
+      {
+        "name": "百炼成钢",
+        "punctureDefense": 3600,
+        "damageReduction": 95,
+        "state": 76,
+        "skillAttribute": [
+          "穿刺防御力+3600",
+          "伤害减免+95",
+          "状态抵抗+76"
+        ],
+        "checked": false
+      },
+      {
+        "name": "永不灭绝",
+        "basicHP": 1800,
+        "skillAttribute": [
+          "生命上限+900",
+          "生命上限+900",
+          "生命吸收+400"
+        ],
+        "checked": false
+      },
+      {
+        "name": "心坚石穿",
+        "dodge": 65,
+        "HPRecovery": 370,
+        "constitution": 80,
+        "skillAttribute": [
+          "躲闪+65",
+          "每回合自动恢复生命+370",
+          "体质+80"
+        ],
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "防具侵蚀",
+        "skillAttribute": [
+          "魔法防御力-3500",
+          "伤害减免-500,属性减少",
+          "法力护盾-60%"
+        ],
+        "round": 6,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "狂火魔",
+        "skillAttribute": [
+          "目标洞察值-600",
+          "扣除最大法力值12%,火烧",
+          "免伤护盾-2"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "雷电幻影",
+        "skillAttribute": [
+          "每回合自动恢复生命-180",
+          "清除目标减益状态",
+          "每回合自动恢复法力+500,幻影"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "轻锤、重锤",
+        "special": "锤师职业认证专属"
+      },
+      {
+        "name": "恶灵封散诀",
+        "skillAttribute": [
+          "清除目标幻影状态",
+          "清除目标死者苏生状态",
+          "清除目标免疫衰弱状态"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "轮回断绝",
+        "skillAttribute": [
+          "清除目标不死意志状态",
+          "清除目标死者苏生状态",
+          "清除目标死亡傀儡状态"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1500法力",
+        "attackMode": "祝福",
+        "range": "敌全部",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "痛觉刺激",
+        "skillAttribute": [
+          "清除目标嘲讽状态",
+          "状态抵抗值+280,免疫禁言",
+          "回复最大法力值10%"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "我上下三人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "免疫破坏",
+        "skillAttribute": [
+          "扣除最大法力值5%",
+          "清除目标全减免疫状态",
+          "清除目标增益状态"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2500法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "轻锤、重锤",
+        "special": "锤师职业认证专属"
+      },
+      {
+        "name": "绝技-星锤散漫",
+        "skillAttribute": [
+          "造成最大生命值12%的伤害",
+          "生命-3000",
+          "无视目标+3000点法术防御,火烧"
+        ],
+        "round": 4,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "5000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "秘技-重锤眩击",
+        "skillAttribute": [
+          "造成最大生命值10%的伤害,定身",
+          "目标伤害减免值-420",
+          "清除目标物攻无效状态"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "4000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "绝技-神话雷狼",
+        "skillAttribute": [
+          "生命-4900,嘲讽",
+          "附带法力吸收+240",
+          "目标伤害减免值-360"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "3500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌正方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "秘技-蓝鹰",
+        "skillAttribute": [
+          "造成最大生命值8%的伤害",
+          "目标洞察值-420",
+          "目标伤害减免值-360"
+        ],
+        "round": 2,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "7000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌全部",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "奥术-折雷",
+        "skillAttribute": [
+          "生命-4400",
+          "扣除最大法力值9%",
+          "目标魔法反馈值-500"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "3500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "奥术-激流冲击",
+        "skillAttribute": [
+          "生命-4200,中毒",
+          "目标魔法反馈值-420",
+          "免伤护盾-2"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "3500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "异术-红莲爆雷",
+        "skillAttribute": [
+          "目标状态抵抗率-300",
+          "每回合自动恢复法力+500,免疫封魔",
+          "伤害减免+400,混乱"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "3500法力",
+        "attackMode": "祝福",
+        "range": "我上下两人",
+        "armsLimitation": "轻锤、重锤",
+        "special": "锤师职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "神话星辰",
+        "skillAttribute": [
+          "法力护盾+3600",
+          "法力护盾+28%",
+          "清除目标衰弱状态"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "700法力",
+        "attackMode": "祝福",
+        "range": "我前后两人",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "黎明之光",
+        "skillAttribute": [
+          "法力护盾+6300",
+          "状态抵抗+280",
+          "每回合自动恢复生命+450,属性增加"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "550法力",
+        "attackMode": "祝福",
+        "range": "我上下四人",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "高压护甲",
+        "skillAttribute": [
+          "法力护盾+6300",
+          "法力护盾+4000",
+          "每回合恢复法力+300,免疫定身"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "法师意志",
+        "skillAttribute": [
+          "魔法防御力+2000",
+          "劈砍防御力+5000",
+          "穿刺防御力+5000"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "360法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "心意强振",
+        "skillAttribute": [
+          "魔法穿透+800,免疫禁言",
+          "每回合自动恢复法力+500",
+          "每回合自动恢复生命+500"
+        ],
+        "round": 5,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "350法力",
+        "attackMode": "祝福",
+        "range": "我前后两人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "星月交辉",
+        "skillAttribute": [
+          "每回合自动恢复法力+500,属性增加",
+          "清除目标驱逐状态",
+          "清除目标嘲讽状态"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "700法力",
+        "attackMode": "祝福",
+        "range": "我上下两人",
+        "armsLimitation": "轻锤、重锤"
+      },
+      {
+        "name": "星云飞散",
+        "skillAttribute": [
+          "伤害减免-300,封技",
+          "扣除最大法力值6%",
+          "状态抵抗-250"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "700法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌长方六人",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "流星掣电",
+        "skillAttribute": [
+          "伤害减免-300,禁言",
+          "洞察-250",
+          "造成最大生命值15%的伤害"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 5,
+        "skillConsumption": "3500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌上下四人",
+        "armsLimitation": "轻型锤",
+        "special": "锤师职业认证专属"
+      },
+      {
+        "name": "魔纹充能",
+        "skillAttribute": [
+          "清除目标减益状态",
+          "法力吸收+280",
+          "无视洞察+280"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "职业心决",
+        "skillAttribute": [
+          "造成最大生命值-12%的伤害,流血",
+          "反击-20%",
+          "洞察-200"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 5,
+        "skillConsumption": "3800法力",
+        "attackMode": "魔法攻击",
+        "range": "敌十字",
+        "armsLimitation": "重型锤",
+        "special": "锤师职业认证专属"
+      },
+      {
+        "name": "静电作用",
+        "skillAttribute": [
+          "洞察-250",
+          "魔法防御力-50%",
+          "目标魔法反馈值-450"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "3000法力",
+        "attackMode": "祝福",
+        "range": "敌上下五人",
+        "armsLimitation": "轻锤,重锤",
+        "special": "锤师职业认证专属"
+      },
+      {
+        "name": "统合雷魔咒",
+        "skillAttribute": [
+          "造成最大生命值-12%的伤害",
+          "技能附带魔法命中+420",
+          "目标洞察值-420"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "3000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "轻锤,重锤",
+        "special": "锤师职业认证专属"
+      }
+    ]
+  },
+  "岚舞": "hazeDance",
+  "hazeDance": {
+    "passive": [
+      {
+        "name": "飓风侵蚀",
+        "magicPenetration": 740,
+        "magicPenetrationPercentage": 42,
+        "mana": 900,
+        "skillAttribute": [
+          "魔法穿透+740",
+          "魔法穿透+42%",
+          "法力上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "狂风加护",
+        "magicHit": 85,
+        "ignoreDamageReduction": 125,
+        "ignoreMagicFeedback": 170,
+        "skillAttribute": [
+          "魔法命中+85",
+          "无视伤害减免+125",
+          "无视魔法反馈+170"
+        ],
+        "checked": false
+      },
+      {
+        "name": "岚风炫舞",
+        "magicHit": 167,
+        "mana": 900,
+        "skillAttribute": [
+          "魔法命中+85",
+          "法力上限+900",
+          "魔法命中+82"
+        ],
+        "checked": false
+      },
+      {
+        "name": "轻风细雨",
+        "manaShield": 900,
+        "mana": 900,
+        "manaPercentage": 23,
+        "skillAttribute": [
+          "法力护盾+900",
+          "法力上限+900",
+          "法力+23%"
+        ],
+        "checked": false
+      },
+      {
+        "name": "精舞成风",
+        "fanWeaponDamage": 150,
+        "magicPercentage": 28,
+        "magicPenetration": 720,
+        "skillAttribute": [
+          "扇子武器伤害+150%",
+          "魔法攻击+28%",
+          "魔法穿透+720"
+        ],
+        "checked": false
+      },
+      {
+        "name": "龙卷之翼",
+        "fanWeaponDamage": 150,
+        "fanAttackTimes": 3,
+        "magic": 430,
+        "skillAttribute": [
+          "扇子武器伤害+150%",
+          "扇子攻击次数+3",
+          "魔法攻击力+430"
+        ],
+        "checked": false
+      },
+      {
+        "name": "最后之语",
+        "fanWeaponDamage": 280,
+        "fanAttackTimes": 2,
+        "skillAttribute": [
+          "扇子武器伤害+150%",
+          "扇子武器伤害+130%",
+          "扇子攻击次数+2"
+        ],
+        "checked": false
+      },
+      {
+        "name": "残风捕影",
+        "ignoreMagicFeedback": 170,
+        "disregardState": 150,
+        "ignoreInsight": 160,
+        "skillAttribute": [
+          "无视魔法反馈+170",
+          "无视状态抵抗+150",
+          "无视洞察+160"
+        ],
+        "checked": false
+      },
+      {
+        "name": "宝扇修复",
+        "fanAttackTimes": 3,
+        "magic": 450,
+        "mana": 900,
+        "skillAttribute": [
+          "扇子攻击次数+3",
+          "魔法攻击+450",
+          "法力上限+900"
+        ],
+        "checked": false
+      },
+      {
+        "name": "风神铠甲",
+        "manaShield": 1400,
+        "manaShieldPercentage": 60,
+        "manaRegeneration": 1300,
+        "skillAttribute": [
+          "法力护盾+1400",
+          "法力护盾+60%",
+          "每回合自动恢复法力+1300"
+        ],
+        "checked": false
+      },
+      {
+        "name": "意志心决",
+        "ignoreInsight": 150,
+        "ignoreMagicFeedback": 220,
+        "intelligence": 90,
+        "skillAttribute": [
+          "无视洞察+150",
+          "无视魔法反馈+220",
+          "智力+90"
+        ],
+        "checked": false
+      }
+    ],
+    "active": [
+      {
+        "name": "护甲消弱",
+        "skillAttribute": [
+          "魔法防御力-2800",
+          "无视目标+3000点法术防御",
+          "目标伤害减免值-420"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "无",
+        "attackMode": "魔法攻击",
+        "range": "敌上下三人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "风琐禁锢",
+        "skillAttribute": [
+          "闪避-380,定身",
+          "技能附带魔法命中+450,属性减少",
+          "目标状态抵抗率-300"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "无",
+        "attackMode": "诅咒攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "攻击间隙",
+        "skillAttribute": [
+          "目标魔攻反馈值-600",
+          "目标洞察值-600",
+          "目标伤害减免值-450"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 4,
+        "skillConsumption": "无",
+        "attackMode": "诅咒攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "法盾穿透",
+        "skillAttribute": [
+          "附带强制命中率+70",
+          "无视目标+3300点法术防御",
+          "目标伤害减免值-510"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "无",
+        "attackMode": "诅咒攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "星舞旋风",
+        "skillAttribute": [
+          "造成最大生命值15%的伤害,流血",
+          "目标魔法反馈值-490",
+          "扣除最大法力值9%"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌六人长方",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "纹路崩坏",
+        "skillAttribute": [
+          "法力-2500,中毒",
+          "目标洞察值-560",
+          "洞察-240"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "无",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "琉风斩",
+        "skillAttribute": [
+          "生命-4200",
+          "目标伤害减免值-450",
+          "附带生命吸收+220"
+        ],
+        "round": 4,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "2000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌上下四人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "燕回",
+        "skillAttribute": [
+          "生命-4800",
+          "无视目标+3200点法术防御",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "无",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "羽翼飞廉",
+        "skillAttribute": [
+          "生命-4200",
+          "法力-1700",
+          "免伤护盾-1,封技"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "2000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "星宿撞击",
+        "skillAttribute": [
+          "扣除最大法力值11%,混乱",
+          "目标状态抵抗率-300",
+          "法力-1500,属性减少"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2500法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌上下五人",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "复苏之风",
+        "skillAttribute": [
+          "复活并回复体力及法力55%",
+          "每回合恢复生命5%,混乱",
+          "免伤护盾+1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 0,
+        "skillConsumption": "无",
+        "attackMode": "祝福",
+        "range": "我单体",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "黑风斩",
+        "skillAttribute": [
+          "清除目标增益状态",
+          "技能附带魔法命中+420",
+          "攻击次数-4"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "1500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "舞之束",
+        "skillAttribute": [
+          "清除目标魔攻无效",
+          "出手速度-2600",
+          "躲闪-325"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "2000法力",
+        "attackMode": "远程穿刺攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "神力抽离",
+        "skillAttribute": [
+          "清除目标全减免疫",
+          "扣除最大法力值9%",
+          "洞察-200"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "700法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌单体",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "倾舞岚成",
+        "skillAttribute": [
+          "附带法力吸收+230",
+          "目标伤害减免值-450",
+          "目标状态抵抗率-330"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "1500法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "奉纳",
+        "skillAttribute": [
+          "伤害减免+300",
+          "法力护盾+3000",
+          "法力护盾26%,嘲讽"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "无",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      }
+    ],
+    "automatic": [
+      {
+        "name": "疾风暴走",
+        "skillAttribute": [
+          "出手速度+1200",
+          "出手速度+65%",
+          "格挡+400,免疫禁言"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "350法力",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "无"
+      },
+      {
+        "name": "神风降赐",
+        "skillAttribute": [
+          "清除目标减益状态",
+          "回复最大生命值+12%,免疫定身",
+          "法力护盾+3600"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1500法力",
+        "attackMode": "祝福",
+        "range": "我上下两人",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "幻想灵风",
+        "skillAttribute": [
+          "造成最大生命值15%的伤害,流血",
+          "清除目标幻影状态",
+          "无视目标+3000点法术防御"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "1000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "境界之风",
+        "skillAttribute": [
+          "生命-4000,驱逐",
+          "目标洞察值-650",
+          "免伤护盾-1"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 2,
+        "skillConsumption": "1500法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      },
+      {
+        "name": "魔力衰弱",
+        "skillAttribute": [
+          "法力-1500,衰弱",
+          "魔法命中-310",
+          "攻击次数-6"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 3,
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌上下三人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "季风狂乱",
+        "skillAttribute": [
+          "生命-4300,混乱",
+          "状态抵抗-320",
+          "目标伤害减免值-420"
+        ],
+        "round": 3,
+        "additionalAttackTimes": 0,
+        "skillConsumption": "1000法力",
+        "attackMode": "魔法攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "巨翼席卷",
+        "skillAttribute": [
+          "法力-1700",
+          "洞察-350",
+          "清除目标增益状态"
+        ],
+        "round": 3,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "1000法力",
+        "attackMode": "诅咒攻击",
+        "range": "敌前后两人",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "法力循环",
+        "skillAttribute": [
+          "每回合自动恢复法力+406",
+          "法力+1500",
+          "出手速度+40%"
+        ],
+        "round": 4,
+        "additionalAttackTimes": "无",
+        "skillConsumption": "无",
+        "attackMode": "祝福",
+        "range": "自身",
+        "armsLimitation": "扇"
+      },
+      {
+        "name": "澄空岚舞",
+        "skillAttribute": [
+          "清除目标减益状态",
+          "法力+1000,不死意志",
+          "无"
+        ],
+        "round": 5,
+        "additionalAttackTimes": 0,
+        "skillConsumption": "2000法力",
+        "attackMode": "祝福",
+        "range": "我前后两人",
+        "armsLimitation": "扇",
+        "special": "岚舞职业认证专属"
+      }
+    ]
+  }
+}
