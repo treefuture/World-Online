@@ -1,0 +1,986 @@
+{
+  "称号": "title",
+  "称号属性介绍": "attribute",
+  "称号获取渠道": "channel",
+  "称号类别": "category",
+  "title": {
+    "属性榜称号": {
+      "本周世界首富": {
+        "attribute": [
+          "暂无",
+          "暂无"
+        ],
+        "channel": "暂无",
+        "category": "暂无"
+      },
+      "本周战力最牛": {
+        "ignoreBlock": 400,
+        "ignoreDamageReduction": 400,
+        "attribute": [
+          "无视格挡+400",
+          "无视伤害减免+400"
+        ],
+        "channel": "战力历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周魔攻最牛": {
+        "intelligence": 75,
+        "intelligencePercentage": 0.2,
+        "attribute": [
+          "基础智力+75",
+          "智力+20%"
+        ],
+        "channel": "魔攻历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周魔攻第二": {
+        "intelligence": 60,
+        "intelligencePercentage": 0.2,
+        "attribute": [
+          "基础智力+60",
+          "智力+20%"
+        ],
+        "channel": "魔攻历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周魔攻第三": {
+        "intelligence": 50,
+        "intelligencePercentage": 0.2,
+        "attribute": [
+          "基础智力+50",
+          "智力+20%"
+        ],
+        "channel": "魔攻历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周劈砍最牛": {
+        "power": 75,
+        "powerPercentage": 0.2,
+        "attribute": [
+          "基础力量+75",
+          "力量+20%"
+        ],
+        "channel": "劈砍历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周劈砍第二": {
+        "power": 60,
+        "powerPercentage": 0.2,
+        "attribute": [
+          "基础力量+60",
+          "力量+20%"
+        ],
+        "channel": "劈砍历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周劈砍第三": {
+        "power": 50,
+        "powerPercentage": 0.2,
+        "attribute": [
+          "基础力量+50",
+          "力量+20%"
+        ],
+        "channel": "劈砍历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周穿刺最牛": {
+        "agile": 75,
+        "agilePercentage": 0.2,
+        "attribute": [
+          "基础敏捷+75",
+          "敏捷+20%"
+        ],
+        "channel": "穿刺历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周穿刺第二": {
+        "agile": 60,
+        "agilePercentage": 0.2,
+        "attribute": [
+          "基础敏捷+60",
+          "敏捷+20%"
+        ],
+        "channel": "穿刺历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      },
+      "本周穿刺第三": {
+        "agile": 50,
+        "agilePercentage": 0.2,
+        "attribute": [
+          "基础敏捷+50",
+          "敏捷+20%"
+        ],
+        "channel": "穿刺历史排行前三专属",
+        "category": "各区历史属性前三排行榜"
+      }
+    },
+    "周年称号": {
+      "世界快乐": {
+        "basicHP": 200,
+        "attribute": [
+          "生命+200",
+          "任务经验1.1倍"
+        ],
+        "channel": "世界一周年活动",
+        "category": "一周年专属"
+      },
+      "世界生日会": {
+        "deadly": 50,
+        "attackTimes": 1,
+        "attribute": [
+          "致命点+50",
+          "攻击次数+1"
+        ],
+        "channel": "周年活动获得",
+        "category": "周年专属"
+      },
+      "十年盛景": {
+        "disregardState": 400,
+        "ignoreMagicFeedback": 400,
+        "attribute": [
+          "无视状态+400",
+          "无视魔法反馈+400"
+        ],
+        "channel": "世界十周年活动",
+        "category": "周年专属"
+      }
+    },
+    "基础属性称号": {
+      "大法师": {
+        "intelligencePercentage": 0.05,
+        "attribute": [
+          "智力+5%"
+        ],
+        "channel": "400智力成就",
+        "category": "五项基础属性点成就"
+      },
+      "魔导师": {
+        "intelligencePercentage": 0.1,
+        "attribute": [
+          "智力+10%"
+        ],
+        "channel": "1000智力成就",
+        "category": "五项基础属性点成就"
+      },
+      "上古智慧": {
+        "intelligence": 30,
+        "intelligencePercentage": 0.15,
+        "attribute": [
+          "基础智力+30",
+          "智力+15%"
+        ],
+        "channel": "2500智力成就",
+        "category": "五项基础属性点成就"
+      },
+      "智之洞悉": {
+        "intelligence": 50,
+        "intelligencePercentage": 0.2,
+        "attribute": [
+          "基础智力+50",
+          "智力+20%"
+        ],
+        "channel": "5000智力成就",
+        "category": "五项基础属性点成就"
+      },
+      "大贤者": {
+        "perceptionPercentage": 0.05,
+        "attribute": [
+          "感知+5%"
+        ],
+        "channel": "400感知成就",
+        "category": "五项基础属性点成就"
+      },
+      "圣贤": {
+        "perceptionPercentage": 0.1,
+        "attribute": [
+          "感知+10%"
+        ],
+        "channel": "1000感知成就",
+        "category": "五项基础属性点成就"
+      },
+      "天行者": {
+        "perception": 30,
+        "perceptionPercentage": 0.15,
+        "attribute": [
+          "基础感知+30",
+          "感知+10%"
+        ],
+        "channel": "2500感知成就",
+        "category": "五项基础属性点成就"
+      },
+      "感之天启": {
+        "perception": 50,
+        "perceptionPercentage": 0.2,
+        "attribute": [
+          "基础感知+50",
+          "感知+20%"
+        ],
+        "channel": "5000感知成就",
+        "category": "五项基础属性点成就"
+      },
+      "影舞者": {
+        "agilePercentage": 0.05,
+        "attribute": [
+          "敏捷+5%"
+        ],
+        "channel": "400敏捷成就",
+        "category": "五项基础属性点成就"
+      },
+      "风行者": {
+        "agilePercentage": 0.1,
+        "attribute": [
+          "敏捷+10%"
+        ],
+        "channel": "1000敏捷成就",
+        "category": "五项基础属性点成就"
+      },
+      "无影者": {
+        "agile": 30,
+        "agilePercentage": 0.15,
+        "attribute": [
+          "基础敏捷+30",
+          "敏捷+15%"
+        ],
+        "channel": "2500敏捷成就",
+        "category": "五项基础属性点成就"
+      },
+      "敏之追光": {
+        "agile": 50,
+        "agilePercentage": 0.20,
+        "attribute": [
+          "基础敏捷+50",
+          "敏捷+20%"
+        ],
+        "channel": "5000敏捷成就",
+        "category": "五项基础属性点成就"
+      },
+      "狂战士": {
+        "powerPercentage": 0.05,
+        "attribute": [
+          "力量+5%"
+        ],
+        "channel": "400力量成就",
+        "category": "五项基础属性点成就"
+      },
+      "大力神": {
+        "powerPercentage": 0.10,
+        "attribute": [
+          "力量+10%"
+        ],
+        "channel": "1000力量成就",
+        "category": "五项基础属性点成就"
+      },
+      "九天神力": {
+        "power": 30,
+        "powerPercentage": 0.15,
+        "attribute": [
+          "基础力量+30",
+          "力量+15%"
+        ],
+        "channel": "2500力量成就",
+        "category": "五项基础属性点成就"
+      },
+      "力之破坏": {
+        "power": 50,
+        "powerPercentage": 0.2,
+        "attribute": [
+          "基础力量+50",
+          "力量+20%"
+        ],
+        "channel": "5000力量成就",
+        "category": "五项基础属性点成就"
+      },
+      "圣骑士": {
+        "constitutionPercentage": 0.05,
+        "attribute": [
+          "体质+5%"
+        ],
+        "channel": "400体质成就",
+        "category": "五项基础属性点成就"
+      },
+      "神圣骑士": {
+        "constitutionPercentage": 0.1,
+        "attribute": [
+          "体质+10%"
+        ],
+        "channel": "1000体质成就",
+        "category": "五项基础属性点成就"
+      },
+      "盘古之躯": {
+        "constitution": 30,
+        "constitutionPercentage": 0.15,
+        "attribute": [
+          "基础体质+30",
+          "体质+15%"
+        ],
+        "channel": "2500体质成就",
+        "category": "五项基础属性点成就"
+      },
+      "体之超凡": {
+        "constitution": 50,
+        "constitutionPercentage": 0.2,
+        "attribute": [
+          "基础体质+50",
+          "体质+20%"
+        ],
+        "channel": "5000体质成就",
+        "category": "五项基础属性点成就"
+      }
+    },
+    "副本称号": {
+      "屠龙勇士": {
+        "constitution": 10,
+        "perception": 10,
+        "attribute": [
+          "基础体质+10",
+          "基础感知+10"
+        ],
+        "channel": "火龙任务",
+        "category": "日常副本"
+      },
+      "首席黑袍法师": {
+        "perception": 20,
+        "magicHit": 10,
+        "attribute": [
+          "基础感知+20",
+          "魔法命中+10"
+        ],
+        "channel": "击杀雷斯林获得",
+        "category": "雷斯林专属"
+      },
+      "国家守护者": {
+        "constitutionPercentage": 0.1,
+        "perceptionPercentage": 0.1,
+        "attribute": [
+          "体质+10%",
+          "感知+10%"
+        ],
+        "channel": "八一副本获得",
+        "category": "八一专属"
+      },
+      "无头骑士": {
+        "powerPercentage": 0.15,
+        "agilePercentage": 0.15,
+        "attribute": [
+          "力量+15%",
+          "敏捷+15%"
+        ],
+        "channel": "万圣节噩梦奖励/怪物攻城(52)",
+        "category": "副本/攻城专属"
+      },
+      "末日骑士": {
+        "damageReduction": 50,
+        "ignoreDamageReduction": 70,
+        "attribute": [
+          "伤害减免+50",
+          "无视伤害减免+70"
+        ],
+        "channel": "末日副本奖励/怪物攻城(52)",
+        "category": "副本/攻城专属"
+      },
+      "逐日者之光": {
+        "deadlyPercentage": 0.1,
+        "attackTimes": 1,
+        "attribute": [
+          "致命率+10%",
+          "攻击次数+1"
+        ],
+        "channel": "太阳神盒子开启(暂无永久)",
+        "category": "副本专属"
+      }
+    },
+    "节日称号": {
+      "我是光棍": {
+        "hit": 10,
+        "deadly": 10,
+        "attribute": [
+          "命中+10",
+          "致命+10"
+        ],
+        "channel": "光棍节活动",
+        "category": "光棍专属"
+      },
+      "我爱美女": {
+        "agile": 20,
+        "state": 30,
+        "attribute": [
+          "基础敏捷+20",
+          "状态+30"
+        ],
+        "channel": "光棍节活动",
+        "category": "光棍专属"
+      },
+      "FFF团": {
+        "movePercentage": 0.15,
+        "dodgePercentage": 0.15,
+        "attribute": [
+          "出手+15%",
+          "闪避+15%"
+        ],
+        "channel": "光棍节活动",
+        "category": "光棍专属"
+      },
+      "幸运女神的眷顾": {
+        "basicHP": 300,
+        "mana": 300,
+        "attribute": [
+          "生命+300",
+          "法力+300"
+        ],
+        "channel": "三八妇女节活动",
+        "category": "妇女节专属"
+      },
+      "我是女生": {
+        "magicHitPercentage": 0.15,
+        "ignoreMagicFeedback": 400,
+        "attribute": [
+          "魔法命中+15%",
+          "无视魔法反馈+400"
+        ],
+        "channel": "三八妇女节活动",
+        "category": "妇女节专属"
+      },
+      "加油打工人": {
+        "attackTimes": 1,
+        "deadly": 50,
+        "attribute": [
+          "攻次+1",
+          "致命+50"
+        ],
+        "channel": "五一劳动节活动",
+        "category": "劳动节专属"
+      },
+      "火鸡毁灭者": {
+        "HPRecovery": 300,
+        "manaRegeneration": 100,
+        "attribute": [
+          "生命回复+300",
+          "法力回复+100"
+        ],
+        "channel": "感恩节活动",
+        "category": "感恩节专属"
+      },
+      "大胃王": {
+        "HPRecovery": 500,
+        "state": 50,
+        "attribute": [
+          "生命回复+300",
+          "状态+50"
+        ],
+        "channel": "感恩节活动",
+        "category": "感恩节专属"
+      },
+      "圣诞老人": {
+        "perceptionPercentage": 0.15,
+        "state": 20,
+        "attribute": [
+          "感知+15%",
+          "状态+20"
+        ],
+        "channel": "圣诞节礼物",
+        "category": "圣诞节专属"
+      },
+      "铃儿响叮当": {
+        "counterattack": 400,
+        "magicFeedback": 400,
+        "attribute": [
+          "反击+400",
+          "魔法反馈+400"
+        ],
+        "channel": "圣诞节活动",
+        "category": "圣诞节专属"
+      },
+      "三生三世十里桃花": {
+        "damageReductionPercentage": 0.2,
+        "immuneShield": 1,
+        "attribute": [
+          "伤害减免+20%",
+          "免伤护盾+1"
+        ],
+        "channel": "暂无",
+        "category": "暂无"
+      },
+      "中秋节快乐": {
+        "attribute": [
+          "暂无",
+          "暂无"
+        ],
+        "channel": "中秋节活动",
+        "category": "中秋节专属"
+      },
+      "教师节快乐": {
+        "attribute": [
+          "暂无",
+          "暂无"
+        ],
+        "channel": "教师节活动",
+        "category": "教师节专属"
+      },
+      "母亲节快乐": {
+        "attribute": [
+          "暂无",
+          "暂无"
+        ],
+        "channel": "母亲节活动",
+        "category": "母亲节专属"
+      },
+      "捣蛋大王": {
+        "ignoreInsight": 400,
+        "ignoreMagicFeedback": 400,
+        "attribute": [
+          "无视洞察+400",
+          "魔法反馈+400"
+        ],
+        "channel": "万圣节活动",
+        "category": "万圣节专属"
+      },
+      "共庆新年笑语哗": {
+        "damageReductionPercentage": 0.05,
+        "immuneShield": 1,
+        "attribute": [
+          "伤害减免+5%",
+          "免伤护盾+1"
+        ],
+        "channel": "新年活动",
+        "category": "春节专属"
+      }
+    },
+    "充值称号": {
+      "给力": {
+        "constitution": 15,
+        "power": 15,
+        "attribute": [
+          "基础体质+15",
+          "基础力量+15"
+        ],
+        "channel": "进行一次充值",
+        "category": "充值成就"
+      },
+      "颇负盛名": {
+        "constitution": 12,
+        "perception": 12,
+        "attribute": [
+          "基础体质+12",
+          "基础感知+12"
+        ],
+        "channel": "充值500元",
+        "category": "充值成就"
+      },
+      "大名鼎鼎": {
+        "constitution": 15,
+        "perception": 15,
+        "attribute": [
+          "基础体质+15",
+          "基础感知+15"
+        ],
+        "channel": "充值1000元",
+        "category": "充值成就"
+      },
+      "名士风流": {
+        "constitution": 20,
+        "perception": 20,
+        "attribute": [
+          "基础体质+20",
+          "基础感知+20"
+        ],
+        "channel": "充值2000元",
+        "category": "充值成就"
+      },
+      "富贵逼人": {
+        "mana": 100,
+        "manaPercentage": 0.05,
+        "attribute": [
+          "法力+100",
+          "法力+5%"
+        ],
+        "channel": "拥有10000黄金",
+        "category": "黄金/金叶成就"
+      },
+      "富商巨贾": {
+        "mana": 150,
+        "manaPercentage": 0.15,
+        "attribute": [
+          "法力+150",
+          "法力+15%"
+        ],
+        "channel": "拥有100000黄金",
+        "category": "黄金/金叶成就"
+      },
+      "腰缠万贯": {
+        "basicHP": 500,
+        "bloodVolumePercentage": 0.02,
+        "attribute": [
+          "生命+500",
+          "生命+2%"
+        ],
+        "channel": "拥有100000金叶",
+        "category": "黄金/金叶成就"
+      },
+      "未知": {
+        "attribute": [
+          "暂无",
+          "暂无"
+        ],
+        "channel": "拥有1000000金叶",
+        "category": "黄金/金叶成就"
+      }
+    },
+    "宝石称号": {
+      "宝石骑士": {
+        "state": 25,
+        "damageReduction": 25,
+        "attribute": [
+          "状态+25",
+          "伤害减免+25"
+        ],
+        "channel": "单件装备镶嵌20宝石",
+        "category": "宝石成就"
+      },
+      "珠光璀璨": {
+        "constitution": 10,
+        "basicHP": 500,
+        "attribute": [
+          "基础体质+10",
+          "生命+500"
+        ],
+        "channel": "全身装备200宝石",
+        "category": "宝石成就"
+      },
+      "宝石收藏家": {
+        "attribute": [
+          "暂无",
+          "暂无"
+        ],
+        "channel": "全身装备270宝石",
+        "category": "宝石成就"
+      }
+    },
+    "国家称号": {
+      "国之守卫": {
+        "damageReduction": 10,
+        "attribute": [
+          "伤害减免+10"
+        ],
+        "channel": "为国家捐赠5本指令书",
+        "category": "国家成就"
+      },
+      "国之栋梁": {
+        "damageReduction": 15,
+        "attribute": [
+          "伤害减免+15"
+        ],
+        "channel": "为国家捐赠7本指令书",
+        "category": "国家成就"
+      },
+      "国之未来": {
+        "damageReduction": 20,
+        "basicHP": 500,
+        "attribute": [
+          "伤害减免+20",
+          "生命+500"
+        ],
+        "channel": "为国家捐赠10本指令书",
+        "category": "国家成就"
+      },
+      "栋梁之材": {
+        "constitution": 15,
+        "attribute": [
+          "基础体质+15"
+        ],
+        "channel": "500国家贡献",
+        "category": "国家成就"
+      },
+      "出入将相": {
+        "constitution": 8,
+        "attribute": [
+          "基础体质+8"
+        ],
+        "channel": "1000国家贡献",
+        "category": "国家成就"
+      },
+      "国士无双": {
+        "constitution": 10,
+        "attribute": [
+          "基础体质+10"
+        ],
+        "channel": "3000国家贡献",
+        "category": "国家成就"
+      },
+      "名传千古": {
+        "constitution": 20,
+        "attribute": [
+          "基础体质+20"
+        ],
+        "channel": "10000国家贡献",
+        "category": "国家成就"
+      },
+      "精忠报国": {
+        "constitution": 25,
+        "constitutionPercentage": 0.05,
+        "attribute": [
+          "基础体质+25",
+          "体质+5%"
+        ],
+        "channel": "15000国家贡献",
+        "category": "国家成就"
+      },
+      "国家专属称号": {
+        "constitutionPercentage": 0.1,
+        "agilePercentage": 0.1,
+        "attribute": [
+          "体质+10%",
+          "敏捷+10%"
+        ],
+        "channel": "国家争夺战活动",
+        "category": "国家成就"
+      }
+    },
+    "照片称号": {
+      "沉鱼落雁": {
+        "HPRecovery": 20,
+        "attribute": [
+          "生命回复+20"
+        ],
+        "channel": "照片20人暗恋",
+        "category": "照片成就"
+      },
+      "闭月羞花": {
+        "HPRecovery": 30,
+        "attribute": [
+          "生命回复+30"
+        ],
+        "channel": "照片35人暗恋",
+        "category": "照片成就"
+      },
+      "国色天香": {
+        "HPRecovery": 40,
+        "attribute": [
+          "生命回复+40"
+        ],
+        "channel": "照片50人暗恋",
+        "category": "照片成就"
+      },
+      "倾国倾城": {
+        "HPRecovery": 50,
+        "attribute": [
+          "生命回复+50"
+        ],
+        "channel": "照片100人暗恋",
+        "category": "照片成就"
+      },
+      "焦点人物": {
+        "dodge": 12,
+        "attribute": [
+          "闪避+12"
+        ],
+        "channel": "照片100条评论",
+        "category": "照片成就"
+      },
+      "万人迷": {
+        "attribute": [
+          "暂无"
+        ],
+        "channel": "暂无",
+        "category": "照片成就"
+      },
+      "网络红人": {
+        "attribute": [
+          "暂无"
+        ],
+        "channel": "暂无",
+        "category": "照片成就"
+      }
+    },
+    "VIP称号": {
+      "世界VIP": {
+        "constitution": 25,
+        "perception": 25,
+        "attribute": [
+          "基础体质+25",
+          "基础感知+25",
+          "VIP有经验加成"
+        ],
+        "channel": "500金/月",
+        "category": "VIP等级称号"
+      },
+      "英勇VIP2": {
+        "bloodVolumePercentage": 0.1,
+        "manaPercentage": 0.1,
+        "attribute": [
+          "生命+10%",
+          "法力+10%",
+          "VIP有经验加成"
+        ],
+        "channel": "1升2  2000金  续费2000金/月",
+        "category": "VIP等级称号"
+      },
+      "英勇VIP3": {
+        "manaShieldPercentage": 0.1,
+        "magicFeedbackPercentage": 0.1,
+        "attribute": [
+          "法力护盾+10%",
+          "魔法反馈+10%",
+          "VIP有经验加成"
+        ],
+        "channel": "2升3  4000金  续费4000金/月",
+        "category": "VIP等级称号"
+      },
+      "不屈VIP4": {
+        "damageReductionPercentage": 0.1,
+        "counterattackPercentage": 0.1,
+        "attribute": [
+          "伤害减免+10%",
+          "反击+10%",
+          "VIP有经验加成"
+        ],
+        "channel": "3升4  6000金  续费6000金/月",
+        "category": "VIP等级称号"
+      },
+      "荣耀VIP5": {
+        "counterattack": 200,
+        "magicFeedback": 200,
+        "attribute": [
+          "反击+200",
+          "魔法反馈+200",
+          "VIP有经验加成"
+        ],
+        "channel": "4升5  8000金  续费8000金/月",
+        "category": "VIP等级称号"
+      },
+      "华贵VIP6": {
+        "movePercentage": 0.1,
+        "move": 500,
+        "attribute": [
+          "出手+10%",
+          "出手+500",
+          "VIP有经验加成"
+        ],
+        "channel": "5升6  15000金  续费10000金/月",
+        "category": "VIP等级称号"
+      },
+      "璀璨VIP7": {
+        "ignorecounterattack": 200,
+        "ignoreDamageReduction": 200,
+        "attribute": [
+          "无视反击+200",
+          "无视伤害减免+200",
+          "VIP有经验加成"
+        ],
+        "channel": "6升7  20000金  续费15000金/月",
+        "category": "VIP等级称号"
+      },
+      "非凡VIP8": {
+        "ignoreInsight": 200,
+        "immuneShield": 1,
+        "attribute": [
+          "无视洞察+200",
+          "免伤护盾+1",
+          "VIP有经验加成"
+        ],
+        "channel": "7升8  30000金  续费20000金/月",
+        "category": "VIP等级称号"
+      },
+      "至尊VIP9": {
+        "state": 200,
+        "immuneShield": 1,
+        "attribute": [
+          "状态+200",
+          "免伤护盾+1",
+          "VIP9经验加成1.5倍"
+        ],
+        "channel": "8升9  45000金  续费30000金/月",
+        "category": "VIP等级称号"
+      }
+    },
+    "特殊称号": {
+      "策划大赛冠军": {
+        "constitutionPercentage": 0.1,
+        "manaPercentage": 0.1,
+        "attribute": [
+          "体质+10%",
+          "法力+10%"
+        ],
+        "channel": "当乐策划大赛",
+        "category": "活动称号"
+      },
+      "乔帮主一路走好": {
+        "counterattack": 15,
+        "magicFeedback": 15,
+        "attribute": [
+          "反击+15",
+          "魔法反馈+15"
+        ],
+        "channel": "乔布斯逝世时发布",
+        "category": "乔帮主专属"
+      },
+      "吉尼斯魔攻达人": {
+        "intelligencePercentage": 0.15,
+        "magicPenetrationPercentage": 0.15,
+        "attribute": [
+          "智力+15%",
+          "魔法穿透+15%"
+        ],
+        "channel": "暂无",
+        "category": "吉尼斯排行"
+      },
+      "吉尼斯劈砍达人": {
+        "powerPercentage": 0.15,
+        "armourBreakingPercentage": 0.15,
+        "attribute": [
+          "力量+15%",
+          "破甲+15%"
+        ],
+        "channel": "暂无",
+        "category": "吉尼斯排行"
+      },
+      "吉尼斯穿刺达人": {
+        "agilePercentage": 0.15,
+        "basicPuncturePercentage": 0.15,
+        "attribute": [
+          "敏捷+15%",
+          "穿刺攻击力+15%"
+        ],
+        "channel": "暂无",
+        "category": "吉尼斯排行"
+      },
+      "吉尼斯生命达人": {
+        "damageReductionPercentage": 0.2,
+        "immuneShield": 2,
+        "attribute": [
+          "伤害减免+20%",
+          "免伤护盾+2"
+        ],
+        "channel": "暂无",
+        "category": "吉尼斯排行"
+      }
+    },
+    "二流称号": {
+      "常胜将军": {
+        "deadlyPercentage": 0.02,
+        "attribute": [
+          "致命+2%"
+        ],
+        "channel": "500次决斗胜利",
+        "category": "PK成就"
+      },
+      "四海皆兄弟": {
+        "HPRecovery": 30,
+        "attribute": [
+          "生命回复+30"
+        ],
+        "channel": "添加好友40位",
+        "category": "好友成就"
+      },
+      "怪物猎人": {
+        "hitPercentage": 0.05,
+        "magicHitPercentage": 0.05,
+        "attribute": [
+          "命中+5%",
+          "魔法命中+5%"
+        ],
+        "channel": "击杀10000个怪物成就",
+        "category": "成长成就"
+      }
+    }
+  }
+}
