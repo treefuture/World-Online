@@ -1,5 +1,6 @@
 {
   "药物": "medicine",
+  "时效": "invalid",
   "medicine": {
     "敏捷药水": {
       "agile": 45,
