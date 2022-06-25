@@ -1,7 +1,8 @@
 {
   "阵型": "formation",
-  "formation": {
-    "青龙印[一级]": {
+  "formation": [
+    {
+      "name": "青龙印[一级]",
       "movePercentage": 5,
       "hitPercentage": 5,
       "dodgePercentage": 5,
@@ -11,7 +12,8 @@
         "闪避+5%"
       ]
     },
-    "青龙印[二级]": {
+    {
+      "name": "青龙印[二级]",
       "movePercentage": 10,
       "hitPercentage": 10,
       "dodgePercentage": 10,
@@ -21,7 +23,8 @@
         "闪避+10%"
       ]
     },
-    "白虎吼[一级]": {
+    {
+      "name": "白虎吼[一级]",
       "basicChopAttackPercentage": 5,
       "basicPuncturePercentage": 5,
       "magicPercentage": 5,
@@ -31,7 +34,8 @@
         "魔攻+5%"
       ]
     },
-    "白虎吼[二级]": {
+    {
+      "name": "白虎吼[二级]",
       "basicChopAttackPercentage": 10,
       "basicPuncturePercentage": 10,
       "magicPercentage": 10,
@@ -41,7 +45,8 @@
         "魔攻+10%"
       ]
     },
-    "朱雀炎[一级]": {
+    {
+      "name": "朱雀炎[一级]",
       "statePercentage": 5,
       "damageReduction": 5,
       "insightPercentage": 5,
@@ -51,7 +56,8 @@
         "洞察+5%"
       ]
     },
-    "朱雀炎[二级]": {
+    {
+      "name": "朱雀炎[二级]",
       "statePercentage": 10,
       "damageReduction": 10,
       "insightPercentage": 10,
@@ -61,7 +67,8 @@
         "洞察+10%"
       ]
     },
-    "玄武甲[一级]": {
+    {
+      "name": "玄武甲[一级]",
       "chopDefensePercentage": 5,
       "punctureDefensePercentage": 5,
       "magicDefensePercentage": 5,
@@ -71,7 +78,8 @@
         "魔法防御力+5%"
       ]
     },
-    "玄武甲[二级]": {
+    {
+      "name": "玄武甲[二级]",
       "chopDefensePercentage": 10,
       "punctureDefensePercentage": 10,
       "magicDefensePercentage": 10,
@@ -81,7 +89,8 @@
         "魔法防御力+10%"
       ]
     },
-    "东狗附体(天神附体)[一级]": {
+    {
+      "name": "东狗附体(天神附体)[一级]",
       "ignoreInsight": 50,
       "ignoreDamageReduction": 50,
       "immuneShield": 1,
@@ -91,15 +100,16 @@
         "免伤护盾+1"
       ]
     },
-    "东狗附体(天神附体)[二级]": {
+    {
+      "name": "东狗附体(天神附体)[二级]",
       "ignoreInsight": 150,
       "ignoreDamageReduction": 150,
       "immuneShield": 2,
       "attribute": [
-        "无视洞察+180",
-        "无视伤害减免+180",
+        "无视洞察+150",
+        "无视伤害减免+150",
         "免伤护盾+2"
       ]
     }
-  }
+  ]
 }

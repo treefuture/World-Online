@@ -1,7 +1,8 @@
 {
   "阵型": "formation",
-  "formation": {
-    "青龙印[一级]": {
+  "formation": [
+    {
+      "name": "青龙印[一级]",
       "movePercentage": 0.05,
       "hitPercentage": 0.05,
       "dodgePercentage": 0.05,
@@ -11,7 +12,8 @@
         "闪避+5%"
       ]
     },
-    "青龙印[二级]": {
+    {
+      "name": "青龙印[二级]",
       "movePercentage": 0.1,
       "hitPercentage": 0.1,
       "dodgePercentage": 0.1,
@@ -21,7 +23,8 @@
         "闪避+10%"
       ]
     },
-    "白虎吼[一级]": {
+    {
+      "name": "白虎吼[一级]",
       "basicChopAttackPercentage": 0.05,
       "basicPuncturePercentage": 0.05,
       "magicPercentage": 0.05,
@@ -31,7 +34,8 @@
         "魔攻+5%"
       ]
     },
-    "白虎吼[二级]": {
+    {
+      "name": "白虎吼[二级]",
       "basicChopAttackPercentage": 0.1,
       "basicPuncturePercentage": 0.1,
       "magicPercentage": 0.1,
@@ -41,7 +45,8 @@
         "魔攻+10%"
       ]
     },
-    "朱雀炎[一级]": {
+    {
+      "name": "朱雀炎[一级]",
       "statePercentage": 0.05,
       "damageReduction": 0.05,
       "insightPercentage": 0.05,
@@ -51,7 +56,8 @@
         "洞察+5%"
       ]
     },
-    "朱雀炎[二级]": {
+    {
+      "name": "朱雀炎[二级]",
       "statePercentage": 0.1,
       "damageReduction": 0.1,
       "insightPercentage": 0.1,
@@ -61,7 +67,8 @@
         "洞察+10%"
       ]
     },
-    "玄武甲[一级]": {
+    {
+      "name": "玄武甲[一级]",
       "chopDefensePercentage": 0.05,
       "punctureDefensePercentage": 0.05,
       "magicDefensePercentage": 0.05,
@@ -71,7 +78,8 @@
         "魔法防御力+5%"
       ]
     },
-    "玄武甲[二级]": {
+    {
+      "name": "玄武甲[二级]",
       "chopDefensePercentage": 0.1,
       "punctureDefensePercentage": 0.1,
       "magicDefensePercentage": 0.1,
@@ -81,7 +89,8 @@
         "魔法防御力+10%"
       ]
     },
-    "东狗附体(天神附体)[一级]": {
+    {
+      "name": "东狗附体(天神附体)[一级]",
       "ignoreInsight": 50,
       "ignoreDamageReduction": 50,
       "immuneShield": 1,
@@ -91,7 +100,8 @@
         "免伤护盾+1"
       ]
     },
-    "东狗附体(天神附体)[二级]": {
+    {
+      "name": "东狗附体(天神附体)[二级]",
       "ignoreInsight": 150,
       "ignoreDamageReduction": 150,
       "immuneShield": 2,
@@ -101,5 +111,5 @@
         "免伤护盾+2"
       ]
     }
-  }
+  ]
 }
