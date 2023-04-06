@@ -4,429 +4,612 @@
   "技能": "skill",
   "transformationcard": [
     {
-      "name": "魔法少女变身卡",
+      "label": "魔法少女变身卡",
+      "value": "魔法少女变身卡",
       "damageReduction": 200,
-      "powerPercentage": 0.03,
-      "skillAttribute": [
+      "powerPercentage": 3,
+      "attribute": [
         "伤害减免+200",
         "力量+3%"
       ],
-      "skill": "血雾的结界",
+      "skill": [
+        "血雾的结界"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "熔岩元素变身卡",
-      "magicHit": 0.03,
-      "skillAttribute": [
+      "label": "紫金战甲变身卡",
+      "value": "紫金战甲变身卡",
+      "ignoreDamageReduction": 100,
+      "perception": 30,
+      "attribute": [
+        "无视伤害减免+100",
+        "基础感知+30"
+      ],
+      "skill": [
+        "护甲再生"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "熔岩元素变身卡",
+      "value": "熔岩元素变身卡",
+      "magicHit": 3,
+      "attribute": [
         "魔法命中+3%"
       ],
-      "skill": "领悟-燃烧",
+      "skill": [
+        "领悟-燃烧"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "熔岩王变身卡",
-      "magicDefensePercentage": 0.05,
+      "label": "熔岩王变身卡",
+      "value": "熔岩王变身卡",
+      "magicDefensePercentage": 5,
       "constitution": 30,
-      "skillAttribute": [
+      "attribute": [
         "魔法防御力+5%",
         "基础体质+30"
       ],
-      "skill": "古代岩体",
+      "skill": [
+        "古代岩体"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "狂暴女仆变身卡",
-      "damageReductionPercentage": 0.05,
+      "label": "狂暴女仆变身卡",
+      "value": "狂暴女仆变身卡",
+      "damageReductionPercentage": 5,
       "constitution": 30,
-      "skillAttribute": [
+      "attribute": [
         "伤害减免+5%",
         "基础体质+30"
       ],
-      "skill": "扫把打击",
+      "skill": [
+        "扫把打击"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "寒冰魔甲变身卡",
-      "blockPercentage": 0.05,
+      "label": "罗贝尔特(暴走)变身卡",
+      "value": "罗贝尔特(暴走)变身卡",
+      "ignoreBlock": 100,
+      "perceptionPercentage": 3,
+      "attribute": [
+        "无视格挡+100",
+        "感知+3%"
+      ],
+      "skill": [
+        "自动暴走"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "寒冰魔甲变身卡",
+      "value": "寒冰魔甲变身卡",
+      "blockPercentage": 5,
       "agile": 30,
-      "skillAttribute": [
+      "attribute": [
         "格挡+5%",
         "基础敏捷+30"
       ],
-      "skill": "寒冷侵袭",
+      "skill": [
+        "寒冷侵袭"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "寒冰元素变身卡",
-      "chopDefensePercentage": 0.05,
-      "skillAttribute": [
+      "label": "寒冰元素变身卡",
+      "value": "寒冰元素变身卡",
+      "chopDefensePercentage": 5,
+      "attribute": [
         "劈砍防御力+5%"
       ],
-      "skill": "冰冻状态",
+      "skill": [
+        "冰冻状态"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "鬼神变身卡",
+      "label": "鬼神变身卡",
+      "value": "鬼神变身卡",
       "punctureDefense": 500,
-      "perceptionPercentage": 0.03,
-      "skillAttribute": [
+      "perceptionPercentage": 3,
+      "attribute": [
         "穿刺防御力+500",
         "感知+3%"
       ],
-      "skill": "鬼神不死咒",
+      "skill": [
+        "鬼神不死咒"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "大神变身卡",
+      "label": "大神变身卡",
+      "value": "大神变身卡",
       "magicDefense": 500,
-      "power": 0.03,
-      "skillAttribute": [
+      "power": 3,
+      "attribute": [
         "魔法防御力+500",
         "力量+3%"
       ],
-      "skill": "鬼神还魂咒",
+      "skill": [
+        "鬼神还魂咒"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "恶鬼变身卡",
-      "punctureDefensePercentage": 0.05,
+      "label": "恶鬼变身卡",
+      "value": "恶鬼变身卡",
+      "punctureDefensePercentage": 5,
       "power": 30,
-      "skillAttribute": [
+      "attribute": [
         "穿刺防御力+5%",
         "基础力量+30"
       ],
-      "skill": "鬼神苏生咒",
+      "skill": [
+        "鬼神苏生咒"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "蒙面骑士变身卡",
+      "label": "蒙面骑士变身卡",
+      "value": "蒙面骑士变身卡",
       "block": 200,
-      "constitutionPercentage": 0.03,
-      "skillAttribute": [
+      "constitutionPercentage": 3,
+      "attribute": [
         "格挡+200",
         "体质+3%"
       ],
-      "skill": "骑士的奉献",
+      "skill": [
+        "骑士的奉献"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "天空骑士变身卡",
-      "chopDefensePercentage": 0.05,
+      "label": "天空骑士变身卡",
+      "value": "天空骑士变身卡",
+      "chopDefensePercentage": 5,
       "perception": 30,
-      "skillAttribute": [
+      "attribute": [
         "劈砍防御力+5%",
         "基础感知+30"
       ],
-      "skill": "十字斩",
+      "skill": [
+        "十字斩"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "玛玛哈哈变身卡",
+      "label": "能天使变身卡",
+      "value": "能天使变身卡",
+      "ignoreInsight": 100,
+      "intelligence": 30,
+      "attribute": [
+        "无视洞察+100",
+        "基础智力+30"
+      ],
+      "skill": [
+        "神圣召唤"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "玛玛哈哈变身卡",
+      "value": "玛玛哈哈变身卡",
       "HPRecovery": 500,
-      "skillAttribute": [
+      "attribute": [
         "生命回复+500"
       ],
-      "skill": "领悟-快攻",
+      "skill": [
+        "领悟-快攻"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "鹰王变身卡",
+      "label": "鹰王变身卡",
+      "value": "鹰王变身卡",
       "magicPenetration": 500,
-      "intelligencePercentage": 0.03,
-      "skillAttribute": [
+      "intelligencePercentage": 3,
+      "attribute": [
         "魔法穿透+500",
         "智力+3%"
       ],
-      "skill": "暗中偷袭",
+      "skill": [
+        "暗中偷袭"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "天空战神变身卡",
+      "label": "天空战神变身卡",
+      "value": "天空战神变身卡",
       "dodge": 500,
-      "skillAttribute": [
+      "attribute": [
         "闪避+500"
       ],
-      "skill": "雄鹰突击",
+      "skill": [
+        "雄鹰突击"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "黑夜猫女变身卡",
-      "magicPenetrationPercentage": 0.05,
+      "label": "黑夜猫女变身卡",
+      "value": "黑夜猫女变身卡",
+      "magicPenetrationPercentage": 5,
       "perception": 30,
-      "skillAttribute": [
+      "attribute": [
         "魔法穿透+5%",
         "基础感知+30"
       ],
-      "skill": "黑夜抓杀",
+      "skill": [
+        "黑夜抓杀"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "红艳猫女变身卡",
-      "magicFeedbackPercentage": 0.05,
+      "label": "红艳猫女变身卡",
+      "value": "红艳猫女变身卡",
+      "magicFeedbackPercentage": 5,
       "intelligence": 30,
-      "skillAttribute": [
+      "attribute": [
         "魔法反馈+5%",
         "基础智力+30"
       ],
-      "skill": "红艳耀眼",
+      "skill": [
+        "红艳耀眼"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "萌猫变身卡",
+      "label": "萌猫变身卡",
+      "value": "萌猫变身卡",
       "state": 200,
-      "skillAttribute": [
+      "attribute": [
         "状态+200"
       ],
-      "skill": "卖萌闪光",
+      "skill": [
+        "卖萌闪光"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "煌黑猫变身卡",
-      "deadly": 0.03,
-      "skillAttribute": [
+      "label": "煌黑猫变身卡",
+      "value": "煌黑猫变身卡",
+      "deadly": 3,
+      "attribute": [
         "致命+3%"
       ],
-      "skill": "黑猫偷袭",
+      "skill": [
+        "黑猫偷袭"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "守护熊猫变身卡",
+      "label": "守护熊猫变身卡",
+      "value": "守护熊猫变身卡",
       "counterattack": 500,
-      "constitutionPercentage": 0.03,
-      "skillAttribute": [
+      "constitutionPercentage": 3,
+      "attribute": [
         "反击+500",
         "体质+3%"
       ],
-      "skill": "战场进食",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "熊猫狂战士变身卡",
-      "punctureDefensePercentage": 0.05,
-      "skillAttribute": [
-        "穿刺防御力+5%"
+      "skill": [
+        "战场进食"
       ],
-      "skill": "领悟-求生技能",
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "幻影弓灵变身卡",
+      "label": "熊猫狂战士变身卡",
+      "value": "熊猫狂战士变身卡",
+      "punctureDefensePercentage": 5,
+      "bloodVolumePercentage": 26,
+      "damageReduction": 50,
+      "state": 50,
+      "attribute": [
+        "穿刺防御力+5%",
+        "生命上限+26%",
+        "伤害减免+50",
+        "状态+50"
+      ],
+      "skill": [
+        "领悟-求生技能"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "小浣熊变身卡",
+      "value": "小浣熊变身卡",
+      "ignoreBlock": 100,
+      "agilePercentage": 10,
+      "attribute": [
+        "无视格挡+100",
+        "基础敏捷+10%"
+      ],
+      "skill": [
+        "雷霆怒爪"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "幻影弓灵变身卡",
+      "value": "幻影弓灵变身卡",
       "hit": 200,
-      "agilePercentage": 0.03,
-      "skillAttribute": [
+      "agilePercentage": 3,
+      "attribute": [
         "命中+200",
         "敏捷+3%"
       ],
-      "skill": "虚影",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "天空恶魔变身卡",
-      "deadly": 200,
-      "skillAttribute": [
-        "致命+200"
+      "skill": [
+        "虚影"
       ],
-      "skill": "空中捕猎",
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "不死将军变身卡",
-      "insightPercentage": 0.05,
+      "label": "天空恶魔变身卡",
+      "value": "天空恶魔变身卡",
+      "deadly": 200,
+      "ignorecounterattack": 190,
+      "armourBreakingPercentage": 34,
+      "movePercentage": 69,
+      "attribute": [
+        "致命+200",
+        "无视反击+190(技能加成)",
+        "破甲+34%(技能加成)",
+        "出手速度+69%(技能加成)"
+      ],
+      "skill": [
+        "空中捕猎"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "金甲骷髅变身卡",
+      "value": "金甲骷髅变身卡",
+      "ignoreDamageReduction": 100,
+      "constitution": 30,
+      "attribute": [
+        "无视伤害减免+100",
+        "基础体质+30"
+      ],
+      "skill": [
+        "金甲护盾"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "不死将军变身卡",
+      "value": "不死将军变身卡",
+      "insightPercentage": 5,
       "power": 30,
-      "skillAttribute": [
+      "attribute": [
         "洞察+5%",
         "基础力量+30"
       ],
-      "skill": "死亡诅咒",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "骷髅神将变身卡",
-      "chopDefense": 500,
-      "intelligencePercentage": 0.03,
-      "skillAttribute": [
-        "劈砍防御力+500",
-        "智力+3%"
+      "skill": [
+        "死亡诅咒"
       ],
-      "skill": "永恒契约",
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "骷髅将军变身卡",
+      "label": "骷髅神将变身卡",
+      "value": "骷髅神将变身卡",
+      "chopDefense": 500,
+      "intelligencePercentage": 3,
+      "petsSufferDamage": 35,
+      "damageReduction": 100,
+      "bloodVolumePercentage": 12,
+      "attribute": [
+        "劈砍防御力+500",
+        "智力+3%",
+        "主人受到攻击时,宠物35%几率为其承受伤害",
+        "伤害减免+100",
+        "生命上限+12%"
+      ],
+      "skill": [
+        "永恒契约"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "骷髅将军变身卡",
+      "value": "骷髅将军变身卡",
       "forcedHit": 30,
-      "skillAttribute": [
+      "attribute": [
         "强制命中+30"
       ],
-      "skill": "不死亡灵",
+      "skill": [
+        "不死亡灵"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "亡灵铠甲变身卡",
+      "label": "亡灵铠甲变身卡",
+      "value": "亡灵铠甲变身卡",
       "dodge": 500,
-      "constitutionPercentage": 0.03,
-      "skillAttribute": [
+      "constitutionPercentage": 3,
+      "attribute": [
         "闪避+500",
         "体质+3%"
       ],
-      "skill": "寒冷侵袭",
+      "skill": [
+        "寒冷侵袭"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "骷髅王变身卡",
+      "label": "骷髅王变身卡",
+      "value": "骷髅王变身卡",
       "chopDefense": 500,
-      "skillAttribute": [
+      "attribute": [
         "劈砍防御+500"
       ],
-      "skill": "王之凯",
+      "skill": [
+        "王之凯"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "变异南瓜变身卡",
+      "label": "变异南瓜变身卡",
+      "value": "变异南瓜变身卡",
       "ignoreInsight": 100,
-      "perceptionPercentage": 0.1,
-      "skillAttribute": [
+      "perceptionPercentage": 10,
+      "attribute": [
         "无视洞察+100",
         "感知+10%"
       ],
-      "skill": "南瓜之威",
+      "skill": [
+        "南瓜之威"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "俊介变身卡",
+      "label": "俊介变身卡",
+      "value": "俊介变身卡",
       "magicHit": 200,
-      "skillAttribute": [
+      "attribute": [
         "魔法命中+200"
       ],
-      "skill": "领悟-反击战术",
+      "skill": [
+        "领悟-反击战术"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "哈士奇变身卡",
-      "manaRegeneration": 500,
-      "basicChopAttackPercentage": 0.34,
-      "basicPuncturePercentage": 0.34,
-      "magicPercentage": 0.34,
-      "skillAttribute": [
+      "label": "哈士奇变身卡",
+      "value": "哈士奇变身卡",
+      "magicPenetration": 500,
+      "basicChopAttackPercentage": 34,
+      "basicPuncturePercentage": 34,
+      "magicPercentage": 34,
+      "attribute": [
         "魔法穿透+500",
         "劈砍攻击+34%(技能加成)",
         "穿刺攻击+34%(技能加成)",
         "魔法攻击+34%(技能加成)"
       ],
-      "skill": "领悟-战斗技巧",
+      "skill": [
+        "领悟-战斗技巧"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "魔剑变身卡",
+      "label": "魔剑变身卡",
+      "value": "魔剑变身卡",
       "magicFeedback": 500,
-      "agilePercentage": 0.03,
-      "skillAttribute": [
+      "agilePercentage": 3,
+      "attribute": [
         "魔法反馈+500",
         "敏捷+3%"
       ],
-      "skill": "魔能顺势劈",
+      "skill": [
+        "魔能顺势劈"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "噬灵魔剑变身卡",
-      "dodgePercentage": 0.05,
+      "label": "噬灵魔剑变身卡",
+      "value": "噬灵魔剑变身卡",
+      "dodgePercentage": 5,
       "agile": 30,
-      "skillAttribute": [
+      "attribute": [
         "闪避+5%",
         "基础敏捷+30"
       ],
-      "skill": "噬灵",
+      "skill": [
+        "噬灵"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "红炎少女变身卡",
+      "label": "红炎少女变身卡",
+      "value": "红炎少女变身卡",
       "insight": 500,
-      "perceptionPercentage": 0.03,
-      "skillAttribute": [
+      "perceptionPercentage": 3,
+      "attribute": [
         "洞察+500",
         "感知+3%"
       ],
-      "skill": "火雨术",
+      "skill": [
+        "火雨术"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "幼年蓝龙变身卡",
+      "label": "虚无少女变身卡",
+      "value": "虚无少女变身卡",
+      "disregardState": 100,
+      "powerPercentage": 3,
+      "attribute": [
+        "无视状态+100",
+        "力量+3%"
+      ],
+      "skill": [
+        "虚无护盾"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "幼年蓝龙变身卡",
+      "value": "幼年蓝龙变身卡",
       "ignoreBlock": 100,
-      "agilePercentage": 0.03,
-      "skillAttribute": [
+      "agilePercentage": 3,
+      "attribute": [
         "无视格挡+100",
         "敏捷+3%"
       ],
-      "skill": "龙族吐炎",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "黑暗灯神变身卡",
-      "manaShield": 500,
-      "powerPercentage": 0.03,
-      "skillAttribute": [
-        "法力护盾+500",
-        "力量+3%"
-      ],
-      "skill": "恐惧凝视",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "金毛狮王变身卡",
-      "ignoreBlock": 100,
-      "powerPercentage": 0.03,
-      "skillAttribute": [
-        "无视格挡+100",
-        "力量+3%"
-      ],
-      "skill": "兽王撕裂",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "金毛狮王(狂化)变身卡",
-      "ignoreInsight": 100,
-      "constitution": 30,
-      "skillAttribute": [
-        "无视洞察+100",
-        "基础体质+30"
-      ],
-      "skill": "兽王撕裂",
-      "invalid": "45分钟"
-    },
-    {
-      "name": "九尾灵狐变身卡",
-      "ignoreDamageReduction": 100,
-      "agile": 30,
-      "immuneShield": 1,
-      "skillAttribute": [
-        "无视伤害减免+100",
-        "基础敏捷+30",
-        "免伤护盾+1"
-      ],
       "skill": [
-        "诱惑红唇",
-        "九尾缠绕"
+        "龙族吐炎"
       ],
-      "invalid": "90分钟"
-    },
-    {
-      "name": "女娲化身变身卡",
-      "disregardState": 100,
-      "intelligencePercentage": 0.03,
-      "immuneShield": 1,
-      "skillAttribute": [
-        "无视状态+100",
-        "智力+3%",
-        "免伤护盾+1"
-      ],
-      "skill": "风雪冰天",
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "45分钟"
     },
     {
-      "name": "幼年金龙变身卡",
+      "label": "幼年金龙变身卡",
+      "value": "幼年金龙变身卡",
       "ignoreMagicFeedback": 100,
       "perception": 30,
       "immuneShield": 1,
-      "skillAttribute": [
+      "attribute": [
         "无视魔法反馈+100",
         "基础感知+30",
         "免伤护盾+1"
@@ -435,6 +618,232 @@
         "龙威",
         "龙爪"
       ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "90分钟"
+    },
+    {
+      "label": "幼年青龙变身卡",
+      "value": "幼年青龙变身卡",
+      "ignoreInsight": 100,
+      "power": 30,
+      "attribute": [
+        "无视洞察+100",
+        "基础力量+30"
+      ],
+      "skill": [
+        "龙爪"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "灯神变身卡",
+      "value": "灯神变身卡",
+      "armourBreakingPercentage": 5,
+      "intelligence": 30,
+      "attribute": [
+        "破甲+5%",
+        "基础智力+30"
+      ],
+      "skill": [
+        "许愿-防御崩坏"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "黑暗灯神变身卡",
+      "value": "黑暗灯神变身卡",
+      "manaShield": 500,
+      "powerPercentage": 3,
+      "attribute": [
+        "法力护盾+500",
+        "力量+3%"
+      ],
+      "skill": [
+        "恐惧凝视"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "狂怒灯神变身卡",
+      "value": "狂怒灯神变身卡",
+      "ignorecounterattack": 100,
+      "intelligencePercentage": 3,
+      "attribute": [
+        "无视反击+100",
+        "智力+3%"
+      ],
+      "skill": [
+        "灯神怒炎"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "金毛狮王变身卡",
+      "value": "金毛狮王变身卡",
+      "ignoreBlock": 100,
+      "powerPercentage": 3,
+      "attribute": [
+        "无视格挡+100",
+        "力量+3%"
+      ],
+      "skill": [
+        "兽王撕裂"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "金毛狮王(狂化)变身卡",
+      "value": "金毛狮王(狂化)变身卡",
+      "ignoreInsight": 100,
+      "constitution": 30,
+      "attribute": [
+        "无视洞察+100",
+        "基础体质+30"
+      ],
+      "skill": [
+        "兽王撕裂"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "焰魂变身卡",
+      "value": "焰魂变身卡",
+      "ignoreInsight": 100,
+      "disregardState": 100,
+      "attribute": [
+        "无视洞察+100",
+        "无视状态+100"
+      ],
+      "skill": [
+        "蓝色诅咒"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "九尾狐妖变身卡",
+      "value": "九尾狐妖变身卡",
+      "disregardState": 100,
+      "constitutionPercentage": 3,
+      "attribute": [
+        "无视状态+100",
+        "体质+3%"
+      ],
+      "skill": [
+        "摄魂夺魄"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "九尾灵狐变身卡",
+      "value": "九尾灵狐变身卡",
+      "ignoreDamageReduction": 100,
+      "agile": 30,
+      "immuneShield": 1,
+      "attribute": [
+        "无视伤害减免+100",
+        "基础敏捷+30",
+        "免伤护盾+1"
+      ],
+      "skill": [
+        "诱惑红唇",
+        "九尾缠绕"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "90分钟"
+    },
+    {
+      "label": "女娲化身变身卡",
+      "value": "女娲化身变身卡",
+      "disregardState": 100,
+      "intelligencePercentage": 3,
+      "immuneShield": 1,
+      "attribute": [
+        "无视状态+100",
+        "智力+3%",
+        "免伤护盾+1"
+      ],
+      "skill": [
+        "风雪冰天"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "45分钟"
+    },
+    {
+      "label": "女娲后裔变身卡",
+      "value": "女娲后裔变身卡",
+      "ignorecounterattack": 100,
+      "constitutionPercentage": 3,
+      "attribute": [
+        "无视反击+100",
+        "体质+3%"
+      ],
+      "skill": [
+        "天雷破",
+        "换魂咒"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "90分钟"
+    },
+    {
+      "label": "皮卡丘变身卡",
+      "value": "皮卡丘变身卡",
+      "disregardState": 100,
+      "intelligencePercentage": 10,
+      "immuneShield": 1,
+      "attribute": [
+        "无视状态+100",
+        "智力+10%",
+        "免伤护盾+1"
+      ],
+      "skill": [
+        "打雷",
+        "电磁波"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "90分钟"
+    },
+    {
+      "label": "六耳猕猴变身卡",
+      "value": "六耳猕猴变身卡",
+      "ignoreInsight": 100,
+      "ignoreMagicFeedback": 100,
+      "magicHitPercentage": 10,
+      "attribute": [
+        "无视洞察+100",
+        "无视魔法反馈+100",
+        "魔法命中+10%"
+      ],
+      "skill": [
+        "生死裁决咒",
+        "猴子偷桃"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
+      "invalid": "90分钟"
+    },
+    {
+      "label": "地狱魔猩变身卡",
+      "value": "地狱魔猩变身卡",
+      "ignoreDamageReduction": 100,
+      "ignoreBlock": 100,
+      "powerPercentage": 10,
+      "attribute": [
+        "无视伤害减免+100",
+        "无视格挡+100",
+        "力量+10%"
+      ],
+      "skill": [
+        "重拳出击",
+        "大地震颤"
+      ],
+      "category": "神秘商人处购买,81活动盒子",
       "invalid": "90分钟"
     }
   ]
