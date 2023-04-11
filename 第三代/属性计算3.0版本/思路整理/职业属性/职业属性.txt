@@ -1,0 +1,26 @@
+暴力计算
+
+
+
+skill [  技能
+    {
+      name 卧槽,  技能名称
+
+      move 1500,   基础出手
+      movePercentage 0.02,   出手百分比
+
+      perception 0,    基础感知
+      perceptionPercentage 0,    感知百分比
+
+      agile 0,   基础敏捷
+      agilePercentage 0,    敏捷百分比
+
+      intelligence0,    智力
+      intelligencePercentage0,   智力百分比
+
+      magicHit0,    法术命中
+      magicHitPercentage0,    法术命中百分比
+
+      magic0,    基础魔攻
+      magicPercentage0     魔攻百分比 
+    }]

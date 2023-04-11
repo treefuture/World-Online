@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>伤害范围计算</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        outline: none;
+        margin-top: .8571rem;
+        box-sizing: border-box;
+    }
+
+    @media screen and(max-width:300px) {
+        html {
+            font-size: 7.5px !important;
+        }
+    }
+
+    @media screen and(min-width:500px) {
+        html {
+            font-size: 12.5px !important;
+        }
+    }
+
+    html {
+        font-size: 12.5px;
+    }
+
+    .box {
+        max-width: 500px;
+        min-width: 300px;
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.1429rem;
+        background: url(images/b5g.jpeg);
+    }
+    .box h1{
+        color: gold;
+    }
+    input[name="data"] {
+        border: none;
+        height: 1.4286rem;
+        border-bottom: .0571rem solid;
+
+    }
+
+    input:focus::-webkit-input-placeholder {
+        transition: .5s;
+        transform: translateY(-5.0013px);
+        font-size: .316rem;
+        color: red;
+    }
+
+    .data {
+        width: 400px;
+        height: 10rem;
+    }
+
+    .tj {
+        padding: .2857rem .8571rem;
+    }
+
+    .data {
+        font-weight: bold;
+        color: blue;
+    }
+    .input{
+        width: 400px;
+        height: 300px;
+        background: rgba(180, 179, 100, 0.6);
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <h1>世界OL伤害范围计算</h1>
+        <form class="input">
+            <label>请输入最低武商:&emsp;<input type="number" placeholder="请输入最低武商" required name="data"></label><br>
+            <label>请输入最高武商:&emsp;<input type="number" placeholder="请输入最高武商" required name="data"></label><br>
+            <label>请输入攻次:&emsp;<input type="number" placeholder="请输入攻次" required name="data"
+                    class="Control"></label><br>
+            <label>请输入主动技能攻次:&emsp;<input type="number" placeholder="请输入主动技能攻次" required name="data"
+                    class="Control"></label><br>
+            <label>请输入强命值:&emsp;<input type="number" placeholder="请输入强命值" required name="data"></label><br>
+            <label>请选择自动技能:&emsp;<select required name="data">
+                    <option></option>
+                    <option>魔化武器</option>
+                    <option>其他</option>
+                </select></label><br>
+            <label>请选择伤害类型:&emsp;<select required name="data">
+                    <option></option>
+                    <option>暴力</option>
+                    <option>法师</option>
+                </select></label><br>
+            <label>请输入计算次数:&emsp;<input type="number" placeholder="请输入计算次数" required name="data"></label><br>
+            <input type="button" value="提交" class="tj">
+        </form>
+        <textarea class="data" disabled></textarea>
+    </div>
+</body>
+<script>
+    let btn = document.querySelector(".tj")
+    //点击提交检测页面内容是否完整
+    btn.addEventListener("click", () => {
+        let ff = zhu()
+        ff.next()
+        let data = document.getElementsByName("data")
+        let state = true, index = 0
+        for (let i = 0, j = data.length; i < j; i++) {
+            if (data[i].value == "") {
+                state = false
+                index++
+            } else {
+                ff.next(data[i].value)
+            }
+        }
+        if (!state) {
+            alert("请将页面填写完整" + "\n未填写数据:" + index)
+        }
+    })
+
+    //利用生成器保存数据,调用函数
+    function* zhu() {
+        let Lowest = yield //最低武商
+        let Supreme = yield  //最高武商
+        let Attack = yield  //攻次
+        let frequency = yield //主动技能攻次
+        let hit = yield //强命
+        let automatic = yield //自动技能
+        let occupation = yield //伤害类型
+        let loop = yield //计算次数
+
+        //获取值检测
+        // obtain(Lowest,Supreme,Attack,frequency,Rage,loop)
+
+        Attack = attack(Attack, frequency, automatic)
+        let arm = (arms(Lowest, Supreme, Attack, hit, occupation, loop))
+        Lowest = arm.Lowest
+        Supreme = arm.Supreme
+        data(occupation, Lowest, Supreme, arm, loop)
+    }
+
+    //攻次长度辖制
+    let Control = document.querySelectorAll(".Control")
+    for (let i = 0, j = Control.length; i < j; i++) {
+        Control[i].addEventListener("change", () => {
+            if (Control[i].value.length > 2) {
+                Control[i].value = Control[i].value.slice(0, 2)
+            }
+        })
+    }
+    //攻次计算
+    function attack(Attack, frequency, automatic) {
+        Attack = parseInt(Attack)
+        frequency = parseInt(frequency)
+        if (automatic == "魔化武器") {
+            Attack += frequency + 30
+        } else {
+            Attack += frequency
+        }
+        return Attack < 99 ? Attack : 99
+    }
+
+    //武商均值,伤害计算
+    function arms(Lowest, Supreme, Attack, hit, occupation, loop) {
+        Lowest = parseInt(Lowest)
+        Supreme = parseInt(Supreme)
+
+        //控制强命范围
+        hit = (hit < 100 ? hit : 100) / 100
+        //最大最小换位置
+        if (Lowest > Supreme) {
+            let room = Lowest
+            Lowest = Supreme
+            Supreme = room
+        }
+
+        //平均格挡
+        let Averageblock = 0
+        //平均武商
+        let averageWS = 0
+
+        //伤害计算
+        //判断伤害类型
+        if (occupation === "暴力") {
+            //全减免疫
+            let immune = new Obj()
+            //全减免疫强命
+            let immuneQ = new Obj()
+            //双状态
+            let state = new Obj()
+            //双状态强命
+            let stateQ = new Obj()
+            //魔攻免疫
+            let magicimmunity = new Obj()
+            //魔攻免疫强命
+            let magicimmunityQ = new Obj()
+            //魔攻免疫双状态
+            let magicstate = new Obj()
+            //魔攻免疫双状态强命
+            let magicstateQ = new Obj()
+
+            //暴力伤害计算
+            for (let i = 0; i < loop; i++) {
+                //随机生成格挡
+                let block = Math.round(Math.random() * 7)
+                //实际伤害=打出的伤害/原攻次*被格挡后的攻次
+                let actualAttackTimes = (Attack - block) / Attack
+
+                //武商均值生成
+                let sum = 0
+                for (let i = 0; i < Attack; i++) {
+                    let room = Math.round(Math.random() * (Supreme - Lowest) + Lowest)
+                    sum += room
+                }
+                sum = (sum / Attack).toFixed(0)
+                sum = parseInt(sum)
+
+                let data = (sum * Attack + 1000000) * 1.5 * actualAttackTimes //全减免疫伤害
+                let data2 = data * hit  //全减免疫强命伤害
+
+                let data3 = data * 1.32 //双状态伤害
+                let data4 = data * 1.32 * hit //双状态强命伤害
+
+                let data5 = data * 0.3  //魔攻无效全减免疫伤害
+                let data6 = data * 0.3 * hit //魔攻无效全减免疫强命伤害
+
+                let data7 = data * 0.3 * 1.32 //魔攻无效双状态伤害
+                let data8 = data * 0.3 * 1.32 * hit //魔攻无效双状态强命伤害
+
+                //第一回合赋予初值
+                if (i === 0) {
+                    immune.highest = immune.minimum = data
+                    immuneQ.highest = immuneQ.minimum = data2
+
+                    state.highest = state.minimum = data3
+                    stateQ.highest = stateQ.minimum = data4
+
+                    magicimmunity.highest = magicimmunity.minimum = data5
+                    magicimmunityQ.highest = magicimmunityQ.minimum = data6
+
+                    magicstate.highest = magicstate.minimum = data7
+                    magicstateQ.highest = magicstateQ.minimum = data8
+                }
+                //最大伤害小于当前伤害,将当前伤害作为最大伤害
+                if (immune.highest < data) {
+                    immune.highest = data
+                    immuneQ.highest = data2
+
+                    state.highest = data3
+                    stateQ.highest = data4
+
+                    magicimmunity.highest = data5
+                    magicimmunityQ.highest = data6
+
+                    magicstate.highest = data7
+                    magicstateQ.highest = data8
+                }
+                //最小伤害大于当前伤害,将当前伤害作为最小伤害
+                if (immune.minimum > data) {
+                    immune.minimum = data
+                    immuneQ.minimum = data2
+
+                    state.minimum = data3
+                    stateQ.minimum = data4
+
+                    magicimmunity.minimum = data5
+                    magicimmunityQ.minimum = data6
+
+                    magicstate.minimum = data7
+                    magicstateQ.minimum = data8
+                }
+                immune.average += data
+                immuneQ.average += data2
+                state.average += data3
+                stateQ.average += data4
+
+                magicimmunity.average += data5
+                magicimmunityQ.average += data6
+
+                magicstate.average += data7
+                magicstateQ.average += data8
+
+                averageWS += sum
+                Averageblock += block
+            }
+            immune.average /= loop
+            immuneQ.average /= loop
+
+            state.average /= loop
+            stateQ.average /= loop
+
+            magicimmunity.average /= loop
+            magicimmunityQ.average /= loop
+            magicstate.average /= loop
+            magicstateQ.average /= loop
+            averageWS /= loop
+            Averageblock /= loop
+
+            //将得出的数据返回
+            return {
+                Lowest,
+                Supreme,
+                averageWS,
+                Averageblock,
+                Attack,
+
+                immune,
+                immuneQ,
+
+                state,
+                stateQ,
+
+                magicimmunity,
+                magicimmunityQ,
+
+                magicstate,
+                magicstateQ
+            }
+        } else {
+            //全减免疫
+            let immune = new Obj()
+            //双状态
+            let state = new Obj()
+            //法师伤害计算
+            for (let i = 0; i < loop; i++) {
+                //武商均值生成
+                let sum = 0
+                for (let i = 0; i < Attack; i++) {
+                    let room = Math.round(Math.random() * (Supreme - Lowest) + Lowest)
+                    sum += room
+                }
+                sum = (sum / Attack).toFixed(0)
+                sum = parseInt(sum)
+
+                let data = (sum * Attack + 1000000) * 1.5 //全减免疫伤害
+                let data2 = data * 1.32 //双状态伤害
+
+                //第一回合赋予初值
+                if (i === 0) {
+                    immune.highest = immune.minimum = data
+                    state.highest = state.minimum = data2
+                }
+                //最大伤害小于当前伤害,将当前伤害作为最大伤害
+                if (immune.highest < data) {
+                    immune.highest = data
+                    state.highest = data2
+                }
+                //最小伤害大于当前伤害,将当前伤害作为最小伤害
+                if (immune.minimum > data) {
+                    immune.minimum = data
+                    state.minimum = data2
+                }
+                immune.average += data
+                state.average += data2
+
+                averageWS += sum
+            }
+            immune.average /= loop
+            state.average /= loop
+
+            averageWS /= loop
+            Averageblock /= loop
+            //将得出的数据返回
+            return {
+                Lowest,
+                Supreme,
+                averageWS,
+                Attack,
+
+                immune,
+                state
+            }
+        }
+    }
+
+    //伤害呈现
+    function data(occupation, Lowest, Supreme, arm, loop) {
+        let wenben = document.querySelector(".data")
+        if (occupation == "暴力") {
+            wenben.innerHTML =
+                "武商为:" + Lowest + "---" + Supreme + "\n" +
+                "生成平均武商为:" + (arm.averageWS).toFixed(0) + "\n" +
+                "攻次为:" + arm.Attack + "\n" +
+                "平均格挡次数为:" + (arm.Averageblock).toFixed(2) + "\n\n" +
+
+                "全减免疫伤害范围为:\n" + (arm.immune.minimum).toFixed(0) +
+                "----" + (arm.immune.highest).toFixed(0) + "\n" +
+                "全减免疫平均伤害为:" + (arm.immune.average).toFixed(0) + "\n\n" +
+
+                "全减免疫强命伤害范围为:\n" + (arm.immuneQ.minimum).toFixed(0) +
+                "----" + (arm.immuneQ.highest).toFixed(0) + "\n" +
+                "全减免疫强命平均伤害为:" + (arm.immuneQ.average).toFixed(0) + "\n\n" +
+
+                "双状态伤害范围为:\n" + (arm.state.minimum).toFixed(0) +
+                "----" + (arm.state.highest).toFixed(0) + "\n" +
+                "双状态平均伤害为:" + (arm.state.average).toFixed(0) + "\n\n" +
+
+                "双状态强命伤害范围为:\n" + (arm.stateQ.minimum).toFixed(0) +
+                "----" + (arm.stateQ.highest).toFixed(0) + "\n" +
+                "双状态强命平均伤害为:" + (arm.stateQ.average).toFixed(0) + "\n\n" +
+
+                "魔攻无效全减免疫伤害范围为:\n" + (arm.magicimmunity.minimum).toFixed(0) +
+                "----" + (arm.magicimmunity.highest).toFixed(0) + "\n" +
+                "魔攻无效全减免疫平均伤害为:" + (arm.magicimmunity.average).toFixed(0) + "\n\n" +
+
+                "魔攻无效全减免疫强命伤害范围为:\n" + (arm.magicimmunityQ.minimum).toFixed(0) +
+                "----" + (arm.magicimmunityQ.highest).toFixed(0) + "\n" +
+                "魔攻无效全减免疫强命平均伤害为:" + (arm.magicimmunityQ.average).toFixed(0) + "\n\n" +
+
+                "魔攻无效双状态伤害范围为:\n" + (arm.magicstate.minimum).toFixed(0) +
+                "----" + (arm.magicstate.highest).toFixed(0) + "\n" +
+                "魔攻无效双状态平均伤害为:" + (arm.magicstate.average).toFixed(0) + "\n\n" +
+
+                "魔攻无效双状态强命伤害范围为:\n" + (arm.magicstateQ.minimum).toFixed(0) +
+                "----" + (arm.magicstateQ.highest).toFixed(0) + "\n" +
+                "魔攻无效双状态强命平均伤害为:" + (arm.magicstateQ.average).toFixed(0)
+
+        } else {
+            wenben.innerHTML =
+                "武商为:" + Lowest + "---" + Supreme + "\n" +
+                "生成平均武商为:" + (arm.averageWS).toFixed(0) + "\n" +
+                "攻次为:" + arm.Attack + "\n\n" +
+
+                "全减免疫伤害范围为:\n" + (arm.immune.minimum).toFixed(0) +
+                "----" + (arm.immune.highest).toFixed(0) + "\n" +
+                "全减免疫平均伤害为:" + (arm.immune.average).toFixed(0) + "\n\n" +
+
+                "双状态伤害范围为:\n" + (arm.state.minimum).toFixed(0) +
+                "----" + (arm.state.highest).toFixed(0) + "\n" +
+                "双状态平均伤害为:" + (arm.state.average).toFixed(0)
+        }
+    }
+    //随机生成格挡次数-----已添加到暴力内置中
+    // function Block() {
+    //     return Math.round(Math.random() * (7 - 1) + 1)
+    // }
+
+
+    //获取值检测
+    function obtain(...arg) {
+        console.log("Lowest=" + arg[0])
+        console.log("Supreme=" + arg[1])
+        console.log("Attack=" + arg[2])
+        console.log("frequency=" + arg[3])
+        console.log("hit=" + arg[4])
+        console.log("automatic=" + arg[5])
+        console.log("occupation=" + arg[6])
+        console.log("loop=" + arg[7])
+    }
+
+    //创建一个构造函数返回一个对象,减少变量的创建
+    class Obj {
+        constructor(highest, minimum, average) {
+            return {
+                highest: this.highest,
+                minimum: this.minimum,
+                average: 0
+            }
+        }
+    }
+</script>
+
+</html>

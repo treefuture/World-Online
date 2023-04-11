@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 用于设定禁止浏览器从本地机的缓存中调阅页面内容 -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/伤害计算.css">
+    <script src="./js/伤害计算.js"></script>
+    <script src="./js/flexible.js"></script>
+    <title>武商浮动计算</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>世界OL<br>武商浮动计算</h1>
+        <form>
+            <label>请输入最低武商:&emsp;<input type="number" placeholder="请输入最低武商" required name="data"></label><br>
+            <label>请输入最高武商:&emsp;<input type="number" placeholder="请输入最高武商" required name="data"></label><br>
+            <label>请输入攻次:&emsp;<input type="number" placeholder="请输入攻次" required name="data"
+                    class="Control"></label><br>
+            <label>请输入主动技能攻次:&emsp;<input type="number" placeholder="请输入主动技能攻次" required name="data"
+                    class="Control"></label><br>
+            <label>请输入强命值:&emsp;<input type="number" placeholder="请输入强命值" required name="data"></label><br>
+            <label>请选择自动技能:&emsp;<select required name="data">
+                    <option></option>
+                    <option>魔化武器</option>
+                    <option>其他</option>
+                </select></label><br>
+            <label>请选择伤害类型:&emsp;<select required name="data">
+                    <option></option>
+                    <option>暴力</option>
+                    <option>法师</option>
+                </select></label><br>
+            <input type="button" value="提交" class="tj">
+        </form>
+        <textarea class="data" disabled></textarea>
+    </div>
+</body>
+<script>
+    let btn = document.querySelector(".tj")
+    //点击提交检测页面内容是否完整
+    btn.addEventListener("click", () => {
+        let ff = zhu()
+        ff.next()
+        let data = document.getElementsByName("data")
+        let state = true, index = 0
+        for (let i = 0, j = data.length; i < j; i++) {
+            if (data[i].value == "") {
+                state = false
+                index++
+            } else {
+                ff.next(data[i].value)
+            }
+        }
+        if (!state) {
+            alert("请将页面填写完整" + "\n未填写数据:" + index)
+        }
+    })
+
+    //利用生成器保存数据,调用函数
+    function* zhu() {
+        let Lowest = yield //最低武商
+        let Supreme = yield  //最高武商
+        let Attack = yield  //攻次
+        let frequency = yield //主动技能攻次
+        let hit = yield //强命
+        let automatic = yield //自动技能
+        let occupation = yield //伤害类型
+
+        //获取值检测
+        // obtain(Lowest,Supreme,Attack,frequency,Rage,loop)
+
+        Attack = attack(Attack, frequency, automatic)
+        let arm = (arms(Lowest, Supreme, Attack))
+        Lowest = arm.Lowest
+        Supreme = arm.Supreme
+        let num = damage(Attack, arm, occupation, hit)
+        data(Lowest, Supreme, num, occupation)
+    }
+
+    //攻次长度辖制
+    let Control = document.querySelectorAll(".Control")
+    for (let i = 0, j = Control.length; i < j; i++) {
+        Control[i].addEventListener("change", () => {
+            if (Control[i].value.length > 2) {
+                Control[i].value = Control[i].value.slice(0, 2)
+            }
+        })
+    }
+    //攻次计算
+    function attack(Attack, frequency, automatic) {
+        Attack = parseInt(Attack)
+        frequency = parseInt(frequency)
+        if (automatic == "魔化武器") {
+            Attack += frequency + 30
+        } else {
+            Attack += frequency
+        }
+        return Attack < 99 ? Attack : 99
+    }
+    //武商均值计算
+    function arms(Lowest, Supreme, Attack) {
+        Lowest = parseInt(Lowest)
+        Supreme = parseInt(Supreme)
+
+        //最大最小换位置
+        if (Lowest > Supreme) {
+            let room = Lowest
+            Lowest = Supreme
+            Supreme = room
+        }
+        let Pinjun = 0, highest, minimum
+
+        //均值计算
+        for (let i = 0; i < Attack; i++) {
+            let room = Math.round(Math.random() * (Supreme - Lowest) + Lowest)
+            if (i === 0) {
+                highest = minimum = room
+            }
+            if (highest < room) {
+                highest = room
+            }
+            if (minimum > room) {
+                minimum = room
+            }
+            Pinjun += room
+        }
+        Pinjun = (Pinjun / Attack).toFixed(0)
+        return { Lowest, Supreme, highest, minimum, Pinjun }
+    }
+    //伤害计算
+    function damage(Attack, arms, occupation, hit) {
+        let data = (arms.Pinjun * Attack + 1000000) * 1.5 //全减免疫伤害,无格挡
+        let block = 0 //格挡
+        if (occupation == "暴力") {
+            hit = (hit < 100 ? hit : 100) / 100
+            //随机生成格挡
+            if (Attack < 7) {
+                block = Math.round(Math.random() * Attack)
+            } else {
+                block = Math.round(Math.random() * 7)
+            }
+            //实际伤害=打出的伤害/原攻次*被格挡后的攻次
+            let actualAttackTimes = (Attack - block) / Attack
+            let data1 = data * actualAttackTimes //全减免疫强命伤害
+            let data2 = data1 * hit  //全减免疫强命伤害
+            let data3 = data1 * 0.3  //魔攻无效全减免疫伤害
+            let data4 = data1 * 0.3 * hit //魔攻无效全减免疫强命伤害
+            let data5 = data1 * 1.32 //双状态伤害
+            let data6 = data1 * 1.32 * hit //双状态强命伤害
+            let data7 = data1 * 0.3 * 1.32 //魔攻无效双状态伤害
+            let data8 = data1 * 0.3 * 1.32 * hit //魔攻无效双状态强命伤害
+            return { arms, data1, data2, data3, data4, data5, data6, data7, data8, Attack, block }
+        }
+        let data2 = data * 1.32
+        return { arms, data, data2, Attack }
+    }
+    //伤害呈现
+    function data(Lowest, Supreme, num, occupation) {
+        let wenben = document.querySelector(".data")
+        if (occupation == "暴力") {
+            wenben.innerHTML =
+                "武商为:" + Lowest + "---" + Supreme + "\n" +
+                "生成最低武商为:" + num.arms.minimum + "\n" +
+                "生成最高武商为:" + num.arms.highest + "\n" +
+                "生成平均武商为:" + num.arms.Pinjun + "\n" +
+                "攻次为:" + num.Attack + "\n" +
+                "格挡次数为:" + num.block + "\n\n" +
+                "全减免疫伤害为:" + (num.data1).toFixed(0) + "\n" +
+                "全减免疫强命伤害为:" + (num.data2).toFixed(0) + "\n\n" +
+                "双状态伤害为:" + (num.data5).toFixed(0) + "\n" +
+                "双状态强命伤害为:" + (num.data6).toFixed(0) + "\n\n" +
+
+                "魔攻无效全减免疫伤害为:" + (num.data3).toFixed(0) + "\n" +
+                "魔攻无效全减免疫强命伤害为:" + (num.data4).toFixed(0) + "\n\n" +
+                "魔攻无效双状态伤害为:" + (num.data7).toFixed(0) + "\n" +
+                "魔攻无效双状态强命伤害为:" + (num.data8).toFixed(0)
+
+        } else {
+            wenben.innerHTML =
+                "武商为:" + Lowest + "---" + Supreme + "\n" +
+                "生成最低武商为:" + num.arms.minimum + "\n" +
+                "生成最高武商为:" + num.arms.highest + "\n" +
+                "生成平均武商为:" + num.arms.Pinjun + "\n" +
+                "攻次为:" + num.Attack + "\n\n" +
+                "全减免疫伤害为:" + (num.data).toFixed(0) + "\n" +
+                "双状态伤害为:" + (num.data2).toFixed(0)
+        }
+    }
+    //随机生成格挡次数-----已添加到暴力内置中
+    // function Block() {
+    //     return Math.round(Math.random() * (7 - 1) + 1)
+    // }
+
+    //获取值检测
+    function obtain(...arg) {
+        console.log("Lowest=" + arg[0])
+        console.log("Supreme=" + arg[1])
+        console.log("Attack=" + arg[2])
+        console.log("frequency=" + arg[3])
+        console.log("Rage=" + arg[4])
+        console.log("loop=" + arg[5])
+    }
+</script>
+
+</html>
