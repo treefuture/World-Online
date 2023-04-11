@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            position: relative;
+            width: 300px;
+            height: 450px;
+            margin: 0 auto;
+        }
+        .box .tu{
+            width: 300px;
+            height: 450px;
+        }
+        .logo{
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 130px;
+            height: 35px;
+        }
+        .tu2{
+            width: 35px;
+            height: 35px;
+        }
+        .logo p{
+            float: right;
+            margin-right: 50px;
+            line-height: 35px;
+            font-size: 13px;
+            color: #d55518;
+        }
+        .nav{
+            position: absolute;
+            left: 93px;
+            top: 10px;
+            width: 250px;
+            height: 35px;
+        }
+        .nav ul li{
+            float: left;
+            list-style: none;
+            margin-left: 20px;
+        }
+        .nav ul li a{
+            font-size: 13px;
+            height:35px ;
+            color: white;
+            text-align: center;
+            line-height: 35px;
+            text-decoration: none;
+        }
+        .nav ul li a:hover{
+            border-bottom: 1px solid #d55518;
+            color: #d55518;
+        }
+        .footer{
+            position: absolute;
+            width: 350px;
+            height: 35px;
+            left: 10px;
+            top: 340px;
+        }
+        .footer ul .one{
+            float: left;
+            list-style: none;
+            margin-left:10px;
+        }
+        .one{
+            width: 80px;
+            height: 25px; 
+            background: rgba(255, 197, 7, 0.5);
+            border-radius: 20px;
+        }
+        .one a{
+            width: 80px;
+            height: 25px;
+            float: left;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 25px;
+            text-decoration: none; 
+        }
+        .one:hover{
+            background:#cb5503 ;
+        }
+        .one a:hover{
+            color: #fee88e;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/bg2.jpg"  class="tu"/>
+        <div class="logo">
+            <img src="images/logo.jpeg"  class="tu2"/>
+            <p>世界OL</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">关于游戏</a></li>
+                <li><a href="#">服务社区</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li class="one"><a href="./武商浮动计算.html">武商浮动计算</a></li>
+                <li class="one"><a href="./伤害范围计算.html">伤害范围计算</a></li>
+                <li class="one"><a href="./刷伤害计算.html">刷伤害计算</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
