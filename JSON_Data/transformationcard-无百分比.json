@@ -1,0 +1,441 @@
+{
+  "变身卡": "transformationcard",
+  "时效": "invalid",
+  "技能": "skill",
+  "transformationcard": [
+    {
+      "name": "魔法少女变身卡",
+      "damageReduction": 200,
+      "powerPercentage": 3,
+      "skillAttribute": [
+        "伤害减免+200",
+        "力量+3%"
+      ],
+      "skill": "血雾的结界",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "熔岩元素变身卡",
+      "magicHit": 3,
+      "skillAttribute": [
+        "魔法命中+3%"
+      ],
+      "skill": "领悟-燃烧",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "熔岩王变身卡",
+      "magicDefensePercentage": 5,
+      "constitution": 30,
+      "skillAttribute": [
+        "魔法防御力+5%",
+        "基础体质+30"
+      ],
+      "skill": "古代岩体",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "狂暴女仆变身卡",
+      "damageReductionPercentage": 5,
+      "constitution": 30,
+      "skillAttribute": [
+        "伤害减免+5%",
+        "基础体质+30"
+      ],
+      "skill": "扫把打击",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "寒冰魔甲变身卡",
+      "blockPercentage": 5,
+      "agile": 30,
+      "skillAttribute": [
+        "格挡+5%",
+        "基础敏捷+30"
+      ],
+      "skill": "寒冷侵袭",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "寒冰元素变身卡",
+      "chopDefensePercentage": 5,
+      "skillAttribute": [
+        "劈砍防御力+5%"
+      ],
+      "skill": "冰冻状态",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "鬼神变身卡",
+      "punctureDefense": 500,
+      "perceptionPercentage": 3,
+      "skillAttribute": [
+        "穿刺防御力+500",
+        "感知+3%"
+      ],
+      "skill": "鬼神不死咒",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "大神变身卡",
+      "magicDefense": 500,
+      "power": 3,
+      "skillAttribute": [
+        "魔法防御力+500",
+        "力量+3%"
+      ],
+      "skill": "鬼神还魂咒",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "恶鬼变身卡",
+      "punctureDefensePercentage": 5,
+      "power": 30,
+      "skillAttribute": [
+        "穿刺防御力+5%",
+        "基础力量+30"
+      ],
+      "skill": "鬼神苏生咒",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "蒙面骑士变身卡",
+      "block": 200,
+      "constitutionPercentage": 3,
+      "skillAttribute": [
+        "格挡+200",
+        "体质+3%"
+      ],
+      "skill": "骑士的奉献",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "天空骑士变身卡",
+      "chopDefensePercentage": 5,
+      "perception": 30,
+      "skillAttribute": [
+        "劈砍防御力+5%",
+        "基础感知+30"
+      ],
+      "skill": "十字斩",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "玛玛哈哈变身卡",
+      "HPRecovery": 500,
+      "skillAttribute": [
+        "生命回复+500"
+      ],
+      "skill": "领悟-快攻",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "鹰王变身卡",
+      "magicPenetration": 500,
+      "intelligencePercentage": 3,
+      "skillAttribute": [
+        "魔法穿透+500",
+        "智力+3%"
+      ],
+      "skill": "暗中偷袭",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "天空战神变身卡",
+      "dodge": 500,
+      "skillAttribute": [
+        "闪避+500"
+      ],
+      "skill": "雄鹰突击",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "黑夜猫女变身卡",
+      "magicPenetrationPercentage": 5,
+      "perception": 30,
+      "skillAttribute": [
+        "魔法穿透+5%",
+        "基础感知+30"
+      ],
+      "skill": "黑夜抓杀",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "红艳猫女变身卡",
+      "magicFeedbackPercentage": 5,
+      "intelligence": 30,
+      "skillAttribute": [
+        "魔法反馈+5%",
+        "基础智力+30"
+      ],
+      "skill": "红艳耀眼",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "萌猫变身卡",
+      "state": 200,
+      "skillAttribute": [
+        "状态+200"
+      ],
+      "skill": "卖萌闪光",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "煌黑猫变身卡",
+      "deadly": 3,
+      "skillAttribute": [
+        "致命+3%"
+      ],
+      "skill": "黑猫偷袭",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "守护熊猫变身卡",
+      "counterattack": 500,
+      "constitutionPercentage": 3,
+      "skillAttribute": [
+        "反击+500",
+        "体质+3%"
+      ],
+      "skill": "战场进食",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "熊猫狂战士变身卡",
+      "punctureDefensePercentage": 5,
+      "skillAttribute": [
+        "穿刺防御力+5%"
+      ],
+      "skill": "领悟-求生技能",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "幻影弓灵变身卡",
+      "hit": 200,
+      "agilePercentage": 3,
+      "skillAttribute": [
+        "命中+200",
+        "敏捷+3%"
+      ],
+      "skill": "虚影",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "天空恶魔变身卡",
+      "deadly": 200,
+      "skillAttribute": [
+        "致命+200"
+      ],
+      "skill": "空中捕猎",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "不死将军变身卡",
+      "insightPercentage": 5,
+      "power": 30,
+      "skillAttribute": [
+        "洞察+5%",
+        "基础力量+30"
+      ],
+      "skill": "死亡诅咒",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "骷髅神将变身卡",
+      "chopDefense": 500,
+      "intelligencePercentage": 3,
+      "skillAttribute": [
+        "劈砍防御力+500",
+        "智力+3%"
+      ],
+      "skill": "永恒契约",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "骷髅将军变身卡",
+      "forcedHit": 30,
+      "skillAttribute": [
+        "强制命中+30"
+      ],
+      "skill": "不死亡灵",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "亡灵铠甲变身卡",
+      "dodge": 500,
+      "constitutionPercentage": 3,
+      "skillAttribute": [
+        "闪避+500",
+        "体质+3%"
+      ],
+      "skill": "寒冷侵袭",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "骷髅王变身卡",
+      "chopDefense": 500,
+      "skillAttribute": [
+        "劈砍防御+500"
+      ],
+      "skill": "王之凯",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "变异南瓜变身卡",
+      "ignoreInsight": 100,
+      "perceptionPercentage": 10,
+      "skillAttribute": [
+        "无视洞察+100",
+        "感知+10%"
+      ],
+      "skill": "南瓜之威",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "俊介变身卡",
+      "magicHit": 200,
+      "skillAttribute": [
+        "魔法命中+200"
+      ],
+      "skill": "领悟-反击战术",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "哈士奇变身卡",
+      "manaRegeneration": 500,
+      "basicChopAttackPercentage": 34,
+      "basicPuncturePercentage": 34,
+      "magicPercentage": 34,
+      "skillAttribute": [
+        "魔法穿透+500",
+        "劈砍攻击+34%(技能加成)",
+        "穿刺攻击+34%(技能加成)",
+        "魔法攻击+34%(技能加成)"
+      ],
+      "skill": "领悟-战斗技巧",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "魔剑变身卡",
+      "magicFeedback": 500,
+      "agilePercentage": 3,
+      "skillAttribute": [
+        "魔法反馈+500",
+        "敏捷+3%"
+      ],
+      "skill": "魔能顺势劈",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "噬灵魔剑变身卡",
+      "dodgePercentage": 5,
+      "agile": 30,
+      "skillAttribute": [
+        "闪避+5%",
+        "基础敏捷+30"
+      ],
+      "skill": "噬灵",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "红炎少女变身卡",
+      "insight": 500,
+      "perceptionPercentage": 3,
+      "skillAttribute": [
+        "洞察+500",
+        "感知+3%"
+      ],
+      "skill": "火雨术",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "幼年蓝龙变身卡",
+      "ignoreBlock": 100,
+      "agilePercentage": 3,
+      "skillAttribute": [
+        "无视格挡+100",
+        "敏捷+3%"
+      ],
+      "skill": "龙族吐炎",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "黑暗灯神变身卡",
+      "manaShield": 500,
+      "powerPercentage": 3,
+      "skillAttribute": [
+        "法力护盾+500",
+        "力量+3%"
+      ],
+      "skill": "恐惧凝视",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "金毛狮王变身卡",
+      "ignoreBlock": 100,
+      "powerPercentage": 3,
+      "skillAttribute": [
+        "无视格挡+100",
+        "力量+3%"
+      ],
+      "skill": "兽王撕裂",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "金毛狮王(狂化)变身卡",
+      "ignoreInsight": 100,
+      "constitution": 30,
+      "skillAttribute": [
+        "无视洞察+100",
+        "基础体质+30"
+      ],
+      "skill": "兽王撕裂",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "九尾灵狐变身卡",
+      "ignoreDamageReduction": 100,
+      "agile": 30,
+      "immuneShield": 1,
+      "skillAttribute": [
+        "无视伤害减免+100",
+        "基础敏捷+30",
+        "免伤护盾+1"
+      ],
+      "skill": [
+        "诱惑红唇",
+        "九尾缠绕"
+      ],
+      "invalid": "90分钟"
+    },
+    {
+      "name": "女娲化身变身卡",
+      "disregardState": 100,
+      "intelligencePercentage": 3,
+      "immuneShield": 1,
+      "skillAttribute": [
+        "无视状态+100",
+        "智力+3%",
+        "免伤护盾+1"
+      ],
+      "skill": "风雪冰天",
+      "invalid": "45分钟"
+    },
+    {
+      "name": "幼年金龙变身卡",
+      "ignoreMagicFeedback": 100,
+      "perception": 30,
+      "immuneShield": 1,
+      "skillAttribute": [
+        "无视魔法反馈+100",
+        "基础感知+30",
+        "免伤护盾+1"
+      ],
+      "skill": [
+        "龙威",
+        "龙爪"
+      ],
+      "invalid": "90分钟"
+    }
+  ]
+}
