@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/flexible.js"></script>
+    <title>测试</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            font-size: 40px
+        }
+
+        @media (max-width:600px) {
+            html {
+                font-size: 30px
+            }
+        }
+
+        .box {
+            max-width: 1600px;
+            min-width: 800px;
+            max-height: 1600px;
+            min-height: 700px;
+            background: url(./img/bg.jpg);
+        }
+
+        .box2,
+        .box3 {
+            float: left;
+            width: 18rem;
+            height: 10rem;
+            background-color: red;
+        }
+
+        .box3 {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <script>
+        class Obj {
+            constructor(highest, minimum, average) {
+                return {
+                    highest: this.highest,
+                    minimum: this.minimum,
+                    average: this.average
+                }
+            }
+        }
+
+        let a = new Obj()
+        a.highest = 13 + 1
+        console.log(typeof a.highest)
+    </script>
+</body>
+
+</html>
