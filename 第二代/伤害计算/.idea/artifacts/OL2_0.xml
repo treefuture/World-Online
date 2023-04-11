@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="世界OL属性计算器2.0">
+    <output-path>$PROJECT_DIR$/out/artifacts/OL2_0</output-path>
+    <root id="root">
+      <element id="archive" name=".jar">
+        <element id="module-output" name="伤害计算" />
+      </element>
+    </root>
+  </artifact>
+</component>
