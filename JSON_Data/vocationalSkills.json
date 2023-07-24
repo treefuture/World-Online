@@ -5575,7 +5575,7 @@
         "round": 3,
         "additionalAttackTimes": "无",
         "skillConsumption": "2500法力",
-        "attackMode": "诅咒攻击",
+        "attackMode": "祝福",
         "range": "敌前后两人",
         "armsLimitation": "轻锤、重锤",
         "special": "锤师职业认证专属"
