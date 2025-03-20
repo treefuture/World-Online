@@ -1,0 +1,5259 @@
+{
+	"天赋": "talent",
+	"类型": "type",
+	"状态抵抗": "state",
+	"最高等级": "highestLevel",
+	"开启条件": "condition",
+	"学习耗材": "material",
+	"talent": [
+		{
+			"appletsTalent": [
+				{
+					"type": "攻击型",
+					"children": [
+						{
+							"label": "迅雷攻势",
+							"value": "迅雷攻势",
+							"condition": 10,
+							"children": [
+								{
+									"label": "迅雷攻势(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "迅雷攻势(1级)",
+									"value": 1,
+									"movePercentage": 1,
+									"attribute": [
+										"出手速度+1%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "迅雷攻势(2级)",
+									"value": 2,
+									"movePercentage": 2,
+									"attribute": [
+										"出手速度+2%"
+									],
+									"material": [
+										"天攻卷轴 x 3",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "迅雷攻势(3级)",
+									"value": 3,
+									"movePercentage": 3,
+									"attribute": [
+										"出手速度+3%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "迅雷攻势(4级)",
+									"value": 4,
+									"movePercentage": 4,
+									"attribute": [
+										"出手速度+4%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "神速领域",
+							"value": "神速领域",
+							"condition": 10,
+							"children": [
+								{
+									"label": "神速领域(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "神速领域(1级)",
+									"value": 1,
+									"move": 50,
+									"attribute": [
+										"出手速度+50"
+									],
+									"material": [
+										"天防卷轴 x 2",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "神速领域(2级)",
+									"value": 2,
+									"move": 100,
+									"attribute": [
+										"出手速度+100"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "神速领域(3级)",
+									"value": 3,
+									"move": 200,
+									"attribute": [
+										"出手速度+200"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "神速领域(4级)",
+									"value": 4,
+									"move": 300,
+									"attribute": [
+										"出手速度+300"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "兵器领悟",
+							"value": "兵器领悟",
+							"condition": 10,
+							"children": [
+								{
+									"label": "兵器领悟(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "兵器领悟(1级)",
+									"value": 1,
+									"basicChopAttack": 200,
+									"basicPuncture": 200,
+									"basicMagic": 200,
+									"attribute": [
+										"劈砍攻击力+200",
+										"穿刺攻击力+200",
+										"魔法攻击力+200"
+									],
+									"material": [
+										"天攻卷轴 x 5",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "兵器领悟(2级)",
+									"value": 2,
+									"basicChopAttack": 300,
+									"basicPuncture": 300,
+									"basicMagic": 300,
+									"attribute": [
+										"劈砍攻击力+300",
+										"穿刺攻击力+300",
+										"魔法攻击力+300"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "清波销魂",
+							"value": "清波销魂",
+							"condition": 30,
+							"children": [
+								{
+									"label": "清波销魂(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "清波销魂(1级)",
+									"value": 1,
+									"deadly": 50,
+									"attribute": [
+										"致命点+50"
+									],
+									"material": [
+										"天攻卷轴 x 4",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "清波销魂(2级)",
+									"value": 2,
+									"deadly": 80,
+									"attribute": [
+										"致命点+80"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "清波销魂(3级)",
+									"value": 3,
+									"deadly": 100,
+									"attribute": [
+										"致命点+100"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "清波销魂(4级)",
+									"value": 4,
+									"deadly": 120,
+									"attribute": [
+										"致命点+120"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "热能附魔",
+							"value": "热能附魔",
+							"condition": 30,
+							"children": [
+								{
+									"label": "热能附魔(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "热能附魔(1级)",
+									"value": 1,
+									"magicPercentage": 4,
+									"attribute": [
+										"魔法攻击力+4%"
+									],
+									"material": [
+										"天攻卷轴 x 4",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "热能附魔(2级)",
+									"value": 2,
+									"magicPercentage": 6,
+									"attribute": [
+										"魔法攻击力+6%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "热能附魔(3级)",
+									"value": 3,
+									"magicPercentage": 8,
+									"attribute": [
+										"魔法攻击力+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "热能附魔(4级)",
+									"value": 4,
+									"magicPercentage": 10,
+									"attribute": [
+										"魔法攻击力+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "绝对之雷矛",
+							"value": "绝对之雷矛",
+							"condition": 30,
+							"children": [
+								{
+									"label": "绝对之雷矛(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "绝对之雷矛(1级)",
+									"value": 1,
+									"magicHit": 30,
+									"hit": 30,
+									"attribute": [
+										"魔法命中+30",
+										"物理命中+30"
+									],
+									"material": [
+										"天攻卷轴 x 10",
+										"2级魔力结晶 x 8"
+									]
+								},
+								{
+									"label": "绝对之雷矛(2级)",
+									"value": 2,
+									"magicHit": 70,
+									"hit": 70,
+									"attribute": [
+										"魔法命中+70",
+										"物理命中+70"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "破甲吐焰",
+							"value": "破甲吐焰",
+							"condition": 50,
+							"children": [
+								{
+									"label": "破甲吐焰(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "破甲吐焰(1级)",
+									"value": 1,
+									"magicPenetration": 100,
+									"armourBreaking": 100,
+									"attribute": [
+										"魔法穿透+100",
+										"破甲+100"
+									],
+									"material": [
+										"天攻-异化卷轴 x 1",
+										"2级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "破甲吐焰(2级)",
+									"value": 2,
+									"magicPenetration": 200,
+									"armourBreaking": 200,
+									"attribute": [
+										"魔法穿透+200",
+										"破甲+200"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "破甲吐焰(3级)",
+									"value": 3,
+									"magicPenetration": 300,
+									"armourBreaking": 300,
+									"attribute": [
+										"魔法穿透+300",
+										"破甲+300"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "天罚",
+							"value": "天罚",
+							"condition": 50,
+							"children": [
+								{
+									"label": "天罚(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "天罚(1级)",
+									"value": 1,
+									"ignoreMagicFeedback": 200,
+									"ignoreInsight": 150,
+									"disregardState": 150,
+									"attribute": [
+										"无视魔法反馈+200",
+										"无视洞察+150",
+										"无视状态抵抗+150"
+									],
+									"material": [
+										"天攻-异化卷轴 x 15",
+										"3级魔力结晶 x 15"
+									]
+								}
+							]
+						},
+						{
+							"label": "红莲魔剑",
+							"value": "红莲魔剑",
+							"condition": 50,
+							"children": [
+								{
+									"label": "红莲魔剑(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "红莲魔剑(1级)",
+									"value": 1,
+									"armourBreakingPercentage": 8,
+									"armourBreaking": 300,
+									"attribute": [
+										"破甲+8%",
+										"破甲+300"
+									],
+									"material": [
+										"天攻-异化卷轴 x 15",
+										"3级魔力结晶 x 15"
+									]
+								}
+							]
+						},
+						{
+							"label": "划空坠陨",
+							"value": "划空坠陨",
+							"condition": 70,
+							"children": [
+								{
+									"label": "划空坠陨(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "划空坠陨(1级)",
+									"value": 1,
+									"deadlyPercentage": 4,
+									"attribute": [
+										"致命率+4%"
+									],
+									"material": [
+										"天攻-异化卷轴 x 5",
+										"3级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "划空坠陨(2级)",
+									"value": 2,
+									"deadlyPercentage": 8,
+									"attribute": [
+										"致命率+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "战意循环",
+							"value": "战意循环",
+							"condition": 70,
+							"children": [
+								{
+									"label": "战意循环(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "战意循环(1级)",
+									"value": 1,
+									"lifeAbsorption": 150,
+									"manaAbsorption": 150,
+									"attribute": [
+										"基础生命吸收+150",
+										"基础法力吸收+150"
+									],
+									"material": [
+										"天攻-异化卷轴 x 5",
+										"3级魔力结晶 x 8"
+									]
+								},
+								{
+									"label": "战意循环(2级)",
+									"value": 2,
+									"lifeAbsorption": 300,
+									"manaAbsorption": 300,
+									"attribute": [
+										"基础生命吸收+300",
+										"基础法力吸收+300"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "重击训练",
+							"value": "重击训练",
+							"condition": 70,
+							"children": [
+								{
+									"label": "重击训练(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "重击训练(1级)",
+									"value": 1,
+									"chopAttackPercentage": 4,
+									"puncturePercentage": 4,
+									"attribute": [
+										"劈砍攻击力+4%",
+										"穿刺攻击力+4%"
+									],
+									"material": [
+										"天攻-异化卷轴 x 5",
+										"3级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "重击训练(2级)",
+									"value": 2,
+									"chopAttackPercentage": 7,
+									"puncturePercentage": 7,
+									"attribute": [
+										"劈砍攻击力+7%",
+										"穿刺攻击力+7%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "重击训练(3级)",
+									"value": 3,
+									"chopAttackPercentage": 10,
+									"puncturePercentage": 10,
+									"attribute": [
+										"劈砍攻击力+10%",
+										"穿刺攻击力+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "钝器破坏",
+							"value": "钝器破坏",
+							"condition": 80,
+							"children": [
+								{
+									"label": "钝器破坏(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "钝器破坏(1级)",
+									"value": 1,
+									"ignoreBlock": 200,
+									"ignorecounterAttack": 200,
+									"attribute": [
+										"无视格挡+200",
+										"无视反击+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 5",
+										"异能觉醒石 x 5"
+									]
+								}
+							]
+						},
+						{
+							"label": "防御破碎",
+							"value": "防御破碎",
+							"condition": 80,
+							"children": [
+								{
+									"label": "防御破碎(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "防御破碎(1级)",
+									"value": 1,
+									"forcedHit": 1,
+									"attribute": [
+										"基础强制命中率+1"
+									],
+									"material": [
+										"天攻-神化卷轴 x 10",
+										"4级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "防御破碎(2级)",
+									"value": 2,
+									"forcedHit": 3,
+									"attribute": [
+										"基础强制命中率+3"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "防御破碎(3级)",
+									"value": 3,
+									"forcedHit": 6,
+									"attribute": [
+										"基础强制命中率+6"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "格斗术",
+							"value": "格斗术",
+							"condition": 80,
+							"children": [
+								{
+									"label": "格斗术(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "格斗术(1级)",
+									"value": 1,
+									"power": 10,
+									"agile": 10,
+									"attribute": [
+										"力量+10",
+										"敏捷+10"
+									],
+									"material": [
+										"天攻-神化卷轴 x 2",
+										"4级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "格斗术(2级)",
+									"value": 2,
+									"power": 25,
+									"agile": 25,
+									"attribute": [
+										"力量+25",
+										"敏捷+25"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "格斗术(3级)",
+									"value": 3,
+									"power": 45,
+									"agile": 45,
+									"attribute": [
+										"力量+45",
+										"敏捷+45"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "格斗术(4级)",
+									"value": 4,
+									"power": 75,
+									"agile": 75,
+									"attribute": [
+										"力量+75",
+										"敏捷+75"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "流樱雪飞",
+							"value": "流樱雪飞",
+							"condition": 90,
+							"children": [
+								{
+									"label": "流樱雪飞(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "流樱雪飞(1级)",
+									"value": 1,
+									"petAttackPowerPercentage": 10,
+									"attribute": [
+										"宠物伤害+10%"
+									],
+									"material": [
+										"天攻-神化卷轴 x 5",
+										"异能觉醒石 x 5"
+									]
+								}
+							]
+						},
+						{
+							"label": "寰宇天际",
+							"value": "寰宇天际",
+							"condition": 90,
+							"children": [
+								{
+									"label": "寰宇天际(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "寰宇天际(1级)",
+									"value": 1,
+									"petPowerPercentage": 3,
+									"petAgilePercentage": 3,
+									"attribute": [
+										"宠物力量+3%",
+										"宠物敏捷+3%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "寰宇天际(2级)",
+									"value": 2,
+									"petPowerPercentage": 6,
+									"petAgilePercentage": 6,
+									"attribute": [
+										"宠物力量+6%",
+										"宠物敏捷+6%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "寰宇天际(3级)",
+									"value": 3,
+									"petPowerPercentage": 12,
+									"petAgilePercentage": 12,
+									"attribute": [
+										"宠物力量+12%",
+										"宠物敏捷+12%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "禅心意",
+							"value": "禅心意",
+							"condition": 90,
+							"children": [
+								{
+									"label": "禅心意(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "禅心意(1级)",
+									"value": 1,
+									"petIntelligencePercentage": 3,
+									"petPerceptionPercentage": 3,
+									"attribute": [
+										"宠物智力+3%",
+										"宠物感知+3%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "禅心意(2级)",
+									"value": 2,
+									"petIntelligencePercentage": 6,
+									"petPerceptionPercentage": 6,
+									"attribute": [
+										"宠物智力+6%",
+										"宠物感知+6%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "禅心意(3级)",
+									"value": 3,
+									"petIntelligencePercentage": 9,
+									"petPerceptionPercentage": 9,
+									"attribute": [
+										"宠物智力+9%",
+										"宠物感知+9%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "禅心意(4级)",
+									"value": 4,
+									"petIntelligencePercentage": 15,
+									"petPerceptionPercentage": 15,
+									"attribute": [
+										"宠物智力+15%",
+										"宠物感知+15%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "防御型",
+					"children": [
+						{
+							"label": "狂野生长",
+							"value": "狂野生长",
+							"condition": 10,
+							"children": [
+								{
+									"label": "狂野生长(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "狂野生长(1级)",
+									"value": 1,
+									"basicHP": 500,
+									"constitution": 10,
+									"attribute": [
+										"生命上限+500",
+										"体质+10"
+									],
+									"material": [
+										"天防卷轴 x 1",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "狂野生长(2级)",
+									"value": 2,
+									"basicHP": 800,
+									"constitution": 20,
+									"attribute": [
+										"生命上限+800",
+										"体质+20"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "狂野生长(3级)",
+									"value": 3,
+									"basicHP": 1200,
+									"constitution": 30,
+									"attribute": [
+										"生命上限+1200",
+										"体质+30"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "不灭意志",
+							"value": "不灭意志",
+							"condition": 10,
+							"children": [
+								{
+									"label": "不灭意志(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "不灭意志(1级)",
+									"value": 1,
+									"bloodVolumePercentage": 6,
+									"damageReduction": 30,
+									"attribute": [
+										"生命上限+6%",
+										"伤害减免+30"
+									],
+									"material": [
+										"天防卷轴 x 1",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "不灭意志(2级)",
+									"value": 2,
+									"bloodVolumePercentage": 9,
+									"damageReduction": 50,
+									"attribute": [
+										"生命上限+9%",
+										"伤害减免+50"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "不灭意志(3级)",
+									"value": 3,
+									"bloodVolumePercentage": 12,
+									"damageReduction": 80,
+									"attribute": [
+										"生命上限+12%",
+										"伤害减免+80"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "不灭意志(4级)",
+									"value": 4,
+									"bloodVolumePercentage": 15,
+									"damageReduction": 100,
+									"attribute": [
+										"生命上限+15%",
+										"伤害减免+100"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "残风行影",
+							"value": "残风行影",
+							"condition": 10,
+							"children": [
+								{
+									"label": "残风行影(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "残风行影(1级)",
+									"value": 1,
+									"dodge": 40,
+									"basicHP": 500,
+									"attribute": [
+										"躲闪+40",
+										"生命上限+500"
+									],
+									"material": [
+										"天防卷轴 x 5",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "残风行影(2级)",
+									"value": 2,
+									"dodge": 90,
+									"basicHP": 1000,
+									"attribute": [
+										"躲闪+90",
+										"生命上限+1000"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "黑夜荆棘",
+							"value": "黑夜荆棘",
+							"condition": 30,
+							"children": [
+								{
+									"label": "黑夜荆棘(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "黑夜荆棘(1级)",
+									"value": 1,
+									"counterAttack": 50,
+									"counterAttackPercentage": 4,
+									"attribute": [
+										"反击+50",
+										"反击+4%"
+									],
+									"material": [
+										"天防卷轴 x 6",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "黑夜荆棘(2级)",
+									"value": 2,
+									"counterAttack": 150,
+									"counterAttackPercentage": 8,
+									"attribute": [
+										"反击+150",
+										"反击+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "黑夜荆棘(3级)",
+									"value": 3,
+									"counterAttack": 250,
+									"counterAttackPercentage": 12,
+									"attribute": [
+										"反击+250",
+										"反击+12%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "危机感知",
+							"value": "危机感知",
+							"condition": 30,
+							"children": [
+								{
+									"label": "危机感知(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "危机感知(1级)",
+									"value": 1,
+									"magicFeedback": 50,
+									"manaShield": 400,
+									"attribute": [
+										"魔法反馈+50",
+										"法力护盾+400"
+									],
+									"material": [
+										"天防卷轴 x 6",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "危机感知(2级)",
+									"value": 2,
+									"magicFeedback": 150,
+									"manaShield": 600,
+									"attribute": [
+										"魔法反馈+150",
+										"法力护盾+600"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "危机感知(3级)",
+									"value": 3,
+									"magicFeedback": 250,
+									"manaShield": 800,
+									"attribute": [
+										"魔法反馈+250",
+										"法力护盾+800"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "上弦之月",
+							"value": "上弦之月",
+							"condition": 30,
+							"children": [
+								{
+									"label": "上弦之月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "上弦之月(1级)",
+									"value": 1,
+									"state": 80,
+									"attribute": [
+										"状态抵抗值+60",
+										"状态抵抗值+20"
+									],
+									"material": [
+										"天防卷轴 x 8",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "上弦之月(2级)",
+									"value": 2,
+									"state": 130,
+									"attribute": [
+										"状态抵抗值+90",
+										"状态抵抗值+40"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "上弦之月(3级)",
+									"value": 3,
+									"state": 180,
+									"attribute": [
+										"状态抵抗值+120",
+										"状态抵抗值+60"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "上弦之月(4级)",
+									"value": 4,
+									"state": 230,
+									"attribute": [
+										"状态抵抗值+150",
+										"状态抵抗值+80"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "伤害架势",
+							"value": "伤害架势",
+							"condition": 50,
+							"children": [
+								{
+									"label": "伤害架势(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "伤害架势(1级)",
+									"value": 1,
+									"block": 50,
+									"blockPercentage": 6,
+									"attribute": [
+										"格挡+50",
+										"格挡+6%"
+									],
+									"material": [
+										"天防-铁卷轴 x 1",
+										"2级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "伤害架势(2级)",
+									"value": 2,
+									"block": 150,
+									"blockPercentage": 9,
+									"attribute": [
+										"格挡+150",
+										"格挡+9%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "伤害架势(3级)",
+									"value": 3,
+									"block": 250,
+									"blockPercentage": 12,
+									"attribute": [
+										"格挡+250",
+										"格挡+12%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "体格硬化",
+							"value": "体格硬化",
+							"condition": 50,
+							"children": [
+								{
+									"label": "体格硬化(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "体格硬化(1级)",
+									"value": 1,
+									"chopDefense": 500,
+									"punctureDefense": 500,
+									"attribute": [
+										"劈砍防御力+500",
+										"穿刺防御力+500"
+									],
+									"material": [
+										"天防-铁卷轴 x 1",
+										"2级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "体格硬化(2级)",
+									"value": 2,
+									"chopDefense": 1000,
+									"punctureDefense": 1000,
+									"attribute": [
+										"劈砍防御力+1000",
+										"穿刺防御力+1000"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "体格硬化(3级)",
+									"value": 3,
+									"chopDefense": 1500,
+									"punctureDefense": 1500,
+									"attribute": [
+										"劈砍防御力+1500",
+										"穿刺防御力+1500"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "完美格挡",
+							"value": "完美格挡",
+							"condition": 50,
+							"children": [
+								{
+									"label": "完美格挡(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "完美格挡(1级)",
+									"value": 1,
+									"immuneShield": 1,
+									"attribute": [
+										"免伤护盾+1"
+									],
+									"material": [
+										"天防-铁卷轴 x 15",
+										"3级魔力结晶 x 15"
+									]
+								}
+							]
+						},
+						{
+							"label": "通透",
+							"value": "通透",
+							"condition": 70,
+							"children": [
+								{
+									"label": "通透(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "通透(1级)",
+									"value": 1,
+									"insight": 80,
+									"insightPercentage": 2,
+									"attribute": [
+										"洞察+80",
+										"洞察+2%"
+									],
+									"material": [
+										"天防-铁卷轴 x 10",
+										"3级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "通透(2级)",
+									"value": 2,
+									"insight": 120,
+									"insightPercentage": 5,
+									"attribute": [
+										"洞察+120",
+										"洞察+5%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "怪异抗性",
+							"value": "怪异抗性",
+							"condition": 70,
+							"children": [
+								{
+									"label": "怪异抗性(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "怪异抗性(1级)",
+									"value": 1,
+									"magicDefense": 800,
+									"magicDefensePercentage": 7,
+									"attribute": [
+										"魔法防御力+800",
+										"魔法防御力+7%"
+									],
+									"material": [
+										"天防-铁卷轴 x 5",
+										"5级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "怪异抗性(2级)",
+									"value": 2,
+									"magicDefense": 1500,
+									"magicDefensePercentage": 15,
+									"attribute": [
+										"魔法防御力+1500",
+										"魔法防御力+15%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "下弦之月",
+							"value": "下弦之月",
+							"condition": 70,
+							"children": [
+								{
+									"label": "下弦之月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "下弦之月(1级)",
+									"value": 1,
+									"manaShield": 400,
+									"manaShieldPercentage": 6,
+									"attribute": [
+										"法力护盾+400",
+										"法力护盾+6%"
+									],
+									"material": [
+										"天防-铁卷轴 x 5",
+										"3级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "下弦之月(2级)",
+									"value": 2,
+									"manaShield": 600,
+									"manaShieldPercentage": 9,
+									"attribute": [
+										"法力护盾+600",
+										"法力护盾+9%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "下弦之月(3级)",
+									"value": 3,
+									"manaShield": 800,
+									"manaShieldPercentage": 12,
+									"attribute": [
+										"法力护盾+800",
+										"法力护盾+12%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "新月-朔",
+							"value": "新月-朔",
+							"condition": 80,
+							"children": [
+								{
+									"label": "新月-朔(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "新月-朔(1级)",
+									"value": 1,
+									"petLifePercentage": 20,
+									"petManaPercentage": 20,
+									"attribute": [
+										"宠物生命上限+20%",
+										"宠物法力上限+20%"
+									],
+									"material": [
+										"天防-金卷轴 x 5",
+										"异能觉醒石 x 5"
+									]
+								}
+							]
+						},
+						{
+							"label": "残月",
+							"value": "残月",
+							"condition": 80,
+							"children": [
+								{
+									"label": "残月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "残月(1级)",
+									"value": 1,
+									"petConstitutionPercentage": 4,
+									"petAgilePercentage": 4,
+									"attribute": [
+										"宠物体质+4%",
+										"宠物敏捷+4%"
+									],
+									"material": [
+										"天防-金卷轴 x 2",
+										"4级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "残月(2级)",
+									"value": 2,
+									"petConstitutionPercentage": 8,
+									"petAgilePercentage": 8,
+									"attribute": [
+										"宠物体质+8%",
+										"宠物敏捷+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "残月(3级)",
+									"value": 3,
+									"petConstitutionPercentage": 15,
+									"petAgilePercentage": 15,
+									"attribute": [
+										"宠物体质+15%",
+										"宠物敏捷+15%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "亏凸月",
+							"value": "亏凸月",
+							"condition": 80,
+							"children": [
+								{
+									"label": "亏凸月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "亏凸月(1级)",
+									"value": 1,
+									"petsSufferChopDamage": 15,
+									"petsSufferPunctureDamage": 15,
+									"attribute": [
+										"受到劈砍攻击时,所携带宠物15%几率为其承受伤害",
+										"受到穿刺攻击时,所携带宠物15%几率为其承受伤害"
+									],
+									"material": [
+										"天防-金卷轴 x 10",
+										"异能觉醒石 x 5"
+									]
+								}
+							]
+						},
+						{
+							"label": "满月-望",
+							"value": "满月-望",
+							"condition": 90,
+							"children": [
+								{
+									"label": "满月-望(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "满月-望(1级)",
+									"value": 1,
+									"petsSufferMagicDamage": 4,
+									"petsSufferCurseDamage": 4,
+									"attribute": [
+										"受到魔法攻击时,所携带宠物4%几率为其承受攻击效果",
+										"受到诅咒攻击时,所携带宠物4%几率为其承受攻击效果"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "满月-望(2级)",
+									"value": 2,
+									"petsSufferMagicDamage": 8,
+									"petsSufferCurseDamage": 8,
+									"attribute": [
+										"受到魔法攻击时,所携带宠物8%几率为其承受攻击效果",
+										"受到诅咒攻击时,所携带宠物8%几率为其承受攻击效果"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "满月-望(3级)",
+									"value": 3,
+									"petsSufferMagicDamage": 15,
+									"petsSufferCurseDamage": 15,
+									"attribute": [
+										"受到魔法攻击时,所携带宠物15%几率为其承受攻击效果",
+										"受到诅咒攻击时,所携带宠物15%几率为其承受攻击效果"
+									],
+									"material": [
+										"天防-金卷轴 x 5",
+										"异能觉醒石 x 5"
+									]
+								}
+							]
+						},
+						{
+							"label": "盈凸月",
+							"value": "盈凸月",
+							"condition": 90,
+							"children": [
+								{
+									"label": "盈凸月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "盈凸月(1级)",
+									"value": 1,
+									"damageReductionPercentage": 15,
+									"attribute": [
+										"伤害减免+15%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "盈凸月(2级)",
+									"value": 2,
+									"damageReductionPercentage": 40,
+									"attribute": [
+										"伤害减免+40%"
+									],
+									"material": [
+										"天防-金卷轴 x 5",
+										"异能觉醒石 x 5"
+									]
+								}
+							]
+						},
+						{
+							"label": "峨眉月",
+							"value": "峨眉月",
+							"condition": 90,
+							"children": [
+								{
+									"label": "峨眉月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "峨眉月(1级)",
+									"value": 1,
+									"attribute": [
+										"装备防具耐久+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "通用型",
+					"children": [
+						{
+							"label": "立春",
+							"value": "立春",
+							"condition": 10,
+							"children": [
+								{
+									"label": "立春(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "立春(1级)",
+									"value": 1,
+									"HPRecovery": 200,
+									"attribute": [
+										"每回合自动恢复生命+100",
+										"每回合自动恢复生命+100"
+									],
+									"material": [
+										"天通壹型卷轴 x 1",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "立春(2级)",
+									"value": 2,
+									"HPRecovery": 500,
+									"attribute": [
+										"每回合自动恢复生命+250",
+										"每回合自动恢复生命+250"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "立春(3级)",
+									"value": 3,
+									"HPRecovery": 800,
+									"attribute": [
+										"每回合自动恢复生命+400",
+										"每回合自动恢复生命+400"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "雨水",
+							"value": "雨水",
+							"condition": 10,
+							"children": [
+								{
+									"label": "雨水(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "雨水(1级)",
+									"value": 1,
+									"manaRegeneration": 200,
+									"attribute": [
+										"每回合自动恢复法力+100",
+										"每回合自动恢复法力+100"
+									],
+									"material": [
+										"天通壹型卷轴 x 1",
+										"1级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "雨水(2级)",
+									"value": 2,
+									"manaRegeneration": 500,
+									"attribute": [
+										"每回合自动恢复法力+250",
+										"每回合自动恢复法力+250"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "雨水(3级)",
+									"value": 3,
+									"manaRegeneration": 800,
+									"attribute": [
+										"每回合自动恢复法力+400",
+										"每回合自动恢复法力+400"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "惊蛰",
+							"value": "惊蛰",
+							"condition": 10,
+							"children": [
+								{
+									"label": "惊蛰(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "惊蛰(1级)",
+									"value": 1,
+									"mana": 800,
+									"manaPercentage": 15,
+									"attribute": [
+										"法力上限+800",
+										"法力上限+15%"
+									],
+									"material": [
+										"天通壹型卷轴 x 10",
+										"1级魔力结晶 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "春分",
+							"value": "春分",
+							"condition": 30,
+							"children": [
+								{
+									"label": "春分(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "春分(1级)",
+									"value": 1,
+									"intelligence": 10,
+									"intelligencePercentage": 2,
+									"attribute": [
+										"智力+10",
+										"智力+2%"
+									],
+									"material": [
+										"天通壹型卷轴 x 6",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "春分(2级)",
+									"value": 2,
+									"intelligence": 25,
+									"intelligencePercentage": 5,
+									"attribute": [
+										"智力+25",
+										"智力+5%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "春分(3级)",
+									"value": 3,
+									"intelligence": 40,
+									"intelligencePercentage": 8,
+									"attribute": [
+										"智力+40",
+										"智力+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "谷雨",
+							"value": "谷雨",
+							"condition": 30,
+							"children": [
+								{
+									"label": "谷雨(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "谷雨(1级)",
+									"value": 1,
+									"perception": 10,
+									"perceptionPercentage": 2,
+									"attribute": [
+										"感知+10",
+										"感知+2%"
+									],
+									"material": [
+										"天通壹型卷轴 x 6",
+										"1级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "谷雨(2级)",
+									"value": 2,
+									"perception": 25,
+									"perceptionPercentage": 5,
+									"attribute": [
+										"感知+25",
+										"感知+5%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "谷雨(3级)",
+									"value": 3,
+									"perception": 40,
+									"perceptionPercentage": 8,
+									"attribute": [
+										"感知+40",
+										"感知+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "小满",
+							"value": "小满",
+							"condition": 30,
+							"children": [
+								{
+									"label": "小满(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "小满(1级)",
+									"value": 1,
+									"dodgePercentage": 4,
+									"empty_handedWeaponDamage": 5,
+									"attribute": [
+										"躲闪+4%",
+										"空手伤害+5%"
+									],
+									"material": [
+										"天通壹型卷轴 x 10",
+										"2级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "小满(2级)",
+									"value": 2,
+									"dodgePercentage": 8,
+									"empty_handedWeaponDamage": 10,
+									"attribute": [
+										"躲闪+8%",
+										"空手伤害+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "芒种",
+							"value": "芒种",
+							"condition": 50,
+							"children": [
+								{
+									"label": "芒种(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "芒种(1级)",
+									"value": 1,
+									"petLifePercentage": 3,
+									"petManaPercentage": 3,
+									"attribute": [
+										"宠物生命上限+3%",
+										"宠物法力上限+3%"
+									],
+									"material": [
+										"天通贰型卷轴 x 1",
+										"2级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "芒种(2级)",
+									"value": 2,
+									"petLifePercentage": 6,
+									"petManaPercentage": 6,
+									"attribute": [
+										"宠物生命上限+6%",
+										"宠物法力上限+6%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "芒种(3级)",
+									"value": 3,
+									"petLifePercentage": 9,
+									"petManaPercentage": 9,
+									"attribute": [
+										"宠物生命上限+9%",
+										"宠物法力上限+9%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "芒种(4级)",
+									"value": 4,
+									"petLifePercentage": 15,
+									"petManaPercentage": 15,
+									"attribute": [
+										"宠物生命上限+15%",
+										"宠物法力上限+15%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "夏至",
+							"value": "夏至",
+							"condition": 50,
+							"children": [
+								{
+									"label": "夏至(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "夏至(1级)",
+									"value": 1,
+									"power": 40,
+									"attribute": [
+										"力量+40"
+									],
+									"material": [
+										"天通贰型卷轴 x 15",
+										"3级魔力结晶 x 15"
+									]
+								}
+							]
+						},
+						{
+							"label": "大暑",
+							"value": "大暑",
+							"condition": 50,
+							"children": [
+								{
+									"label": "大暑(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "大暑(1级)",
+									"value": 1,
+									"chopDefensePercentage": 5,
+									"punctureDefensePercentage": 5,
+									"magicDefensePercentage": 5,
+									"attribute": [
+										"劈砍防御力+5%",
+										"穿刺防御力+5%",
+										"魔法防御力+5%"
+									],
+									"material": [
+										"天通贰型卷轴 x 1",
+										"2级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "大暑(2级)",
+									"value": 2,
+									"chopDefensePercentage": 10,
+									"punctureDefensePercentage": 10,
+									"magicDefensePercentage": 10,
+									"attribute": [
+										"劈砍防御力+10%",
+										"穿刺防御力+10%",
+										"魔法防御力+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "大暑(3级)",
+									"value": 3,
+									"chopDefensePercentage": 15,
+									"punctureDefensePercentage": 15,
+									"magicDefensePercentage": 15,
+									"attribute": [
+										"劈砍防御力+15%",
+										"穿刺防御力+15%",
+										"魔法防御力+15%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "白露",
+							"value": "白露",
+							"condition": 70,
+							"children": [
+								{
+									"label": "白露(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "白露(1级)",
+									"value": 1,
+									"movePercentage": 1,
+									"hitPercentage": 1,
+									"magicHitPercentage": 1,
+									"attribute": [
+										"出手速度+1%",
+										"物理命中率+1%",
+										"魔法命中+1%"
+									],
+									"material": [
+										"天通叁型卷轴 x 3",
+										"3级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "白露(2级)",
+									"value": 2,
+									"movePercentage": 3,
+									"hitPercentage": 3,
+									"magicHitPercentage": 3,
+									"attribute": [
+										"出手速度+3%",
+										"物理命中率+3%",
+										"魔法命中+3%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "白露(3级)",
+									"value": 3,
+									"movePercentage": 5,
+									"hitPercentage": 5,
+									"magicHitPercentage": 5,
+									"attribute": [
+										"出手速度+5%",
+										"物理命中率+5%",
+										"魔法命中+5%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "白露(4级)",
+									"value": 4,
+									"movePercentage": 8,
+									"hitPercentage": 8,
+									"magicHitPercentage": 8,
+									"attribute": [
+										"出手速度+8%",
+										"物理命中率+8%",
+										"魔法命中+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "秋分",
+							"value": "秋分",
+							"condition": 70,
+							"children": [
+								{
+									"label": "秋分(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "秋分(1级)",
+									"value": 1,
+									"magicPenetration": 100,
+									"magicPenetrationPercentage": 2,
+									"attribute": [
+										"魔法穿透+100",
+										"魔法穿透+2%"
+									],
+									"material": [
+										"天通叁型卷轴 x 3",
+										"3级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "秋分(2级)",
+									"value": 2,
+									"magicPenetration": 300,
+									"magicPenetrationPercentage": 5,
+									"attribute": [
+										"魔法穿透+300",
+										"魔法穿透+5%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "秋分(3级)",
+									"value": 3,
+									"magicPenetration": 500,
+									"magicPenetrationPercentage": 10,
+									"attribute": [
+										"魔法穿透+500",
+										"魔法穿透+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "寒露",
+							"value": "寒露",
+							"condition": 70,
+							"children": [
+								{
+									"label": "寒露(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "寒露(1级)",
+									"value": 1,
+									"state": 100,
+									"damageReduction": 100,
+									"attribute": [
+										"状态抵抗值+100",
+										"伤害减免+100"
+									],
+									"material": [
+										"天通叁型卷轴 x 10",
+										"异能觉醒石 x 10"
+									]
+								}
+							]
+						},
+						{
+							"label": "霜降",
+							"value": "霜降",
+							"condition": 80,
+							"children": [
+								{
+									"label": "霜降(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "霜降(1级)",
+									"value": 1,
+									"sabreWeaponDamage": 3,
+									"basicChopAttack": 50,
+									"attribute": [
+										"刀类伤害耐久+3%",
+										"劈砍攻击力+50"
+									],
+									"material": [
+										"天通叁型卷轴 x 7",
+										"4级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "霜降(2级)",
+									"value": 2,
+									"sabreWeaponDamage": 8,
+									"basicChopAttack": 200,
+									"attribute": [
+										"刀类伤害、耐久+8%",
+										"劈砍攻击力+200"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "立冬",
+							"value": "立冬",
+							"condition": 80,
+							"children": [
+								{
+									"label": "立冬(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "立冬(1级)",
+									"value": 1,
+									"heavyWeaponDamage": 2,
+									"attribute": [
+										"重型武器伤害、耐久+2%"
+									],
+									"material": [
+										"天通叁型卷轴 x 3",
+										"4级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "立冬(2级)",
+									"value": 2,
+									"heavyWeaponDamage": 4,
+									"attribute": [
+										"重型武器伤害、耐久+4%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "立冬(3级)",
+									"value": 3,
+									"heavyWeaponDamage": 8,
+									"attribute": [
+										"重型武器伤害、耐久+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "大雪",
+							"value": "大雪",
+							"condition": 80,
+							"children": [
+								{
+									"label": "大雪(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "大雪(1级)",
+									"value": 1,
+									"swordWeaponDamage": 2,
+									"attribute": [
+										"剑类武器伤害、耐久+2%"
+									],
+									"material": [
+										"天通叁型卷轴 x 3",
+										"3级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "大雪(2级)",
+									"value": 2,
+									"swordWeaponDamage": 4,
+									"attribute": [
+										"剑类武器伤害、耐久+4%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "大雪(3级)",
+									"value": 3,
+									"swordWeaponDamage": 8,
+									"attribute": [
+										"剑类武器伤害、耐久+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "冬至",
+							"value": "冬至",
+							"condition": 90,
+							"children": [
+								{
+									"label": "冬至(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "冬至(1级)",
+									"value": 1,
+									"artilleryWeaponDamage": 1,
+									"attribute": [
+										"火枪武器伤害、耐久+1%"
+									],
+									"material": [
+										"天通叁型卷轴 x 3",
+										"5级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "冬至(2级)",
+									"value": 2,
+									"artilleryWeaponDamage": 2,
+									"attribute": [
+										"火枪武器伤害、耐久+2%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "冬至(3级)",
+									"value": 3,
+									"artilleryWeaponDamage": 4,
+									"attribute": [
+										"火枪武器伤害、耐久+4%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "冬至(4级)",
+									"value": 4,
+									"artilleryWeaponDamage": 8,
+									"attribute": [
+										"火枪武器伤害、耐久+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "小寒",
+							"value": "小寒",
+							"condition": 90,
+							"children": [
+								{
+									"label": "小寒(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "小寒(1级)",
+									"value": 1,
+									"magicInstrumentWeaponDamage": 2,
+									"attribute": [
+										"法器武器伤害、耐久+2%"
+									],
+									"material": [
+										"天通叁型卷轴 x 3",
+										"5级魔力结晶 x 5"
+									]
+								},
+								{
+									"label": "小寒(2级)",
+									"value": 2,
+									"magicInstrumentWeaponDamage": 4,
+									"attribute": [
+										"法器武器伤害、耐久+4%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "小寒(3级)",
+									"value": 3,
+									"magicInstrumentWeaponDamage": 8,
+									"attribute": [
+										"法器武器伤害、耐久+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "大寒",
+							"value": "大寒",
+							"condition": 90,
+							"children": [
+								{
+									"label": "大寒(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "大寒(1级)",
+									"value": 1,
+									"longHandleWeaponDamage": 3,
+									"attribute": [
+										"长柄武器伤害、耐久+3%"
+									],
+									"material": [
+										"天通叁型卷轴 x 5",
+										"5级魔力结晶 x 10"
+									]
+								},
+								{
+									"label": "大寒(2级)",
+									"value": 2,
+									"longHandleWeaponDamage": 8,
+									"attribute": [
+										"长柄武器伤害、耐久+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"basicsTalent": [
+				{
+					"type": "攻击型",
+					"children": [
+						{
+							"label": "迅雷攻势",
+							"value": "迅雷攻势",
+							"condition": 10,
+							"children": [
+								{
+									"label": "迅雷攻势(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "迅雷攻势(1级)",
+									"value": 1,
+									"movePercentage": 1,
+									"attribute": [
+										"出手速度+1%"
+									],
+									"material": [
+										"天攻卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "迅雷攻势(2级-不详)",
+									"value": 2,
+									"movePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"出手速度+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "迅雷攻势(3级-不详)",
+									"value": 3,
+									"movePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"出手速度+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "迅雷攻势(4级)",
+									"value": 4,
+									"movePercentage": 8,
+									"attribute": [
+										"出手速度+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "神速领域",
+							"value": "神速领域",
+							"condition": 10,
+							"children": [
+								{
+									"label": "神速领域(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "神速领域(1级)",
+									"value": 1,
+									"move": 50,
+									"attribute": [
+										"出手速度+50"
+									],
+									"material": [
+										"天攻卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "神速领域(2级-不详)",
+									"value": 2,
+									"move": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"出手速度+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "神速领域(3级-不详)",
+									"value": 3,
+									"move": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"出手速度+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "神速领域(4级)",
+									"value": 4,
+									"move": 500,
+									"attribute": [
+										"出手速度+500"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "兵器领悟",
+							"value": "兵器领悟",
+							"condition": 10,
+							"children": [
+								{
+									"label": "兵器领悟(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "兵器领悟(1级)",
+									"value": 1,
+									"basicChopAttack": 150,
+									"basicPuncture": 150,
+									"basicMagic": 150,
+									"attribute": [
+										"劈砍攻击力+150",
+										"穿刺攻击力+150",
+										"魔法攻击力+150"
+									],
+									"material": [
+										"天攻卷轴 x 3",
+										"3级魔力结晶 x 3"
+									]
+								},
+								{
+									"label": "兵器领悟(2级)",
+									"value": 2,
+									"basicChopAttack": 400,
+									"basicPuncture": 400,
+									"basicMagic": 400,
+									"attribute": [
+										"劈砍攻击力+400",
+										"穿刺攻击力+400",
+										"魔法攻击力+400"
+									],
+									"material": [
+										"天攻卷轴 x 7",
+										"4级魔力结晶 x 7"
+									],
+									"dataProvision": "盖世战神-遇宇"
+								}
+							]
+						},
+						{
+							"label": "清波销魂",
+							"value": "清波销魂",
+							"condition": 30,
+							"children": [
+								{
+									"label": "清波销魂(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "清波销魂(1级)",
+									"value": 1,
+									"deadly": 10,
+									"attribute": [
+										"致命点+10"
+									],
+									"material": [
+										"天攻卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "清波销魂(2级)",
+									"value": 2,
+									"deadly": 20,
+									"attribute": [
+										"致命点+20"
+									],
+									"material": [
+										"天攻卷轴 x 3",
+										"2级魔力结晶 x 3"
+									],
+									"dataProvision": "官服-天启屌大人帅的弥啼"
+								},
+								{
+									"label": "清波销魂(3级)",
+									"value": 3,
+									"deadly": 45,
+									"attribute": [
+										"致命点+45"
+									],
+									"material": [
+										"天攻卷轴 x 6",
+										"3级魔力结晶 x 6"
+									],
+									"dataProvision": "官服-天启屌大人帅的弥啼"
+								},
+								{
+									"label": "清波销魂(4级)",
+									"value": 4,
+									"deadly": 80,
+									"attribute": [
+										"致命点+80"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "盖世战神-遇宇"
+								}
+							]
+						},
+						{
+							"label": "热能附魔",
+							"value": "热能附魔",
+							"condition": 30,
+							"children": [
+								{
+									"label": "热能附魔(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "热能附魔(1级)",
+									"value": 1,
+									"magicPercentage": 1,
+									"attribute": [
+										"魔法攻击力+1%"
+									],
+									"material": [
+										"天攻卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "热能附魔(2级)",
+									"value": 2,
+									"magicPercentage": 2,
+									"attribute": [
+										"魔法攻击力+2%"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								},
+								{
+									"label": "热能附魔(3级)",
+									"value": 3,
+									"magicPercentage": 4,
+									"attribute": [
+										"魔法攻击力+4%"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								},
+								{
+									"label": "热能附魔(4级)",
+									"value": 4,
+									"magicPercentage": 8,
+									"attribute": [
+										"魔法攻击力+8%"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "腾讯金羊-刀剑乱舞"
+								}
+							]
+						},
+						{
+							"label": "绝对之雷矛",
+							"value": "绝对之雷矛",
+							"condition": 30,
+							"children": [
+								{
+									"label": "绝对之雷矛(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "绝对之雷矛(1级)",
+									"value": 1,
+									"hit": 30,
+									"attribute": [
+										"物理命中+30"
+									],
+									"material": [
+										"天攻卷轴 x 6",
+										"3级魔力结晶 x 6"
+									]
+								},
+								{
+									"label": "绝对之雷矛(2级)",
+									"value": 2,
+									"hit": 80,
+									"attribute": [
+										"物理命中+80"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "盖世战神-遇宇"
+								}
+							]
+						},
+						{
+							"label": "破甲吐焰",
+							"value": "破甲吐焰",
+							"condition": 50,
+							"children": [
+								{
+									"label": "破甲吐焰(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "破甲吐焰(1级)",
+									"value": 1,
+									"armourBreakingPercentage": 5,
+									"magicPenetrationPercentage": 5,
+									"attribute": [
+										"破甲+5%",
+										"魔法穿透+5%"
+									],
+									"dataProvision": "官服-圣者-迷途",
+									"material": [
+										"天攻-异化卷轴 x 3",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "破甲吐焰(2级)",
+									"value": 2,
+									"armourBreakingPercentage": 10,
+									"magicPenetrationPercentage": 10,
+									"attribute": [
+										"破甲+10%",
+										"魔法穿透+10%"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"天攻-异化卷轴 x 5",
+										"指令书 x 10"
+									]
+								},
+								{
+									"label": "破甲吐焰(3级)",
+									"value": 3,
+									"armourBreakingPercentage": 20,
+									"magicPenetrationPercentage": 20,
+									"attribute": [
+										"破甲+20%",
+										"魔法穿透+20%"
+									],
+									"dataProvision": "小程序-雷霆之威-瑾瑜(微信公众号：世界OL百宝箱作者)",
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "天罚",
+							"value": "天罚",
+							"condition": 50,
+							"children": [
+								{
+									"label": "天罚(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "天罚(1级)",
+									"value": 1,
+									"armourBreaking": 1000,
+									"magicPenetration": 1000,
+									"attribute": [
+										"破甲+1000",
+										"魔法穿透+1000"
+									],
+									"dataProvision": "官服-圣者-迷途",
+									"material": [
+										"天攻-异化卷轴 x 10",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "红莲魔剑",
+							"value": "红莲魔剑",
+							"condition": 50,
+							"children": [
+								{
+									"label": "红莲魔剑(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "红莲魔剑(1级)",
+									"value": 1,
+									"chopAttackPercentage": 20,
+									"puncturePercentage": 20,
+									"attribute": [
+										"劈砍攻击力+20%",
+										"穿刺攻击力+20%"
+									],
+									"dataProvision": "官服-圣者-迷途",
+									"material": [
+										"天攻-异化卷轴 x 10",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "划空坠陨",
+							"value": "划空坠陨",
+							"condition": 70,
+							"children": [
+								{
+									"label": "划空坠陨(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "划空坠陨(1级)",
+									"value": 1,
+									"ignoreBlock": 70,
+									"ignorecounterAttack": 70,
+									"attribute": [
+										"无视格挡+70",
+										"无视反击+70"
+									],
+									"material": [
+										"天攻-异化卷轴 x 5",
+										"指令书 x 10"
+									]
+								},
+								{
+									"label": "划空坠陨(2级)",
+									"value": 2,
+									"ignoreBlock": 180,
+									"ignorecounterAttack": 180,
+									"attribute": [
+										"无视格挡+180",
+										"无视反击+180"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "战意循环",
+							"value": "战意循环",
+							"condition": 70,
+							"children": [
+								{
+									"label": "战意循环(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "战意循环(1级)",
+									"value": 1,
+									"lifeAbsorption": 70,
+									"manaAbsorption": 70,
+									"attribute": [
+										"基础生命吸收+70",
+										"基础法力吸收+70"
+									],
+									"dataProvision": "官服-圣者-迷途",
+									"material": [
+										"天攻-异化卷轴 x 3",
+										"指令书 x 10"
+									]
+								},
+								{
+									"label": "战意循环(2级)",
+									"value": 2,
+									"lifeAbsorption": 180,
+									"manaAbsorption": 180,
+									"attribute": [
+										"基础生命吸收+180",
+										"基础法力吸收+180"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"天攻-异化卷轴 x 7",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "重击训练",
+							"value": "重击训练",
+							"condition": 70,
+							"children": [
+								{
+									"label": "重击训练(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "重击训练(1级)",
+									"value": 1,
+									"deadly": 40,
+									"deadlyPercentage": 2,
+									"attribute": [
+										"致命点+40",
+										"致命率+2%"
+									],
+									"dataProvision": "官服-圣者-迷途",
+									"material": [
+										"天攻-异化卷轴 x 3",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "重击训练(2级)",
+									"value": 2,
+									"deadly": 80,
+									"deadlyPercentage": 5,
+									"attribute": [
+										"致命点+80",
+										"致命率+5%"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"天攻-异化卷轴 x 5",
+										"指令书 x 10"
+									]
+								},
+								{
+									"label": "重击训练(3级)",
+									"value": 3,
+									"deadly": 180,
+									"deadlyPercentage": 10,
+									"attribute": [
+										"致命点+180",
+										"致命率+10%"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"天攻-异化卷轴 x 7",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "钝器破坏",
+							"value": "钝器破坏",
+							"condition": 80,
+							"children": [
+								{
+									"label": "钝器破坏(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "钝器破坏(1级)",
+									"value": 1,
+									"weaponDamage": 5,
+									"ignorecounterAttack": 200,
+									"attribute": [
+										"武器伤害、耐久+5%",
+										"无视反击+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 10",
+										"精粹之石 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "防御破碎",
+							"value": "防御破碎",
+							"condition": 80,
+							"children": [
+								{
+									"label": "防御破碎(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "防御破碎(1级)",
+									"value": 1,
+									"weaponDamage": 1,
+									"ignoreDamageReduction": 40,
+									"attribute": [
+										"武器伤害、耐久+1%",
+										"无视伤害减免+40"
+									],
+									"material": [
+										"天攻-神化卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "防御破碎(2级)",
+									"value": 2,
+									"weaponDamage": 2,
+									"ignoreDamageReduction": 100,
+									"attribute": [
+										"武器伤害、耐久+2%",
+										"无视伤害减免+100"
+									],
+									"material": [
+										"天攻-神化卷轴 x 4",
+										"精粹之石 x 5"
+									]
+								},
+								{
+									"label": "防御破碎(3级)",
+									"value": 3,
+									"weaponDamage": 5,
+									"ignoreDamageReduction": 200,
+									"attribute": [
+										"武器伤害、耐久+5%",
+										"无视伤害减免+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 8",
+										"精粹之石 x 12"
+									]
+								}
+							]
+						},
+						{
+							"label": "格斗术",
+							"value": "格斗术",
+							"condition": 80,
+							"children": [
+								{
+									"label": "格斗术(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "格斗术(1级)",
+									"value": 1,
+									"weaponDamage": 1,
+									"ignoreBlock": 20,
+									"attribute": [
+										"武器伤害、耐久+1%"
+									],
+									"material": [
+										"天攻-神化卷轴 x 1",
+										"精粹之石 x 1"
+									]
+								},
+								{
+									"label": "格斗术(2级)",
+									"value": 2,
+									"weaponDamage": 2,
+									"ignoreBlock": 80,
+									"attribute": [
+										"武器伤害、耐久+2%"
+									],
+									"material": [
+										"天攻-神化卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "格斗术(3级)",
+									"value": 3,
+									"weaponDamage": 3,
+									"ignoreBlock": 140,
+									"attribute": [
+										"武器伤害、耐久+3%"
+									],
+									"material": [
+										"天攻-神化卷轴 x 3",
+										"精粹之石 x 6"
+									]
+								},
+								{
+									"label": "格斗术(4级)",
+									"value": 4,
+									"weaponDamage": 5,
+									"ignoreBlock": 200,
+									"attribute": [
+										"武器伤害、耐久+5%",
+										"无视格挡+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 1",
+										"精粹之石 x 1"
+									]
+								}
+							]
+						},
+						{
+							"label": "流樱雪飞",
+							"value": "流樱雪飞",
+							"condition": 90,
+							"children": [
+								{
+									"label": "流樱雪飞(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "流樱雪飞(1级)",
+									"value": 1,
+									"weaponDamage": 5,
+									"ignoreMagicFeedback": 200,
+									"attribute": [
+										"武器伤害、耐久+5%",
+										"无视魔法反馈+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 10",
+										"精粹之石 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "寰宇天际",
+							"value": "寰宇天际",
+							"condition": 90,
+							"children": [
+								{
+									"label": "寰宇天际(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "寰宇天际(1级)",
+									"value": 1,
+									"weaponDamage": 1,
+									"disregardState": 40,
+									"attribute": [
+										"武器伤害、耐久+1%",
+										"无视状态抵抗+40"
+									],
+									"material": [
+										"天攻-神化卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "寰宇天际(2级)",
+									"value": 2,
+									"weaponDamage": 2,
+									"disregardState": 100,
+									"attribute": [
+										"武器伤害、耐久+2%",
+										"无视状态抵抗+100"
+									],
+									"material": [
+										"天攻-神化卷轴 x 4",
+										"精粹之石 x 5"
+									]
+								},
+								{
+									"label": "寰宇天际(3级)",
+									"value": 3,
+									"weaponDamage": 5,
+									"disregardState": 200,
+									"attribute": [
+										"武器伤害、耐久+5%",
+										"无视状态抵抗+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 8",
+										"精粹之石 x 12"
+									]
+								}
+							]
+						},
+						{
+							"label": "禅心意",
+							"value": "禅心意",
+							"condition": 90,
+							"children": [
+								{
+									"label": "禅心意(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "禅心意(1级)",
+									"value": 1,
+									"weaponDamage": 1,
+									"ignoreInsight": 20,
+									"attribute": [
+										"武器伤害、耐久+1%",
+										"无视洞察+20"
+									],
+									"material": [
+										"天攻-神化卷轴 x 1",
+										"精粹之石 x 1"
+									]
+								},
+								{
+									"label": "禅心意(2级)",
+									"value": 2,
+									"weaponDamage": 2,
+									"ignoreInsight": 80,
+									"attribute": [
+										"武器伤害、耐久+2%",
+										"无视洞察+80"
+									],
+									"material": [
+										"天攻-神化卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "禅心意(3级)",
+									"value": 3,
+									"weaponDamage": 3,
+									"ignoreInsight": 140,
+									"attribute": [
+										"武器伤害、耐久+3%",
+										"无视洞察+140"
+									],
+									"material": [
+										"天攻-神化卷轴 x 4",
+										"精粹之石 x 6"
+									]
+								},
+								{
+									"label": "禅心意(4级)",
+									"value": 4,
+									"weaponDamage": 5,
+									"ignoreInsight": 200,
+									"attribute": [
+										"武器伤害、耐久+5%",
+										"无视洞察+200"
+									],
+									"material": [
+										"天攻-神化卷轴 x 7",
+										"精粹之石 x 10"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "防御型",
+					"children": [
+						{
+							"label": "狂野生长",
+							"value": "狂野生长",
+							"condition": 10,
+							"children": [
+								{
+									"label": "狂野生长(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "狂野生长(1级)",
+									"value": 1,
+									"basicHP": 100,
+									"constitution": 5,
+									"attribute": [
+										"生命上限+100",
+										"体质+5"
+									],
+									"material": [
+										"天防卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "狂野生长(2级)",
+									"value": 2,
+									"basicHP": 200,
+									"constitution": 12,
+									"attribute": [
+										"生命上限+200",
+										"体质+12"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "狂野生长(3级)",
+									"value": 3,
+									"basicHP": 500,
+									"constitution": 30,
+									"attribute": [
+										"生命上限+500",
+										"体质+30"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								}
+							]
+						},
+						{
+							"label": "不灭意志",
+							"value": "不灭意志",
+							"condition": 10,
+							"children": [
+								{
+									"label": "不灭意志(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "不灭意志(1级)",
+									"value": 1,
+									"basicHP": 50,
+									"damageReduction": 10,
+									"attribute": [
+										"生命上限+50",
+										"伤害减免+10"
+									],
+									"material": [
+										"天防卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "不灭意志(2级-不详)",
+									"value": 2,
+									"basicHP": 0,
+									"damageReduction": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"生命上限+0%",
+										"伤害减免+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "不灭意志(3级-不详)",
+									"value": 3,
+									"basicHP": 0,
+									"damageReduction": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"生命上限+0%",
+										"伤害减免+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "不灭意志(4级-不详)",
+									"value": 4,
+									"basicHP": 0,
+									"damageReduction": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"生命上限+0%",
+										"伤害减免+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "残风行影",
+							"value": "残风行影",
+							"condition": 10,
+							"children": [
+								{
+									"label": "残风行影(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "残风行影(1级)",
+									"value": 1,
+									"bloodVolumePercentage": 3,
+									"dodge": 70,
+									"attribute": [
+										"生命上限+3%",
+										"躲闪+70"
+									],
+									"material": [
+										"天防卷轴 x 3",
+										"3级魔力结晶 x 3"
+									]
+								},
+								{
+									"label": "残风行影(2级)",
+									"value": 2,
+									"bloodVolumePercentage": 8,
+									"dodge": 180,
+									"attribute": [
+										"生命上限+8%",
+										"躲闪+180"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								}
+							]
+						},
+						{
+							"label": "黑夜荆棘",
+							"value": "黑夜荆棘",
+							"condition": 30,
+							"children": [
+								{
+									"label": "黑夜荆棘(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "黑夜荆棘(1级)",
+									"value": 1,
+									"counterAttack": 15,
+									"counterAttackPercentage": 1,
+									"attribute": [
+										"反击+15",
+										"反击+1%"
+									],
+									"material": [
+										"天防卷轴 x 2",
+										"1级魔力结晶 x 2"
+									]
+								},
+								{
+									"label": "黑夜荆棘(2级-不详)",
+									"value": 2,
+									"counterAttack": 0,
+									"counterAttackPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"反击+0",
+										"反击+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "黑夜荆棘(3级)",
+									"value": 3,
+									"counterAttack": 80,
+									"counterAttackPercentage": 8,
+									"attribute": [
+										"反击+80",
+										"反击+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "危机感知",
+							"value": "危机感知",
+							"condition": 30,
+							"children": [
+								{
+									"label": "危机感知(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "危机感知(1级)",
+									"value": 1,
+									"magicFeedback": 40,
+									"manaShield": 100,
+									"attribute": [
+										"魔法反馈+40",
+										"法力护盾+100"
+									],
+									"material": [
+										"天防卷轴 x 3",
+										"1级魔力结晶 x 3"
+									]
+								},
+								{
+									"label": "危机感知(2级-不详)",
+									"value": 2,
+									"magicFeedback": 0,
+									"manaShield": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"魔法反馈+0",
+										"法力护盾+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "危机感知(3级)",
+									"value": 3,
+									"magicFeedback": 180,
+									"manaShield": 800,
+									"attribute": [
+										"魔法反馈+180",
+										"法力护盾+800"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "上弦之月",
+							"value": "上弦之月",
+							"condition": 30,
+							"children": [
+								{
+									"label": "上弦之月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "上弦之月(1级)",
+									"value": 1,
+									"state": 10,
+									"attribute": [
+										"状态抵抗值+10"
+									],
+									"material": [
+										"天防卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "上弦之月(2级-不详)",
+									"value": 2,
+									"state": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"状态抵抗值+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "上弦之月(3级-不详)",
+									"value": 3,
+									"state": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"状态抵抗值+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "上弦之月(4级)",
+									"value": 4,
+									"state": 80,
+									"attribute": [
+										"状态抵抗值+80"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "伤害架势",
+							"value": "伤害架势",
+							"condition": 50,
+							"children": [
+								{
+									"label": "伤害架势(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "伤害架势(1级)",
+									"value": 1,
+									"damageReduction": 40,
+									"damageReductionPercentage": 2,
+									"attribute": [
+										"伤害减免+40",
+										"伤害减免+2%"
+									],
+									"material": [
+										"天防-铁卷轴 x 2",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "伤害架势(2级-不详)",
+									"value": 2,
+									"damageReduction": 0,
+									"damageReductionPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"伤害减免+0",
+										"伤害减免+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "伤害架势(3级)",
+									"value": 3,
+									"damageReduction": 180,
+									"damageReductionPercentage": 10,
+									"attribute": [
+										"伤害减免+180",
+										"伤害减免+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "体格硬化",
+							"value": "体格硬化",
+							"condition": 50,
+							"children": [
+								{
+									"label": "体格硬化(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "体格硬化(1级)",
+									"value": 1,
+									"chopDefensePercentage": 2,
+									"punctureDefensePercentage": 2,
+									"magicDefensePercentage": 2,
+									"attribute": [
+										"劈砍防御力+2%",
+										"穿刺防御力+2",
+										"魔法防御力+2%"
+									],
+									"material": [
+										"天防-铁卷轴 x 2",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "体格硬化(2级-不详)",
+									"value": 2,
+									"chopDefensePercentage": 0,
+									"punctureDefensePercentage": 0,
+									"magicDefensePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"劈砍防御力+0%",
+										"穿刺防御力+0",
+										"魔法防御力+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "体格硬化(3级)",
+									"value": 3,
+									"chopDefensePercentage": 10,
+									"punctureDefensePercentage": 10,
+									"magicDefensePercentage": 10,
+									"attribute": [
+										"劈砍防御力+10%",
+										"穿刺防御力+10",
+										"魔法防御力+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "完美格挡",
+							"value": "完美格挡",
+							"condition": 50,
+							"children": [
+								{
+									"label": "完美格挡(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "完美格挡(1级)",
+									"value": 1,
+									"block": 180,
+									"blockPercentage": 10,
+									"attribute": [
+										"格挡+180",
+										"格挡+10%"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"天防-铁卷轴 x 10",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "通透",
+							"value": "通透",
+							"condition": 70,
+							"children": [
+								{
+									"label": "通透(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "通透(1级)",
+									"value": 1,
+									"counterAttack": 70,
+									"magicFeedback": 70,
+									"attribute": [
+										"反击+70",
+										"魔法反馈+70"
+									],
+									"material": [
+										"天防-铁卷轴 x 5",
+										"指令书 x 10"
+									]
+								},
+								{
+									"label": "通透(2级-不详)",
+									"value": 2,
+									"counterAttack": 0,
+									"magicFeedback": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"反击+0",
+										"魔法反馈+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "怪异抗性",
+							"value": "怪异抗性",
+							"condition": 70,
+							"children": [
+								{
+									"label": "怪异抗性(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "怪异抗性(1级)",
+									"value": 1,
+									"dodge": 70,
+									"dodgePercentage": 3,
+									"attribute": [
+										"躲闪+70",
+										"躲闪+3%"
+									],
+									"material": [
+										"天防-铁卷轴 x 3",
+										"指令书 x 10"
+									]
+								},
+								{
+									"label": "怪异抗性(2级)",
+									"value": 2,
+									"dodge": 180,
+									"dodgePercentage": 10,
+									"attribute": [
+										"躲闪+180",
+										"躲闪+10%"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "下弦之月",
+							"value": "下弦之月",
+							"condition": 70,
+							"children": [
+								{
+									"label": "下弦之月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "下弦之月(1级)",
+									"value": 1,
+									"insight": 40,
+									"manaShieldPercentage": 2,
+									"attribute": [
+										"洞察+40",
+										"法力护盾+2%"
+									],
+									"material": [
+										"天防-铁卷轴 x 2",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "下弦之月(2级)",
+									"value": 2,
+									"insight": 80,
+									"manaShieldPercentage": 5,
+									"attribute": [
+										"洞察+80",
+										"法力护盾+5%"
+									],
+									"dataProvision": "官服-天启-张国荣",
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "下弦之月(3级)",
+									"value": 3,
+									"insight": 180,
+									"manaShieldPercentage": 10,
+									"attribute": [
+										"洞察+180",
+										"法力护盾+10%"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"天防-铁卷轴 x 10",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "新月-朔",
+							"value": "新月-朔",
+							"condition": 80,
+							"children": [
+								{
+									"label": "新月-朔(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "新月-朔(1级)",
+									"value": 1,
+									"damageReduction": 200,
+									"immuneShield": 1,
+									"attribute": [
+										"伤害减免+200",
+										"免伤护盾+1"
+									],
+									"material": [
+										"天防-金卷轴 x 15",
+										"精粹之石 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "残月",
+							"value": "残月",
+							"condition": 80,
+							"children": [
+								{
+									"label": "残月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "残月(1级)",
+									"value": 1,
+									"counterAttack": 40,
+									"counterAttackPercentage": 4,
+									"attribute": [
+										"反击+40",
+										"反击+4%"
+									],
+									"material": [
+										"天防-金卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "残月(2级-不详)",
+									"value": 2,
+									"counterAttack": 0,
+									"counterAttackPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"反击+0",
+										"反击+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "残月(3级-不详)",
+									"value": 3,
+									"counterAttack": 0,
+									"counterAttackPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"反击+0",
+										"反击+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "亏凸月",
+							"value": "亏凸月",
+							"condition": 80,
+							"children": [
+								{
+									"label": "亏凸月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "亏凸月(1级)",
+									"value": 1,
+									"magicFeedback": 200,
+									"magicFeedbackPercentage": 20,
+									"attribute": [
+										"魔法反馈+200",
+										"魔法反馈+20%"
+									],
+									"material": [
+										"天防-金卷轴 x 12",
+										"精粹之石 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "满月-望",
+							"value": "满月-望",
+							"condition": 90,
+							"children": [
+								{
+									"label": "满月-望(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "满月-望(1级)",
+									"value": 1,
+									"chopDefensePercentage": 4,
+									"blockPercentage": 4,
+									"attribute": [
+										"劈砍防御力+4%",
+										"格挡+4%"
+									],
+									"material": [
+										"天防-金卷轴 x 2",
+										"5级魔力结晶 x 3"
+									]
+								},
+								{
+									"label": "满月-望(2级-不详)",
+									"value": 2,
+									"chopDefensePercentage": 0,
+									"blockPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"劈砍防御力+0%",
+										"格挡+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "满月-望(3级-不详)",
+									"value": 3,
+									"chopDefensePercentage": 0,
+									"blockPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"劈砍防御力+0%",
+										"格挡+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "盈凸月",
+							"value": "盈凸月",
+							"condition": 90,
+							"children": [
+								{
+									"label": "盈凸月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "盈凸月(1级)",
+									"value": 1,
+									"punctureDefensePercentage": 7,
+									"dodgePercentage": 7,
+									"attribute": [
+										"穿刺防御力+7%",
+										"躲闪+7%"
+									],
+									"material": [
+										"天防-金卷轴 x 4",
+										"精粹之石 x 7"
+									]
+								},
+								{
+									"label": "盈凸月(2级-不详)",
+									"value": 2,
+									"punctureDefensePercentage": 0,
+									"dodgePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"穿刺防御力+0%",
+										"躲闪+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "峨眉月",
+							"value": "峨眉月",
+							"condition": 90,
+							"children": [
+								{
+									"label": "峨眉月(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "峨眉月(1级)",
+									"value": 1,
+									"magicDefensePercentage": 20,
+									"manaShieldPercentage": 20,
+									"attribute": [
+										"魔法防御力+20%",
+										"法力护盾+20%"
+									],
+									"material": [
+										"天防-金卷轴 x 12",
+										"精粹之石 x 20"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "通用型",
+					"children": [
+						{
+							"label": "立春",
+							"value": "立春",
+							"condition": 10,
+							"children": [
+								{
+									"label": "立春(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "立春(1级)",
+									"value": 1,
+									"HPRecovery": 80,
+									"attribute": [
+										"每回合自动恢复生命+40",
+										"每回合自动恢复生命+40"
+									],
+									"material": [
+										"天通壹型卷轴 x 1",
+										"1级魔力结晶 x 1"
+									]
+								},
+								{
+									"label": "立春(2级)",
+									"value": 2,
+									"HPRecovery": 180,
+									"attribute": [
+										"每回合自动恢复生命+90",
+										"每回合自动恢复生命+90"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "立春(3级)",
+									"value": 3,
+									"HPRecovery": 360,
+									"attribute": [
+										"每回合自动恢复生命+180",
+										"每回合自动恢复生命+180"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "雨水",
+							"value": "雨水",
+							"condition": 10,
+							"children": [
+								{
+									"label": "雨水(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "雨水(1级)",
+									"value": 1,
+									"manaRegeneration": 80,
+									"attribute": [
+										"每回合自动恢复法力+40",
+										"每回合自动恢复法力+40"
+									],
+									"material": [
+										"天通壹型卷轴 x 1",
+										"1级魔力结晶 x 1"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								},
+								{
+									"label": "雨水(2级)",
+									"value": 2,
+									"manaRegeneration": 180,
+									"attribute": [
+										"每回合自动恢复法力+90",
+										"每回合自动恢复法力+90"
+									],
+									"material": [
+										"天通壹型卷轴 x 3",
+										"2级魔力结晶 x 3"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								},
+								{
+									"label": "雨水(3级)",
+									"value": 3,
+									"manaRegeneration": 360,
+									"attribute": [
+										"每回合自动恢复法力+180",
+										"每回合自动恢复法力+180"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								}
+							]
+						},
+						{
+							"label": "惊蛰",
+							"value": "惊蛰",
+							"condition": 10,
+							"children": [
+								{
+									"label": "惊蛰(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "惊蛰(1级)",
+									"value": 1,
+									"mana": 500,
+									"manaPercentage": 8,
+									"attribute": [
+										"法力上限+500",
+										"法力上限+8%"
+									],
+									"material": [
+										"天通壹型卷轴 x 10",
+										"3级魔力结晶 x 10"
+									]
+								}
+							]
+						},
+						{
+							"label": "春分",
+							"value": "春分",
+							"condition": 30,
+							"children": [
+								{
+									"label": "春分(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "春分(1级)",
+									"value": 1,
+									"insightPercentage": 1,
+									"attribute": [
+										"洞察+1%"
+									],
+									"material": [
+										"天通壹型卷轴 x 3",
+										"1级魔力结晶 x 3"
+									]
+								},
+								{
+									"label": "春分(2级)",
+									"value": 2,
+									"insightPercentage": 3,
+									"attribute": [
+										"洞察+3%"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								},
+								{
+									"label": "春分(3级)",
+									"value": 3,
+									"insightPercentage": 8,
+									"attribute": [
+										"洞察+8%"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "官服-无尽-隔壁老王"
+								}
+							]
+						},
+						{
+							"label": "谷雨",
+							"value": "谷雨",
+							"condition": 30,
+							"children": [
+								{
+									"label": "谷雨(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "谷雨(1级)",
+									"value": 1,
+									"statePercentage": 1,
+									"attribute": [
+										"基础状态抵抗+1%"
+									],
+									"material": [
+										"天通壹型卷轴 x 3",
+										"1级魔力结晶 x 3"
+									]
+								},
+								{
+									"label": "谷雨(2级-不详)",
+									"value": 2,
+									"statePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"基础状态抵抗+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "谷雨(3级)",
+									"value": 3,
+									"statePercentage": 8,
+									"attribute": [
+										"基础状态抵抗+8%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "小满",
+							"value": "小满",
+							"condition": 30,
+							"children": [
+								{
+									"label": "小满(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "小满(1级)",
+									"value": 1,
+									"armourBreakingPercentage": 3,
+									"attribute": [
+										"破甲+3%"
+									],
+									"material": [
+										"天通壹型卷轴 x 7",
+										"3级魔力结晶 x 7"
+									]
+								},
+								{
+									"label": "小满(2级)",
+									"value": 2,
+									"armourBreakingPercentage": 8,
+									"attribute": [
+										"破甲+8%"
+									],
+									"material": [
+										"暂未收录"
+									],
+									"dataProvision": "盖世战神-遇宇"
+								}
+							]
+						},
+						{
+							"label": "芒种",
+							"value": "芒种",
+							"condition": 50,
+							"children": [
+								{
+									"label": "芒种(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "芒种(1级)",
+									"value": 1,
+									"petLifePercentage": 1,
+									"petManaPercentage": 1,
+									"attribute": [
+										"宠物生命上限+1%",
+										"宠物法力上限+1%"
+									],
+									"material": [
+										"天通贰型卷轴 x 1",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "芒种(2级-不详)",
+									"value": 2,
+									"petLifePercentage": 0,
+									"petManaPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"宠物生命上限+0%",
+										"宠物法力上限+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "芒种(3级-不详)",
+									"value": 3,
+									"petLifePercentage": 0,
+									"petManaPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"宠物生命上限+0%",
+										"宠物法力上限+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "芒种(4级)",
+									"value": 4,
+									"petLifePercentage": 10,
+									"petManaPercentage": 10,
+									"attribute": [
+										"宠物生命上限+10%",
+										"宠物法力上限+10%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "夏至",
+							"value": "夏至",
+							"condition": 50,
+							"children": [
+								{
+									"label": "夏至(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "夏至(1级)",
+									"value": 1,
+									"petConstitutionPercentage": 10,
+									"petManaPercentage": 10,
+									"attribute": [
+										"宠物体质+10%",
+										"宠物法力上限+10%"
+									],
+									"material": [
+										"天通贰型卷轴 x 10",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "大暑",
+							"value": "大暑",
+							"condition": 50,
+							"children": [
+								{
+									"label": "大暑(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "大暑(1级)",
+									"value": 1,
+									"disregardState": 40,
+									"ignoreMagicFeedback": 40,
+									"attribute": [
+										"无视状态抵抗+40",
+										"无视魔法反馈+40"
+									],
+									"material": [
+										"天通贰型卷轴 x 2",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "大暑(2级-不详)",
+									"value": 2,
+									"disregardState": 0,
+									"ignoreMagicFeedback": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"无视状态抵抗+0",
+										"无视魔法反馈+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "大暑(3级)",
+									"value": 3,
+									"disregardState": 180,
+									"ignoreMagicFeedback": 180,
+									"attribute": [
+										"无视状态抵抗+180",
+										"无视魔法反馈+180"
+									],
+									"dataProvision": "官服-无尽-隔壁老王",
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "白露",
+							"value": "白露",
+							"condition": 70,
+							"children": [
+								{
+									"label": "白露(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "白露(1级)",
+									"value": 1,
+									"ignoreInsight": 20,
+									"ignoreMagicFeedback": 20,
+									"attribute": [
+										"无视洞察+20",
+										"无视魔法反馈+20"
+									],
+									"material": [
+										"天通贰型卷轴 x 2",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "白露(2级-不详)",
+									"value": 2,
+									"ignoreInsight": 0,
+									"ignoreMagicFeedback": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"无视洞察+0",
+										"无视魔法反馈+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "白露(3级-不详)",
+									"value": 3,
+									"ignoreInsight": 0,
+									"ignoreMagicFeedback": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"无视洞察+0",
+										"无视魔法反馈+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "白露(4级)",
+									"value": 4,
+									"ignoreInsight": 180,
+									"ignoreMagicFeedback": 180,
+									"attribute": [
+										"无视洞察+180",
+										"无视魔法反馈+180"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "秋分",
+							"value": "秋分",
+							"condition": 70,
+							"children": [
+								{
+									"label": "秋分(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "秋分(1级)",
+									"value": 1,
+									"ignoreDamageReduction": 40,
+									"ignorecounterAttack": 40,
+									"attribute": [
+										"无视伤害减免+40",
+										"无视反击+40"
+									],
+									"material": [
+										"天通贰型卷轴 x 2",
+										"指令书 x 5"
+									]
+								},
+								{
+									"label": "秋分(2级-不详)",
+									"value": 2,
+									"ignoreDamageReduction": 0,
+									"ignorecounterAttack": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"无视伤害减免+0",
+										"无视反击+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "秋分(3级)",
+									"value": 3,
+									"ignoreDamageReduction": 180,
+									"ignorecounterAttack": 180,
+									"attribute": [
+										"无视伤害减免+180",
+										"无视反击+180"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "寒露",
+							"value": "寒露",
+							"condition": 70,
+							"children": [
+								{
+									"label": "寒露(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "寒露(1级)",
+									"value": 1,
+									"petPerceptionPercentage": 10,
+									"petManaPercentage": 10,
+									"attribute": [
+										"宠物感知+10%",
+										"宠物法力上限+10%"
+									],
+									"material": [
+										"天通贰型卷轴 x 10",
+										"指令书 x 20"
+									]
+								}
+							]
+						},
+						{
+							"label": "霜降",
+							"value": "霜降",
+							"condition": 80,
+							"children": [
+								{
+									"label": "霜降(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "霜降(1级)",
+									"value": 1,
+									"hit": 70,
+									"ignoreDamageReduction": 70,
+									"attribute": [
+										"物理命中+70",
+										"无视伤害减免+70"
+									],
+									"material": [
+										"天通叁型卷轴 x 4",
+										"精粹之石 x 7"
+									]
+								},
+								{
+									"label": "霜降(2级)",
+									"value": 2,
+									"hit": 200,
+									"ignoreDamageReduction": 200,
+									"attribute": [
+										"物理命中+200",
+										"无视伤害减免+200"
+									],
+									"material": [
+										"天通叁型卷轴 x 10",
+										"精粹之石 x 13"
+									]
+								}
+							]
+						},
+						{
+							"label": "立冬",
+							"value": "立冬",
+							"condition": 80,
+							"children": [
+								{
+									"label": "立冬(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "立冬(1级)",
+									"value": 1,
+									"movePercentage": 4,
+									"disregardState": 40,
+									"attribute": [
+										"出手速度+4%",
+										"无视状态抵抗+40"
+									],
+									"material": [
+										"天通叁型卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "立冬(2级-不详)",
+									"value": 2,
+									"movePercentage": 0,
+									"disregardState": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"出手速度+0%",
+										"无视状态抵抗+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "立冬(3级-不详)",
+									"value": 3,
+									"movePercentage": 0,
+									"disregardState": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"出手速度+0%",
+										"无视状态抵抗+0"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "大雪",
+							"value": "大雪",
+							"condition": 80,
+							"children": [
+								{
+									"label": "大雪(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "大雪(1级)",
+									"value": 1,
+									"state": 40,
+									"statePercentage": 1,
+									"attribute": [
+										"状态抵抗值+40",
+										"基础状态抵抗+1%"
+									],
+									"material": [
+										"天通叁型卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "大雪(2级-不详)",
+									"value": 2,
+									"state": 0,
+									"statePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"状态抵抗值+0",
+										"基础状态抵抗+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "大雪(3级-不详)",
+									"value": 3,
+									"state": 0,
+									"statePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"状态抵抗值+0",
+										"基础状态抵抗+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "冬至",
+							"value": "冬至",
+							"condition": 90,
+							"children": [
+								{
+									"label": "冬至(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "冬至(1级)",
+									"value": 1,
+									"insight": 20,
+									"insightPercentage": 1,
+									"attribute": [
+										"洞察+20",
+										"洞察+1%"
+									],
+									"material": [
+										"天通叁型卷轴 x 2",
+										"精粹之石 x 1"
+									]
+								},
+								{
+									"label": "冬至(2级)",
+									"value": 2,
+									"insight": 50,
+									"insightPercentage": 2,
+									"dataProvision": "官服-天启-张国荣",
+									"attribute": [
+										"洞察+50",
+										"洞察+2%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "冬至(3级)",
+									"value": 3,
+									"insight": 100,
+									"insightPercentage": 3,
+									"dataProvision": "官服-天启-张国荣",
+									"attribute": [
+										"洞察+100",
+										"洞察+3%"
+									],
+									"material": [
+										"天通叁型卷轴 x 4",
+										"精粹之石 x 6"
+									]
+								},
+								{
+									"label": "冬至(4级)",
+									"value": 4,
+									"insight": 200,
+									"insightPercentage": 5,
+									"dataProvision": "官服-天启-张国荣",
+									"attribute": [
+										"洞察+200",
+										"洞察+5%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "小寒",
+							"value": "小寒",
+							"condition": 90,
+							"children": [
+								{
+									"label": "小寒(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "小寒(1级)",
+									"value": 1,
+									"petConstitutionPercentage": 4,
+									"petLifePercentage": 4,
+									"attribute": [
+										"宠物体质+4%",
+										"宠物生命上限+4%"
+									],
+									"material": [
+										"天通叁型卷轴 x 2",
+										"精粹之石 x 3"
+									]
+								},
+								{
+									"label": "小寒(2级-不详)",
+									"value": 2,
+									"petConstitutionPercentage": 0,
+									"petLifePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"宠物体质+0%",
+										"宠物生命上限+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								},
+								{
+									"label": "小寒(3级-不详)",
+									"value": 3,
+									"petConstitutionPercentage": 0,
+									"petLifePercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"宠物体质+0%",
+										"宠物生命上限+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						},
+						{
+							"label": "大寒",
+							"value": "大寒",
+							"condition": 90,
+							"children": [
+								{
+									"label": "大寒(0级)",
+									"value": 0,
+									"attribute": [
+										"请开启该天赋后再查看属性"
+									]
+								},
+								{
+									"label": "大寒(1级)",
+									"value": 1,
+									"petPerceptionPercentage": 7,
+									"petManaPercentage": 7,
+									"attribute": [
+										"宠物感知+7%",
+										"宠物法力上限+7%"
+									],
+									"material": [
+										"天通叁型卷轴 x 4",
+										"精粹之石 x 7"
+									]
+								},
+								{
+									"label": "大寒(2级-不详)",
+									"value": 2,
+									"petPerceptionPercentage": 0,
+									"petManaPercentage": 0,
+									"attribute": [
+										"该天赋等级属性暂未收录",
+										"宠物感知+0%",
+										"宠物法力上限+0%"
+									],
+									"material": [
+										"暂未收录"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

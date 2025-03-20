@@ -1,0 +1,399 @@
+{
+  "宠物装备": "petEquipment",
+  "equipment": [
+    {
+      "label": "常规属性",
+      "value": "常规属性",
+      "children": [
+        {
+          "label": "宠物生命上限",
+          "value": "petLife"
+        },
+        {
+          "label": "宠物生命上限百分比",
+          "value": "petLifePercentage"
+        },
+        {
+          "label": "自动恢复生命(生命恢复)",
+          "value": "HPRecovery"
+        },
+        {
+          "label": "生命恢复百分比",
+          "value": "HPRecoveryPercentage"
+        },
+        {
+          "label": "基础生命吸收",
+          "value": "lifeAbsorption"
+        },
+        {
+          "label": "生命吸收百分比",
+          "value": "lifeAbsorptionPercentage"
+        },
+        {
+          "label": "宠物法力上限",
+          "value": "petMana"
+        },
+        {
+          "label": "宠物法力上限百分比",
+          "value": "petManaPercentage"
+        },
+        {
+          "label": "自动恢复法力(法力恢复)",
+          "value": "manaRegeneration"
+        },
+        {
+          "label": "法力恢复百分比",
+          "value": "manaRegenerationPercentage"
+        },
+        {
+          "label": "基础法力吸收",
+          "value": "manaAbsorption"
+        },
+        {
+          "label": "法力吸收百分比",
+          "value": "manaAbsorptionPercentage"
+        },
+        {
+          "label": "出手速度",
+          "value": "move"
+        },
+        {
+          "label": "出手百分比",
+          "value": "movePercentage"
+        }
+      ]
+    },
+    {
+      "label": "防御",
+      "value": "防御",
+      "children": [
+        {
+          "label": "状态抵抗",
+          "value": "state"
+        },
+        {
+          "label": "状态抵抗百分比",
+          "value": "statePercentage"
+        },
+        {
+          "label": "洞察",
+          "value": "insight"
+        },
+        {
+          "label": "洞察百分比",
+          "value": "insightPercentage"
+        },
+        {
+          "label": "免伤护盾",
+          "value": "immuneShield"
+        },
+        {
+          "label": "闪避",
+          "value": "dodge"
+        },
+        {
+          "label": "闪避百分比",
+          "value": "dodgePercentage"
+        },
+        {
+          "label": "格挡",
+          "value": "block"
+        },
+        {
+          "label": "格挡百分比",
+          "value": "blockPercentage"
+        },
+        {
+          "label": "反击",
+          "value": "counterAttack"
+        },
+        {
+          "label": "反击百分比",
+          "value": "counterAttackPercentage"
+        },
+        {
+          "label": "伤害减免",
+          "value": "damageReduction"
+        },
+        {
+          "label": "伤害减免百分比",
+          "value": "damageReductionPercentage"
+        },
+        {
+          "label": "魔法反馈",
+          "value": "magicFeedback"
+        },
+        {
+          "label": "魔法反馈百分比",
+          "value": "magicFeedbackPercentage"
+        },
+        {
+          "label": "法力护盾",
+          "value": "manaShield"
+        },
+        {
+          "label": "法力护盾百分比",
+          "value": "manaShieldPercentage"
+        },
+        {
+          "label": "魔法防御力",
+          "value": "magicDefense"
+        },
+        {
+          "label": "魔法防御力百分比",
+          "value": "magicDefensePercentage"
+        },
+        {
+          "label": "劈砍防御力",
+          "value": "chopDefense"
+        },
+        {
+          "label": "劈砍防御力百分比",
+          "value": "chopDefensePercentage"
+        },
+        {
+          "label": "穿刺防御力",
+          "value": "punctureDefense"
+        },
+        {
+          "label": "穿刺防御力百分比",
+          "value": "punctureDefensePercentage"
+        }
+      ]
+    },
+    {
+      "label": "攻击",
+      "value": "攻击",
+      "children": [
+        {
+          "label": "攻次",
+          "value": "attackTimes"
+        },
+        {
+          "label": "宠物劈砍攻击力",
+          "value": "petChopAttackPower"
+        },
+        {
+          "label": "宠物劈砍攻击力百分比",
+          "value": "petChopAttackPowerPercentage"
+        },
+        {
+          "label": "宠物穿刺攻击力",
+          "value": "petPiercingAttackPower"
+        },
+        {
+          "label": "宠物穿刺攻击力百分比",
+          "value": "petPiercingAttackPowerPercentage"
+        },
+        {
+          "label": "物理命中",
+          "value": "hit"
+        },
+        {
+          "label": "物理命中率",
+          "value": "hitPercentage"
+        },
+        {
+          "label": "强制命中率(强命)",
+          "value": "forcedHit"
+        },
+        {
+          "label": "破甲",
+          "value": "armourBreaking"
+        },
+        {
+          "label": "破甲百分比",
+          "value": "armourBreakingPercentage"
+        },
+        {
+          "label": "宠物魔法攻击力(魔攻)",
+          "value": "petMagicAttackPower"
+        },
+        {
+          "label": "宠物魔法攻击力(魔攻)百分比",
+          "value": "petMagicAttackPowerPercentage"
+        },
+        {
+          "label": "魔法物理命中(魔命)",
+          "value": "magicHit"
+        },
+        {
+          "label": "魔法物理命中(魔命)百分比",
+          "value": "magicHitPercentage"
+        },
+        {
+          "label": "魔法穿透(魔穿)",
+          "value": "magicPenetration"
+        },
+        {
+          "label": "魔法穿透(魔穿)百分比",
+          "value": "magicPenetrationPercentage"
+        },
+        {
+          "label": "致命点",
+          "value": "deadly"
+        },
+        {
+          "label": "致命率",
+          "value": "deadlyPercentage"
+        }
+      ]
+    },
+    {
+      "label": "基础属性",
+      "value": "基础属性",
+      "children": [
+        {
+          "label": "宠物额外体质",
+          "value": "petExtraConstitution"
+        },
+        {
+          "label": "宠物体质",
+          "value": "petConstitution"
+        },
+        {
+          "label": "宠物体质百分比",
+          "value": "petConstitutionPercentage"
+        },
+        {
+          "label": "宠物额外力量",
+          "value": "petExtraPower"
+        },
+        {
+          "label": "宠物力量",
+          "value": "petPower"
+        },
+        {
+          "label": "宠物力量百分比",
+          "value": "petPowerPercentage"
+        },
+        {
+          "label": "宠物额外敏捷",
+          "value": "petExtraAgility"
+        },
+        {
+          "label": "宠物敏捷",
+          "value": "petAgile"
+        },
+        {
+          "label": "宠物敏捷百分比",
+          "value": "petAgilePercentage"
+        },
+        {
+          "label": "宠物额外智力",
+          "value": "petExtraIntelligence"
+        },
+        {
+          "label": "宠物智力",
+          "value": "petIntelligence"
+        },
+        {
+          "label": "宠物智力百分比",
+          "value": "petIntelligencePercentage"
+        },
+        {
+          "label": "宠物额外感知",
+          "value": "petExtraPerception"
+        },
+        {
+          "label": "宠物感知",
+          "value": "petPerception"
+        },
+        {
+          "label": "宠物感知百分比",
+          "value": "petPerceptionPercentage"
+        }
+      ]
+    },
+    {
+      "label": "无视",
+      "value": "无视",
+      "children": [
+        {
+          "label": "无视伤害减免",
+          "value": "ignoreDamageReduction"
+        },
+        {
+          "label": "无视状态抵抗",
+          "value": "disregardState"
+        },
+        {
+          "label": "无视洞察",
+          "value": "ignoreInsight"
+        },
+        {
+          "label": "无视格挡",
+          "value": "ignoreBlock"
+        },
+        {
+          "label": "无视反击",
+          "value": "ignorecounterAttack"
+        },
+        {
+          "label": "无视魔法反馈",
+          "value": "ignoreMagicFeedback"
+        }
+      ]
+    },
+    {
+      "label": "宠物承伤",
+      "value": "宠物承伤",
+      "children": [
+        {
+          "label": "人物向-宠物承伤(%)",
+          "value": "pets_SufferDamage"
+        },
+        {
+          "label": "人物向-宠物穿刺承伤(%)",
+          "value": "pets_SufferPunctureDamage"
+        },
+        {
+          "label": "人物向-宠物劈砍承伤(%)",
+          "value": "pets_SufferChopDamage"
+        },
+        {
+          "label": "人物向-宠物魔法承伤(%)",
+          "value": "pets_SufferMagicDamage"
+        },
+        {
+          "label": "人物向-宠物诅咒承效果(%)",
+          "value": "pets_SufferCurseDamage"
+        },
+        {
+          "label": "宠物承伤(%)",
+          "value": "petsSufferDamage"
+        },
+        {
+          "label": "宠物穿刺承伤(%)",
+          "value": "petsSufferPunctureDamage"
+        },
+        {
+          "label": "宠物劈砍承伤(%)",
+          "value": "petsSufferChopDamage"
+        },
+        {
+          "label": "宠物魔法承伤(%)",
+          "value": "petsSufferMagicDamage"
+        },
+        {
+          "label": "宠物诅咒承效果(%)",
+          "value": "petsSufferCurseDamage"
+        }
+      ]
+    },
+    {
+      "label": "经验加成",
+      "value": "经验加成",
+      "children": [
+        {
+          "label": "任务经验",
+          "value": "taskExperiencePercentage"
+        },
+        {
+          "label": "战斗经验",
+          "value": "combatExperiencePercentage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "数据汉化": "transferDataName",
+  "transferDataName": [
+    {
+      "label": "最低武伤",
+      "value": "minimumWeaponDamage"
+    },
+    {
+      "label": "最高武伤",
+      "value": "maximumWeaponDamage"
+    },
+    {
+      "label": "免伤护盾",
+      "value": "immuneShield"
+    },
+    {
+      "label": "魔法反馈",
+      "value": "magicFeedback"
+    },
+    {
+      "label": "魔法反馈百分比",
+      "value": "magicFeedbackPercentage"
+    },
+    {
+      "label": "无视魔法反馈",
+      "value": "ignoreMagicFeedback"
+    },
+    {
+      "label": "伤害减免",
+      "value": "damageReduction"
+    },
+    {
+      "label": "伤害减免百分比",
+      "value": "damageReductionPercentage"
+    },
+    {
+      "label": "无视伤害减免",
+      "value": "ignoreDamageReduction"
+    },
+    {
+      "label": "法力护盾",
+      "value": "manaShield"
+    },
+    {
+      "label": "法力护盾百分比",
+      "value": "manaShieldPercentage"
+    },
+    {
+      "label": "全武器伤害",
+      "value": "weaponDamage"
+    },
+    {
+      "label": "剑武伤",
+      "value": "swordWeaponDamage"
+    },
+    {
+      "label": "刀武伤",
+      "value": "sabreWeaponDamage"
+    },
+    {
+      "label": "长柄武伤",
+      "value": "longHandleWeaponDamage"
+    },
+    {
+      "label": "远程武伤",
+      "value": "long_rangeWeaponDamage"
+    },
+    {
+      "label": "重型武伤",
+      "value": "heavyWeaponDamage"
+    },
+    {
+      "label": "火枪武伤",
+      "value": "artilleryWeaponDamage"
+    },
+    {
+      "label": "法杖武伤",
+      "value": "staffWeaponDamage"
+    },
+    {
+      "label": "法器武伤",
+      "value": "magicInstrumentWeaponDamage"
+    },
+    {
+      "label": "空手武伤",
+      "value": "empty_handedWeaponDamage"
+    },
+    {
+      "label": "扇武伤",
+      "value": "fanWeaponDamage"
+    },
+    {
+      "label": "锤类武伤",
+      "value": "hammerWeaponDamage"
+    },
+    {
+      "label": "全攻次",
+      "value": "attackTimes"
+    },
+    {
+      "label": "剑攻次",
+      "value": "swordAttackTimes"
+    },
+    {
+      "label": "刀攻次",
+      "value": "sabreAttackTimes"
+    },
+    {
+      "label": "长柄攻次",
+      "value": "longHandleAttackTimes"
+    },
+    {
+      "label": "远程攻次",
+      "value": "long_rangeAttackTimes"
+    },
+    {
+      "label": "重型攻次",
+      "value": "heavyAttackTimes"
+    },
+    {
+      "label": "火枪攻次",
+      "value": "artilleryAttackTimes"
+    },
+    {
+      "label": "法杖攻次",
+      "value": "staffAttackTimes"
+    },
+    {
+      "label": "法器攻次",
+      "value": "magicInstrumentAttackTimes"
+    },
+    {
+      "label": "空手攻次",
+      "value": "empty_handedAttackTimes"
+    },
+    {
+      "label": "扇攻次",
+      "value": "fanAttackTimes"
+    },
+    {
+      "label": "锤类攻次",
+      "value": "hammerAttackTimes"
+    },
+    {
+      "label": "魔法防御力",
+      "value": "magicDefense"
+    },
+    {
+      "label": "魔法防御力百分比",
+      "value": "magicDefensePercentage"
+    },
+    {
+      "label": "劈砍防御力",
+      "value": "chopDefense"
+    },
+    {
+      "label": "劈砍防御力百分比",
+      "value": "chopDefensePercentage"
+    },
+    {
+      "label": "穿刺防御力",
+      "value": "punctureDefense"
+    },
+    {
+      "label": "穿刺防御力百分比",
+      "value": "punctureDefensePercentage"
+    },
+    {
+      "label": "物理命中",
+      "value": "hit"
+    },
+    {
+      "label": "物理命中率",
+      "value": "hitPercentage"
+    },
+    {
+      "label": "致命点",
+      "value": "deadly"
+    },
+    {
+      "label": "致命率",
+      "value": "deadlyPercentage"
+    },
+    {
+      "label": "状态抵抗",
+      "value": "state"
+    },
+    {
+      "label": "状态抵抗百分比",
+      "value": "statePercentage"
+    },
+    {
+      "label": "无视状态抵抗",
+      "value": "disregardState"
+    },
+    {
+      "label": "格挡",
+      "value": "block"
+    },
+    {
+      "label": "格挡百分比",
+      "value": "blockPercentage"
+    },
+    {
+      "label": "无视格挡",
+      "value": "ignoreBlock"
+    },
+    {
+      "label": "反击",
+      "value": "counterAttack"
+    },
+    {
+      "label": "反击百分比",
+      "value": "counterAttackPercentage"
+    },
+    {
+      "label": "无视反击",
+      "value": "ignorecounterAttack"
+    },
+    {
+      "label": "闪避",
+      "value": "dodge"
+    },
+    {
+      "label": "闪避百分比",
+      "value": "dodgePercentage"
+    },
+    {
+      "label": "洞察",
+      "value": "insight"
+    },
+    {
+      "label": "洞察百分比",
+      "value": "insightPercentage"
+    },
+    {
+      "label": "无视洞察",
+      "value": "ignoreInsight"
+    },
+    {
+      "label": "破甲",
+      "value": "armourBreaking"
+    },
+    {
+      "label": "破甲百分比",
+      "value": "armourBreakingPercentage"
+    },
+    {
+      "label": "魔法穿透",
+      "value": "magicPenetration"
+    },
+    {
+      "label": "魔法穿透百分比",
+      "value": "magicPenetrationPercentage"
+    },
+    {
+      "label": "强制命中率",
+      "value": "forcedHit"
+    },
+    {
+      "label": "生命上限",
+      "value": "basicHP"
+    },
+    {
+      "label": "生命上限百分比",
+      "value": "bloodVolumePercentage"
+    },
+    {
+      "label": "自动恢复生命(生命恢复)",
+      "value": "HPRecovery"
+    },
+    {
+      "label": "生命恢复百分比",
+      "value": "HPRecoveryPercentage"
+    },
+    {
+      "label": "基础生命吸收",
+      "value": "lifeAbsorption"
+    },
+    {
+      "label": "生命吸收百分比",
+      "value": "lifeAbsorptionPercentage"
+    },
+    {
+      "label": "法力上限",
+      "value": "mana"
+    },
+    {
+      "label": "法力上限百分比",
+      "value": "manaPercentage"
+    },
+    {
+      "label": "自动恢复法力(法力恢复)",
+      "value": "manaRegeneration"
+    },
+    {
+      "label": "法力恢复百分比",
+      "value": "manaRegenerationPercentage"
+    },
+    {
+      "label": "基础法力吸收",
+      "value": "manaAbsorption"
+    },
+    {
+      "label": "法力吸收百分比",
+      "value": "manaAbsorptionPercentage"
+    },
+    {
+      "label": "出手速度",
+      "value": "move"
+    },
+    {
+      "label": "出手速度百分比",
+      "value": "movePercentage"
+    },
+    {
+      "label": "额外体质",
+      "value": "extraConstitution"
+    },
+    {
+      "label": "体质",
+      "value": "constitution"
+    },
+    {
+      "label": "体质百分比",
+      "value": "constitutionPercentage"
+    },
+    {
+      "label": "额外力量",
+      "value": "extraStrength"
+    },
+    {
+      "label": "力量",
+      "value": "power"
+    },
+    {
+      "label": "力量百分比",
+      "value": "powerPercentage"
+    },
+    {
+      "label": "额外敏捷",
+      "value": "extraAgility"
+    },
+    {
+      "label": "敏捷",
+      "value": "agile"
+    },
+    {
+      "label": "敏捷百分比",
+      "value": "agilePercentage"
+    },
+    {
+      "label": "额外感知",
+      "value": "extraPerception"
+    },
+    {
+      "label": "感知",
+      "value": "perception"
+    },
+    {
+      "label": "感知百分比",
+      "value": "perceptionPercentage"
+    },
+    {
+      "label": "额外智力",
+      "value": "extraIntelligence"
+    },
+    {
+      "label": "智力",
+      "value": "intelligence"
+    },
+    {
+      "label": "智力百分比",
+      "value": "intelligencePercentage"
+    },
+    {
+      "label": "魔法命中",
+      "value": "magicHit"
+    },
+    {
+      "label": "魔法命中百分比",
+      "value": "magicHitPercentage"
+    },
+    {
+      "label": "魔法攻击力",
+      "value": "basicMagic"
+    },
+    {
+      "label": "魔法攻击力百分比",
+      "value": "magicPercentage"
+    },
+    {
+      "label": "劈砍攻击力",
+      "value": "basicChopAttack"
+    },
+    {
+      "label": "劈砍攻击力百分比",
+      "value": "chopAttackPercentage"
+    },
+    {
+      "label": "穿刺攻击力",
+      "value": "basicPuncture"
+    },
+    {
+      "label": "穿刺攻击力百分比",
+      "value": "puncturePercentage"
+    },
+    {
+      "label": "基础属性百分比",
+      "value": "baseAttributePercentage"
+    },
+    {
+      "label": "人物向-宠物承受伤害(%)",
+      "value": "pets_SufferDamage"
+    },
+    {
+      "label": "人物向-宠物承受穿刺伤害(%)",
+      "value": "pets_SufferPunctureDamage"
+    },
+    {
+      "label": "人物向-宠物承受劈砍伤害(%)",
+      "value": "pets_SufferChopDamage"
+    },
+    {
+      "label": "人物向-宠物承受魔法伤害(%)",
+      "value": "pets_SufferMagicDamage"
+    },
+    {
+      "label": "人物向-宠物承受诅咒效果(%)",
+      "value": "pets_SufferCurseDamage"
+    },
+    {
+      "label": "宠物生命上限",
+      "value": "petLife"
+    },
+    {
+      "label": "宠物生命上限百分比",
+      "value": "petLifePercentage"
+    },
+    {
+      "label": "宠物法力上限",
+      "value": "petMana"
+    },
+    {
+      "label": "宠物法力上限百分比",
+      "value": "petManaPercentage"
+    },
+    {
+      "label": "宠物承受伤害(%)",
+      "value": "petsSufferDamage"
+    },
+    {
+      "label": "宠物承受穿刺伤害(%)",
+      "value": "petsSufferPunctureDamage"
+    },
+    {
+      "label": "宠物承受劈砍伤害(%)",
+      "value": "petsSufferChopDamage"
+    },
+    {
+      "label": "宠物承受魔法伤害(%)",
+      "value": "petsSufferMagicDamage"
+    },
+    {
+      "label": "宠物承受诅咒效果(%)",
+      "value": "petsSufferCurseDamage"
+    },
+    {
+      "label": "宠物力量",
+      "value": "petPower"
+    },
+    {
+      "label": "宠物额外力量",
+      "value": "petExtraPower"
+    },
+    {
+      "label": "宠物力量百分比",
+      "value": "petPowerPercentage"
+    },
+    {
+      "label": "宠物敏捷",
+      "value": "petAgile"
+    },
+    {
+      "label": "宠物额外敏捷",
+      "value": "petExtraAgility"
+    },
+    {
+      "label": "宠物敏捷百分比",
+      "value": "petAgilePercentage"
+    },
+    {
+      "label": "宠物体质",
+      "value": "petConstitution"
+    },
+    {
+      "label": "宠物额外体质",
+      "value": "petExtraConstitution"
+    },
+    {
+      "label": "宠物体质百分比",
+      "value": "petConstitutionPercentage"
+    },
+    {
+      "label": "宠物智力",
+      "value": "petIntelligence"
+    },
+    {
+      "label": "宠物额外智力",
+      "value": "petExtraIntelligence"
+    },
+    {
+      "label": "宠物智力百分比",
+      "value": "petIntelligencePercentage"
+    },
+    {
+      "label": "宠物感知",
+      "value": "petPerception"
+    },
+    {
+      "label": "宠物额外感知",
+      "value": "petExtraPerception"
+    },
+    {
+      "label": "宠物感知百分比",
+      "value": "petPerceptionPercentage"
+    },
+    {
+      "label": "宠物伤害",
+      "value": "petAttackPower"
+    },
+    {
+      "label": "宠物伤害百分比",
+      "value": "petAttackPowerPercentage"
+    },
+    {
+      "label": "宠物劈砍攻击力",
+      "value": "petChopAttackPower"
+    },
+    {
+      "label": "宠物劈砍攻击力百分比",
+      "value": "petChopAttackPowerPercentage"
+    },
+    {
+      "label": "宠物穿刺攻击力",
+      "value": "petPiercingAttackPower"
+    },
+    {
+      "label": "宠物穿刺攻击力百分比",
+      "value": "petPiercingAttackPowerPercentage"
+    },
+    {
+      "label": "宠物魔法攻击力",
+      "value": "petMagicAttackPower"
+    },
+    {
+      "label": "宠物魔法攻击力百分比",
+      "value": "petMagicAttackPowerPercentage"
+    },
+    {
+      "label": "任务经验",
+      "value": "taskExperiencePercentage"
+    },
+    {
+      "label": "战斗经验",
+      "value": "combatExperiencePercentage"
+    }
+  ]
+}

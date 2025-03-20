@@ -1,0 +1,2657 @@
+{
+  "图鉴": "illustratedHandbook",
+  "武器": "arms",
+  "防具": "armor",
+  "宠物": "pets",
+  "坐骑": "mount",
+  "等级": "grade",
+  "illustratedHandbook": [
+    {
+      "label": "武器",
+      "value": "arms",
+      "children": [
+        {
+          "label": "轻剑",
+          "value": "light_sword",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "swordWeaponDamage": 1,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "swordWeaponDamage": 3,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "swordWeaponDamage": 5,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "swordWeaponDamage": 7,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "swordWeaponDamage": 9,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "swordWeaponDamage": 11,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "swordWeaponDamage": 13,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "swordWeaponDamage": 15,
+              "attribute": [
+                "当装备轻剑时,剑类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "重剑",
+          "value": "sword",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "swordWeaponDamage": 1,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "swordWeaponDamage": 3,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "swordWeaponDamage": 5,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "swordWeaponDamage": 7,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "swordWeaponDamage": 9,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "swordWeaponDamage": 11,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "swordWeaponDamage": 13,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "swordWeaponDamage": 15,
+              "attribute": [
+                "当装备重剑时,剑类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "轻刀",
+          "value": "light_sabre",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "sabreWeaponDamage": 1,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "sabreWeaponDamage": 3,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "sabreWeaponDamage": 5,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "sabreWeaponDamage": 7,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "sabreWeaponDamage": 9,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "sabreWeaponDamage": 11,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "sabreWeaponDamage": 13,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "sabreWeaponDamage": 15,
+              "attribute": [
+                "当装备轻刀时,刀类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "重刀",
+          "value": "sabre",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "sabreWeaponDamage": 1,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "sabreWeaponDamage": 3,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "sabreWeaponDamage": 5,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "sabreWeaponDamage": 7,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "sabreWeaponDamage": 9,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "sabreWeaponDamage": 11,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "sabreWeaponDamage": 13,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "sabreWeaponDamage": 15,
+              "attribute": [
+                "当装备重刀时,刀类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "重型武器",
+          "value": "heavy",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "heavyWeaponDamage": 1,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "heavyWeaponDamage": 3,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "heavyWeaponDamage": 5,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "heavyWeaponDamage": 7,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "heavyWeaponDamage": 9,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "heavyWeaponDamage": 11,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "heavyWeaponDamage": 13,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "heavyWeaponDamage": 15,
+              "attribute": [
+                "当装备重型武器时,重型武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "杖类武器",
+          "value": "staff",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "staffWeaponDamage": 1,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "staffWeaponDamage": 3,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "staffWeaponDamage": 5,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "staffWeaponDamage": 7,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "staffWeaponDamage": 9,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "staffWeaponDamage": 11,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "staffWeaponDamage": 13,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "staffWeaponDamage": 15,
+              "attribute": [
+                "当装备杖类武器时,杖类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "长柄武器",
+          "value": "longHandle",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "longHandleWeaponDamage": 1,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "longHandleWeaponDamage": 3,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "longHandleWeaponDamage": 5,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "longHandleWeaponDamage": 7,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "longHandleWeaponDamage": 9,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "longHandleWeaponDamage": 11,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "longHandleWeaponDamage": 13,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "longHandleWeaponDamage": 15,
+              "attribute": [
+                "当装备长柄武器时,长柄武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "弩",
+          "value": "light_long_range",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "long_rangeWeaponDamage": 1,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "long_rangeWeaponDamage": 3,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "long_rangeWeaponDamage": 5,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "long_rangeWeaponDamage": 7,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "long_rangeWeaponDamage": 9,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "long_rangeWeaponDamage": 11,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "long_rangeWeaponDamage": 13,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "long_rangeWeaponDamage": 15,
+              "attribute": [
+                "当装备弩时,远程武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "重弩",
+          "value": "long_range",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "long_rangeWeaponDamage": 1,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "long_rangeWeaponDamage": 3,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "long_rangeWeaponDamage": 5,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "long_rangeWeaponDamage": 7,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "long_rangeWeaponDamage": 9,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "long_rangeWeaponDamage": 11,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "long_rangeWeaponDamage": 13,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "long_rangeWeaponDamage": 15,
+              "attribute": [
+                "当装备重弩时,远程武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "弓",
+          "value": "arch_long_range",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "arch_long_rangeWeaponDamage": 1,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "arch_long_rangeWeaponDamage": 3,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "arch_long_rangeWeaponDamage": 5,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "arch_long_rangeWeaponDamage": 7,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "arch_long_rangeWeaponDamage": 9,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "arch_long_rangeWeaponDamage": 11,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "arch_long_rangeWeaponDamage": 13,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "arch_long_rangeWeaponDamage": 15,
+              "attribute": [
+                "当装备弓时,远程武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "手持物(副手)",
+          "value": "off_hand_weapon",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "weaponDamage": 1,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "weaponDamage": 3,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "weaponDamage": 5,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "weaponDamage": 7,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "weaponDamage": 9,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "weaponDamage": 11,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "weaponDamage": 13,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "weaponDamage": 15,
+              "attribute": [
+                "当装备手持物(宝物)时,手持物伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "法器",
+          "value": "magicInstrument",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "magicInstrumentWeaponDamage": 1,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "magicInstrumentWeaponDamage": 3,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "magicInstrumentWeaponDamage": 5,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "magicInstrumentWeaponDamage": 7,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "magicInstrumentWeaponDamage": 9,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "magicInstrumentWeaponDamage": 11,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "magicInstrumentWeaponDamage": 13,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "magicInstrumentWeaponDamage": 15,
+              "attribute": [
+                "当装备法器时,法器武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "轻型火枪",
+          "value": "light_artillery",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "artilleryWeaponDamage": 1,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "artilleryWeaponDamage": 3,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "artilleryWeaponDamage": 5,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "artilleryWeaponDamage": 7,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "artilleryWeaponDamage": 9,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "artilleryWeaponDamage": 11,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "artilleryWeaponDamage": 13,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "artilleryWeaponDamage": 15,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "火枪",
+          "value": "artillery",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "artilleryWeaponDamage": 1,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "artilleryWeaponDamage": 3,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "artilleryWeaponDamage": 5,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "artilleryWeaponDamage": 7,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "artilleryWeaponDamage": 9,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "artilleryWeaponDamage": 11,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "artilleryWeaponDamage": 13,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "artilleryWeaponDamage": 15,
+              "attribute": [
+                "当装备火枪时,火枪类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "空手",
+          "value": "empty_handed",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "empty_handedWeaponDamage": 1,
+              "attribute": [
+                "当角色无武器时,空手伤害+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "empty_handedWeaponDamage": 3,
+              "attribute": [
+                "当角色无武器时,空手伤害+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "empty_handedWeaponDamage": 5,
+              "attribute": [
+                "当角色无武器时,空手伤害+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "empty_handedWeaponDamage": 7,
+              "attribute": [
+                "当角色无武器时,空手伤害+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "empty_handedWeaponDamage": 9,
+              "attribute": [
+                "当角色无武器时,空手伤害+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "empty_handedWeaponDamage": 11,
+              "attribute": [
+                "当角色无武器时,空手伤害+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "empty_handedWeaponDamage": 13,
+              "attribute": [
+                "当角色无武器时,空手伤害+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "empty_handedWeaponDamage": 15,
+              "attribute": [
+                "当角色无武器时,空手伤害+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "扇武器",
+          "value": "fan",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "fanWeaponDamage": 1,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "fanWeaponDamage": 3,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "fanWeaponDamage": 5,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "fanWeaponDamage": 7,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "fanWeaponDamage": 9,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "fanWeaponDamage": 11,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "fanWeaponDamage": 13,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "fanWeaponDamage": 15,
+              "attribute": [
+                "当装备扇武器时,扇武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "锤类武器",
+          "value": "hammer",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "hammerWeaponDamage": 1,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "hammerWeaponDamage": 3,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "hammerWeaponDamage": 5,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "hammerWeaponDamage": 7,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "hammerWeaponDamage": 9,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "hammerWeaponDamage": 11,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "hammerWeaponDamage": 13,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "hammerWeaponDamage": 15,
+              "attribute": [
+                "当装备锤类武器时,锤类武器伤害、耐久+15%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "防具",
+      "value": "armor",
+      "children": [
+        {
+          "label": "头部护具",
+          "value": "头部护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "insight": 25,
+              "attribute": [
+                "当装备头部护具时,洞察+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "insight": 50,
+              "attribute": [
+                "当装备头部护具时,洞察+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "insight": 75,
+              "attribute": [
+                "当装备头部护具时,洞察+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "insight": 100,
+              "attribute": [
+                "当装备头部护具时,洞察+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "insight": 125,
+              "attribute": [
+                "当装备头部护具时,洞察+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "insight": 150,
+              "attribute": [
+                "当装备头部护具时,洞察+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "insight": 175,
+              "attribute": [
+                "当装备头部护具时,洞察+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "insight": 200,
+              "attribute": [
+                "当装备头部护具时,洞察+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "上衣护具",
+          "value": "上衣护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "basicHP": 100,
+              "attribute": [
+                "当装备上衣护具时,生命上限+100"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "basicHP": 200,
+              "attribute": [
+                "当装备上衣护具时,生命上限+200"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "basicHP": 300,
+              "attribute": [
+                "当装备上衣护具时,生命上限+300"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "basicHP": 400,
+              "attribute": [
+                "当装备上衣护具时,生命上限+400"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "basicHP": 500,
+              "attribute": [
+                "当装备上衣护具时,生命上限+500"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "basicHP": 600,
+              "attribute": [
+                "当装备上衣护具时,生命上限+600"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "basicHP": 700,
+              "attribute": [
+                "当装备上衣护具时,生命上限+700"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "basicHP": 800,
+              "attribute": [
+                "当装备上衣护具时,生命上限+800"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "下裤护具",
+          "value": "下裤护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "manaShield": 100,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+100"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "manaShield": 200,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+200"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "manaShield": 300,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+300"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "manaShield": 400,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+400"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "manaShield": 500,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+500"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "manaShield": 600,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+600"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "manaShield": 700,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+700"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "manaShield": 800,
+              "attribute": [
+                "当装备下裤护具时,法力护盾+800"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "肩部护具",
+          "value": "肩部护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "counterAttack": 25,
+              "attribute": [
+                "当装备肩部护具时,反击+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "counterAttack": 50,
+              "attribute": [
+                "当装备肩部护具时,反击+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "counterAttack": 75,
+              "attribute": [
+                "当装备肩部护具时,反击+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "counterAttack": 100,
+              "attribute": [
+                "当装备肩部护具时,反击+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "counterAttack": 125,
+              "attribute": [
+                "当装备肩部护具时,反击+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "counterAttack": 150,
+              "attribute": [
+                "当装备肩部护具时,反击+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "counterAttack": 175,
+              "attribute": [
+                "当装备肩部护具时,反击+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "counterAttack": 200,
+              "attribute": [
+                "当装备肩部护具时,反击+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "腰部护具",
+          "value": "腰部护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "block": 25,
+              "attribute": [
+                "当装备腰部护具时,格挡+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "block": 50,
+              "attribute": [
+                "当装备腰部护具时,格挡+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "block": 75,
+              "attribute": [
+                "当装备腰部护具时,格挡+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "block": 100,
+              "attribute": [
+                "当装备腰部护具时,格挡+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "block": 125,
+              "attribute": [
+                "当装备腰部护具时,格挡+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "block": 150,
+              "attribute": [
+                "当装备腰部护具时,格挡+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "block": 175,
+              "attribute": [
+                "当装备腰部护具时,格挡+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "block": 200,
+              "attribute": [
+                "当装备腰部护具时,格挡+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "背部护具",
+          "value": "背部护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "magicFeedback": 25,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "magicFeedback": 50,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "magicFeedback": 75,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "magicFeedback": 100,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "magicFeedback": 125,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "magicFeedback": 150,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "magicFeedback": 175,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "magicFeedback": 200,
+              "attribute": [
+                "当装备背部护具时,魔法反馈+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "鞋",
+          "value": "鞋",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "dodge": 25,
+              "attribute": [
+                "当装备鞋时,躲闪+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "dodge": 50,
+              "attribute": [
+                "当装备鞋时,躲闪+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "dodge": 75,
+              "attribute": [
+                "当装备鞋时,躲闪+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "dodge": 100,
+              "attribute": [
+                "当装备鞋时,躲闪+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "dodge": 125,
+              "attribute": [
+                "当装备鞋时,躲闪+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "dodge": 150,
+              "attribute": [
+                "当装备鞋时,躲闪+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "dodge": 175,
+              "attribute": [
+                "当装备鞋时,躲闪+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "dodge": 200,
+              "attribute": [
+                "当装备鞋时,躲闪+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "手部护具",
+          "value": "手部护具",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "move": 25,
+              "attribute": [
+                "当装备手部护具时,出手速度+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "move": 50,
+              "attribute": [
+                "当装备手部护具时,出手速度+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "move": 75,
+              "attribute": [
+                "当装备手部护具时,出手速度+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "move": 100,
+              "attribute": [
+                "当装备手部护具时,出手速度+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "move": 125,
+              "attribute": [
+                "当装备手部护具时,出手速度+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "move": 150,
+              "attribute": [
+                "当装备手部护具时,出手速度+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "move": 175,
+              "attribute": [
+                "当装备手部护具时,出手速度+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "move": 200,
+              "attribute": [
+                "当装备手部护具时,出手速度+200"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "装饰",
+      "value": "decoration",
+      "children": [
+        {
+          "label": "项链",
+          "value": "项链",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "disregardState": 25,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "disregardState": 50,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "disregardState": 75,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "disregardState": 100,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "disregardState": 125,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "disregardState": 150,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "disregardState": 175,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "disregardState": 200,
+              "attribute": [
+                "当装备项链时,无视状态抵抗+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "戒指",
+          "value": "戒指",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "ignoreDamageReduction": 25,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "ignoreDamageReduction": 50,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "ignoreDamageReduction": 75,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "ignoreDamageReduction": 100,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "ignoreDamageReduction": 125,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "ignoreDamageReduction": 150,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "ignoreDamageReduction": 175,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "ignoreDamageReduction": 200,
+              "attribute": [
+                "当装备戒指时,无视伤害减免+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "护符",
+          "value": "护符",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "state": 25,
+              "attribute": [
+                "当装备护符时,状态抵抗+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "state": 50,
+              "attribute": [
+                "当装备护符时,状态抵抗+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "state": 75,
+              "attribute": [
+                "当装备护符时,状态抵抗+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "state": 100,
+              "attribute": [
+                "当装备护符时,状态抵抗+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "state": 125,
+              "attribute": [
+                "当装备护符时,状态抵抗+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "state": 150,
+              "attribute": [
+                "当装备护符时,状态抵抗+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "state": 175,
+              "attribute": [
+                "当装备护符时,状态抵抗+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "state": 200,
+              "attribute": [
+                "当装备护符时,状态抵抗+200"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "时装",
+          "value": "时装",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "damageReduction": 25,
+              "attribute": [
+                "当装备时装时,伤害减免+25"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "damageReduction": 50,
+              "attribute": [
+                "当装备时装时,伤害减免+50"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "damageReduction": 75,
+              "attribute": [
+                "当装备时装时,伤害减免+75"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "damageReduction": 100,
+              "attribute": [
+                "当装备时装时,伤害减免+100"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "damageReduction": 125,
+              "attribute": [
+                "当装备时装时,伤害减免+125"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "damageReduction": 150,
+              "attribute": [
+                "当装备时装时,伤害减免+150"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "damageReduction": 175,
+              "attribute": [
+                "当装备时装时,伤害减免+175"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "damageReduction": 200,
+              "attribute": [
+                "当装备时装时,伤害减免+200"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "宠物",
+      "value": "pets",
+      "children": [
+        {
+          "label": "宠物装备",
+          "value": "宠物装备",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "petAttackPowerPercentage": 1,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "petAttackPowerPercentage": 3,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "petAttackPowerPercentage": 5,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "petAttackPowerPercentage": 7,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "petAttackPowerPercentage": 9,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "petAttackPowerPercentage": 11,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "petAttackPowerPercentage": 13,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "petAttackPowerPercentage": 15,
+              "attribute": [
+                "当出战宠物装备宠物装备时,宠物的伤害+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "睿智宠物",
+          "value": "sagacity",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "petIntelligencePercentage": 1,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "petIntelligencePercentage": 3,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "petIntelligencePercentage": 5,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "petIntelligencePercentage": 7,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "petIntelligencePercentage": 9,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "petIntelligencePercentage": 11,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "petIntelligencePercentage": 13,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "petIntelligencePercentage": 15,
+              "attribute": [
+                "当出战睿智宠物时,宠物的智力+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "迅捷宠物",
+          "value": "fast",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "petAgilePercentage": 1,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "petAgilePercentage": 3,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "petAgilePercentage": 5,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "petAgilePercentage": 7,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "petAgilePercentage": 9,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "petAgilePercentage": 11,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "petAgilePercentage": 13,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "petAgilePercentage": 15,
+              "attribute": [
+                "当出战迅捷宠物时,宠物的敏捷+15%"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "勇猛宠物",
+          "value": "brave",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "petPowerPercentage": 1,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "petPowerPercentage": 3,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "petPowerPercentage": 5,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "petPowerPercentage": 7,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "petPowerPercentage": 9,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "petPowerPercentage": 11,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "petPowerPercentage": 13,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "petPowerPercentage": 15,
+              "attribute": [
+                "当出战勇猛宠物时,宠物的力量+15%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "坐骑",
+      "value": "mount",
+      "children": [
+        {
+          "label": "坐骑",
+          "value": "坐骑",
+          "children": [
+            {
+              "label": "无",
+              "grade": 0,
+              "attribute": [
+                "此图鉴尚未开启,请开启后查看属性"
+              ]
+            },
+            {
+              "label": "入门",
+              "grade": 1,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+1%"
+              ]
+            },
+            {
+              "label": "新手",
+              "grade": 10,
+              "hammerWeaponDamage": 3,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+3%"
+              ]
+            },
+            {
+              "label": "熟练",
+              "grade": 20,
+              "hammerWeaponDamage": 5,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+5%"
+              ]
+            },
+            {
+              "label": "达人",
+              "grade": 30,
+              "hammerWeaponDamage": 7,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+7%"
+              ]
+            },
+            {
+              "label": "宗师",
+              "grade": 40,
+              "hammerWeaponDamage": 9,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+9%"
+              ]
+            },
+            {
+              "label": "传奇",
+              "grade": 50,
+              "hammerWeaponDamage": 11,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+11%"
+              ]
+            },
+            {
+              "label": "神话",
+              "grade": 60,
+              "hammerWeaponDamage": 13,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+13%"
+              ]
+            },
+            {
+              "label": "终极",
+              "grade": 70,
+              "hammerWeaponDamage": 15,
+              "attribute": [
+                "当装备坐骑时,装备防具耐久+15%"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

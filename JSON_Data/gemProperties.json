@@ -1,0 +1,105 @@
+{
+  "宝石属性": "gemProperties",
+  "gemProperties": [
+    {
+      "label": "常规属性",
+      "value": "常规属性",
+      "children": [
+        {
+          "label": "生命上限",
+          "value": "basicHP"
+        },
+        {
+          "label": "法力上限",
+          "value": "mana"
+        },
+        {
+          "label": "出手速度",
+          "value": "move"
+        }
+      ]
+    },
+    {
+      "label": "防御",
+      "value": "防御",
+      "children": [
+        {
+          "label": "状态抵抗",
+          "value": "state"
+        },
+        {
+          "label": "洞察",
+          "value": "insight"
+        },
+        {
+          "label": "闪避",
+          "value": "dodge"
+        },
+        {
+          "label": "格挡",
+          "value": "block"
+        },
+        {
+          "label": "反击",
+          "value": "counterAttack"
+        },
+        {
+          "label": "伤害减免",
+          "value": "damageReduction"
+        },
+        {
+          "label": "魔法反馈",
+          "value": "magicFeedback"
+        },
+        {
+          "label": "法力护盾",
+          "value": "manaShield"
+        }
+      ]
+    },
+    {
+      "label": "攻击",
+      "value": "攻击",
+      "children": [
+        {
+          "label": "物理命中",
+          "value": "hit"
+        },
+        {
+          "label": "魔法命中(魔命)",
+          "value": "magicHit"
+        },
+        {
+          "label": "致命点",
+          "value": "deadly"
+        }
+      ]
+    },
+    {
+      "label": "基础属性",
+      "value": "基础属性",
+      "children": [
+        {
+          "label": "额外体质",
+          "value": "extraConstitution"
+        },
+        {
+          "label": "额外力量",
+          "value": "extraStrength"
+        },
+        {
+          "label": "额外敏捷",
+          "value": "extraAgility"
+        },
+        {
+          "label": "额外智力",
+          "value": "extraIntelligence"
+        },
+        {
+          "label": "额外感知",
+          "value": "extraPerception"
+        }
+      ]
+    }
+  ]
+}

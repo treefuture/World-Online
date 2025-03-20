@@ -1,0 +1,105 @@
+{
+  "附魔属性": "enchantmentAttribute",
+  "enchantmentAttribute": [
+    {
+      "label": "基础属性(额外)",
+      "value": "基础属性",
+      "children": [
+        {
+          "label": "额外体质",
+          "value": "extraConstitution"
+        },
+        {
+          "label": "额外力量",
+          "value": "extraStrength"
+        },
+        {
+          "label": "额外敏捷",
+          "value": "extraAgility"
+        },
+        {
+          "label": "额外智力",
+          "value": "extraIntelligence"
+        },
+        {
+          "label": "额外感知",
+          "value": "extraPerception"
+        }
+      ]
+    },
+    {
+      "label": "增益属性(吃百分比)",
+      "value": "增益属性",
+      "children": [
+        {
+          "label": "伤害减免",
+          "value": "damageReduction"
+        },
+        {
+          "label": "状态抵抗",
+          "value": "state"
+        },
+        {
+          "label": "洞察",
+          "value": "insight"
+        },
+        {
+          "label": "反击",
+          "value": "counterAttack"
+        },
+        {
+          "label": "魔法反馈",
+          "value": "magicFeedback"
+        },
+        {
+          "label": "物理命中",
+          "value": "hit"
+        }
+      ]
+    },
+    {
+      "label": "百分比属性",
+      "value": "百分比属性",
+      "children": [
+        {
+          "label": "全武器伤害(武伤)",
+          "value": "weaponDamage"
+        },
+        {
+          "label": "魔法穿透(魔穿)百分比",
+          "value": "magicPenetrationPercentage"
+        }
+      ]
+    },
+    {
+      "label": "无视",
+      "value": "无视",
+      "children": [
+        {
+          "label": "无视伤害减免",
+          "value": "ignoreDamageReduction"
+        },
+        {
+          "label": "无视状态抵抗",
+          "value": "disregardState"
+        },
+        {
+          "label": "无视洞察",
+          "value": "ignoreInsight"
+        },
+        {
+          "label": "无视格挡",
+          "value": "ignoreBlock"
+        },
+        {
+          "label": "无视反击",
+          "value": "ignorecounterAttack"
+        },
+        {
+          "label": "无视魔法反馈",
+          "value": "ignoreMagicFeedback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,221 +1,296 @@
 {
   "药物": "medicine",
   "时效": "invalid",
+  "获取渠道": "channel",
   "medicine": [
     {
-      "name": "敏捷药水",
+      "label": "敏捷药水",
+      "value": "敏捷药水",
       "agile": 45,
-      "skillAttribute": [
+      "attribute": [
         "基础敏捷+45"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "强效敏捷药水",
+      "label": "强效敏捷药水",
+      "value": "强效敏捷药水",
       "agile": 75,
-      "skillAttribute": [
+      "attribute": [
         "基础敏捷+75"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "元宵汤圆-敏",
+      "label": "元宵汤圆-敏",
+      "value": "元宵汤圆-敏",
       "agile": 100,
-      "skillAttribute": [
+      "attribute": [
         "基础敏捷+100"
       ],
+      "channel": "元宵节",
       "invalid": "24小时"
     },
     {
-      "name": "万圣节糖果-敏",
+      "label": "万圣节糖果-敏",
+      "value": "万圣节糖果-敏",
       "agile": 250,
-      "skillAttribute": [
+      "attribute": [
         "基础敏捷+250"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "力量药水",
+      "label": "力量药水",
+      "value": "力量药水",
       "power": 45,
-      "skillAttribute": [
+      "attribute": [
         "基础力量+45"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "强效力量药水",
+      "label": "强效力量药水",
+      "value": "强效力量药水",
       "power": 75,
-      "skillAttribute": [
+      "attribute": [
         "基础力量+75"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "元宵汤圆-力",
+      "label": "元宵汤圆-力",
+      "value": "元宵汤圆-力",
       "power": 100,
-      "skillAttribute": [
+      "attribute": [
         "基础力量+100"
       ],
+      "channel": "元宵节",
       "invalid": "24小时"
     },
     {
-      "name": "万圣节糖果-力",
+      "label": "万圣节糖果-力",
+      "value": "万圣节糖果-力",
       "power": 250,
-      "skillAttribute": [
+      "attribute": [
         "基础力量+250"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "体质药水",
+      "label": "体质药水",
+      "value": "体质药水",
       "constitution": 45,
-      "skillAttribute": [
+      "attribute": [
         "基础体质+45"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "强效体质药水",
+      "label": "强效体质药水",
+      "value": "强效体质药水",
       "constitution": 75,
-      "skillAttribute": [
+      "attribute": [
         "基础体质+75"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "元宵汤圆-体",
+      "label": "元宵汤圆-体",
+      "value": "元宵汤圆-体",
       "constitution": 100,
-      "skillAttribute": [
+      "attribute": [
         "基础体质+100"
       ],
+      "channel": "元宵节",
       "invalid": "24小时"
     },
     {
-      "name": "万圣节糖果-体",
+      "label": "月饼",
+      "value": "月饼",
       "constitution": 250,
-      "skillAttribute": [
+      "attribute": [
         "基础体质+250"
       ],
+      "channel": "中秋节",
+      "invalid": "20分钟"
+    },
+    {
+      "label": "万圣节糖果-体",
+      "value": "万圣节糖果-体",
+      "constitution": 250,
+      "attribute": [
+        "基础体质+250"
+      ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "智力药水",
+      "label": "智力药水",
+      "value": "智力药水",
       "intelligence": 45,
-      "skillAttribute": [
+      "attribute": [
         "基础智力+45"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "强效智力药水",
+      "label": "强效智力药水",
+      "value": "强效智力药水",
       "intelligence": 75,
-      "skillAttribute": [
+      "attribute": [
         "基础智力+75"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "元宵汤圆-智",
+      "label": "元宵汤圆-智",
+      "value": "元宵汤圆-智",
       "intelligence": 100,
-      "skillAttribute": [
+      "attribute": [
         "基础智力+100"
       ],
+      "channel": "元宵节",
       "invalid": "24小时"
     },
     {
-      "name": "万圣节糖果-智",
+      "label": "万圣节糖果-智",
+      "value": "万圣节糖果-智",
       "intelligence": 250,
-      "skillAttribute": [
+      "attribute": [
         "基础智力+250"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "万圣节糖果-魔法命中",
+      "label": "万圣节糖果-魔法命中",
+      "value": "万圣节糖果-魔法命中",
       "magicHit": 300,
-      "skillAttribute": [
+      "attribute": [
         "魔法命中+300"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "感知药水",
+      "label": "感知药水",
+      "value": "感知药水",
       "perception": 45,
-      "skillAttribute": [
+      "attribute": [
         "基础感知+45"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "强效感知药水",
+      "label": "强效感知药水",
+      "value": "强效感知药水",
       "perception": 75,
-      "skillAttribute": [
+      "attribute": [
         "基础感知+75"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "元宵汤圆-感",
+      "label": "元宵汤圆-感",
+      "value": "元宵汤圆-感",
       "perception": 100,
-      "skillAttribute": [
+      "attribute": [
         "基础感知+100"
       ],
+      "channel": "元宵节",
       "invalid": "24小时"
     },
     {
-      "name": "万圣节糖果-感",
+      "label": "万圣节糖果-感",
+      "value": "万圣节糖果-感",
       "perception": 250,
-      "skillAttribute": [
+      "attribute": [
         "基础感知+250"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "强效额外生命药水",
+      "label": "桂花酒",
+      "value": "桂花酒",
+      "immuneShield": 1,
+      "attribute": [
+        "免伤护盾+1"
+      ],
+      "channel": "中秋节",
+      "invalid": "20分钟"
+    },
+    {
+      "label": "强效额外生命药水",
+      "value": "强效额外生命药水",
       "basicHP": 2000,
-      "skillAttribute": [
+      "attribute": [
         "生命+2000"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "强效额外法力药水",
+      "label": "强效额外法力药水",
+      "value": "强效额外法力药水",
       "mana": 2000,
-      "skillAttribute": [
+      "attribute": [
         "法力+2000"
       ],
+      "channel": "国家商店",
       "invalid": "3小时"
     },
     {
-      "name": "万圣节糖果-命中",
+      "label": "万圣节糖果-命中",
+      "value": "万圣节糖果-命中",
       "hit": 300,
-      "skillAttribute": [
-        "命中+300"
+      "attribute": [
+        "物理命中+300"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "万圣节糖果-致命",
+      "label": "万圣节糖果-致命",
+      "value": "万圣节糖果-致命",
       "deadly": 200,
-      "skillAttribute": [
-        "致命+200"
+      "attribute": [
+        "致命点+200"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "万圣节糖果-格挡",
+      "label": "万圣节糖果-格挡",
+      "value": "万圣节糖果-格挡",
       "block": 300,
-      "skillAttribute": [
+      "attribute": [
         "格挡+300"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     },
     {
-      "name": "万圣节糖果-反击",
-      "counterattack": 200,
-      "skillAttribute": [
+      "label": "万圣节糖果-反击",
+      "value": "万圣节糖果-反击",
+      "counterAttack": 200,
+      "attribute": [
         "反击+200"
       ],
+      "channel": "万圣副本",
       "invalid": "10分钟"
     }
   ]

@@ -2,95 +2,112 @@
   "阵型": "formation",
   "formation": [
     {
-      "name": "青龙印[一级]",
-      "movePercentage": 0.05,
-      "hitPercentage": 0.05,
-      "dodgePercentage": 0.05,
+      "label": "青龙印[一级]",
+      "value": "青龙印[一级]",
+      "movePercentage": 5,
+      "hitPercentage": 5,
+      "dodgePercentage": 5,
       "attribute": [
-        "出手+5%",
-        "命中+5%",
+        "出手速度+5%",
+        "物理命中率+5%",
         "闪避+5%"
-      ]
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "青龙印[二级]",
-      "movePercentage": 0.1,
-      "hitPercentage": 0.1,
-      "dodgePercentage": 0.1,
+      "label": "青龙印[二级]",
+      "value": "青龙印[二级]",
+      "movePercentage": 10,
+      "hitPercentage": 10,
+      "dodgePercentage": 10,
       "attribute": [
-        "出手+10%",
-        "命中+10%",
+        "出手速度+10%",
+        "物理命中率+10%",
         "闪避+10%"
-      ]
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "白虎吼[一级]",
-      "basicChopAttackPercentage": 0.05,
-      "basicPuncturePercentage": 0.05,
-      "magicPercentage": 0.05,
+      "label": "白虎吼[一级]",
+      "value": "白虎吼[一级]",
+      "chopAttackPercentage": 5,
+      "puncturePercentage": 5,
+      "magicPercentage": 5,
       "attribute": [
-        "劈砍+5%",
-        "穿刺+5%",
-        "魔攻+5%"
-      ]
+        "劈砍攻击力+5%",
+        "穿刺攻击力+5%",
+        "魔法攻击力+5%"
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "白虎吼[二级]",
-      "basicChopAttackPercentage": 0.1,
-      "basicPuncturePercentage": 0.1,
-      "magicPercentage": 0.1,
+      "label": "白虎吼[二级]",
+      "value": "白虎吼[二级]",
+      "chopAttackPercentage": 10,
+      "puncturePercentage": 10,
+      "magicPercentage": 10,
       "attribute": [
-        "劈砍+10%",
-        "穿刺+10%",
-        "魔攻+10%"
-      ]
+        "劈砍攻击力+10%",
+        "穿刺攻击力+10%",
+        "魔法攻击力+10%"
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "朱雀炎[一级]",
-      "statePercentage": 0.05,
-      "damageReduction": 0.05,
-      "insightPercentage": 0.05,
+      "label": "朱雀炎[一级]",
+      "value": "朱雀炎[一级]",
+      "statePercentage": 5,
+      "damageReduction": 5,
+      "insightPercentage": 5,
       "attribute": [
-        "状态+5%",
-        "伤免+5%",
+        "状态抵抗+5%",
+        "伤害减免+5%",
         "洞察+5%"
-      ]
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "朱雀炎[二级]",
-      "statePercentage": 0.1,
-      "damageReduction": 0.1,
-      "insightPercentage": 0.1,
+      "label": "朱雀炎[二级]",
+      "value": "朱雀炎[二级]",
+      "statePercentage": 10,
+      "damageReduction": 10,
+      "insightPercentage": 10,
       "attribute": [
-        "状态+10%",
-        "伤免+10%",
+        "状态抵抗+10%",
+        "伤害减免+10%",
         "洞察+10%"
-      ]
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "玄武甲[一级]",
-      "chopDefensePercentage": 0.05,
-      "punctureDefensePercentage": 0.05,
-      "magicDefensePercentage": 0.05,
+      "label": "玄武甲[一级]",
+      "value": "玄武甲[一级]",
+      "chopDefensePercentage": 5,
+      "punctureDefensePercentage": 5,
+      "magicDefensePercentage": 5,
       "attribute": [
         "劈砍防御力+5%",
         "穿刺防御力+5%",
         "魔法防御力+5%"
-      ]
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "玄武甲[二级]",
-      "chopDefensePercentage": 0.1,
-      "punctureDefensePercentage": 0.1,
-      "magicDefensePercentage": 0.1,
+      "label": "玄武甲[二级]",
+      "value": "玄武甲[二级]",
+      "chopDefensePercentage": 10,
+      "punctureDefensePercentage": 10,
+      "magicDefensePercentage": 10,
       "attribute": [
         "劈砍防御力+10%",
         "穿刺防御力+10%",
         "魔法防御力+10%"
-      ]
+      ],
+      "channel": "绯红碎片在玛雅合成，周年宝箱直接开启"
     },
     {
-      "name": "东狗附体(天神附体)[一级]",
+      "label": "东狗附体(天神附体)[一级]",
+      "value": "东狗附体(天神附体)[一级]",
       "ignoreInsight": 50,
       "ignoreDamageReduction": 50,
       "immuneShield": 1,
@@ -98,18 +115,65 @@
         "无视洞察+50",
         "无视伤害减免+50",
         "免伤护盾+1"
-      ]
+      ],
+      "channel": "怪物攻城积分兑换"
     },
     {
-      "name": "东狗附体(天神附体)[二级]",
-      "ignoreInsight": 150,
-      "ignoreDamageReduction": 150,
+      "label": "东狗附体(天神附体)[二级]",
+      "value": "东狗附体(天神附体)[二级]",
+      "ignoreInsight": 180,
+      "ignoreDamageReduction": 180,
       "immuneShield": 2,
       "attribute": [
-        "无视洞察+150",
-        "无视伤害减免+150",
+        "无视洞察+180",
+        "无视伤害减免+180",
         "免伤护盾+2"
-      ]
+      ],
+      "channel": "怪物攻城积分兑换"
+    },
+    {
+      "label": "龙神威慑[一级]",
+      "value": "龙神威慑[一级]",
+      "ignoreInsight": 200,
+      "disregardState": 200,
+      "ignoreDamageReduction": 200,
+      "attribute": [
+        "无视洞察+200",
+        "无视状态抵抗值+200",
+        "无视伤害减免+200"
+      ],
+      "describe": "该阵型效果仅需一人则可触发",
+      "dataProvision": "官服-无尽-隔壁老王",
+      "channel": "通过特定活动获得碎片1、2、3开启"
+    },
+    {
+      "label": "凤舞九天[一级]",
+      "value": "凤舞九天[一级]",
+      "ignoreInsight": 300,
+      "disregardState": 200,
+      "ignoreMagicFeedback": 100,
+      "attribute": [
+        "无视洞察+300",
+        "无视状态抵抗值+200",
+        "无视魔法反馈+100"
+      ],
+      "describe": "该阵型效果仅需一人则可触发",
+      "dataProvision": "官服-天启-风影老逼登",
+      "channel": "通过特定活动获得碎片1、2、3、4开启"
+    },
+    {
+      "label": "金虎震天吼[一级]",
+      "value": "金虎震天吼[一级]",
+      "ignorecounterAttack": 200,
+      "ignoreBlock": 200,
+      "ignoreDamageReduction": 100,
+      "attribute": [
+        "无视反击+200",
+        "无视格挡+200",
+        "无视伤害减免+200"
+      ],
+      "describe": "该阵型效果需要两人触发",
+      "channel": "通过特定活动获得碎片1、2、3、4开启,最高三级"
     }
   ]
 }

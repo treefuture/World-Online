@@ -1,0 +1,1788 @@
+{
+  "附魔属性": "enchantAttribute",
+  "附魔点": "enchantPoint",
+  "学习耗材": "material",
+  "等级限制": "levelLimits",
+  "enchantAttribute": [
+    {
+      "label": "力量附魔",
+      "value": "力量附魔",
+      "children": [
+        {
+          "label": "1级力量附魔",
+          "value": "1级力量附魔",
+          "extraStrength": 5,
+          "ignorecounterAttack": 10,
+          "attribute": [
+            "额外力量+5",
+            "无视反击+10"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级力量附魔",
+          "value": "2级力量附魔",
+          "extraStrength": 10,
+          "ignorecounterAttack": 20,
+          "attribute": [
+            "额外力量+10",
+            "无视反击+20"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级力量附魔",
+          "value": "3级力量附魔",
+          "extraStrength": 15,
+          "ignorecounterAttack": 30,
+          "attribute": [
+            "额外力量+15",
+            "无视反击+30"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级力量附魔",
+          "value": "4级力量附魔",
+          "extraStrength": 20,
+          "ignorecounterAttack": 40,
+          "attribute": [
+            "额外力量+20",
+            "无视反击+40"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级力量附魔",
+          "value": "5级力量附魔",
+          "extraStrength": 25,
+          "ignorecounterAttack": 50,
+          "attribute": [
+            "额外力量+25",
+            "无视反击+50"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级力量附魔",
+          "value": "6级力量附魔",
+          "extraStrength": 35,
+          "ignorecounterAttack": 60,
+          "attribute": [
+            "额外力量+35",
+            "无视反击+60"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级力量附魔",
+          "value": "7级力量附魔",
+          "extraStrength": 50,
+          "ignorecounterAttack": 100,
+          "attribute": [
+            "额外力量+50",
+            "无视反击+100"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级力量附魔",
+          "value": "8级力量附魔",
+          "extraStrength": 65,
+          "ignorecounterAttack": 150,
+          "attribute": [
+            "额外力量+65",
+            "无视反击+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "体质附魔",
+      "value": "体质附魔",
+      "children": [
+        {
+          "label": "1级体质附魔",
+          "value": "1级体质附魔",
+          "extraConstitution": 5,
+          "damageReduction": 10,
+          "attribute": [
+            "额外体质+5",
+            "伤害减免+10"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级体质附魔",
+          "value": "2级体质附魔",
+          "extraConstitution": 10,
+          "damageReduction": 20,
+          "attribute": [
+            "额外体质+10",
+            "伤害减免+20"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级体质附魔",
+          "value": "3级体质附魔",
+          "extraConstitution": 15,
+          "damageReduction": 30,
+          "attribute": [
+            "额外体质+15",
+            "伤害减免+30"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级体质附魔",
+          "value": "4级体质附魔",
+          "extraConstitution": 20,
+          "damageReduction": 40,
+          "attribute": [
+            "额外体质+20",
+            "伤害减免+40"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级体质附魔",
+          "value": "5级体质附魔",
+          "extraConstitution": 25,
+          "damageReduction": 50,
+          "attribute": [
+            "额外体质+25",
+            "伤害减免+50"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级体质附魔",
+          "value": "6级体质附魔",
+          "extraConstitution": 35,
+          "damageReduction": 60,
+          "attribute": [
+            "额外体质+35",
+            "伤害减免+60"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级体质附魔",
+          "value": "7级体质附魔",
+          "extraConstitution": 50,
+          "damageReduction": 100,
+          "attribute": [
+            "额外体质+50",
+            "伤害减免+100"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级体质附魔",
+          "value": "8级体质附魔",
+          "extraConstitution": 65,
+          "damageReduction": 150,
+          "attribute": [
+            "额外体质+65",
+            "伤害减免+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "敏捷附魔",
+      "value": "敏捷附魔",
+      "children": [
+        {
+          "label": "1级敏捷附魔",
+          "value": "1级敏捷附魔",
+          "extraAgility": 5,
+          "ignoreDamageReduction": 10,
+          "attribute": [
+            "额外敏捷+5",
+            "无视伤害减免+10"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级敏捷附魔",
+          "value": "2级敏捷附魔",
+          "extraAgility": 10,
+          "ignoreDamageReduction": 20,
+          "attribute": [
+            "额外敏捷+10",
+            "无视伤害减免+20"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级敏捷附魔",
+          "value": "3级敏捷附魔",
+          "extraAgility": 15,
+          "ignoreDamageReduction": 30,
+          "attribute": [
+            "额外敏捷+15",
+            "无视伤害减免+30"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级敏捷附魔",
+          "value": "4级敏捷附魔",
+          "extraAgility": 20,
+          "ignoreDamageReduction": 40,
+          "attribute": [
+            "额外敏捷+20",
+            "无视伤害减免+40"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级敏捷附魔",
+          "value": "5级敏捷附魔",
+          "extraAgility": 25,
+          "ignoreDamageReduction": 50,
+          "attribute": [
+            "额外敏捷+25",
+            "无视伤害减免+50"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级敏捷附魔",
+          "value": "6级敏捷附魔",
+          "extraAgility": 35,
+          "ignoreDamageReduction": 60,
+          "attribute": [
+            "额外敏捷+35",
+            "无视伤害减免+60"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级敏捷附魔",
+          "value": "7级敏捷附魔",
+          "extraAgility": 50,
+          "ignoreDamageReduction": 100,
+          "attribute": [
+            "额外敏捷+50",
+            "无视伤害减免+100"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级敏捷附魔",
+          "value": "8级敏捷附魔",
+          "extraAgility": 65,
+          "ignoreDamageReduction": 150,
+          "attribute": [
+            "额外敏捷+65",
+            "无视伤害减免+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "智力附魔",
+      "value": "智力附魔",
+      "children": [
+        {
+          "label": "1级智力附魔",
+          "value": "1级智力附魔",
+          "extraIntelligence": 5,
+          "ignoreMagicFeedback": 10,
+          "attribute": [
+            "额外智力+5",
+            "无视魔法反馈+10"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级智力附魔",
+          "value": "2级智力附魔",
+          "extraIntelligence": 10,
+          "ignoreMagicFeedback": 20,
+          "attribute": [
+            "额外智力+10",
+            "无视魔法反馈+20"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级智力附魔",
+          "value": "3级智力附魔",
+          "extraIntelligence": 15,
+          "ignoreMagicFeedback": 30,
+          "attribute": [
+            "额外智力+15",
+            "无视魔法反馈+30"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级智力附魔",
+          "value": "4级智力附魔",
+          "extraIntelligence": 20,
+          "ignoreMagicFeedback": 40,
+          "attribute": [
+            "额外智力+20",
+            "无视魔法反馈+40"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级智力附魔",
+          "value": "5级智力附魔",
+          "extraIntelligence": 25,
+          "ignoreMagicFeedback": 50,
+          "attribute": [
+            "额外智力+25",
+            "无视魔法反馈+50"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级智力附魔",
+          "value": "6级智力附魔",
+          "extraIntelligence": 35,
+          "ignoreMagicFeedback": 60,
+          "attribute": [
+            "额外智力+35",
+            "无视魔法反馈+60"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级智力附魔",
+          "value": "7级智力附魔",
+          "extraIntelligence": 50,
+          "ignoreMagicFeedback": 100,
+          "attribute": [
+            "额外智力+50",
+            "无视魔法反馈+100"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级智力附魔",
+          "value": "8级智力附魔",
+          "extraIntelligence": 65,
+          "ignoreMagicFeedback": 150,
+          "attribute": [
+            "额外智力+65",
+            "无视魔法反馈+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "感知附魔",
+      "value": "感知附魔",
+      "children": [
+        {
+          "label": "1级感知附魔",
+          "value": "1级感知附魔",
+          "extraPerception": 5,
+          "disregardState": 10,
+          "attribute": [
+            "额外感知+5",
+            "无视状态抵抗+10"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级感知附魔",
+          "value": "2级感知附魔",
+          "extraPerception": 10,
+          "disregardState": 20,
+          "attribute": [
+            "额外感知+10",
+            "无视状态抵抗+20"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级感知附魔",
+          "value": "3级感知附魔",
+          "extraPerception": 15,
+          "disregardState": 30,
+          "attribute": [
+            "额外感知+15",
+            "无视状态抵抗+30"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级感知附魔",
+          "value": "4级感知附魔",
+          "extraPerception": 20,
+          "disregardState": 40,
+          "attribute": [
+            "额外感知+20",
+            "无视状态抵抗+40"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级感知附魔",
+          "value": "5级感知附魔",
+          "extraPerception": 25,
+          "disregardState": 50,
+          "attribute": [
+            "额外感知+25",
+            "无视状态抵抗+50"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级感知附魔",
+          "value": "6级感知附魔",
+          "extraPerception": 35,
+          "disregardState": 60,
+          "attribute": [
+            "额外感知+35",
+            "无视状态抵抗+60"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级感知附魔",
+          "value": "7级感知附魔",
+          "extraPerception": 50,
+          "disregardState": 100,
+          "attribute": [
+            "额外感知+50",
+            "无视状态抵抗+100"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级感知附魔",
+          "value": "8级感知附魔",
+          "extraPerception": 65,
+          "disregardState": 150,
+          "attribute": [
+            "额外感知+65",
+            "无视状态抵抗+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "状态抵抗附魔",
+      "value": "状态抵抗附魔",
+      "children": [
+        {
+          "label": "1级状态状态抵抗附魔",
+          "value": "1级状态状态抵抗附魔",
+          "state": 2,
+          "disregardState": 5,
+          "attribute": [
+            "状态抵抗值+2",
+            "无视状态抵抗+5"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级状态状态抵抗附魔",
+          "value": "2级状态状态抵抗附魔",
+          "state": 4,
+          "disregardState": 10,
+          "attribute": [
+            "状态抵抗值+4",
+            "无视状态抵抗+10"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级状态状态抵抗附魔",
+          "value": "3级状态状态抵抗附魔",
+          "state": 7,
+          "disregardState": 20,
+          "attribute": [
+            "状态抵抗值+7",
+            "无视状态抵抗+20"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级状态状态抵抗附魔",
+          "value": "4级状态状态抵抗附魔",
+          "state": 11,
+          "disregardState": 30,
+          "attribute": [
+            "状态抵抗值+11",
+            "无视状态抵抗+30"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级状态状态抵抗附魔",
+          "value": "5级状态状态抵抗附魔",
+          "state": 16,
+          "disregardState": 50,
+          "attribute": [
+            "状态抵抗值+16",
+            "无视状态抵抗+50"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级状态状态抵抗附魔",
+          "value": "6级状态状态抵抗附魔",
+          "state": 22,
+          "disregardState": 80,
+          "attribute": [
+            "状态抵抗值+22",
+            "无视状态抵抗+80"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级状态状态抵抗附魔",
+          "value": "7级状态状态抵抗附魔",
+          "state": 30,
+          "disregardState": 120,
+          "attribute": [
+            "状态抵抗值+30",
+            "无视状态抵抗+120"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级状态状态抵抗附魔",
+          "value": "8级状态状态抵抗附魔",
+          "state": 50,
+          "disregardState": 200,
+          "attribute": [
+            "状态抵抗值+50",
+            "无视状态抵抗+200"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "洞察附魔",
+      "value": "洞察附魔",
+      "children": [
+        {
+          "label": "1级洞察附魔",
+          "value": "1级洞察附魔",
+          "insight": 2,
+          "ignoreInsight": 5,
+          "attribute": [
+            "洞察+2",
+            "无视洞察+5"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级洞察附魔",
+          "value": "2级洞察附魔",
+          "insight": 4,
+          "ignoreInsight": 10,
+          "attribute": [
+            "洞察+4",
+            "无视洞察+10"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级洞察附魔",
+          "value": "3级洞察附魔",
+          "insight": 7,
+          "ignoreInsight": 20,
+          "attribute": [
+            "洞察+7",
+            "无视洞察+20"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级洞察附魔",
+          "value": "4级洞察附魔",
+          "insight": 11,
+          "ignoreInsight": 30,
+          "attribute": [
+            "洞察+11",
+            "无视洞察+30"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级洞察附魔",
+          "value": "5级洞察附魔",
+          "insight": 16,
+          "ignoreInsight": 50,
+          "attribute": [
+            "洞察+16",
+            "无视洞察+50"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级洞察附魔",
+          "value": "6级洞察附魔",
+          "insight": 22,
+          "ignoreInsight": 80,
+          "attribute": [
+            "洞察+22",
+            "无视洞察+80"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级洞察附魔",
+          "value": "7级洞察附魔",
+          "insight": 30,
+          "ignoreInsight": 120,
+          "attribute": [
+            "洞察+30",
+            "无视洞察+120"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级洞察附魔",
+          "value": "8级洞察附魔",
+          "insight": 50,
+          "ignoreInsight": 200,
+          "attribute": [
+            "洞察+50",
+            "无视洞察+200"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "反击附魔",
+      "value": "反击附魔",
+      "children": [
+        {
+          "label": "1级反击附魔",
+          "value": "1级反击附魔",
+          "counterAttack": 4,
+          "damageReduction": 5,
+          "attribute": [
+            "反击+4",
+            "伤害减免+5"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级反击附魔",
+          "value": "2级反击附魔",
+          "counterAttack": 8,
+          "damageReduction": 10,
+          "attribute": [
+            "反击+8",
+            "伤害减免+10"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级反击附魔",
+          "value": "3级反击附魔",
+          "counterAttack": 13,
+          "damageReduction": 20,
+          "attribute": [
+            "反击+13",
+            "伤害减免+20"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级反击附魔",
+          "value": "4级反击附魔",
+          "counterAttack": 19,
+          "damageReduction": 30,
+          "attribute": [
+            "反击+19",
+            "伤害减免+30"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级反击附魔",
+          "value": "5级反击附魔",
+          "counterAttack": 26,
+          "damageReduction": 40,
+          "attribute": [
+            "反击+26",
+            "伤害减免+40"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级反击附魔",
+          "value": "6级反击附魔",
+          "counterAttack": 34,
+          "damageReduction": 60,
+          "attribute": [
+            "反击+34",
+            "伤害减免+60"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级反击附魔",
+          "value": "7级反击附魔",
+          "counterAttack": 50,
+          "damageReduction": 90,
+          "attribute": [
+            "反击+50",
+            "伤害减免+90"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级反击附魔",
+          "value": "8级反击附魔",
+          "counterAttack": 100,
+          "damageReduction": 150,
+          "attribute": [
+            "反击+100",
+            "伤害减免+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "反馈附魔",
+      "value": "反馈附魔",
+      "children": [
+        {
+          "label": "1级反馈附魔",
+          "value": "1级反馈附魔",
+          "magicFeedback": 4,
+          "damageReduction": 5,
+          "attribute": [
+            "魔法反馈+4",
+            "伤害减免+5"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级反馈附魔",
+          "value": "2级反馈附魔",
+          "magicFeedback": 8,
+          "damageReduction": 10,
+          "attribute": [
+            "魔法反馈+8",
+            "伤害减免+10"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级反馈附魔",
+          "value": "3级反馈附魔",
+          "magicFeedback": 13,
+          "damageReduction": 20,
+          "attribute": [
+            "魔法反馈+13",
+            "伤害减免+20"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级反馈附魔",
+          "value": "4级反馈附魔",
+          "magicFeedback": 19,
+          "damageReduction": 30,
+          "attribute": [
+            "魔法反馈+19",
+            "伤害减免+30"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级反馈附魔",
+          "value": "5级反馈附魔",
+          "magicFeedback": 26,
+          "damageReduction": 40,
+          "attribute": [
+            "魔法反馈+26",
+            "伤害减免+40"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级反馈附魔",
+          "value": "6级反馈附魔",
+          "magicFeedback": 34,
+          "damageReduction": 60,
+          "attribute": [
+            "魔法反馈+34",
+            "伤害减免+60"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级反馈附魔",
+          "value": "7级反馈附魔",
+          "magicFeedback": 50,
+          "damageReduction": 90,
+          "attribute": [
+            "魔法反馈+50",
+            "伤害减免+90"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级反馈附魔",
+          "value": "8级反馈附魔",
+          "magicFeedback": 100,
+          "damageReduction": 150,
+          "attribute": [
+            "魔法反馈+100",
+            "伤害减免+150"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "武伤附魔",
+      "value": "武伤附魔",
+      "children": [
+        {
+          "label": "1级武伤附魔",
+          "value": "1级武伤附魔",
+          "ignorecounterAttack": 10,
+          "attribute": [
+            "无视反击+10"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级武伤附魔",
+          "value": "2级武伤附魔",
+          "ignorecounterAttack": 20,
+          "attribute": [
+            "无视反击+20"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级武伤附魔",
+          "value": "3级武伤附魔",
+          "ignorecounterAttack": 30,
+          "attribute": [
+            "无视反击+30"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级武伤附魔",
+          "value": "4级武伤附魔",
+          "ignorecounterAttack": 50,
+          "attribute": [
+            "无视反击+50"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级武伤附魔",
+          "value": "5级武伤附魔",
+          "ignorecounterAttack": 70,
+          "attribute": [
+            "无视反击+70"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级武伤附魔",
+          "value": "6级武伤附魔",
+          "weaponDamage": 1,
+          "ignorecounterAttack": 100,
+          "attribute": [
+            "武器伤害、耐久+1%",
+            "无视反击+100"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级武伤附魔",
+          "value": "7级武伤附魔",
+          "weaponDamage": 2,
+          "ignorecounterAttack": 150,
+          "attribute": [
+            "武器伤害、耐久+2%",
+            "无视反击+150"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级武伤附魔",
+          "value": "8级武伤附魔",
+          "weaponDamage": 5,
+          "ignorecounterAttack": 200,
+          "attribute": [
+            "武器伤害、耐久+5%",
+            "无视反击+200"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "穿透附魔",
+      "value": "穿透附魔",
+      "children": [
+        {
+          "label": "1级穿透附魔",
+          "value": "1级穿透附魔",
+          "ignoreMagicFeedback": 10,
+          "attribute": [
+            "无视魔法反馈+10"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级穿透附魔",
+          "value": "2级穿透附魔",
+          "ignoreMagicFeedback": 20,
+          "attribute": [
+            "无视魔法反馈+20"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级穿透附魔",
+          "value": "3级穿透附魔",
+          "ignoreMagicFeedback": 30,
+          "attribute": [
+            "无视魔法反馈+30"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级穿透附魔",
+          "value": "4级穿透附魔",
+          "ignoreMagicFeedback": 50,
+          "attribute": [
+            "无视魔法反馈+50"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级穿透附魔",
+          "value": "5级穿透附魔",
+          "ignoreMagicFeedback": 70,
+          "attribute": [
+            "无视魔法反馈+70"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级穿透附魔",
+          "value": "6级穿透附魔",
+          "magicPenetrationPercentage": 1,
+          "ignoreMagicFeedback": 100,
+          "attribute": [
+            "魔法穿透+1%",
+            "无视魔法反馈+100"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级穿透附魔",
+          "value": "7级穿透附魔",
+          "magicPenetrationPercentage": 2,
+          "ignoreMagicFeedback": 150,
+          "attribute": [
+            "魔法穿透+2%",
+            "无视魔法反馈+150"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级穿透附魔",
+          "value": "8级穿透附魔",
+          "magicPenetrationPercentage": 5,
+          "ignoreMagicFeedback": 200,
+          "attribute": [
+            "魔法穿透+5%",
+            "无视魔法反馈+200"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "命中附魔",
+      "value": "命中附魔",
+      "children": [
+        {
+          "label": "1级命中附魔",
+          "value": "1级命中附魔",
+          "hit": 2,
+          "ignoreDamageReduction": 5,
+          "attribute": [
+            "物理命中+2",
+            "无视伤害减免+5"
+          ],
+          "levelLimits": 10,
+          "enchantPoint": 100,
+          "material": [
+            "所需一级附魔数：0",
+            "总共所需魔石：3",
+            "所需金叶：10",
+            "所需黄金：0"
+          ]
+        },
+        {
+          "label": "2级命中附魔",
+          "value": "2级命中附魔",
+          "hit": 4,
+          "ignoreDamageReduction": 10,
+          "attribute": [
+            "物理命中+4",
+            "无视伤害减免+10"
+          ],
+          "levelLimits": 15,
+          "enchantPoint": 200,
+          "material": [
+            "所需一级附魔数：3",
+            "总共所需魔石：13",
+            "所需金叶：30",
+            "所需黄金：30"
+          ]
+        },
+        {
+          "label": "3级命中附魔",
+          "value": "3级命中附魔",
+          "hit": 7,
+          "ignoreDamageReduction": 20,
+          "attribute": [
+            "物理命中+7",
+            "无视伤害减免+20"
+          ],
+          "levelLimits": 20,
+          "enchantPoint": 300,
+          "material": [
+            "所需一级附魔数：9",
+            "总共所需魔石：44",
+            "所需金叶：90",
+            "所需黄金：150"
+          ]
+        },
+        {
+          "label": "4级命中附魔",
+          "value": "4级命中附魔",
+          "hit": 11,
+          "ignoreDamageReduction": 30,
+          "attribute": [
+            "物理命中+11",
+            "无视伤害减免+30"
+          ],
+          "levelLimits": 25,
+          "enchantPoint": 400,
+          "material": [
+            "所需一级附魔数：18",
+            "总共所需魔石：93",
+            "所需金叶：245",
+            "所需黄金：300"
+          ]
+        },
+        {
+          "label": "5级命中附魔",
+          "value": "5级命中附魔",
+          "hit": 16,
+          "ignoreDamageReduction": 50,
+          "attribute": [
+            "物理命中+16",
+            "无视伤害减免+50"
+          ],
+          "levelLimits": 30,
+          "enchantPoint": 500,
+          "material": [
+            "所需一级附魔数：36",
+            "总共所需魔石：192",
+            "所需金叶：490",
+            "所需黄金：670"
+          ]
+        },
+        {
+          "label": "6级命中附魔",
+          "value": "6级命中附魔",
+          "hit": 22,
+          "ignoreDamageReduction": 80,
+          "attribute": [
+            "物理命中+22",
+            "无视伤害减免+80"
+          ],
+          "levelLimits": 35,
+          "enchantPoint": 600,
+          "material": [
+            "所需一级附魔数：72",
+            "总共所需魔石：391",
+            "所需金叶：980",
+            "所需黄金：1415"
+          ]
+        },
+        {
+          "label": "7级命中附魔",
+          "value": "7级命中附魔",
+          "hit": 30,
+          "ignoreDamageReduction": 120,
+          "attribute": [
+            "物理命中+30",
+            "无视伤害减免+120"
+          ],
+          "levelLimits": 40,
+          "enchantPoint": 700,
+          "material": [
+            "所需一级附魔数：144",
+            "总共所需魔石：792",
+            "所需金叶：1960",
+            "所需黄金：2930"
+          ]
+        },
+        {
+          "label": "8级命中附魔",
+          "value": "8级命中附魔",
+          "hit": 50,
+          "ignoreDamageReduction": 200,
+          "attribute": [
+            "物理命中+50",
+            "无视伤害减免+200"
+          ],
+          "levelLimits": 50,
+          "enchantPoint": 800,
+          "material": [
+            "所需一级附魔数：288",
+            "总共所需魔石：1599",
+            "所需金叶：3920",
+            "所需黄金：6010"
+          ]
+        }
+      ]
+    }
+  ]
+}

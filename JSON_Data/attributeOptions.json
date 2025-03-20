@@ -1,99 +1,388 @@
 {
-  "物理类": "physical",
-  "physical": {
-    "基础敏捷": "agile",
-    "敏捷百分比": "agilePercentage",
-    "基础力量": "power",
-    "力量百分比": "powerPercentage",
-    "基础体质": "constitution",
-    "体质百分比": "constitutionPercentage",
-    "武商": "weaponDamage",
-    "攻次": "attackTimes",
-    "剑武商": "swordWeaponDamage",
-    "剑攻次": "swordAttackTimes",
-    "刀武商": "sabreWeaponDamage",
-    "刀攻次": "sabreWeaponDamageAttackTimes",
-    "长柄武商": "longHandleWeaponDamage",
-    "长柄攻次": "longHandleAttackTimes",
-    "空手武商": "empty-handedWeaponDamage",
-    "空手攻次": "empty-handedAttackTimes",
-    "远程武商": "long-rangeWeaponDamage",
-    "远程攻次": "long-rangeAttackTimes",
-    "重型武商": "heavyWeaponDamage",
-    "重型攻次": "heavyAttackTimes",
-    "火枪武商": "artilleryWeaponDamage",
-    "火枪攻次": "artillery",
-    "基础命中": "hit",
-    "命中百分比": "hitPercentage",
-    "强命": "forcedHit",
-    "致命": "deadly",
-    "致命百分比": "deadlyPercentage",
-    "破甲": "armourBreaking",
-    "破甲百分比": "armourBreakingPercentage",
-    "穿刺": "basicPuncture",
-    "穿刺百分比": "basicPuncturePercentage",
-    "劈砍": "basicChopAttack",
-    "劈砍百分比": "basicChopAttackPercentage"
-  },
-  "魔法类": "Magic",
-  "Magic": {
-    "法杖武商": "staffWeaponDamage",
-    "法杖攻次": "staffAttackTimes",
-    "法器武商": "magicInstrumentWeaponDamage",
-    "法器攻次": "magicInstrumentAttackTimes",
-    "扇武商": "fanWeaponDamage",
-    "扇攻次": "fanAttackTimes",
-    "锤子武商": "hammerWeaponDamage",
-    "锤子攻次": "hammerAttackTimes",
-    "基础智力": "intelligence",
-    "智力百分比": "intelligencePercentage",
-    "基础感知": "perception",
-    "感知百分比": "perceptionPercentage",
-    "出手": "move",
-    "出手百分比": "movePercentage",
-    "魔命": "magicHit",
-    "魔命百分比": "magicHitPercentage",
-    "魔攻": "magic",
-    "魔攻百分比": "magicPercentage",
-    "魔穿": "magicPenetration",
-    "魔穿百分比": "magicPenetrationPercentage",
-    "洞察": "insight",
-    "洞察百分比": "insightPercentage",
-    "无视洞察": "ignoreInsight",
-    "状态": "state",
-    "状态百分比": "statePercentage",
-    "无视状态": "disregardState"
-  },
-  "杂类": "sundry",
-  "sundry": {
-    "生命": "basicHP",
-    "生命百分比": "bloodVolumePercentage",
-    "生命恢复": "HPRecovery",
-    "法力": "mana",
-    "法力百分比": "manaPercentage",
-    "法力恢复": "manaRegeneration",
-    "闪避": "dodge",
-    "闪避百分比": "dodgePercentage",
-    "格挡": "block",
-    "格挡百分比": "blockPercentage",
-    "无视格挡": "ignoreBlock",
-    "伤害减免": "damageReduction",
-    "伤害减免百分比": "damageReductionPercentage",
-    "无视伤害减免": "ignoreDamageReduction",
-    "反击": "counterattack",
-    "反击百分比": "counterattackPercentage",
-    "无视反击": "ignorecounterattack",
-    "魔法反馈": "magicFeedback",
-    "魔法反馈百分比": "magicFeedbackPercentage",
-    "无视魔法反馈": "ignoreMagicFeedback",
-    "法力护盾": "manaShield",
-    "法力护盾百分比": "manaShieldPercentage",
-    "免伤护盾": "immuneShield",
-    "魔法防御力": "magicDefense",
-    "魔法防御力百分比": "magicDefensePercentage",
-    "劈砍防御力": "chopDefense",
-    "劈砍防御力百分比": "chopDefensePercentage",
-    "穿刺防御力": "punctureDefense",
-    "穿刺防御力百分比": "punctureDefensePercentage"
-  }
+	"此数据目前已经弃用": "仍保留其的原因是废弃的组件与此数据有关联",
+	"物理类": "physical",
+	"physical": [
+		{
+			"name": "基础敏捷",
+			"value": "agile"
+		},
+		{
+			"name": "敏捷百分比",
+			"value": "agilePercentage"
+		},
+		{
+			"name": "基础力量",
+			"value": "power"
+		},
+		{
+			"name": "力量百分比",
+			"value": "powerPercentage"
+		},
+		{
+			"name": "基础体质",
+			"value": "constitution"
+		},
+		{
+			"name": "体质百分比",
+			"value": "constitutionPercentage"
+		},
+		{
+			"name": "武器伤害(武伤)",
+			"value": "weaponDamage"
+		},
+		{
+			"name": "攻次",
+			"value": "attackTimes"
+		},
+		{
+			"name": "剑武器伤害(武伤)",
+			"value": "swordWeaponDamage"
+		},
+		{
+			"name": "剑攻次",
+			"value": "swordAttackTimes"
+		},
+		{
+			"name": "刀武器伤害(武伤)",
+			"value": "sabreWeaponDamage"
+		},
+		{
+			"name": "刀攻次",
+			"value": "sabreAttackTimes"
+		},
+		{
+			"name": "长柄武器伤害(武伤)",
+			"value": "longHandleWeaponDamage"
+		},
+		{
+			"name": "长柄攻次",
+			"value": "longHandleAttackTimes"
+		},
+		{
+			"name": "空手武器伤害(武伤)",
+			"value": "empty_handedWeaponDamage"
+		},
+		{
+			"name": "空手攻次",
+			"value": "empty_handedAttackTimes"
+		},
+		{
+			"name": "远程武器伤害(武伤)",
+			"value": "long_rangeWeaponDamage"
+		},
+		{
+			"name": "远程攻次",
+			"value": "long_rangeAttackTimes"
+		},
+		{
+			"name": "重型武器伤害(武伤)",
+			"value": "heavyWeaponDamage"
+		},
+		{
+			"name": "重型攻次",
+			"value": "heavyAttackTimes"
+		},
+		{
+			"name": "火枪武器伤害(武伤)",
+			"value": "artilleryWeaponDamage"
+		},
+		{
+			"name": "火枪攻次",
+			"value": "artilleryAttackTimes"
+		},
+		{
+			"name": "物理命中",
+			"value": "hit"
+		},
+		{
+			"name": "物理命中率",
+			"value": "hitPercentage"
+		},
+		{
+			"name": "强制命中率(强命)",
+			"value": "forcedHit"
+		},
+		{
+			"name": "致命点",
+			"value": "deadly"
+		},
+		{
+			"name": "致命率",
+			"value": "deadlyPercentage"
+		},
+		{
+			"name": "破甲",
+			"value": "armourBreaking"
+		},
+		{
+			"name": "破甲百分比",
+			"value": "armourBreakingPercentage"
+		},
+		{
+			"name": "穿刺攻击力",
+			"value": "basicPuncture"
+		},
+		{
+			"name": "穿刺攻击力百分比",
+			"value": "puncturePercentage"
+		},
+		{
+			"name": "劈砍攻击力",
+			"value": "basicChopAttack"
+		},
+		{
+			"name": "劈砍攻击力百分比",
+			"value": "chopAttackPercentage"
+		}
+	],
+	"魔法类": "Magic",
+	"Magic": [
+		{
+			"name": "法杖武伤",
+			"value": "staffWeaponDamage"
+		},
+		{
+			"name": "法杖攻次",
+			"value": "staffAttackTimes"
+		},
+		{
+			"name": "法器武器伤害(武伤)",
+			"value": "magicInstrumentWeaponDamage"
+		},
+		{
+			"name": "法器攻次",
+			"value": "magicInstrumentAttackTimes"
+		},
+		{
+			"name": "扇武器伤害(武伤)",
+			"value": "fanWeaponDamage"
+		},
+		{
+			"name": "扇攻次",
+			"value": "fanAttackTimes"
+		},
+		{
+			"name": "锤类武器伤害(武伤)",
+			"value": "hammerWeaponDamage"
+		},
+		{
+			"name": "锤类攻次",
+			"value": "hammerAttackTimes"
+		},
+		{
+			"name": "基础智力",
+			"value": "intelligence"
+		},
+		{
+			"name": "智力百分比",
+			"value": "intelligencePercentage"
+		},
+		{
+			"name": "基础感知",
+			"value": "perception"
+		},
+		{
+			"name": "感知百分比",
+			"value": "perceptionPercentage"
+		},
+		{
+			"name": "出手速度",
+			"value": "move"
+		},
+		{
+			"name": "出手百分比",
+			"value": "movePercentage"
+		},
+		{
+			"name": "魔法命中(魔命)",
+			"value": "magicHit"
+		},
+		{
+			"name": "魔法命中(魔命)百分比",
+			"value": "magicHitPercentage"
+		},
+		{
+			"name": "魔法攻击力(魔攻)",
+			"value": "basicMagic"
+		},
+		{
+			"name": "魔法攻击力(魔攻)百分比",
+			"value": "magicPercentage"
+		},
+		{
+			"name": "魔法穿透(魔穿)",
+			"value": "magicPenetration"
+		},
+		{
+			"name": "魔法穿透(魔穿)百分比",
+			"value": "magicPenetrationPercentage"
+		},
+		{
+			"name": "洞察",
+			"value": "insight"
+		},
+		{
+			"name": "洞察百分比",
+			"value": "insightPercentage"
+		},
+		{
+			"name": "无视洞察",
+			"value": "ignoreInsight"
+		},
+		{
+			"name": "状态抵抗",
+			"value": "state"
+		},
+		{
+			"name": "状态百分比",
+			"value": "statePercentage"
+		},
+		{
+			"name": "无视状态抵抗",
+			"value": "disregardState"
+		}
+	],
+	"杂类": "sundry",
+	"sundry": [
+		{
+			"name": "生命上限",
+			"value": "basicHP"
+		},
+		{
+			"name": "生命上限百分比",
+			"value": "bloodVolumePercentage"
+		},
+		{
+			"name": "生命恢复",
+			"value": "HPRecovery"
+		},
+		{
+			"name": "生命恢复百分比",
+			"value": "HPRecoveryPercentage"
+		},
+		{
+			"name": "基础生命吸收",
+			"value": "lifeAbsorption"
+		},
+		{
+			"name": "生命吸收百分比",
+			"value": "lifeAbsorptionPercentage"
+		},
+		{
+			"name": "法力上限",
+			"value": "mana"
+		},
+		{
+			"name": "法力上限百分比",
+			"value": "manaPercentage"
+		},
+		{
+			"name": "法力恢复",
+			"value": "manaRegeneration"
+		},
+		{
+			"name": "法力恢复百分比",
+			"value": "manaRegenerationPercentage"
+		},
+		{
+			"name": "基础法力吸收",
+			"value": "manaAbsorption"
+		},
+		{
+			"name": "法力吸收百分比",
+			"value": "manaAbsorptionPercentage"
+		},
+		{
+			"name": "闪避",
+			"value": "dodge"
+		},
+		{
+			"name": "闪避百分比",
+			"value": "dodgePercentage"
+		},
+		{
+			"name": "格挡",
+			"value": "block"
+		},
+		{
+			"name": "格挡百分比",
+			"value": "blockPercentage"
+		},
+		{
+			"name": "无视格挡",
+			"value": "ignoreBlock"
+		},
+		{
+			"name": "伤害减免",
+			"value": "damageReduction"
+		},
+		{
+			"name": "伤害减免百分比",
+			"value": "damageReductionPercentage"
+		},
+		{
+			"name": "无视伤害减免",
+			"value": "ignoreDamageReduction"
+		},
+		{
+			"name": "反击",
+			"value": "counterAttack"
+		},
+		{
+			"name": "反击百分比",
+			"value": "counterAttackPercentage"
+		},
+		{
+			"name": "无视反击",
+			"value": "ignorecounterAttack"
+		},
+		{
+			"name": "魔法反馈",
+			"value": "magicFeedback"
+		},
+		{
+			"name": "魔法反馈百分比",
+			"value": "magicFeedbackPercentage"
+		},
+		{
+			"name": "无视魔法反馈",
+			"value": "ignoreMagicFeedback"
+		},
+		{
+			"name": "法力护盾",
+			"value": "manaShield"
+		},
+		{
+			"name": "法力护盾百分比",
+			"value": "manaShieldPercentage"
+		},
+		{
+			"name": "免伤护盾",
+			"value": "immuneShield"
+		},
+		{
+			"name": "魔法防御力",
+			"value": "magicDefense"
+		},
+		{
+			"name": "魔法防御力百分比",
+			"value": "magicDefensePercentage"
+		},
+		{
+			"name": "劈砍防御力",
+			"value": "chopDefense"
+		},
+		{
+			"name": "劈砍防御力百分比",
+			"value": "chopDefensePercentage"
+		},
+		{
+			"name": "穿刺防御力",
+			"value": "punctureDefense"
+		},
+		{
+			"name": "穿刺防御力百分比",
+			"value": "punctureDefensePercentage"
+		}
+	]
 }

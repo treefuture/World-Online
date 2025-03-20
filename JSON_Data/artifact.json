@@ -1,0 +1,1783 @@
+{
+  "神器": "artifact",
+  "技能": "skill",
+  "阶段": "stage",
+  "装饰": "decorate",
+  "artifact": {
+    "stage": [
+      {
+        "label": "一阶(地)",
+        "value": "land",
+        "children": [
+          {
+            "label": "地：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "地：1级",
+            "value": 1,
+            "basicHP": 30,
+            "ignoreDamageReduction": 10,
+            "ignoreBlock": 10,
+            "attribute": [
+              "生命上限+30",
+              "无视伤害减免+10",
+              "无视格挡+10"
+            ]
+          },
+          {
+            "label": "地：2级",
+            "value": 2,
+            "basicHP": 60,
+            "ignoreDamageReduction": 20,
+            "ignoreBlock": 20,
+            "attribute": [
+              "生命上限+60",
+              "无视伤害减免+20",
+              "无视格挡+20"
+            ]
+          },
+          {
+            "label": "地：3级",
+            "value": 3,
+            "basicHP": 90,
+            "ignoreDamageReduction": 30,
+            "ignoreBlock": 30,
+            "attribute": [
+              "生命上限+90",
+              "无视伤害减免+30",
+              "无视格挡+30"
+            ]
+          },
+          {
+            "label": "地：4级",
+            "value": 4,
+            "basicHP": 120,
+            "ignoreDamageReduction": 40,
+            "ignoreBlock": 40,
+            "attribute": [
+              "生命上限+120",
+              "无视伤害减免+40",
+              "无视格挡+40"
+            ]
+          },
+          {
+            "label": "地：5级",
+            "value": 5,
+            "basicHP": 150,
+            "ignoreDamageReduction": 50,
+            "ignoreBlock": 50,
+            "attribute": [
+              "生命上限+150",
+              "无视伤害减免+50",
+              "无视格挡+50"
+            ]
+          },
+          {
+            "label": "地：6级",
+            "value": 6,
+            "basicHP": 180,
+            "ignoreDamageReduction": 60,
+            "ignoreBlock": 60,
+            "attribute": [
+              "生命上限+180",
+              "无视伤害减免+60",
+              "无视格挡+60"
+            ]
+          },
+          {
+            "label": "地：7级",
+            "value": 7,
+            "basicHP": 210,
+            "ignoreDamageReduction": 70,
+            "ignoreBlock": 70,
+            "attribute": [
+              "生命上限+210",
+              "无视伤害减免+70",
+              "无视格挡+70"
+            ]
+          },
+          {
+            "label": "地：8级",
+            "value": 8,
+            "basicHP": 240,
+            "ignoreDamageReduction": 80,
+            "ignoreBlock": 80,
+            "attribute": [
+              "生命上限+240",
+              "无视伤害减免+80",
+              "无视格挡+80"
+            ]
+          },
+          {
+            "label": "地：9级",
+            "value": 9,
+            "basicHP": 270,
+            "ignoreDamageReduction": 90,
+            "ignoreBlock": 90,
+            "attribute": [
+              "生命上限+270",
+              "无视伤害减免+90",
+              "无视格挡+90"
+            ]
+          },
+          {
+            "label": "地：10级",
+            "value": 10,
+            "basicHP": 300,
+            "ignoreDamageReduction": 100,
+            "ignoreBlock": 100,
+            "attribute": [
+              "生命上限+300",
+              "无视伤害减免+100",
+              "无视格挡+100"
+            ]
+          },
+          {
+            "label": "地：11级",
+            "value": 11,
+            "basicHP": 360,
+            "ignoreDamageReduction": 120,
+            "ignoreBlock": 120,
+            "attribute": [
+              "生命上限+360",
+              "无视伤害减免+120",
+              "无视格挡+120"
+            ]
+          },
+          {
+            "label": "地：12级",
+            "value": 12,
+            "basicHP": 420,
+            "ignoreDamageReduction": 140,
+            "ignoreBlock": 140,
+            "attribute": [
+              "生命上限+420",
+              "无视伤害减免+140",
+              "无视格挡+140"
+            ]
+          },
+          {
+            "label": "地：13级",
+            "value": 13,
+            "basicHP": 480,
+            "ignoreDamageReduction": 160,
+            "ignoreBlock": 160,
+            "attribute": [
+              "生命上限+480",
+              "无视伤害减免+160",
+              "无视格挡+160"
+            ]
+          },
+          {
+            "label": "地：14级",
+            "value": 14,
+            "basicHP": 540,
+            "ignoreDamageReduction": 180,
+            "ignoreBlock": 180,
+            "attribute": [
+              "生命上限+540",
+              "无视伤害减免+180",
+              "无视格挡+180"
+            ]
+          },
+          {
+            "label": "地：15级",
+            "value": 15,
+            "basicHP": 600,
+            "ignoreDamageReduction": 200,
+            "ignoreBlock": 200,
+            "attribute": [
+              "生命上限+600",
+              "无视伤害减免+200",
+              "无视格挡+200"
+            ]
+          },
+          {
+            "label": "地：16级",
+            "value": 16,
+            "basicHP": 720,
+            "ignoreDamageReduction": 220,
+            "ignoreBlock": 220,
+            "attribute": [
+              "生命上限+720",
+              "无视伤害减免+220",
+              "无视格挡+220"
+            ]
+          },
+          {
+            "label": "地：17级",
+            "value": 17,
+            "basicHP": 780,
+            "ignoreDamageReduction": 240,
+            "ignoreBlock": 240,
+            "attribute": [
+              "生命上限+780",
+              "无视伤害减免+240",
+              "无视格挡+240"
+            ]
+          },
+          {
+            "label": "地：18级",
+            "value": 18,
+            "basicHP": 960,
+            "ignoreDamageReduction": 260,
+            "ignoreBlock": 260,
+            "attribute": [
+              "生命上限+960",
+              "无视伤害减免+260",
+              "无视格挡+260"
+            ]
+          },
+          {
+            "label": "地：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "ignoreDamageReduction": 300,
+            "ignoreBlock": 300,
+            "attribute": [
+              "生命上限+960",
+              "无视伤害减免+300",
+              "无视格挡+300"
+            ]
+          },
+          {
+            "label": "地：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "ignoreDamageReduction": 400,
+            "ignoreBlock": 400,
+            "attribute": [
+              "生命上限+1200",
+              "无视伤害减免+400",
+              "无视格挡+400"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "二阶(水)",
+        "value": "water",
+        "children": [
+          {
+            "label": "水：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "水：1级",
+            "value": 1,
+            "basicHP": 30,
+            "hitPercentage": 1,
+            "magicHitPercentage": 1,
+            "attribute": [
+              "生命上限+30",
+              "物理命中率+1%",
+              "魔法命中+1%"
+            ]
+          },
+          {
+            "label": "水：2级",
+            "value": 2,
+            "basicHP": 60,
+            "hitPercentage": 1,
+            "magicHitPercentage": 1,
+            "attribute": [
+              "生命上限+60",
+              "物理命中率+1%",
+              "魔法命中+1%"
+            ]
+          },
+          {
+            "label": "水：3级",
+            "value": 3,
+            "basicHP": 90,
+            "hitPercentage": 2,
+            "magicHitPercentage": 2,
+            "attribute": [
+              "生命上限+90",
+              "物理命中率+2%",
+              "魔法命中+2%"
+            ]
+          },
+          {
+            "label": "水：4级",
+            "value": 4,
+            "basicHP": 120,
+            "hitPercentage": 2,
+            "magicHitPercentage": 2,
+            "attribute": [
+              "生命上限+120",
+              "物理命中率+2%",
+              "魔法命中+2%"
+            ]
+          },
+          {
+            "label": "水：5级",
+            "value": 5,
+            "basicHP": 150,
+            "hitPercentage": 3,
+            "magicHitPercentage": 3,
+            "attribute": [
+              "生命上限+150",
+              "物理命中率+3%",
+              "魔法命中+3%"
+            ]
+          },
+          {
+            "label": "水：6级",
+            "value": 6,
+            "basicHP": 180,
+            "hitPercentage": 3,
+            "magicHitPercentage": 3,
+            "attribute": [
+              "生命上限+180",
+              "物理命中率+3%",
+              "魔法命中+3%"
+            ]
+          },
+          {
+            "label": "水：7级",
+            "value": 7,
+            "basicHP": 210,
+            "hitPercentage": 4,
+            "magicHitPercentage": 4,
+            "attribute": [
+              "生命上限+210",
+              "物理命中率+4%",
+              "魔法命中+4%"
+            ]
+          },
+          {
+            "label": "水：8级",
+            "value": 8,
+            "basicHP": 240,
+            "hitPercentage": 4,
+            "magicHitPercentage": 4,
+            "attribute": [
+              "生命上限+240",
+              "物理命中率+4%",
+              "魔法命中+4%"
+            ]
+          },
+          {
+            "label": "水：9级",
+            "value": 9,
+            "basicHP": 270,
+            "hitPercentage": 5,
+            "magicHitPercentage": 5,
+            "attribute": [
+              "生命上限+270",
+              "物理命中率+5%",
+              "魔法命中+5%"
+            ]
+          },
+          {
+            "label": "水：10级",
+            "value": 10,
+            "basicHP": 300,
+            "hitPercentage": 5,
+            "magicHitPercentage": 5,
+            "attribute": [
+              "生命上限+300",
+              "物理命中率+5%",
+              "魔法命中+5%"
+            ]
+          },
+          {
+            "label": "水：11级",
+            "value": 11,
+            "basicHP": 360,
+            "hitPercentage": 6,
+            "magicHitPercentage": 6,
+            "attribute": [
+              "生命上限+360",
+              "物理命中率+6%",
+              "魔法命中+6%"
+            ]
+          },
+          {
+            "label": "水：12级",
+            "value": 12,
+            "basicHP": 420,
+            "hitPercentage": 7,
+            "magicHitPercentage": 6,
+            "attribute": [
+              "生命上限+420",
+              "物理命中率+7%",
+              "魔法命中+6%"
+            ]
+          },
+          {
+            "label": "水：13级",
+            "value": 13,
+            "basicHP": 480,
+            "hitPercentage": 8,
+            "magicHitPercentage": 7,
+            "attribute": [
+              "生命上限+480",
+              "物理命中率+8%",
+              "魔法命中+7%"
+            ]
+          },
+          {
+            "label": "水：14级",
+            "value": 14,
+            "basicHP": 540,
+            "hitPercentage": 9,
+            "magicHitPercentage": 7,
+            "attribute": [
+              "生命上限+540",
+              "物理命中率+9%",
+              "魔法命中+7%"
+            ]
+          },
+          {
+            "label": "水：15级",
+            "value": 15,
+            "basicHP": 600,
+            "hitPercentage": 10,
+            "magicHitPercentage": 8,
+            "attribute": [
+              "生命上限+600",
+              "物理命中率+10%",
+              "魔法命中+8%"
+            ]
+          },
+          {
+            "label": "水：16级",
+            "value": 16,
+            "basicHP": 720,
+            "hitPercentage": 11,
+            "magicHitPercentage": 8,
+            "attribute": [
+              "生命上限+720",
+              "物理命中率+11%",
+              "魔法命中+8%"
+            ]
+          },
+          {
+            "label": "水：17级",
+            "value": 17,
+            "basicHP": 840,
+            "hitPercentage": 12,
+            "magicHitPercentage": 9,
+            "attribute": [
+              "生命上限+840",
+              "物理命中率+12%",
+              "魔法命中+9%"
+            ]
+          },
+          {
+            "label": "水：18级",
+            "value": 18,
+            "basicHP": 960,
+            "hitPercentage": 13,
+            "magicHitPercentage": 9,
+            "attribute": [
+              "生命上限+960",
+              "物理命中率+13%",
+              "魔法命中+9%"
+            ]
+          },
+          {
+            "label": "水：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "hitPercentage": 15,
+            "magicHitPercentage": 10,
+            "attribute": [
+              "生命上限+1080",
+              "物理命中率+15%",
+              "魔法命中+10%"
+            ]
+          },
+          {
+            "label": "水：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "hitPercentage": 20,
+            "magicHitPercentage": 15,
+            "attribute": [
+              "生命上限+1200",
+              "物理命中率+20%",
+              "魔法命中+15%"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "三阶(火)",
+        "value": "fire",
+        "children": [
+          {
+            "label": "火：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "火：1级",
+            "value": 1,
+            "basicHP": 30,
+            "deadlyPercentage": 1,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+30",
+              "致命率+1%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：2级",
+            "value": 2,
+            "basicHP": 60,
+            "deadlyPercentage": 1,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+60",
+              "致命率+1%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：3级",
+            "value": 3,
+            "basicHP": 90,
+            "deadlyPercentage": 2,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+90",
+              "致命率+2%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：4级",
+            "value": 4,
+            "basicHP": 120,
+            "deadlyPercentage": 2,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+120",
+              "致命率+2%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：5级",
+            "value": 5,
+            "basicHP": 150,
+            "deadlyPercentage": 3,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+150",
+              "致命率+3%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：6级",
+            "value": 6,
+            "basicHP": 180,
+            "deadlyPercentage": 3,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+180",
+              "致命率+3%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：7级",
+            "value": 7,
+            "basicHP": 210,
+            "deadlyPercentage": 4,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+210",
+              "致命率+4%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：8级",
+            "value": 8,
+            "basicHP": 240,
+            "deadlyPercentage": 4,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+240",
+              "致命率+4%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：9级",
+            "value": 9,
+            "basicHP": 270,
+            "deadlyPercentage": 5,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+270",
+              "致命率+5%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：10级",
+            "value": 10,
+            "basicHP": 300,
+            "deadlyPercentage": 5,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+300",
+              "致命率+5%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：11级",
+            "value": 11,
+            "basicHP": 360,
+            "deadlyPercentage": 6,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+360",
+              "致命率+6%",
+              "攻击次数+"
+            ]
+          },
+          {
+            "label": "火：12级",
+            "value": 12,
+            "basicHP": 420,
+            "deadlyPercentage": 6,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+420",
+              "致命率+6%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：13级",
+            "value": 13,
+            "basicHP": 480,
+            "deadlyPercentage": 7,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+480",
+              "致命率+7%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：14级",
+            "value": 14,
+            "basicHP": 540,
+            "deadlyPercentage": 7,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+540",
+              "致命率+7%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：15级",
+            "value": 15,
+            "basicHP": 600,
+            "deadlyPercentage": 8,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+600",
+              "致命率+8%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：16级",
+            "value": 16,
+            "basicHP": 720,
+            "deadlyPercentage": 8,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+720",
+              "致命率+8%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：17级",
+            "value": 17,
+            "basicHP": 840,
+            "deadlyPercentage": 9,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+840",
+              "致命率+9%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：18级",
+            "value": 18,
+            "basicHP": 960,
+            "deadlyPercentage": 9,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+960",
+              "致命率+9%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "deadlyPercentage": 10,
+            "attackTimes": 0,
+            "attribute": [
+              "生命上限+1080",
+              "致命率+10%",
+              "攻击次数+0"
+            ]
+          },
+          {
+            "label": "火：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "deadlyPercentage": 10,
+            "attackTimes": 1,
+            "attribute": [
+              "生命上限+1200",
+              "致命率+10%",
+              "攻击次数+1"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "四阶(风)",
+        "value": "wind",
+        "children": [
+          {
+            "label": "风：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "风：1级",
+            "value": 1,
+            "basicHP": 30,
+            "armourBreakingPercentage": 1,
+            "weaponDamage": 1,
+            "attribute": [
+              "生命上限+30",
+              "破甲+1%",
+              "武器伤害、耐久+1%"
+            ]
+          },
+          {
+            "label": "风：2级",
+            "value": 2,
+            "basicHP": 60,
+            "armourBreakingPercentage": 1,
+            "weaponDamage": 1,
+            "attribute": [
+              "生命上限+60",
+              "破甲+1%",
+              "武器伤害、耐久+1%"
+            ]
+          },
+          {
+            "label": "风：3级",
+            "value": 3,
+            "basicHP": 90,
+            "armourBreakingPercentage": 2,
+            "weaponDamage": 2,
+            "attribute": [
+              "生命上限+90",
+              "破甲+2%",
+              "武器伤害、耐久+2%"
+            ]
+          },
+          {
+            "label": "风：4级",
+            "value": 4,
+            "basicHP": 120,
+            "armourBreakingPercentage": 2,
+            "weaponDamage": 2,
+            "attribute": [
+              "生命上限+120",
+              "破甲+2%",
+              "武器伤害、耐久+2%"
+            ]
+          },
+          {
+            "label": "风：5级",
+            "value": 5,
+            "basicHP": 150,
+            "armourBreakingPercentage": 3,
+            "weaponDamage": 3,
+            "attribute": [
+              "生命上限+150",
+              "破甲+3%",
+              "武器伤害、耐久+3%"
+            ]
+          },
+          {
+            "label": "风：6级",
+            "value": 6,
+            "basicHP": 180,
+            "armourBreakingPercentage": 3,
+            "weaponDamage": 3,
+            "attribute": [
+              "生命上限+180",
+              "破甲+3%",
+              "武器伤害、耐久+3%"
+            ]
+          },
+          {
+            "label": "风：7级",
+            "value": 7,
+            "basicHP": 210,
+            "armourBreakingPercentage": 4,
+            "weaponDamage": 4,
+            "attribute": [
+              "生命上限+210",
+              "破甲+4%",
+              "武器伤害、耐久+4%"
+            ]
+          },
+          {
+            "label": "风：8级",
+            "value": 8,
+            "basicHP": 240,
+            "armourBreakingPercentage": 4,
+            "weaponDamage": 4,
+            "attribute": [
+              "生命上限+240",
+              "破甲+4%",
+              "武器伤害、耐久+4%"
+            ]
+          },
+          {
+            "label": "风：9级",
+            "value": 9,
+            "basicHP": 270,
+            "armourBreakingPercentage": 5,
+            "weaponDamage": 5,
+            "attribute": [
+              "生命上限+270",
+              "破甲+5%",
+              "武器伤害、耐久+5%"
+            ]
+          },
+          {
+            "label": "风：10级",
+            "value": 10,
+            "basicHP": 300,
+            "armourBreakingPercentage": 5,
+            "weaponDamage": 5,
+            "attribute": [
+              "生命上限+300",
+              "破甲+5%",
+              "武器伤害、耐久+5%"
+            ]
+          },
+          {
+            "label": "风：11级",
+            "value": 11,
+            "basicHP": 360,
+            "armourBreakingPercentage": 6,
+            "weaponDamage": 6,
+            "attribute": [
+              "生命上限+360",
+              "破甲+6%",
+              "武器伤害、耐久+6%"
+            ]
+          },
+          {
+            "label": "风：12级",
+            "value": 12,
+            "basicHP": 420,
+            "armourBreakingPercentage": 6,
+            "weaponDamage": 7,
+            "attribute": [
+              "生命上限+420",
+              "破甲+6%",
+              "武器伤害、耐久+7%"
+            ]
+          },
+          {
+            "label": "风：13级",
+            "value": 13,
+            "basicHP": 480,
+            "armourBreakingPercentage": 7,
+            "weaponDamage": 8,
+            "attribute": [
+              "生命上限+480",
+              "破甲+7%",
+              "武器伤害、耐久+8%"
+            ]
+          },
+          {
+            "label": "风：14级",
+            "value": 14,
+            "basicHP": 540,
+            "armourBreakingPercentage": 7,
+            "weaponDamage": 9,
+            "attribute": [
+              "生命上限+540",
+              "破甲+7%",
+              "武器伤害、耐久+9%"
+            ]
+          },
+          {
+            "label": "风：15级",
+            "value": 15,
+            "basicHP": 600,
+            "armourBreakingPercentage": 8,
+            "weaponDamage": 10,
+            "attribute": [
+              "生命上限+600",
+              "破甲+8%",
+              "武器伤害、耐久+10%"
+            ]
+          },
+          {
+            "label": "风：16级",
+            "value": 16,
+            "basicHP": 720,
+            "armourBreakingPercentage": 8,
+            "weaponDamage": 11,
+            "attribute": [
+              "生命上限+720",
+              "破甲+8%",
+              "武器伤害、耐久+11%"
+            ]
+          },
+          {
+            "label": "风：17级",
+            "value": 17,
+            "basicHP": 840,
+            "armourBreakingPercentage": 9,
+            "weaponDamage": 12,
+            "attribute": [
+              "生命上限+840",
+              "破甲+9%",
+              "武器伤害、耐久+12%"
+            ]
+          },
+          {
+            "label": "风：18级",
+            "value": 18,
+            "basicHP": 960,
+            "armourBreakingPercentage": 9,
+            "weaponDamage": 13,
+            "attribute": [
+              "生命上限+960",
+              "破甲+9%",
+              "武器伤害、耐久+13%"
+            ]
+          },
+          {
+            "label": "风：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "armourBreakingPercentage": 10,
+            "weaponDamage": 15,
+            "attribute": [
+              "生命上限+1080",
+              "破甲+10%",
+              "武器伤害、耐久+15%"
+            ]
+          },
+          {
+            "label": "风：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "armourBreakingPercentage": 10,
+            "weaponDamage": 20,
+            "attribute": [
+              "生命上限+1200",
+              "破甲+10%",
+              "武器伤害、耐久+20%"
+            ]
+          }
+        ]
+      }
+    ],
+    "decorate": [
+      {
+        "label": "镶嵌",
+        "value": "set",
+        "children": [
+          {
+            "label": "镶嵌：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "镶嵌：1级",
+            "value": 1,
+            "basicHP": 30,
+            "powerPercentage": 1,
+            "chopAttackPercentage": 1,
+            "attribute": [
+              "生命上限+30",
+              "力量+1%",
+              "劈砍攻击力+1%"
+            ]
+          },
+          {
+            "label": "镶嵌：2级",
+            "value": 2,
+            "basicHP": 60,
+            "powerPercentage": 1,
+            "chopAttackPercentage": 1,
+            "attribute": [
+              "生命上限+60",
+              "力量+1%",
+              "劈砍攻击力+1%"
+            ]
+          },
+          {
+            "label": "镶嵌：3级",
+            "value": 3,
+            "basicHP": 90,
+            "powerPercentage": 2,
+            "chopAttackPercentage": 2,
+            "attribute": [
+              "生命上限+90",
+              "力量+2%",
+              "劈砍攻击力+2%"
+            ]
+          },
+          {
+            "label": "镶嵌：4级",
+            "value": 4,
+            "basicHP": 120,
+            "powerPercentage": 2,
+            "chopAttackPercentage": 2,
+            "attribute": [
+              "生命上限+120",
+              "力量+2%",
+              "劈砍攻击力+2%"
+            ]
+          },
+          {
+            "label": "镶嵌：5级",
+            "value": 5,
+            "basicHP": 150,
+            "powerPercentage": 3,
+            "chopAttackPercentage": 3,
+            "attribute": [
+              "生命上限+150",
+              "力量+3%",
+              "劈砍攻击力+3%"
+            ]
+          },
+          {
+            "label": "镶嵌：6级",
+            "value": 6,
+            "basicHP": 180,
+            "powerPercentage": 3,
+            "chopAttackPercentage": 3,
+            "attribute": [
+              "生命上限+180",
+              "力量+3%",
+              "劈砍攻击力+3%"
+            ]
+          },
+          {
+            "label": "镶嵌：7级",
+            "value": 7,
+            "basicHP": 210,
+            "powerPercentage": 4,
+            "chopAttackPercentage": 4,
+            "attribute": [
+              "生命上限+210",
+              "力量+4%",
+              "劈砍攻击力+4%"
+            ]
+          },
+          {
+            "label": "镶嵌：8级",
+            "value": 8,
+            "basicHP": 240,
+            "powerPercentage": 4,
+            "chopAttackPercentage": 4,
+            "attribute": [
+              "生命上限+240",
+              "力量+4%",
+              "劈砍攻击力+4%"
+            ]
+          },
+          {
+            "label": "镶嵌：9级",
+            "value": 9,
+            "basicHP": 270,
+            "powerPercentage": 5,
+            "chopAttackPercentage": 5,
+            "attribute": [
+              "生命上限+270",
+              "力量+5%",
+              "劈砍攻击力+5%"
+            ]
+          },
+          {
+            "label": "镶嵌：10级",
+            "value": 10,
+            "basicHP": 300,
+            "powerPercentage": 5,
+            "chopAttackPercentage": 5,
+            "attribute": [
+              "生命上限+300",
+              "力量+5%",
+              "劈砍攻击力+5%"
+            ]
+          },
+          {
+            "label": "镶嵌：11级",
+            "value": 11,
+            "basicHP": 360,
+            "powerPercentage": 6,
+            "chopAttackPercentage": 6,
+            "attribute": [
+              "生命上限+360",
+              "力量+6%",
+              "劈砍攻击力+6%"
+            ]
+          },
+          {
+            "label": "镶嵌：12级",
+            "value": 12,
+            "basicHP": 420,
+            "powerPercentage": 7,
+            "chopAttackPercentage": 7,
+            "attribute": [
+              "生命上限+420",
+              "力量+7%",
+              "劈砍攻击力+7%"
+            ]
+          },
+          {
+            "label": "镶嵌：13级",
+            "value": 13,
+            "basicHP": 480,
+            "powerPercentage": 8,
+            "chopAttackPercentage": 8,
+            "attribute": [
+              "生命上限+480",
+              "力量+8%",
+              "劈砍攻击力+8%"
+            ]
+          },
+          {
+            "label": "镶嵌：14级",
+            "value": 14,
+            "basicHP": 540,
+            "powerPercentage": 9,
+            "chopAttackPercentage": 9,
+            "attribute": [
+              "生命上限+540",
+              "力量+9%",
+              "劈砍攻击力+9%"
+            ]
+          },
+          {
+            "label": "镶嵌：15级",
+            "value": 15,
+            "basicHP": 600,
+            "powerPercentage": 10,
+            "chopAttackPercentage": 10,
+            "attribute": [
+              "生命上限+600",
+              "力量+10%",
+              "劈砍攻击力+10%"
+            ]
+          },
+          {
+            "label": "镶嵌：16级",
+            "value": 16,
+            "basicHP": 720,
+            "powerPercentage": 11,
+            "chopAttackPercentage": 11,
+            "attribute": [
+              "生命上限+720",
+              "力量+11%",
+              "劈砍攻击力+11%"
+            ]
+          },
+          {
+            "label": "镶嵌：17级",
+            "value": 17,
+            "basicHP": 840,
+            "powerPercentage": 12,
+            "chopAttackPercentage": 12,
+            "attribute": [
+              "生命上限+840",
+              "力量+12%",
+              "劈砍攻击力+12%"
+            ]
+          },
+          {
+            "label": "镶嵌：18级",
+            "value": 18,
+            "basicHP": 960,
+            "powerPercentage": 13,
+            "chopAttackPercentage": 13,
+            "attribute": [
+              "生命上限+960",
+              "力量+13%",
+              "劈砍攻击力+13%"
+            ]
+          },
+          {
+            "label": "镶嵌：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "powerPercentage": 15,
+            "chopAttackPercentage": 15,
+            "attribute": [
+              "生命上限+1080",
+              "力量+15%",
+              "劈砍攻击力+15%"
+            ]
+          },
+          {
+            "label": "镶嵌：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "powerPercentage": 20,
+            "chopAttackPercentage": 20,
+            "attribute": [
+              "生命上限+1200",
+              "力量+20%",
+              "劈砍攻击力+20%"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "底座",
+        "value": "base",
+        "children": [
+          {
+            "label": "底座：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "底座：1级",
+            "value": 1,
+            "basicHP": 30,
+            "agilePercentage": 1,
+            "puncturePercentage": 1,
+            "attribute": [
+              "生命上限+30",
+              "敏捷+1%",
+              "穿刺攻击力+1%"
+            ]
+          },
+          {
+            "label": "底座：2级",
+            "value": 2,
+            "basicHP": 60,
+            "agilePercentage": 1,
+            "puncturePercentage": 1,
+            "attribute": [
+              "生命上限+60",
+              "敏捷+1%",
+              "穿刺攻击力+1%"
+            ]
+          },
+          {
+            "label": "底座：3级",
+            "value": 3,
+            "basicHP": 90,
+            "agilePercentage": 2,
+            "puncturePercentage": 2,
+            "attribute": [
+              "生命上限+90",
+              "敏捷+2%",
+              "穿刺攻击力+2%"
+            ]
+          },
+          {
+            "label": "底座：4级",
+            "value": 4,
+            "basicHP": 120,
+            "agilePercentage": 2,
+            "puncturePercentage": 2,
+            "attribute": [
+              "生命上限+120",
+              "敏捷+2%",
+              "穿刺攻击力+2%"
+            ]
+          },
+          {
+            "label": "底座：5级",
+            "value": 5,
+            "basicHP": 150,
+            "agilePercentage": 3,
+            "puncturePercentage": 3,
+            "attribute": [
+              "生命上限+150",
+              "敏捷+3%",
+              "穿刺攻击力+3%"
+            ]
+          },
+          {
+            "label": "底座：6级",
+            "value": 6,
+            "basicHP": 180,
+            "agilePercentage": 3,
+            "puncturePercentage": 3,
+            "attribute": [
+              "生命上限+180",
+              "敏捷+3%",
+              "穿刺攻击力+3%"
+            ]
+          },
+          {
+            "label": "底座：7级",
+            "value": 7,
+            "basicHP": 210,
+            "agilePercentage": 4,
+            "puncturePercentage": 4,
+            "attribute": [
+              "生命上限+210",
+              "敏捷+4%",
+              "穿刺攻击力+4%"
+            ]
+          },
+          {
+            "label": "底座：8级",
+            "value": 8,
+            "basicHP": 240,
+            "agilePercentage": 4,
+            "puncturePercentage": 4,
+            "attribute": [
+              "生命上限+240",
+              "敏捷+4%",
+              "穿刺攻击力+4%"
+            ]
+          },
+          {
+            "label": "底座：9级",
+            "value": 9,
+            "basicHP": 270,
+            "agilePercentage": 5,
+            "puncturePercentage": 5,
+            "attribute": [
+              "生命上限+270",
+              "敏捷+5%",
+              "穿刺攻击力+5%"
+            ]
+          },
+          {
+            "label": "底座：10级",
+            "value": 10,
+            "basicHP": 300,
+            "agilePercentage": 5,
+            "puncturePercentage": 5,
+            "attribute": [
+              "生命上限+300",
+              "敏捷+5%",
+              "穿刺攻击力+5%"
+            ]
+          },
+          {
+            "label": "底座：11级",
+            "value": 11,
+            "basicHP": 360,
+            "agilePercentage": 6,
+            "puncturePercentage": 6,
+            "attribute": [
+              "生命上限+360",
+              "敏捷+6%",
+              "穿刺攻击力+6%"
+            ]
+          },
+          {
+            "label": "底座：12级",
+            "value": 12,
+            "basicHP": 420,
+            "agilePercentage": 6,
+            "puncturePercentage": 6,
+            "attribute": [
+              "生命上限+420",
+              "敏捷+6%",
+              "穿刺攻击力+6%"
+            ]
+          },
+          {
+            "label": "底座：13级",
+            "value": 13,
+            "basicHP": 480,
+            "agilePercentage": 7,
+            "puncturePercentage": 7,
+            "attribute": [
+              "生命上限+480",
+              "敏捷+7%",
+              "穿刺攻击力+7%"
+            ]
+          },
+          {
+            "label": "底座：14级",
+            "value": 14,
+            "basicHP": 540,
+            "agilePercentage": 7,
+            "puncturePercentage": 7,
+            "attribute": [
+              "生命上限+540",
+              "敏捷+7%",
+              "穿刺攻击力+7%"
+            ]
+          },
+          {
+            "label": "底座：15级",
+            "value": 15,
+            "basicHP": 600,
+            "agilePercentage": 10,
+            "puncturePercentage": 10,
+            "attribute": [
+              "生命上限+600",
+              "敏捷+10%",
+              "穿刺攻击力+10%"
+            ]
+          },
+          {
+            "label": "底座：16级",
+            "value": 16,
+            "basicHP": 720,
+            "agilePercentage": 11,
+            "puncturePercentage": 11,
+            "attribute": [
+              "生命上限+720",
+              "敏捷+11%",
+              "穿刺攻击力+11%"
+            ]
+          },
+          {
+            "label": "底座：17级",
+            "value": 17,
+            "basicHP": 840,
+            "agilePercentage": 12,
+            "puncturePercentage": 12,
+            "attribute": [
+              "生命上限+840",
+              "敏捷+12%",
+              "穿刺攻击力+12%"
+            ]
+          },
+          {
+            "label": "底座：18级",
+            "value": 18,
+            "basicHP": 960,
+            "agilePercentage": 13,
+            "puncturePercentage": 13,
+            "attribute": [
+              "生命上限+960",
+              "敏捷+13%",
+              "穿刺攻击力+13%"
+            ]
+          },
+          {
+            "label": "底座：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "agilePercentage": 15,
+            "puncturePercentage": 15,
+            "attribute": [
+              "生命上限+1080",
+              "敏捷+15%",
+              "穿刺攻击力+15%"
+            ]
+          },
+          {
+            "label": "底座：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "agilePercentage": 20,
+            "puncturePercentage": 20,
+            "attribute": [
+              "生命上限+1200",
+              "敏捷+20%",
+              "穿刺攻击力+20%"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "镀层",
+        "value": "coating",
+        "children": [
+          {
+            "label": "镀层：0级",
+            "value": 0,
+            "attribute": [
+              "请开启后再查看"
+            ]
+          },
+          {
+            "label": "镀层：1级",
+            "value": 1,
+            "basicHP": 30,
+            "intelligencePercentage": 1,
+            "magicPercentage": 1,
+            "attribute": [
+              "生命上限+30",
+              "智力+1%",
+              "魔法攻击力+1%"
+            ]
+          },
+          {
+            "label": "镀层：2级",
+            "value": 2,
+            "basicHP": 60,
+            "intelligencePercentage": 1,
+            "magicPercentage": 1,
+            "attribute": [
+              "生命上限+60",
+              "智力+1%",
+              "魔法攻击力+1%"
+            ]
+          },
+          {
+            "label": "镀层：3级",
+            "value": 3,
+            "basicHP": 90,
+            "intelligencePercentage": 2,
+            "magicPercentage": 2,
+            "attribute": [
+              "生命上限+90",
+              "智力+2%",
+              "魔法攻击力+2%"
+            ]
+          },
+          {
+            "label": "镀层：4级",
+            "value": 4,
+            "basicHP": 120,
+            "intelligencePercentage": 2,
+            "magicPercentage": 2,
+            "attribute": [
+              "生命上限+120",
+              "智力+2%",
+              "魔法攻击力+2%"
+            ]
+          },
+          {
+            "label": "镀层：5级",
+            "value": 5,
+            "basicHP": 150,
+            "intelligencePercentage": 3,
+            "magicPercentage": 3,
+            "attribute": [
+              "生命上限+150",
+              "智力+3%",
+              "魔法攻击力+3%"
+            ]
+          },
+          {
+            "label": "镀层：6级",
+            "value": 6,
+            "basicHP": 180,
+            "intelligencePercentage": 3,
+            "magicPercentage": 3,
+            "attribute": [
+              "生命上限+180",
+              "智力+3%",
+              "魔法攻击力+3%"
+            ]
+          },
+          {
+            "label": "镀层：7级",
+            "value": 7,
+            "basicHP": 210,
+            "intelligencePercentage": 4,
+            "magicPercentage": 4,
+            "attribute": [
+              "生命上限+210",
+              "智力+4%",
+              "魔法攻击力+4%"
+            ]
+          },
+          {
+            "label": "镀层：8级",
+            "value": 8,
+            "basicHP": 240,
+            "intelligencePercentage": 4,
+            "magicPercentage": 4,
+            "attribute": [
+              "生命上限+240",
+              "智力+4%",
+              "魔法攻击力+4%"
+            ]
+          },
+          {
+            "label": "镀层：9级",
+            "value": 9,
+            "basicHP": 270,
+            "intelligencePercentage": 5,
+            "magicPercentage": 5,
+            "attribute": [
+              "生命上限+270",
+              "智力+5%",
+              "魔法攻击力+5%"
+            ]
+          },
+          {
+            "label": "镀层：10级",
+            "value": 10,
+            "basicHP": 300,
+            "intelligencePercentage": 5,
+            "magicPercentage": 5,
+            "attribute": [
+              "生命上限+300",
+              "智力+5%",
+              "魔法攻击力+5%"
+            ]
+          },
+          {
+            "label": "镀层：11级",
+            "value": 11,
+            "basicHP": 360,
+            "intelligencePercentage": 6,
+            "magicPercentage": 6,
+            "attribute": [
+              "生命上限+360",
+              "智力+6%",
+              "魔法攻击力+6%"
+            ]
+          },
+          {
+            "label": "镀层：12级",
+            "value": 12,
+            "basicHP": 420,
+            "intelligencePercentage": 7,
+            "magicPercentage": 7,
+            "attribute": [
+              "生命上限+420",
+              "智力+7%",
+              "魔法攻击力+7%"
+            ]
+          },
+          {
+            "label": "镀层：13级",
+            "value": 13,
+            "basicHP": 480,
+            "intelligencePercentage": 8,
+            "magicPercentage": 8,
+            "attribute": [
+              "生命上限+480",
+              "智力+8%",
+              "魔法攻击力+8%"
+            ]
+          },
+          {
+            "label": "镀层：14级",
+            "value": 14,
+            "basicHP": 540,
+            "intelligencePercentage": 9,
+            "magicPercentage": 9,
+            "attribute": [
+              "生命上限+540",
+              "智力+9%",
+              "魔法攻击力+9%"
+            ]
+          },
+          {
+            "label": "镀层：15级",
+            "value": 15,
+            "basicHP": 600,
+            "intelligencePercentage": 10,
+            "magicPercentage": 10,
+            "attribute": [
+              "生命上限+600",
+              "智力+10%",
+              "魔法攻击力+10%"
+            ]
+          },
+          {
+            "label": "镀层：16级",
+            "value": 16,
+            "basicHP": 720,
+            "intelligencePercentage": 11,
+            "magicPercentage": 11,
+            "attribute": [
+              "生命上限+720",
+              "智力+11%",
+              "魔法攻击力+11%"
+            ]
+          },
+          {
+            "label": "镀层：17级",
+            "value": 17,
+            "basicHP": 840,
+            "intelligencePercentage": 12,
+            "magicPercentage": 12,
+            "attribute": [
+              "生命上限+840",
+              "智力+12%",
+              "魔法攻击力+12%"
+            ]
+          },
+          {
+            "label": "镀层：18级",
+            "value": 18,
+            "basicHP": 960,
+            "intelligencePercentage": 13,
+            "magicPercentage": 13,
+            "attribute": [
+              "生命上限+960",
+              "智力+13%",
+              "魔法攻击力+13%"
+            ]
+          },
+          {
+            "label": "镀层：19级",
+            "value": 19,
+            "basicHP": 1080,
+            "intelligencePercentage": 15,
+            "magicPercentage": 15,
+            "attribute": [
+              "生命上限+1080",
+              "智力+15%",
+              "魔法攻击力+15%"
+            ]
+          },
+          {
+            "label": "镀层：20级",
+            "value": 20,
+            "basicHP": 1200,
+            "intelligencePercentage": 20,
+            "magicPercentage": 20,
+            "attribute": [
+              "生命上限+1200",
+              "智力+20%",
+              "魔法攻击力+20%"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
