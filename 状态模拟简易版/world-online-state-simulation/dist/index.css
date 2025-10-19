@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+#box {
+  width: 100%;
+  padding: 0 15px;
+  position: relative;
+  text-align: center
+}
+
+#box h1 {
+  margin-top: 8vh
+}
+
+#box h1,
+#box .prompt {
+  font-weight: bold;
+  background-image: linear-gradient(to top, #00C6FF, #8AFFD2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+#box #console {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+#box #console h3,
+#box #console p {
+  margin-bottom: 8px
+}
+
+#box #console .skillFlex {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 280px;
+  max-width: 880px;
+  padding-top: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+  justify-content: safe center
+}
+
+#box #console .skill,
+#box #console .nextRand,
+#box #console .skillChacked {
+  outline: none;
+  cursor: pointer;
+  color: #409eff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #ecf5ff;
+  border-color: #b3d8ff;
+  border: 1px solid #dcdfe6
+}
+
+#box #console .skill,
+#box #console .skillChacked {
+  margin-bottom: 12px
+}
+
+#box #console .skill:hover,
+#box #console .nextRand:hover {
+  color: #fff;
+  background: #409eff;
+  border-color: #409eff
+}
+
+#box #console .skill:active,
+#box #console .nextRand:active {
+  color: #fff;
+  outline: none;
+  background: #3a8ee6;
+  border-color: #3a8ee6
+}
+
+#box #console .skillChacked {
+  color: #fff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+  border: 1px solid transparent
+}
+
+#box #console .skillChacked:hover {
+  background: #f78989;
+  border-color: #f78989;
+  border: 1px solid transparent
+}
+
+#box #console .skillChacked:active {
+  background: #dd6161;
+  border-color: #dd6161;
+  border: 1px solid transparent
+}
+
+#box #console .skill:not(.skill:nth-of-type(1)),
+#box #console .skillChacked:not(.skillChacked:nth-of-type(1)) {
+  margin-left: 8px
+}
+
+#box #console .nextRand {
+  margin-top: 4px
+}
+
+#box #console .currentState {
+  margin: 8px 0
+}
+
+#box .stateList+.stateList::before {
+  content: '、'
+}
+
+#box .stateName {
+  position: relative;
+  cursor: pointer;
+  line-height: 25px
+}
+
+#box .stateName .skillTitle {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  width: 250px;
+  display: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: center;
+  background: white;
+  border: 1px dashed #3a8ee6;
+  transform: translateX(-50%)
+}
+
+#box .stateName .skillTitle::after {
+  position: absolute;
+  content: '';
+  background: white;
+  width: 8px;
+  height: 8px;
+  border: 1px dashed #3a8ee6;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%) rotate(45deg)
+}
+
+#box .stateName:hover .skillTitle {
+  display: block
+}
+
+#box .expire {
+  text-decoration: line-through
+}
+
+#box .stateRound {
+  margin-top: 15px
+}
+
+#box .stateRound .round {
+  color: red;
+  font-weight: bold
+}
+
+/*# sourceMappingURL=./index.css.map */

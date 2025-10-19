@@ -1,0 +1,194 @@
+getSkillData([
+  {
+    "name": "战斗怒吼(22级)",
+    "value": "战斗怒吼",
+    "skillAttribute": [
+      "劈砍攻击力+40%,属性增加",
+      "穿刺攻击力+40%,属性增加",
+      "物理命中率+26%"
+    ],
+    "round": 4,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "116法力",
+    "attackMode": "祝福",
+    "range": "我全体",
+    "armsLimitation": "无",
+    "checked": false
+  },
+  {
+    "name": "战斗怒吼(22级)",
+    "value": "战斗怒吼",
+    "skillAttribute": [
+      "劈砍攻击力+40%,属性增加",
+      "穿刺攻击力+40%,属性增加",
+      "物理命中率+26%"
+    ],
+    "round": 4,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "116法力",
+    "attackMode": "祝福",
+    "range": "我全体",
+    "armsLimitation": "无",
+    "checked": false
+  },
+  {
+    "name": "魔力增幅(22级)",
+    "value": "魔力增幅",
+    "skillAttribute": [
+      "魔法攻击力+42%,免疫禁言",
+      "每回合自动恢复法力+280"
+    ],
+    "round": 4,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "264法力",
+    "attackMode": "祝福",
+    "range": "自身",
+    "armsLimitation": "无",
+    "checked": false
+  },
+  {
+    "name": "骑士的奉献(1级)",
+    "value": "骑士的奉献",
+    "skillAttribute": [
+      "生命+500,无敌"
+    ],
+    "round": 1,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "1500法力,14000生命",
+    "attackMode": "祝福",
+    "range": "自身主人",
+    "describe": "6级持续一回合,天空骑士可以学满9级,蒙面骑士最高学习8级(可潜能9)",
+    "checked": false
+  },
+  {
+    "name": "骑士的奉献(7级)",
+    "value": "骑士的奉献",
+    "skillAttribute": [
+      "生命+620,无敌"
+    ],
+    "round": 2,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "1200法力,11000生命",
+    "attackMode": "祝福",
+    "range": "自身主人",
+    "describe": "6级持续一回合,天空骑士可以学满9级,蒙面骑士最高学习8级(可潜能9)",
+    "checked": false
+  },
+  {
+    "name": "骑士的奉献(9级)",
+    "value": "骑士的奉献",
+    "skillAttribute": [
+      "生命+660,无敌"
+    ],
+    "round": 3,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "1100法力,10000生命",
+    "attackMode": "祝福",
+    "range": "自身主人",
+    "describe": "6级持续一回合,天空骑士可以学满9级,蒙面骑士最高学习8级(可潜能9)",
+    "checked": false
+  },
+  {
+    "name": "净化弹(9级)",
+    "value": "净化弹",
+    "skillAttribute": [
+      "清除目标幻影状态",
+      "清除目标魔攻无效状态",
+      "清除目标物攻无效状态"
+    ],
+    "round": 1,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "200法力",
+    "attackMode": "祝福",
+    "range": "敌十字",
+    "checked": false
+  },
+  {
+    "name": "祝福(22级)",
+    "value": "祝福",
+    "skillAttribute": [
+      "攻击次数+3,属性增加",
+      "劈砍攻击力+23%,属性增加",
+      "穿刺攻击力+23%,属性增加"
+    ],
+    "round": 4,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "500法力",
+    "attackMode": "祝福",
+    "range": "我十字",
+    "armsLimitation": "无",
+    "checked": false
+  },
+  {
+    "name": "许愿-魔法结界(8级)",
+    "value": "许愿-魔法结界",
+    "skillAttribute": [
+      "魔法防御力+1900,魔攻无效",
+      "洞察+115,魔攻无效"
+    ],
+    "round": 2,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "900法力",
+    "attackMode": "祝福",
+    "range": "宠物和主人",
+    "checked": false
+  },
+  {
+    "name": "许愿-魔法结界(9级)",
+    "value": "许愿-魔法结界",
+    "skillAttribute": [
+      "魔法防御力+2100,魔攻无效",
+      "洞察+130,魔攻无效"
+    ],
+    "round": 3,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "600法力",
+    "attackMode": "祝福",
+    "range": "宠物和主人",
+    "checked": false
+  },
+  {
+    "name": "血雾的结界(1级)",
+    "value": "血雾的结界",
+    "skillAttribute": [
+      "造成最大生命值20%的伤害,物攻无效"
+    ],
+    "round": 2,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "2000法力",
+    "attackMode": "祝福",
+    "range": "宠物和主人",
+    "checked": false
+  },
+  {
+    "name": "催筋裂骨(22级)",
+    "value": "催筋裂骨",
+    "skillAttribute": [
+      "清除目标增益状态",
+      "出手速度-50%,衰弱"
+    ],
+    "round": 3,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "320法力",
+    "attackMode": "祝福",
+    "range": "敌六人长方",
+    "armsLimitation": "无",
+    "checked": false
+  },
+  {
+    "name": "光芒之盾(22级)",
+    "value": "光芒之盾",
+    "skillAttribute": [
+      "回复最大生命值+18%,全减益免疫",
+      "回复最大法力值+18%",
+      "免伤护盾+3"
+    ],
+    "round": 3,
+    "additionalAttackTimes": "无",
+    "skillConsumption": "1800法力",
+    "attackMode": "祝福",
+    "range": "我全体",
+    "armsLimitation": "无限制",
+    "checked": false
+  }
+])
