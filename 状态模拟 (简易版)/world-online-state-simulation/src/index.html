@@ -429,13 +429,11 @@
     addSkill(e) {
       // 这里必须要使用深拷贝,不然会出现数据引用的问题
       const skill = { ...e }
-      console.log('添加技能被调用:', skill.name, 'ID:', skill.id);
       skill.id = nanoid()
       skill.background = randomColors()
       this.setState({
         skillList: [skill, ...this.state.skillList]
       }, () => {
-        console.log('添加后的技能列表:', this.state.skillList);
         this.localSkillStorage(this.state.skillList)
       })
     }
@@ -524,7 +522,7 @@
     render() {
       const { round, skillList, allLevel, highestLevel, currentState, initialState, stateList, isPC, isStateSimulation, searchText, expandLevelData } = this.state
 
-      if (!skillList.length) {
+      if (!allLevel.length || !highestLevel.length) {
         return (
           <div className={'loading'}>
             <div className={"loadingMassage"}>
@@ -740,6 +738,22 @@
       }
     }
 
+    // 删除按钮的触摸事件处理
+    handleDeleteTouch = (event, e) => {
+      // 清除父元素的单击定时器，避免触发技能选择
+      if (this.state.tapTimeout) {
+        clearTimeout(this.state.tapTimeout);
+        this.setState({ tapTimeout: null });
+      }
+      // 阻止冒泡，避免触发父元素的触摸事件
+      event.stopPropagation();
+      event.preventDefault();
+
+      if (confirm(`确定要删除技能:【${e.name}】吗`)) {
+        this.deleteClick(e);
+      }
+    }
+
     render() {
       const { skillItem, isPC, isStateSimulation, skillState, handleDoubleClick = () => undefined } = this.props
 
@@ -769,7 +783,7 @@
         onTouchEnd={this.handleTouchEnd}
       >
         {skillItem.name}
-        {!isStateSimulation && skillState !== SkillStateEnum.add && <div className={'close-icon'} onClick={(event) => { this.handleDelete(event, skillItem) }} onDoubleClick={e => e.stopPropagation()} style={{ marginLeft: "8px" }}></div>}
+        {!isStateSimulation && skillState !== SkillStateEnum.add && <div className={'close-icon'} onTouchEnd={(event) => { this.handleDeleteTouch(event, skillItem) }} onDoubleClick={e => e.stopPropagation()} style={{ marginLeft: "8px" }}></div>}
       </button>
     }
   }
