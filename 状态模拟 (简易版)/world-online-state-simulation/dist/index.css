@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex
+}
+
+.loading .loadingMassage {
+  margin: auto
+}
+
+#box {
+  width: 100%;
+  padding: 0 15px;
+  position: relative;
+  text-align: center
+}
+
+#box h1 {
+  margin-top: 8vh
+}
+
+#box h1,
+#box .prompt {
+  font-weight: bold;
+  background-image: linear-gradient(to top, #00C6FF, #8AFFD2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+#box .flex {
+  display: flex;
+  align-items: baseline
+}
+
+#box .flexCenter {
+  display: flex;
+  align-items: baseline;
+  justify-content: center
+}
+
+#box .skillSelect {
+  margin: 20px 0
+}
+
+#box .skillSelect .search {
+  padding: 15px 5px;
+  height: 15px
+}
+
+#box .skillSelect .skillLevel {
+  margin-left: 20px
+}
+
+#box .prompt {
+  font-size: 18px
+}
+
+#box #console {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 50px
+}
+
+#box #console h3,
+#box #console p {
+  margin-bottom: 8px
+}
+
+#box #console .skillFlex {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  min-width: 280px;
+  max-width: 880px;
+  padding-top: 12px;
+  justify-content: safe center
+}
+
+#box #console .skill,
+#box #console .primary,
+#box #console .nextRand,
+#box #console .skillChecked {
+  outline: none;
+  cursor: pointer;
+  color: #409eff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #ecf5ff;
+  border-color: #b3d8ff;
+  border: 1px solid #dcdfe6
+}
+
+#box #console .skill:hover,
+#box #console .primary:hover,
+#box #console .nextRand:hover {
+  color: #fff;
+  background: #409eff;
+  border-color: #409eff
+}
+
+#box #console .skill:active,
+#box #console .primary:active,
+#box #console .nextRand:active {
+  color: #fff;
+  outline: none;
+  background: #3a8ee6;
+  border-color: #3a8ee6
+}
+
+#box #console .skillChecked {
+  color: #fff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+  border: 1px solid transparent
+}
+
+#box #console .skillChecked:hover {
+  background: #f78989;
+  border-color: #f78989;
+  border: 1px solid transparent
+}
+
+#box #console .skillChecked:active {
+  background: #dd6161;
+  border-color: #dd6161;
+  border: 1px solid transparent
+}
+
+#box #console .skill:not(.skill:nth-of-type(1)),
+#box #console .skillChecked:not(.skillChecked:nth-of-type(1)) {
+  margin-left: 8px
+}
+
+#box #console .nextRand {
+  margin-top: 4px
+}
+
+#box #console .currentState {
+  margin: 8px 0
+}
+
+#box .stateList+.stateList::before {
+  content: '、'
+}
+
+#box .stateName {
+  position: relative;
+  cursor: pointer;
+  line-height: 25px
+}
+
+#box .stateName .skillTitle {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  width: 250px;
+  display: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: center;
+  background: white;
+  border: 1px dashed #3a8ee6;
+  transform: translateX(-50%)
+}
+
+#box .stateName .skillTitle::after {
+  position: absolute;
+  content: '';
+  background: white;
+  width: 8px;
+  height: 8px;
+  border: 1px dashed #3a8ee6;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%) rotate(45deg)
+}
+
+#box .stateName .skillTitle.skillButton {
+  bottom: unset;
+  transform: translate(-50%, -104%)
+}
+
+#box .stateName:hover .skillTitle {
+  display: block
+}
+
+#box .close-icon {
+  position: relative;
+  width: 8px;
+  cursor: pointer
+}
+
+#box .close-icon::before,
+#box .close-icon::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background-color: red
+}
+
+#box .close-icon::before {
+  transform: translate(-80%, -100%) rotate(45deg)
+}
+
+#box .close-icon::after {
+  transform: translate(-80%, -100%) rotate(-45deg)
+}
+
+#box .expire {
+  text-decoration: line-through
+}
+
+#box .stateRound {
+  margin-top: 15px
+}
+
+#box .stateRound .round {
+  color: red;
+  font-weight: bold
+}
+
+/*# sourceMappingURL=./index.css.map */

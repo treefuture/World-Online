@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  .loadingMassage {
+    margin: auto;
+  }
+}
+
+#box {
+  width: 100%;
+  padding: 0 15px;
+  position: relative;
+  text-align: center;
+
+  h1 {
+    margin-top: 8vh;
+  }
+
+  h1,
+  .prompt {
+    font-weight: bold;
+    /* 线性渐变背景，方向向上 */
+    background-image: linear-gradient(to top, #00C6FF, #8AFFD2);
+    /* 背景被裁剪成文字的前景色 */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* 文字填充颜色变透明 */
+    -webkit-text-fill-color: transparent;
+  }
+
+  .flex {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .flexCenter {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .skillSelect {
+    margin: 20px 0;
+
+    .search {
+      padding: 15px 5px;
+      height: 15px;
+    }
+
+    .skillLevel {
+      margin-left: 20px;
+    }
+  }
+
+  .prompt {
+    font-size: 18px;
+  }
+
+  #console {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 50px;
+
+    h3,
+    p {
+      margin-bottom: 8px;
+    }
+
+    .skillFlex {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      min-width: 280px;
+      max-width: 880px;
+      padding-top: 12px;
+      justify-content: safe center;
+    }
+
+    .skill,
+    .primary,
+    .nextRand,
+    .skillChecked {
+      outline: none;
+      cursor: pointer;
+      color: #409eff;
+      padding: 8px 12px;
+      border-radius: 5px;
+      background: #ecf5ff;
+      border-color: #b3d8ff;
+      border: 1px solid #dcdfe6;
+    }
+
+    .skill:hover,
+    .primary:hover,
+    .nextRand:hover {
+      color: #fff;
+      background: #409eff;
+      border-color: #409eff;
+    }
+
+    .skill:active,
+    .primary:active,
+    .nextRand:active {
+      color: #fff;
+      outline: none;
+      background: #3a8ee6;
+      border-color: #3a8ee6;
+    }
+
+    .skillChecked {
+      color: #fff;
+      background-color: #f56c6c;
+      border-color: #f56c6c;
+      border: 1px solid transparent;
+    }
+
+    .skillChecked:hover {
+      background: #f78989;
+      border-color: #f78989;
+      border: 1px solid transparent;
+    }
+
+    .skillChecked:active {
+      background: #dd6161;
+      border-color: #dd6161;
+      border: 1px solid transparent;
+    }
+
+    .skill:not(.skill:nth-of-type(1)),
+    .skillChecked:not(.skillChecked:nth-of-type(1)) {
+      margin-left: 8px;
+    }
+
+    .nextRand {
+      margin-top: 4px;
+    }
+
+    .currentState {
+      margin: 8px 0;
+    }
+  }
+
+  .stateList+.stateList::before {
+    content: '、';
+  }
+
+  .stateName {
+    position: relative;
+    cursor: pointer;
+    line-height: 25px;
+
+    .skillTitle {
+      z-index: 1;
+      position: absolute;
+      left: 50%;
+      bottom: 28px;
+      width: 250px;
+      display: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      text-align: center;
+      background: white;
+      border: 1px dashed #3a8ee6;
+      transform: translateX(-50%);
+    }
+
+    .skillTitle::after {
+      position: absolute;
+      content: '';
+      background: white;
+      width: 8px;
+      height: 8px;
+      border: 1px dashed #3a8ee6;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 50%) rotate(45deg);
+    }
+
+    .skillTitle.skillButton {
+      bottom: unset;
+      transform: translate(-50%, -104%);
+    }
+  }
+
+  .stateName:hover .skillTitle {
+    display: block;
+  }
+
+  .close-icon {
+    position: relative;
+    width: 8px;
+    cursor: pointer;
+  }
+
+  .close-icon::before,
+  .close-icon::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background-color: red;
+  }
+
+  .close-icon::before {
+    transform: translate(-80%, -100%) rotate(45deg);
+  }
+
+  .close-icon::after {
+    transform: translate(-80%, -100%) rotate(-45deg);
+  }
+
+  .expire {
+    text-decoration: line-through;
+  }
+
+  .stateRound {
+    margin-top: 15px;
+
+    .round {
+      color: red;
+      font-weight: bold;
+    }
+  }
+}

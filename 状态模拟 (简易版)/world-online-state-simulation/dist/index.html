@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>状态模拟(简易版)</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+<!-- 引入react核心库 -->
+<script src="../src/loder/react.development.js"></script>
+<!-- 引入react-demo,用于支持react操作DOM -->
+<script src="../src/loder/react-dom.development.js"></script>
+<!-- 引入babel,用于将jsx转为js -->
+<script src="../src/loder/babel.min.js"></script>
+<!--引入prop-types，用于对组件标签属性进行限制-->
+<script src="../src/loder/prop-types.js"></script>
+
+<script src="./bundle.js"></script>
+<script>
+  let skillData = undefined;
+  function getSkillData(result) {
+    skillData = result
+  }
+</script>
+<script type="text/javascript" src="vocationalSkills.json?callback=getSkillData"></script>
+
+<!-- 此处一定要写babel -->
+<script type="text/babel">
+  // 导入暴露到全局的方法
+  const { flatDeep, nanoid, randomColors, equipment, inflate, debounce, debouncePuls } = window.exports
+
+  // 状态匹配
+  const stateMatches = {
+    // 所有的状态
+    all: ['属性增加', '属性减少', '免疫混乱', '免疫封魔', '免疫禁言', '免疫封技', '免疫定身', '免疫嘲讽', '免疫衰弱', '全减益免疫', '物攻无效', '魔攻无效', '无敌', '持续回血', '持续回魔', '幻影', '流血', '衰弱', '中毒', '火烧', '混乱', '封魔', '禁言', '封技', '定身', '嘲讽', '驱逐', '不死意志', '死者苏生', '死亡傀儡'],
+    // 正面状态
+    buff: ['属性增加', '免疫混乱', '免疫封魔', '免疫禁言', '免疫封技', '免疫定身', '免疫嘲讽', '免疫衰弱', '全减益免疫', '物攻无效', '魔攻无效', '无敌', '持续回血', '持续回魔', '幻影', '流血', '不死意志', '死者苏生', '死亡傀儡'],
+    // 负面状态
+    debuff: ['属性减少', '流血', '衰弱', '中毒', '火烧', '混乱', '封魔', '禁言', '封技', '定身', '嘲讽', '驱逐']
+  }
+
+  const initSkill = [
+    { "name": "战斗怒吼(22级)", "value": "战斗怒吼" },
+    { "name": "战斗怒吼(22级)", "value": "战斗怒吼" },
+    { "name": "魔力增幅(22级)", "value": "魔力增幅" },
+    { "name": "骑士的奉献(1级)", "value": "骑士的奉献" },
+    { "name": "骑士的奉献(7级)", "value": "骑士的奉献" },
+    { "name": "骑士的奉献(9级)", "value": "骑士的奉献" },
+    { "name": "净化弹(9级)", "value": "净化弹" },
+    { "name": "祝福(22级)", "value": "祝福" },
+    { "name": "许愿-魔法结界(8级)", "value": "许愿-魔法结界" },
+    { "name": "许愿-魔法结界(9级)", "value": "许愿-魔法结界" },
+    { "name": "血雾的结界(1级)", "value": "血雾的结界" },
+    { "name": "摧筋裂骨(22级)", "value": "摧筋裂骨" },
+    { "name": "光芒之盾(22级)", "value": "光芒之盾" },
+    { "name": "闪光弹(8级)", "value": "闪光弹" },
+    { "name": "解除魔法(22级)", "value": "解除魔法" },
+    { "name": "幻影法球(22级)", "value": "幻影法球" }
+  ]
+
+  // 特殊的技能词条
+  const SpecialSkillEntryEnum = {
+    /** 清除 */
+    clear: "清除",
+    /** 增益 */
+    buff: "增益",
+    /** 减益 */
+    debuff: "减益",
+    /** 无敌 */
+    invincible: "无敌",
+    /** 清除目标增益状态 */
+    purgeAllBuff: "清除目标增益状态"
+  }
+
+  const SkillTypeEnum = {
+    /** 主动技能 */
+    "active": "active",
+    /** 自动技能 */
+    "automatic": "automatic"
+  }
+
+  const SkillStateEnum = {
+    /** 技能展示 */
+    "display": "display",
+    /** 技能添加 */
+    "add": "add"
+  }
+
+  // 1.创建虚拟DOM
+  class StateSimulation extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        /** 回合 */
+        round: 1,
+        /** 技能数据 */
+        skillList: [],
+        /** 所有等级属性 */
+        allLevel: [],
+        /** 最高等级属性 */
+        highestLevel: [],
+        /** 当前状态 */
+        currentState: [],
+        /** 初始状态 */
+        initialState: [],
+        /** 储存每回合的状态属性 */
+        stateList: [],
+        /** 是状态模拟 */
+        isStateSimulation: true,
+        /** 是PC端 */
+        isPC: false,
+        /** 检索值 */
+        searchText: "",
+        /** 检索结果 */
+        searchValue: [],
+        /** 展开等级数据 */
+        expandLevelData: true,
+      }
+
+      // 绑定方法
+      this.skillChecked = this.skillChecked.bind(this);
+      this.changeColor = this.changeColor.bind(this);
+      this.deleteSkill = this.deleteSkill.bind(this);
+      this.addSkill = this.addSkill.bind(this);
+    }
+
+    // 组件将要挂载的生命周期钩子
+    async componentDidMount() {
+      const allLevel = []
+      const highestLevel = []
+      const skillList = []
+
+      // 初始化 主动/自动 技能数据列
+      const skillIntegration = Object.keys(skillData).reduce((accumulator, currentValue) => {
+        if (skillData[currentValue][SkillTypeEnum.active] || skillData[currentValue][SkillTypeEnum.automatic]) {
+          [...skillData[currentValue][SkillTypeEnum.active], ...skillData[currentValue][SkillTypeEnum.automatic]].forEach(item => {
+            if (!accumulator.some(items => items.name === item.name && items.value === item.value)) {
+              accumulator.push(item)
+            }
+          })
+        }
+        return accumulator
+      }, [])
+
+      // 遍历需要使用到的数据
+      if (skillIntegration.length) {
+        skillIntegration.forEach(item => {
+          if (item.children) {
+            const skill = item.children.skillLevel
+            highestLevel.push(...(skill.slice(-1).map(items => {
+              items.id = nanoid()
+              return items
+            })))
+            allLevel.push(...(skill.map(items => {
+              items.id = nanoid()
+              return items
+            })))
+          } else {
+            item.id = nanoid()
+            highestLevel.push(item)
+            allLevel.push(item)
+          }
+        });
+      }
+
+      // 获取本地数据
+      const localSkillList = JSON.parse(localStorage.getItem("localSkillList")) || []
+      // 技能数据归一化
+      const skillApplication = localSkillList.length ? localSkillList : initSkill
+      // 获取技能列表
+      skillApplication.forEach(item => {
+        skillList.push({
+          ...allLevel.find(skillItem => item.name === skillItem.name && item.value === skillItem.value),
+          id: nanoid(),
+          background: randomColors()
+        })
+      })
+
+      this.setState({
+        allLevel,
+        skillList,
+        highestLevel,
+        isPC: !equipment()
+      })
+    }
+
+    // 技能属性状态
+    skillAttributeMate(stateList) {
+      stateList.map(item => {
+        const strTemp = stateMatches.all.find(items => !item.skillAttribute.includes(SpecialSkillEntryEnum.clear) && item.skillAttribute.includes(items))
+        if (strTemp) {
+          item.value = strTemp
+        }
+
+        return item
+      })
+    }
+
+    // 当前状态
+    statesExpired(stateList, created = false) {
+      //  查找'清除'类技能出现的每一个位置
+      const cleanList = []
+      stateList.map((item, index) => {
+        if (item.skillAttribute.includes(SpecialSkillEntryEnum.clear)) {
+          const value = item.skillAttribute.match(/清除目标(.*?)状态/)[1]
+          cleanList.push({
+            value,
+            index
+          })
+        }
+
+        if (item.round) {
+          item.expire = false
+        }
+      })
+
+      // 记录无敌状态出现的位置，以方便后续状态的处理
+      let makeIndex = stateList.findIndex(item => item.value && item.value === SpecialSkillEntryEnum.invincible && !item.expire)
+
+      if (makeIndex < 0) {
+        this.stateExpire(stateList, stateList.length, 3, stateMatches.buff)
+      } else {
+        this.stateExpire(stateList, makeIndex, 0, stateMatches.debuff)
+      }
+
+      // 带有清除的状态处理
+      if (created) {
+        cleanList.map(item => {
+          if (item.value === SpecialSkillEntryEnum.buff) {
+            stateList.map((items, index_) => {
+              if (stateMatches.buff.some(state => items.value === state)) {
+                items.expire = true
+              }
+            })
+          } else if (item.value === SpecialSkillEntryEnum.debuff) {
+            stateList.map((items, index_) => {
+              if (stateMatches.debuff.some(state => items.value === state)) {
+                items.expire = true
+              }
+            })
+          } else {
+            stateList.map((items, index_) => {
+              if (items.value === item.value) {
+                items.expire = true
+              }
+            })
+          }
+        })
+
+        return stateList
+      } else {
+        cleanList.map(item => {
+          if (item.value === SpecialSkillEntryEnum.buff) {
+            stateList.map((items, index_) => {
+              if (stateMatches.buff.some(state => items.value === state) && item.index >= index_) {
+                items.expire = true
+              }
+            })
+          } else if (item.value === SpecialSkillEntryEnum.debuff) {
+            stateList.map((items, index_) => {
+              if (stateMatches.debuff.some(state => items.value === state) && item.index >= index_) {
+                items.expire = true
+              }
+            })
+          } else {
+            stateList.map((items, index_) => {
+              if (items.value === item.value && item.index >= index_) {
+                items.expire = true
+              }
+            })
+          }
+        })
+      }
+
+      // 记录无敌状态出现的位置，然后通过位置进行状态的过期处理
+      makeIndex = stateList.findIndex(item => item.value && item.value === SpecialSkillEntryEnum.invincible && !item.expire)
+
+      if (makeIndex >= 0) {
+        this.stateExpire(stateList, makeIndex, 2, stateMatches.buff)
+      } else {
+        this.stateExpire(stateList, stateList.length, 3, stateMatches.buff)
+      }
+      // 角色负面状态也只有三个
+      this.stateExpire(stateList, stateList.length, 3, stateMatches.debuff)
+    }
+
+    // 状态过期
+    stateExpire(stateList, length, make, regs) {
+      for (let i = length - 1; i >= 0; i--) {
+        // 为了防止无敌状态直接穿透后面所有的状态
+        if (stateList[i].skillAttribute === SpecialSkillEntryEnum.purgeAllBuff) break
+        if (stateList[i].value && !stateList[i].expire && regs.some(item => item === stateList[i].value) && make) {
+          make--
+        } else if (stateList[i].value && regs.some(item => item === stateList[i].value) && !make) {
+          stateList[i].expire = true
+        }
+      }
+
+      if (stateList.length !== length) {
+        for (let i = length + 1, j = stateList.length; i < j; i++) {
+          // 为了防止无敌状态直接穿透后面所有的状态
+          if (stateList[i].skillAttribute === SpecialSkillEntryEnum.purgeAllBuff) break
+          if (stateList[i].value && !stateList[i].expire && regs.some(item => item === stateList[i].value)) {
+            stateList[i].expire = true
+          }
+        }
+      }
+    }
+
+    // 选择的技能
+    skillChecked(e) {
+      // 不为状态模拟的时候无法选择技能
+      if (!this.state.isStateSimulation) return
+      this.setState(data => {
+        let stateList = [...data.currentState]
+        return {
+          skillList: data.skillList.map(item => {
+            if (item.id === e.id) {
+              item.checked = !item.checked
+
+              if (item.checked) {
+                item.color = item.background
+
+                // 选择的技能的状态
+                stateList.push(...item.skillAttribute.map(items => {
+                  const stateTemp = {}
+                  stateTemp.name = item.name
+                  stateTemp.skillAttribute = items
+                  stateTemp.id = item.id
+                  stateTemp.color = item.color
+                  stateTemp.round = item.round
+                  stateTemp.expire = false
+                  stateTemp.current = true
+
+                  return stateTemp
+                }))
+              } else {
+                delete item.color
+                // 技能选择取消相应的状态也应该取消
+                stateList = stateList.filter(items => items.id !== item.id)
+              }
+            }
+            // 给技能属性绑定合适的Value值
+            this.skillAttributeMate(stateList)
+            // 判断当前状态是否过期
+            this.statesExpired(stateList)
+            return item
+          }),
+          currentState: stateList
+        }
+      })
+    }
+
+    // 双击切换当前技能、状态词条的颜色
+    changeColor(e) {
+      // 颜色切换
+      const colorSwitch = (list, id, background) =>
+        list.map(item => {
+          if (id === item.id) {
+            item.background = background
+            item.color = background
+          }
+          return item
+        })
+
+      this.setState(data => {
+        const background = randomColors()
+        return {
+          skillList: colorSwitch(data.skillList, e.id, background),
+          stateList: colorSwitch(data.stateList, e.id, background),
+          initialState: colorSwitch(data.initialState, e.id, background),
+          currentState: colorSwitch(data.currentState, e.id, background)
+        }
+      })
+    }
+
+    /** 技能本地存储 */
+    localSkillStorage(skillList) {
+      const handleSkillList = skillList.map(item => {
+        const skillItem = {}
+        skillItem.name = item.name
+        skillItem.value = item.value
+
+        return skillItem
+      })
+      localStorage.setItem("localSkillList", JSON.stringify(handleSkillList))
+    }
+
+    // 删除技能
+    deleteSkill(e) {
+      this.setState(data => {
+        let stateList = [...data.currentState]
+        return {
+          skillList: data.skillList.filter(item => item.id !== e.id),
+          currentState: stateList.filter(item => item.id !== e.id)
+        }
+      }, () => {
+        this.localSkillStorage(this.state.skillList)
+      })
+    }
+
+    // 添加技能
+    addSkill(e) {
+      // 这里必须要使用深拷贝,不然会出现数据引用的问题
+      const skill = { ...e }
+      console.log('添加技能被调用:', skill.name, 'ID:', skill.id);
+      skill.id = nanoid()
+      skill.background = randomColors()
+      this.setState({
+        skillList: [skill, ...this.state.skillList]
+      }, () => {
+        console.log('添加后的技能列表:', this.state.skillList);
+        this.localSkillStorage(this.state.skillList)
+      })
+    }
+
+    // 选择技能后按下回车
+    handleKeyPress = (event) => {
+      if (event.key === 'Enter') {
+        this.setState({
+          searchText: event.target.value
+        });
+      }
+    };
+
+    // 选择技能后失去焦点
+    handleBlur = (event) => {
+      this.setState({
+        searchText: event.target.value
+      });
+    };
+
+    // 选择技能后清空
+    handleChange = (event) => {
+      const value = event.target.value
+      if (value) return
+      this.setState({
+        searchText: ''
+      });
+    };
+
+    // 进入下一回合
+    nextRound() {
+      const { round, skillList, currentState, initialState, stateList } = this.state
+      const list = currentState.map(item => {
+        item.round--
+        delete item.id
+
+        if (!item.round) {
+          item.expire = true
+        }
+
+        return item
+      })
+      this.setState({
+        round: round + 1,
+        skillList: skillList.map(item => {
+          item.checked = false
+          return item
+        }),
+        stateList: [{
+          round,
+          skillList: list.reduce((current, item) => {
+            if (!current.length && item.current) {
+              const tempSkill = skillList.find(items => items.name === item.name)
+              current.push({
+                ...tempSkill,
+                color: item.color
+              })
+            } else if (!current.some(items => items.name === item.name && items.color === item.color) && item.current) {
+              const tempSkill = skillList.find(items => items.name === item.name)
+              current.push({
+                ...tempSkill,
+                color: item.color
+              })
+            }
+
+            return current
+          }, []),
+          list,
+          initialState
+        }, ...stateList],
+      })
+
+      const tempState = structuredClone(list.filter(item => {
+        item.current = false
+        if (!item.expire) {
+          return item
+        }
+      }))
+
+      this.setState({
+        initialState: structuredClone(this.statesExpired(tempState, true)),
+        currentState: structuredClone(this.statesExpired(tempState, true).filter(item => !item.expire))
+      })
+    }
+
+    render() {
+      const { round, skillList, allLevel, highestLevel, currentState, initialState, stateList, isPC, isStateSimulation, searchText, expandLevelData } = this.state
+
+      if (!skillList.length) {
+        return (
+          <div className={'loading'}>
+            <div className={"loadingMassage"}>
+              <h1>状态模拟(简易版)</h1>
+              <p>数据正在加载中,请稍等...</p>
+            </div>
+          </div>
+        )
+      }
+
+      return (
+        <div id="box">
+          <h1>状态模拟(简易版)</h1>
+          <span className="prompt">单机改变技能选择状态，双击改变技能颜色</span>
+          <div id="console">
+            <h3>第{round}回合</h3>
+            <div style={{ marginBottom: "12px" }}>回合初始状态：
+              【
+              <StateShow currentState={initialState} />
+              】
+            </div>
+
+            <p>请选择需要使用的技能</p>
+            <div className="skillFlex" style={{ overflowY: isPC ? 'visible' : 'auto', maxHeight: isPC ? 'unset' : '200px' }}>
+              {skillList.map(item => {
+                return <SkillButton key={item.id} skillItem={item} isPC={isPC} skillState="display" isStateSimulation={isStateSimulation} handleClick={this.skillChecked} handleDoubleClick={this.changeColor} deleteClick={this.deleteSkill} />
+              })}
+            </div>
+
+            <button className="primary" onClick={() => this.setState({
+              isStateSimulation: !this.state.isStateSimulation
+            })} style={{ marginTop: "12px" }}>{this.state.isStateSimulation ? "更改技能" : "状态模拟"}</button>
+
+            {/* 状态模拟或技能更改 */}
+            {this.state.isStateSimulation ?
+              <div>
+                <div className="currentState">当前状态：【
+                  <StateShow currentState={currentState} />
+                  】
+                </div>
+                {
+                  currentState.some(item => item.expire) && currentState.some(item => !item.expire && item.value) &&
+                  <div className="currentState" key={nanoid()}>纯净版：【
+                    <StateShow currentState={currentState} condition={'item.expire'} />
+                    】
+                  </div>
+                }
+                <button className="nextRand" onClick={() => this.nextRound()}>进入下一回合</button>
+                <ul>
+                  {stateList.map(item => {
+                    return (
+                      <div className="stateRound" key={nanoid()}>
+                        <p className="round">第{item.round}回合</p>
+                        <div>所使用的技能：【<StateShow currentState={item.skillList} />】</div>
+                        <div>回合初始状态：【<StateShow currentState={item.initialState} />】</div>
+                        <div>回合结束状态：【<StateShow currentState={item.list} />】</div>
+                        {
+                          item.list.some(items => items.expire) && item.list.some(items => !items.expire && items.value) &&
+                          <div className="currentState">纯净版：【
+                            <StateShow currentState={item.list} condition={'item.expire'} />
+                            】
+                          </div>
+                        }
+                      </div>
+                    )
+                  })}
+                </ul>
+              </div> :
+
+              <div>
+                <div className={`${isPC && 'flexCenter'} skillSelect`}>
+                  <label className={`${isPC && 'flexCenter'}`}>
+                    <p>请输入需要添加的技能名称：</p>
+                    <input className="search" type="search" placeholder="请输入技能名称" onKeyPress={this.handleKeyPress} onBlur={this.handleBlur} onChange={this.handleChange} />
+                  </label><br />
+                  <label className={"skillLevel"}>
+                    显示等级技能&nbsp;
+                    <input type="checkbox" checked={expandLevelData} onChange={() => this.setState({
+                      expandLevelData: !expandLevelData
+                    })} />
+                  </label>
+                </div>
+
+                {searchText ? <div className="skillFlex" style={{ overflowY: isPC ? 'visible' : 'auto', maxHeight: isPC ? 'unset' : '200px', paddingBottom: "50px" }}>
+                  {/** 显示/不显示技能等级 */}
+                  {
+                    expandLevelData ?
+                      allLevel.filter(item => item.value === searchText || item.name.includes(searchText)).map(item => <SkillButton key={item.id} skillItem={item} isPC={isPC} skillState="add" isStateSimulation={isStateSimulation} handleClick={this.addSkill} />) : highestLevel.filter(item => item.value === searchText || item.name.includes(searchText)).map(item =>
+                        <SkillButton key={item.id} skillItem={item} isPC={isPC} skillState="add" isStateSimulation={isStateSimulation} handleClick={this.addSkill} />
+                      )
+                  }
+                </div> : <p>{isPC ? "请输入技能名称后按下回车或点击空白处" : "请输入技能名称后点击空白处"}</p>}
+
+              </div>
+            }
+          </div>
+        </div >
+      )
+    }
+  }
+
+  /**
+   * 状态显示
+  */
+  class StateShow extends React.Component {
+    render() {
+      const { currentState, condition } = this.props
+      return (
+        currentState.map((item, index) => {
+          if (item && item.value && !eval(condition)) {
+            return <span className={`stateName stateList ${item.expire ? 'expire' : ''}`} key={nanoid()} style={{ color: item.color }}>
+              <div className="skillTitle">
+                <p>技能名称：{item.name}</p>
+                <div>状态属性：{
+                  Array.isArray(item.skillAttribute) ? item.skillAttribute.map((items, index) => {
+                    return <div key={index}>{items}</div>
+                  }) : item.skillAttribute
+                }</div>
+                <span>{item.expire ? '该状态已过期' : `状态回合：${item.round}`}</span>
+              </div>
+              {item.value}
+            </span>
+          }
+        })
+      )
+    }
+  }
+
+  /** 
+   * 技能按钮展示
+  */
+  class SkillButton extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        /** 记录选中的技能id */
+        clickId: undefined,
+        /** 记录最后一次点击时间（用于移动端双击检测） */
+        lastTapTime: 0,
+        /** 移动端双击检测定时器 */
+        tapTimeout: null
+      }
+
+      // 绑定方法
+      this.handleClick = props.handleClick;
+      this.deleteClick = props.deleteClick;
+      this.handleDoubleClick = props.handleDoubleClick;
+    }
+
+    // 技能选择函数
+    debounceHandleClick(e) {
+      if (this.state.clickId !== e.id) {
+        // 单机时延迟执行函数
+        this.debounceFunc(e)
+        // 记录当前选择的技能的id
+        this.setState({
+          clickId: e.id
+        })
+      }
+      // 如果短时间内操作的同一技能则取消函数调用
+      if (this.state.clickId === e.id) {
+        this.debounceFunc.cancel()
+      }
+      this.initClickId()
+    }
+
+    // 重置记录的技能id
+    initClickId = debounce(() => {
+      this.setState({
+        clickId: undefined
+      })
+    }, 500)
+
+    // 单机时执行函数
+    debounceFunc = debounce((e) => {
+      this.handleClick(e)
+    }, 500)
+
+    handleDelete = (event, e) => {
+      // 阻止冒泡
+      event.stopPropagation()
+      if (confirm(`确定要删除技能:【${e.name}】吗`)) {
+        this.deleteClick(e)
+      }
+    }
+
+    // 移动端触摸结束事件处理
+    handleTouchEnd = (e) => {
+      e.preventDefault();
+      const currentTime = new Date().getTime();
+      const tapLength = currentTime - this.state.lastTapTime;
+
+      // 清除之前的单击超时
+      if (this.state.tapTimeout) {
+        clearTimeout(this.state.tapTimeout);
+      }
+
+      // 判断是否为双击（两次点击间隔小于300ms）
+      if (this.state.lastTapTime && tapLength < 300 && tapLength > 0) {
+        // 双击事件 - 切换颜色
+        this.handleDoubleClick(this.props.skillItem);
+        this.setState({ lastTapTime: 0 });
+      } else {
+        // 设置单击超时
+        this.setState({
+          tapTimeout: setTimeout(() => {
+            // 单击事件 - 选择技能
+            this.handleClick(this.props.skillItem);
+            this.setState({ lastTapTime: 0 });
+          }, 300),
+          lastTapTime: currentTime
+        });
+      }
+    }
+
+    render() {
+      const { skillItem, isPC, isStateSimulation, skillState, handleDoubleClick = () => undefined } = this.props
+
+      return isPC ? <div className={'stateName'} key={skillItem.id} style={{ color: skillItem.color }}>
+        <div className="skillTitle skillButton">
+          <p>技能名称：{skillItem.name}</p>
+          <div>词条属性：{
+            Array.isArray(skillItem.skillAttribute) ? skillItem.skillAttribute.map((items, index) => {
+              return <div key={index}>{items}</div>
+            }) : skillItem.skillAttribute
+          }</div>
+          <span>{`状态回合：${skillItem.round}`}</span>
+        </div>
+        <button
+          className={`${skillItem.checked ? "skillChecked" : "skill"} flex`}
+          style={{ background: skillItem.checked ? skillItem.background : "" }}
+          onClick={() => this.debounceHandleClick(skillItem)}
+          onDoubleClick={() => handleDoubleClick(skillItem)}
+        >
+          {skillItem.name}
+          {!isStateSimulation && skillState !== SkillStateEnum.add && <div className={'close-icon'} onClick={(event) => { this.handleDelete(event, skillItem) }} onDoubleClick={e => e.stopPropagation()} style={{ marginLeft: "8px" }}></div>}
+        </button>
+      </div > : <button
+        className={`${skillItem.checked ? "skillChecked" : "skill"} flex`}
+        key={skillItem.id}
+        style={{ background: skillItem.checked ? skillItem.background : "" }}
+        onTouchEnd={this.handleTouchEnd}
+      >
+        {skillItem.name}
+        {!isStateSimulation && skillState !== SkillStateEnum.add && <div className={'close-icon'} onClick={(event) => { this.handleDelete(event, skillItem) }} onDoubleClick={e => e.stopPropagation()} style={{ marginLeft: "8px" }}></div>}
+      </button>
+    }
+  }
+
+  // 2.渲染虚拟DOM到页面
+  ReactDOM.render(<StateSimulation />, document.querySelector("#root"))
+</script>
