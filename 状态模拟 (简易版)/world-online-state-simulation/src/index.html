@@ -663,7 +663,10 @@
         /** 记录最后一次点击时间（用于移动端双击检测） */
         lastTapTime: 0,
         /** 移动端双击检测定时器 */
-        tapTimeout: null
+        tapTimeout: null,
+        /** 触摸起始位置 */
+        touchStartX: 0,
+        touchStartY: 0
       }
 
       // 绑定方法
@@ -709,9 +712,40 @@
       }
     }
 
+    // 触摸开始事件 - 记录起始位置
+    handleTouchStart = (e) => {
+      this.setState({
+        touchStartX: e.touches[0].clientX,
+        touchStartY: e.touches[0].clientY
+      });
+    }
+
     // 移动端触摸结束事件处理
     handleTouchEnd = (e) => {
+      // 检查是否点击的是删除按钮
+      const isDeleteButton = e.target.classList.contains('close-icon') ||
+        e.target.parentElement.classList.contains('close-icon');
+
+      if (isDeleteButton) {
+        // 如果是删除按钮，不处理单击/双击逻辑
+        return;
+      }
+
       e.preventDefault();
+
+      // 获取触摸结束位置
+      const touchEndX = e.changedTouches[0].clientX;
+      const touchEndY = e.changedTouches[0].clientY;
+
+      // 计算移动距离
+      const deltaX = Math.abs(touchEndX - this.state.touchStartX);
+      const deltaY = Math.abs(touchEndY - this.state.touchStartY);
+
+      // 如果移动距离超过阈值，认为是滑动而不是点击，不触发选择
+      if (deltaX > 10 || deltaY > 10) {
+        return;
+      }
+
       const currentTime = new Date().getTime();
       const tapLength = currentTime - this.state.lastTapTime;
 
@@ -780,6 +814,7 @@
         className={`${skillItem.checked ? "skillChecked" : "skill"} flex`}
         key={skillItem.id}
         style={{ background: skillItem.checked ? skillItem.background : "" }}
+        onTouchStart={this.handleTouchStart}
         onTouchEnd={this.handleTouchEnd}
       >
         {skillItem.name}
