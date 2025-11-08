@@ -460,6 +460,8 @@
         round: round + 1,
         skillList: skillList.map(item => {
           item.checked = false
+          item.background = randomColors()
+          item.color = item.background
           return item
         }),
         stateList: [{
@@ -556,7 +558,7 @@
                     return (
                       <div className="stateRound" key={nanoid()}>
                         <p className="round">第{item.round}回合</p>
-                        <div>所使用的技能：【<StateShow currentState={item.skillList} />】</div>
+                        <div>所使用的技能：【<StateShow currentState={item.skillList} specific="name" />】</div>
                         <div>回合初始状态：【<StateShow currentState={item.initialState} />】</div>
                         <div>回合结束状态：【<StateShow currentState={item.list} />】</div>
                         {
@@ -571,7 +573,6 @@
                   })}
                 </ul>
               </div> :
-
               <div>
                 <div className={`${isPC && 'flexCenter'} skillSelect`}>
                   <label className={`${isPC && 'flexCenter'}`}>
@@ -595,7 +596,6 @@
                       )
                   }
                 </div> : <p>{isPC ? "请输入技能名称后按下回车或点击空白处" : "请输入技能名称后点击空白处"}</p>}
-
               </div>
             }
           </div>
@@ -609,7 +609,8 @@
   */
   class StateShow extends React.Component {
     render() {
-      const { currentState, condition } = this.props
+      // specific 特定展示的字段
+      const { currentState, condition, specific } = this.props
       return (
         currentState.map((item, index) => {
           if (item && item.value && !eval(condition)) {
@@ -623,7 +624,7 @@
                 }</div>
                 <span>{item.expire ? '该状态已过期' : `状态回合：${item.round}`}</span>
               </div>
-              {item.value}
+              {specific ? item[specific] : item.value}
             </span>
           }
         })
